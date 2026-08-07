@@ -1,0 +1,4 @@
+interface:
+  display_name: "开发与UX优化"
+  short_description: "全周期开发与UX优化：基线加固、增量迭代、决策地图、agent集群"
+  default_prompt: "Use $dev-ux-optimizer to plan and execute this project's development and UX optimization end to end."
