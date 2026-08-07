@@ -1,0 +1,4 @@
+interface:
+  display_name: "信息改写"
+  short_description: "工程化信息改写：脱敏+子代理改写审查+对照表+校验报告，内置人称称谓替换模板"
+  default_prompt: "使用 $info-rewrite 把这段话改写成对爸爸重述的版本，保留原话并做脱敏。"
