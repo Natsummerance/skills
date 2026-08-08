@@ -1,6 +1,8 @@
-# Skills：技能集合（项目理解 + 信息改写 + 开发与 UX 优化 + 小红书发布）
+# Skills：技能集合（项目理解 + 信息改写 + 开发与 UX 优化 + 小红书发布 + Hermes 运维）
 
 六个互相独立、可按需调用的 AI Agent 技能（兼容 Codex / Claude Code / Hermes 的 SKILL.md 规范）：`project-learning` 与 `document-learning` 覆盖“吃透一个新项目”的两种形态；`info-rewrite` 提供工程化信息改写流水线；`dev-ux-optimizer` 提供既有应用的全周期开发与 UX 优化（工程基线 → 增量里程碑 → UX 重塑 → 部署验证），并配套可执行的 agent 集群；`xhs-publish` 与 `scheduled-social-campaign` 提供小红书内容发布与零 token 批量定时发布能力。
+
+`Hermes/` 子目录存放 Hermes Agent 平台专用技能（本机 Hermes 实盘运维沉淀）：`codex-bridge-debugging`（Codex 会话监控排查方法论）、`wechat-desktop-automation`（微信自动回复机器人运维）、`llm-api-cost-monitoring`（LLM API 成本/余额 cron 监控）。
 
 ## 包含的技能
 
@@ -12,6 +14,9 @@
 | `dev-ux-optimizer` | 全周期开发 + UX 优化：工程基线加固 → 数据闭环（记录→算法→回填验证）→ UX 重塑（token/暗色/动效/无障碍/移动端）→ 部署验证与排障；内置 agent 集群（角色/spawn 规则/并行与交接协议）与完整实战案例 |
 | `xhs-publish` | 小红书图文发布全流程：自动发布/编辑/草稿/状态查询/登录/多图配图/话题标签，CDP 桥接真实浏览器（Edge 9222），内置 12 条实战坑位与内容红线 |
 | `scheduled-social-campaign` | 零 token 批量定时发布（每小时一篇、内容不重复、N 篇后自动静默）：一次性预生成内容矩阵 JSON → 状态机发布脚本 → no_agent cron 驱动，发完零成本空转；附赫尔佐格回顾展 12 篇实战案例 |
+| `Hermes/codex-bridge-debugging` | Codex 会话监控排查：`@codex` 新会话无提醒 / `/switch` 列表缺失时的 Z 盘优先阶梯排查（数据目录迁移根因、死路清单、修复模板、验证清单） |
+| `Hermes/wechat-desktop-automation` | 微信桌面客户端自动回复机器人运维（`watch_eruting.py`）：完整链路（BitBlt+RapidOCR 读取、Win32 发送、OCR 验证去空白）+ 全部已知坑与排障记录 |
+| `Hermes/llm-api-cost-monitoring` | LLM API 成本/余额监控（cron watchdog 模式）：DeepSeek 余额查询、零 token 告警、凭据安全读取纪律 |
 
 每个技能目录内含各自的 `references/` 说明与模板：`project-learning` / `document-learning` 的 `references/skill-ecosystem.md` 列出可引用的技能生态（skill-search 类技能、llm-wiki、research 等），用于扩展学习项目时的知识来源；`info-rewrite` 的 `references/pronoun-rewrite-template.md` 内置人称/称谓替换矩阵与轻顺稿边界。
 
