@@ -2,7 +2,7 @@
 
 六个互相独立、可按需调用的 AI Agent 技能（兼容 Codex / Claude Code / Hermes 的 SKILL.md 规范）：`project-learning` 与 `document-learning` 覆盖“吃透一个新项目”的两种形态；`info-rewrite` 提供工程化信息改写流水线；`dev-ux-optimizer` 提供既有应用的全周期开发与 UX 优化（工程基线 → 增量里程碑 → UX 重塑 → 部署验证），并配套可执行的 agent 集群；`xhs-publish` 与 `scheduled-social-campaign` 提供小红书内容发布与零 token 批量定时发布能力。
 
-`Hermes/` 子目录存放 Hermes Agent 平台专用技能（本机 Hermes 实盘运维沉淀）：`codex-bridge-debugging`（Codex 会话监控排查方法论）、`wechat-desktop-automation`（微信自动回复机器人运维）、`llm-api-cost-monitoring`（LLM API 成本/余额 cron 监控）。
+`Hermes/` 子目录存放 Hermes Agent 平台专用技能（本机 Hermes 实盘运维沉淀）：`codex-bridge-debugging`（Codex 会话监控排查方法论）、`wechat-desktop-automation`（微信自动回复机器人运维）、`llm-api-cost-monitoring`（LLM API 成本/余额 cron 监控）、`person-watchdog`（摄像头人形监控守护：部署/自启/省电/自动学习/飞书通知 + 相机监控排障方法论）。
 
 ## 包含的技能
 
@@ -17,6 +17,7 @@
 | `Hermes/codex-bridge-debugging` | Codex 会话监控排查：`@codex` 新会话无提醒 / `/switch` 列表缺失时的 Z 盘优先阶梯排查（数据目录迁移根因、死路清单、修复模板、验证清单） |
 | `Hermes/wechat-desktop-automation` | 微信桌面客户端自动回复机器人运维（`watch_eruting.py`）：完整链路（BitBlt+RapidOCR 读取、Win32 发送、OCR 验证去空白）+ 全部已知坑与排障记录 |
 | `Hermes/llm-api-cost-monitoring` | LLM API 成本/余额监控（cron watchdog 模式）：DeepSeek 余额查询、零 token 告警、凭据安全读取纪律 |
+| `Hermes/person-watchdog` | 摄像头人形监控守护（PersonWatchdog）：部署/自启/省电/自动学习/飞书通知 + 相机监控类排障方法论（进程消失、CPU 飙高、ONNX 线程、画面亮度诊断、计划任务 LastRun=1999 等实测结论） |
 
 每个技能目录内含各自的 `references/` 说明与模板：`project-learning` / `document-learning` 的 `references/skill-ecosystem.md` 列出可引用的技能生态（skill-search 类技能、llm-wiki、research 等），用于扩展学习项目时的知识来源；`info-rewrite` 的 `references/pronoun-rewrite-template.md` 内置人称/称谓替换矩阵与轻顺稿边界。
 
@@ -30,6 +31,7 @@
 | 既有应用要系统性完善功能与体验（或部署/线上故障排障） | dev-ux-optimizer |
 | 定时批量发布小红书/社交内容（每小时一篇、N 篇后暂停） | scheduled-social-campaign（配 xhs-publish 发布） |
 | 需要手动/单次发布小红书图文 | xhs-publish |
+| 检测摄像头前经过的人并飞书通知 / 相机监控排障 | Hermes/person-watchdog |
 
 > `info-rewrite` 与项目形态无关，用于任意文本的工程化改写（脱敏 + 子代理改写/审查 + 对照表 + 校验报告）。
 > `dev-ux-optimizer` 同样与项目形态无关，用于既有 Web 应用的开发完善与体验优化（React/Vite + Serverless + Postgres 栈已有完整排障经验沉淀）。

@@ -1,0 +1,4 @@
+interface:
+  display_name: "人形监控守护"
+  short_description: "摄像头人形检测+飞书通知：部署/自启/省电/自动学习/排障方法论"
+  default_prompt: "使用 $person-watchdog 部署或排查摄像头人形监控：先看 SKILL.md 与 references/ops-playbook.md，再按 debugging-log.md 的方法论定位。"

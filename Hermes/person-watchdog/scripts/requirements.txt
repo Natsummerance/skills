@@ -1,0 +1,4 @@
+onnxruntime>=1.17
+opencv-python-headless>=4.9
+numpy>=1.26
+pygrabber>=0.2.2
