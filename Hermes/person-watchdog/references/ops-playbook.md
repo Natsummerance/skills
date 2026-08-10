@@ -63,6 +63,7 @@ cd <目标目录>
 | cmd 弹窗 | 发送是否带 `CREATE_NO_WINDOW` | 用本 skill 的模板版本 |
 | CPU/内存高 | `Get-Process pythonw` | `onnx_threads: 4` + 运动门控 + 冷却参数 |
 | 照片只有侧影/模糊 | 抓拍时机 | 检查采集窗口与最佳帧打分参数 |
+| 照片收到了但没有停留时长 | 旧版退出时不排空发送队列（daemon 线程被杀） | 升级到 v2.2.1+（`Sender.close()` 排空并 join）；仍丢则查 `logs\watchdog.log` |
 | 坐在电脑前不提醒 | `--list-cameras` 亮度；镜头朝向 | 确认人在画面内；排除虚拟摄像头；手动指定 index |
 | 摄像头被占用/拔掉 | 日志报错 | 程序自动每 5 秒重试，不退出 |
 

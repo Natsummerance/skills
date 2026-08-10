@@ -9,7 +9,7 @@
 4. **画面里到底有没有人**：`watchdog.py --list-cameras` 看亮度；截帧看 `frame_brightness`（见结论 6）。人不在镜头内时，再准的模型也输出 0 人。
 5. **最后才怀疑模型/阈值**：`conf_threshold`、`input_size`、人脸置信度等。
 
-## 六条实测结论（每条都是踩过的坑）
+## 九条实测结论（每条都是踩过的坑）
 
 ### 1. 计划任务 LastRun=1999 / LastTaskResult=267011 → 任务从未真正启动
 - 现象：任务已注册（State=Ready），但 `LastRunTime=1999-12-30`、`LastTaskResult=267011`（0x41303 = 任务尚未运行）。
@@ -60,3 +60,19 @@ Get-Content logs\watchdog.log -Tail 40
 - `hermes send` 必须带 `CREATE_NO_WINDOW`（无 cmd 黑窗）；发送放入后台队列线程，不阻塞检测循环。
 - 抓拍图发送成功后立即删除本地文件（`keep_snapshots: false`）；失败保留文件并记日志、重试一次。
 - 照片出现"只剩侧影"的根因是发送时机太晚（人已走）——修复为采集窗口内按"人脸占比×置信度×清晰度"取最高分帧，而不是离开瞬间抓拍。
+
+## 七、离开消息丢失 → 退出时发送队列未排空（daemon 线程被杀死）
+- 现象：飞书只收到"出现"照片，没收到"👋 人已离开，停留 X 分 Y 秒"。
+- 实测时序：`事件[离开]` 入队后 79ms 进程退出（`达到测试时长...退出`），后台发送线程是 `daemon=True`，进程退出时被直接杀死，队列里的离开消息丢失。
+- 根因：`Sender.close()` 只投递哨兵 `None`，**不等待 worker 排空队列**。
+- 修复：`close(timeout)` = 投哨兵 + `thread.join(timeout)`；`run()` 收尾调用 `sender.close(60)`，干净退出（duration/Ctrl+C/异常）时已入队消息必然发完；join 超时记 warning 日志。
+- 验证：单测 `test_sender_close_drains_queued_messages`（不调 flush 直接 close，断言两条消息都发出）。
+- 纪律：任何"发送队列 + daemon 线程"架构都必须保证退出路径排空，否则最后一条消息大概率丢。
+
+## 八、计划任务 LastTaskResult=0xC000013A 与 supervisor 被终止
+- 现象：任务确实运行过（LastRunTime 正常），但 LastTaskResult=0xC000013A（STATUS_CONTROL_C_EXIT），watchdog 与 supervisor 双双消失。
+- 结论：0xC000013A = 进程被 Ctrl+C 类信号终止；supervisor 挂了就没有守护，watchdog 退出后无人重启。**注册任务后要定期看 LastTaskResult，不是看 State**。
+
+## 九、双实例/僵尸进程排查
+- watchdog 单实例：命名互斥量 `PersonWatchdogMutex`，第二个实例退出码 3；supervisor 对退出码 3 采用 60 秒长退避，避免与手动实例互踢。
+- 系统里"同一个程序两个进程"≠ watchdog 双实例：实测发现 Hermes gateway 与 n8n server.py 各有两个进程（同一脚本、不同解释器），多为开机启动脚本重复拉起；清理前先确认哪个是权威实例（看父进程、端口绑定），不要盲杀正在使用的服务。

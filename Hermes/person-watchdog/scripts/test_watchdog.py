@@ -445,6 +445,27 @@ class SenderTests(unittest.TestCase):
         finally:
             wd.send_message = orig
 
+    def test_sender_close_drains_queued_messages(self):
+        # 回归：退出时未调 flush 直接 close()，已入队的消息也必须发完
+        # （否则 daemon 线程随进程退出被杀死，离开消息会丢失）
+        sent = []
+        orig = wd.send_message
+
+        def fake(cfg, text, media=None, timeout=90):
+            sent.append((text, media))
+            return True
+
+        wd.send_message = fake
+        try:
+            s = wd.Sender(cfg_with())
+            s.send("appear")
+            s.send("leave")
+            ok = s.close(timeout=10)
+            self.assertTrue(ok)
+            self.assertEqual([t for t, _ in sent], ["appear", "leave"])
+        finally:
+            wd.send_message = orig
+
     def test_sender_keeps_media_on_failure(self):
         sent = []
         orig = wd.send_message

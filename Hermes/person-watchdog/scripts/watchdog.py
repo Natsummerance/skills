@@ -29,7 +29,7 @@ from pathlib import Path
 import numpy as np
 
 APP_NAME = "PersonWatchdog"
-APP_VERSION = "2.2.0"
+APP_VERSION = "2.2.1"
 BASE_DIR = Path(__file__).resolve().parent
 
 # Windows 下隐藏子进程控制台窗口；非 Windows 平台为 0
@@ -82,8 +82,8 @@ DEFAULT_CONFIG = {
     "adaptive_threshold_max": 0.55,
     "adaptive_threshold_step": 0.02,
     # 通知
-    "hermes_send": r"{{HERMES_SEND}}",  # 留空则用 PATH 中的 hermes，如 r"T:\...\hermes.exe"
-    "target": "{{FEISHU_TARGET}}",  # 例如 "feishu:oc_xxxx"
+    "hermes_send": r"T:\programming\project\Hermes\hermes-agent\venv\Scripts\hermes.exe",
+    "target": "feishu:oc_4cc326a0f558eb53676559ab60201a9c",
     "appear_template": "⚠️ 有人出现在电脑前（{time}）",
     "leave_template": "👋 人已离开，停留 {duration}",
     "message_template": "⚠️ 有人经过你的电脑前（{time}）",
@@ -859,8 +859,14 @@ class Sender:
     def flush(self, timeout=120) -> bool:
         return self._idle.wait(timeout)
 
-    def close(self):
+    def close(self, timeout=120) -> bool:
+        """停止 worker：先排空队列中已入队的消息，再等待线程退出。返回是否干净退出。"""
         self._queue.put(None)
+        self._thread.join(timeout)
+        if self._thread.is_alive():
+            log.warning("发送线程在 %.0f 秒内未退出，仍有消息未发送", timeout)
+            return False
+        return True
 
 
 # ---------------------------------------------------------------------------
@@ -1165,7 +1171,8 @@ def run(cfg: dict, duration=None, clock=None) -> int:
     finally:
         if cap is not None:
             cap.release()
-        sender.close()
+        if not sender.close(60):
+            log.warning("退出时发送队列未完全排空（可能有消息未送达）")
     return 0
 
 
