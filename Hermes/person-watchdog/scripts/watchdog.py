@@ -29,7 +29,7 @@ from pathlib import Path
 import numpy as np
 
 APP_NAME = "PersonWatchdog"
-APP_VERSION = "2.2.2"
+APP_VERSION = "2.3.0"
 BASE_DIR = Path(__file__).resolve().parent
 
 # Windows 下隐藏子进程控制台窗口；非 Windows 平台为 0
@@ -687,6 +687,9 @@ class PresenceTracker:
         self._appear_time = None
         self._capture_until = None
         self._best = None
+        self._last_present = None
+        self._appear_at = None
+        self._absent_at = None
 
     def armed(self) -> bool:
         return (self.clock() - self.start_time) >= self.grace_secs
@@ -703,6 +706,9 @@ class PresenceTracker:
         self._appear_time = None
         self._capture_until = None
         self._best = None
+        self._last_present = None
+        self._appear_at = None
+        self._absent_at = None
 
     def tick(self, present: bool, frame=None, detections=None, faces=None) -> list:
         """每帧调用一次。返回事件列表：appear / leave。"""
@@ -718,6 +724,8 @@ class PresenceTracker:
                 if self._confirm_count >= self.confirm_frames:
                     self.state = self.CAPTURING
                     self._appear_time = now
+                    self._last_present = now
+                    self._appear_at = now_str()
                     self._capture_until = now + self.capture_window_secs
                     self._best = BestShot(self.cfg)
                     if frame is not None:
@@ -729,11 +737,13 @@ class PresenceTracker:
         if self.state == self.CAPTURING:
             if present:
                 self._absent_since = None
+                self._last_present = now
                 if frame is not None and self._best is not None:
                     self._best.push(frame, detections, faces)
             else:
                 if self._absent_since is None:
                     self._absent_since = now
+                    self._absent_at = now_str()
                 elif now - self._absent_since >= self.exit_confirm_secs:
                     # 采集窗口内人已离开：先补发出现，再发离开
                     events.append(self._appear_event())
@@ -748,9 +758,11 @@ class PresenceTracker:
         # PRESENT
         if present:
             self._absent_since = None
+            self._last_present = now
         else:
             if self._absent_since is None:
                 self._absent_since = now
+                self._absent_at = now_str()
             elif now - self._absent_since >= self.exit_confirm_secs:
                 events.append(self._leave_event(now))
                 self._reset()
@@ -769,12 +781,17 @@ class PresenceTracker:
 
     def _leave_event(self, now: float) -> dict:
         best = self._best.best() if self._best is not None else None
+        end = self._last_present
+        if end is None:
+            end = self._absent_since if self._absent_since is not None else now
         return {
             "type": "leave",
-            "duration": max(0.0, now - (self._appear_time or now)),
+            "duration": max(0.0, end - (self._appear_time or end)),
             "had_face": bool(self._best is not None and self._best.has_face),
             "detections": best[1] if best else [],
             "frame": best[0] if best else None,
+            "appear_at": self._appear_at or now_str(),
+            "leave_at": self._absent_at or now_str(),
         }
 
 
@@ -1173,8 +1190,9 @@ def run(cfg: dict, duration=None, clock=None, debug=False) -> int:
                         shape = best_frame.shape if best_frame is not None else None
                         learning.learn_from_event(ev, ev.get("detections"), shape)
                         log.info(
-                            "事件[离开] 停留 %.1f 秒 | 学习阈值=%.2f | 抑制区域=%d",
-                            duration, learning.threshold, len(learning.suppressed_regions(frame.shape)),
+                            "事件[离开] 停留 %.1f 秒 | 出现 %s → 离开 %s | 学习阈值=%.2f | 抑制区域=%d",
+                            duration, ev.get("appear_at"), ev.get("leave_at"),
+                            learning.threshold, len(learning.suppressed_regions(frame.shape)),
                         )
 
                 elapsed = time.monotonic() - t0

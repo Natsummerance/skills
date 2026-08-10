@@ -172,8 +172,28 @@ class PresenceTrackerTests(unittest.TestCase):
                 break
         self.assertEqual(len(evs), 1)
         self.assertEqual(evs[0]["type"], "leave")
-        self.assertAlmostEqual(evs[0]["duration"], 11.0, delta=0.2)
+        self.assertAlmostEqual(evs[0]["duration"], 6.0, delta=0.2)  # 只计在场时间（22.1-16.1），不含 5 秒离场确认
         self.assertEqual(tr.state, "IDLE")
+
+    def test_duration_counts_only_in_view_time(self):
+        tr = self._tracker()
+        self.clock.advance(15.5)
+        self._confirm(tr)               # appear_time = 16.1
+        self._capture_until_appear(tr)  # 22.1 发出出现，最后在场 22.1
+        for _ in range(10):             # 继续在场 10 秒
+            self.clock.advance(1.0)
+            self.assertEqual(tr.tick(True, self._frame(), self._det(), self._faces()), [])
+        evs = tr.tick(False)            # absent_since = 32.1
+        self.assertEqual(evs, [])
+        for _ in range(5):              # 5 秒离场确认后发离开
+            self.clock.advance(1.0)
+            evs = tr.tick(False)
+            if evs:
+                break
+        self.assertEqual(evs[0]["type"], "leave")
+        self.assertAlmostEqual(evs[0]["duration"], 16.0, delta=0.2)  # 32.1-16.1，不含 5 秒确认
+        self.assertTrue(evs[0].get("appear_at"))
+        self.assertTrue(evs[0].get("leave_at"))
 
     def test_ream_after_leave(self):
         tr = self._tracker()
@@ -204,7 +224,7 @@ class PresenceTrackerTests(unittest.TestCase):
             if evs:
                 break
         self.assertEqual([e["type"] for e in evs], ["appear", "leave"])
-        self.assertAlmostEqual(evs[1]["duration"], 5.0, delta=0.2)
+        self.assertAlmostEqual(evs[1]["duration"], 0.2, delta=0.2)  # 16.3-16.1，不含离场确认
 
     def test_in_confirm_flag(self):
         tr = self._tracker()
