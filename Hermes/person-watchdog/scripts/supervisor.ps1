@@ -1,8 +1,11 @@
-﻿# PersonWatchdog 守护脚本：watchdog 退出/崩溃后自动重启。
+﻿﻿﻿# PersonWatchdog 守护脚本：watchdog 退出/崩溃后自动重启。
 # 停止方式：创建 supervisor.stop 标记文件，或运行 install-task.ps1 -Uninstall。
 $ErrorActionPreference = "Stop"
 $Root = $PSScriptRoot
 $StopFile = Join-Path $Root "supervisor.stop"
+$SupLog = Join-Path $Root "logs\supervisor.log"
+New-Item -ItemType Directory -Force -Path (Split-Path $SupLog) | Out-Null
+function Write-SupLog($msg) { Add-Content -LiteralPath $SupLog -Value ("{0} [SUPERVISOR] {1}" -f (Get-Date -Format "yyyy-MM-dd HH:mm:ss"), $msg) -Encoding UTF8 }
 $VenvPythonw = Join-Path $Root ".venv\Scripts\pythonw.exe"
 $Script = Join-Path $Root "watchdog.py"
 
@@ -20,6 +23,7 @@ if ($svMutex -and -not $svCreated) {
     exit 0
 }
 
+Write-SupLog "启动 (pid=$PID)"
 $failCount = 0
 while (-not (Test-Path $StopFile)) {
     if (-not (Test-Path $VenvPythonw)) {
@@ -42,7 +46,9 @@ while (-not (Test-Path $StopFile)) {
     } else {
         $delay = 5
     }
+    Write-SupLog "watchdog 退出 code=$code failCount=$failCount，${delay} 秒后重启"
     Start-Sleep -Seconds $delay
 }
+Write-SupLog "supervisor 停止"
 Remove-Item $StopFile -ErrorAction SilentlyContinue
 if ($svMutex) { try { $svMutex.Dispose() } catch { } }

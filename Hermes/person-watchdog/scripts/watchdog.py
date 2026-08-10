@@ -29,7 +29,7 @@ from pathlib import Path
 import numpy as np
 
 APP_NAME = "PersonWatchdog"
-APP_VERSION = "2.2.1"
+APP_VERSION = "2.2.2"
 BASE_DIR = Path(__file__).resolve().parent
 
 # Windows 下隐藏子进程控制台窗口；非 Windows 平台为 0
@@ -1031,6 +1031,8 @@ def run(cfg: dict, duration=None, clock=None, debug=False) -> int:
     last_motion_at = -10.0
     empty_backoff_until = 0.0
     last_detect_at = -1e9  # 布防后立即做一次扫描（静止的人也能被检出）
+    _last_heartbeat = time.monotonic()
+    heartbeat_secs = max(15.0, float(cfg.get("heartbeat_secs", 60)))
 
     log.info(
         "%s v%s 启动 | 模型=%s | 人脸模型=%s | 目标=%s | 摄像头=index %s | 阈值=%.2f | 空闲扫描=%.0fs",
@@ -1135,6 +1137,15 @@ def run(cfg: dict, duration=None, clock=None, debug=False) -> int:
                         learning.threshold,
                         float(frame.mean()) if frame is not None else -1.0,
                         max(0.0, empty_backoff_until - now), tracker.in_confirm,
+                    )
+
+                # 心跳：证明检测循环存活（静默期可观测）
+                if time.monotonic() - _last_heartbeat >= heartbeat_secs:
+                    _last_heartbeat = time.monotonic()
+                    log.info(
+                        "心跳 state=%s motion=%s present=%s det=%d bright=%.1f armed=%s",
+                        state, motion, present, len(detections),
+                        float(frame.mean()) if frame is not None else -1.0, tracker.armed(),
                     )
 
                 events = tracker.tick(present, frame, detections, faces)
