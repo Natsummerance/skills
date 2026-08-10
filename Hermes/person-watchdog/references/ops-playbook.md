@@ -43,6 +43,7 @@ cd <目标目录>
 ```powershell
 .venv\Scripts\python.exe watchdog.py --list-cameras
 .venv\Scripts\python.exe watchdog.py --test-send "测试"
+.venv\Scripts\python.exe watchdog.py --debug   # 每帧打印检测决策（排查用）
 .venv\Scripts\python.exe watchdog.py
 ```
 

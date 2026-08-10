@@ -24,6 +24,7 @@ description: 摄像头人形监控守护（PersonWatchdog）的部署、运维�
 - `--list-cameras`：枚举摄像头 index/亮度/分辨率。
 - `--test-send "消息"`：同步发一条测试通知（验证飞书链路）。
 - `--config <path>`：指定配置文件（默认 `config.json`）。
+- `--debug`：每帧打印检测决策（调试用）。
 - `--reset-learning`：清空学习数据（误报区域/自适应阈值）。
 - `--version`：版本号。
 
@@ -35,7 +36,7 @@ description: 摄像头人形监控守护（PersonWatchdog）的部署、运维�
 
 ## 排障方法论（先看这里）
 - 总原则：**先判活，再猜原因**——进程在不在、CPU 多少、画面亮不亮、计划任务有没有真正跑，最后才怀疑模型。
-- 十条实测结论与诊断命令：见 `references/debugging-log.md`（含计划任务 `LastRun=1999`、supervisor 守护、ONNX 线程、brightness 诊断等）。
+- 实测结论与诊断命令（十一条）：见 `references/debugging-log.md`（含计划任务 `LastRun=1999`、supervisor 守护、ONNX 线程、brightness 诊断等）。
 - 运维手册/常见故障表：见 `references/ops-playbook.md`。
 
 ## 验收清单

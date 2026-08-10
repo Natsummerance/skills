@@ -985,7 +985,7 @@ def idle_detect_decision(
     return (now - last_detect_at) >= idle_detect_secs
 
 
-def run(cfg: dict, duration=None, clock=None) -> int:
+def run(cfg: dict, duration=None, clock=None, debug=False) -> int:
     models_dir = resolve_model_path(cfg)
     model_path = models_dir / cfg["model"]
     if not model_path.exists():
@@ -1047,8 +1047,20 @@ def run(cfg: dict, duration=None, clock=None) -> int:
                     try:
                         idx = select_camera(cfg)
                         cap = open_camera(idx)
-                        _, warm_b = grab_warmed_frame(cap, cfg)
+                        warm_frame, warm_b = grab_warmed_frame(cap, cfg)
                         log.info("摄像头已打开 index=%s（亮度 %s）", idx, f"{warm_b:.1f}" if warm_b is not None else "未知")
+                        if warm_frame is not None and warm_b is not None and warm_b >= min_b:
+                            try:
+                                dets0 = detect_people(session, warm_frame, cfg, conf=learning.threshold)
+                            except Exception:
+                                dets0 = []
+                            if dets0:
+                                log.info("启动画面自检：检测到 %d 个人", len(dets0))
+                            else:
+                                log.warning(
+                                    "启动画面自检：未检测到人（亮度 %.1f）。若人员经常经过却无提醒，请确认摄像头正对着人员走动的区域（可用 --test-send 把当前画面发到飞书确认），或调整屏幕/摄像头角度。",
+                                    warm_b,
+                                )
                         if warm_b is not None and warm_b < min_b:
                             log.warning(
                                 "摄像头 index=%d 画面过黑（亮度 %.1f）：可能被其他应用占用（如 Windows 相机）、被遮挡或隐私开关关闭",
@@ -1115,6 +1127,15 @@ def run(cfg: dict, duration=None, clock=None) -> int:
                         face_detector = FaceDetector(face_path, cfg)
                     if face_detector is not None:
                         faces = face_detector.detect(frame)
+
+                if debug:
+                    log.info(
+                        "DBG state=%s motion=%s run_detect=%s present=%s det=%d conf=%.2f bright=%.1f backoff_in=%.1f in_confirm=%s",
+                        state, motion, run_detect, present, len(detections),
+                        learning.threshold,
+                        float(frame.mean()) if frame is not None else -1.0,
+                        max(0.0, empty_backoff_until - now), tracker.in_confirm,
+                    )
 
                 events = tracker.tick(present, frame, detections, faces)
                 for ev in events:
@@ -1191,6 +1212,7 @@ def main(argv=None) -> int:
     )
     parser.add_argument("--reset-learning", action="store_true", help="清空学习数据并恢复默认阈值")
     parser.add_argument("--duration", type=float, default=None, help="运行 N 秒后自动退出（测试用）")
+    parser.add_argument("--debug", action="store_true", help="每帧打印检测决策（调试用）")
     parser.add_argument("--version", action="version", version=f"{APP_NAME} {APP_VERSION}")
     args = parser.parse_args(argv)
 
@@ -1228,7 +1250,7 @@ def main(argv=None) -> int:
         print("Another PersonWatchdog instance is already running. Stop it first (see logs/watchdog.log).")
         return 3
 
-    return run(cfg, duration=args.duration)
+    return run(cfg, duration=args.duration, debug=args.debug)
 
 
 if __name__ == "__main__":

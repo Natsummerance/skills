@@ -82,3 +82,10 @@ Get-Content logs\watchdog.log -Tail 40
 - 现象：supervisor.ps1 秒退，stderr 报 `字符串缺少终止符` / `缺少 }`，但文件内容看着完全正常。
 - 根因：Windows PowerShell 5.1 对**无 BOM** 的 .ps1 按 ANSI(GBK) 解析；UTF-8 中文注释的尾字节（如 `。` 的 0x82）会被当作 GBK 双字节前导，**吞掉后面的 `\r`/`\n` 或引号**，导致注释与下一行合并、字符串未终止。LF 行尾比 CRLF 更容易中招（吞 `\n` 直接并行）。
 - 修复：.ps1 一律存 **UTF-8 with BOM**（`utf-8-sig`）+ CRLF；改完用 `[System.Management.Automation.Language.Parser]::ParseFile` 在真实 powershell.exe 里验证 0 错误。
+
+## 十一、摄像头对着桌面而不是走道 → 永远零事件（"人走过没提醒"的常见真凶）
+- 现象：watchdog 正常运行、摄像头亮度正常（~123）、无任何报错，但 2 小时+ 零事件；`--debug` 显示每帧 `motion=False det=0`、亮度纹丝不动。
+- 诊断：抓帧做全类 YOLO——画面是"水瓶/椅子/手提包"等桌面物品、无人无脸 → 摄像头朝向问题，不是模型/链路问题。
+- 根因：笔记本屏幕后仰时内置摄像头对准桌面（键盘/水瓶），人员走动的区域完全不在画面内；"人经过"根本没进入镜头。
+- 修复（物理）：调整屏幕/摄像头角度让走道入镜；用 `--test-send` 把当前画面发到飞书确认朝向。
+- 软件侧：watchdog 启动时会做"启动画面自检"，若首帧检测 0 人则打 WARNING 提示朝向；排查时用 `--debug` 看每帧 motion/det。
