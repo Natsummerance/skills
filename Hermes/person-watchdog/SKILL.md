@@ -35,7 +35,7 @@ description: 摄像头人形监控守护（PersonWatchdog）的部署、运维�
 
 ## 排障方法论（先看这里）
 - 总原则：**先判活，再猜原因**——进程在不在、CPU 多少、画面亮不亮、计划任务有没有真正跑，最后才怀疑模型。
-- 九条实测结论与诊断命令：见 `references/debugging-log.md`（含计划任务 `LastRun=1999`、supervisor 守护、ONNX 线程、brightness 诊断等）。
+- 十条实测结论与诊断命令：见 `references/debugging-log.md`（含计划任务 `LastRun=1999`、supervisor 守护、ONNX 线程、brightness 诊断等）。
 - 运维手册/常见故障表：见 `references/ops-playbook.md`。
 
 ## 验收清单

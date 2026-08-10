@@ -9,7 +9,7 @@
 4. **画面里到底有没有人**：`watchdog.py --list-cameras` 看亮度；截帧看 `frame_brightness`（见结论 6）。人不在镜头内时，再准的模型也输出 0 人。
 5. **最后才怀疑模型/阈值**：`conf_threshold`、`input_size`、人脸置信度等。
 
-## 九条实测结论（每条都是踩过的坑）
+## 实测结论（每条都是踩过的坑）
 
 ### 1. 计划任务 LastRun=1999 / LastTaskResult=267011 → 任务从未真正启动
 - 现象：任务已注册（State=Ready），但 `LastRunTime=1999-12-30`、`LastTaskResult=267011`（0x41303 = 任务尚未运行）。
@@ -76,3 +76,9 @@ Get-Content logs\watchdog.log -Tail 40
 ## 九、双实例/僵尸进程排查
 - watchdog 单实例：命名互斥量 `PersonWatchdogMutex`，第二个实例退出码 3；supervisor 对退出码 3 采用 60 秒长退避，避免与手动实例互踢。
 - 系统里"同一个程序两个进程"≠ watchdog 双实例：实测发现 Hermes gateway 与 n8n server.py 各有两个进程（同一脚本、不同解释器），多为开机启动脚本重复拉起；清理前先确认哪个是权威实例（看父进程、端口绑定），不要盲杀正在使用的服务。
+- **"pythonw 两个进程" ≠ 双实例**：`.venv\Scripts\pythonw.exe` 是 venv 重定向器，它会再拉起真实解释器（如 uv 的 pythonw.exe），表现为"两个 pythonw"——其实是同一个 watchdog 实例（父=启动器，子=解释器）。判断是否双实例要看互斥：再启一个实例应被拒绝并退出码 3，而不是数 pythonw 个数。
+
+## 十、PowerShell 脚本 UTF-8 无 BOM → PS 5.1 按 ANSI 误读，中文注释吃行/引号
+- 现象：supervisor.ps1 秒退，stderr 报 `字符串缺少终止符` / `缺少 }`，但文件内容看着完全正常。
+- 根因：Windows PowerShell 5.1 对**无 BOM** 的 .ps1 按 ANSI(GBK) 解析；UTF-8 中文注释的尾字节（如 `。` 的 0x82）会被当作 GBK 双字节前导，**吞掉后面的 `\r`/`\n` 或引号**，导致注释与下一行合并、字符串未终止。LF 行尾比 CRLF 更容易中招（吞 `\n` 直接并行）。
+- 修复：.ps1 一律存 **UTF-8 with BOM**（`utf-8-sig`）+ CRLF；改完用 `[System.Management.Automation.Language.Parser]::ParseFile` 在真实 powershell.exe 里验证 0 错误。
