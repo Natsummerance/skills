@@ -2,7 +2,7 @@
 
 八个互相独立、可按需调用的 AI Agent 技能（兼容 Codex / Claude Code / Hermes 的 SKILL.md 规范）：`project-learning` 与 `document-learning` 覆盖“吃透一个新项目”的两种形态；`info-rewrite` 提供工程化信息改写流水线；`dev-ux-optimizer` 提供既有应用的全周期开发与 UX 优化（工程基线 → 增量里程碑 → UX 重塑 → 部署验证），并配套可执行的 agent 集群；`xhs-publish` 与 `scheduled-social-campaign` 提供小红书内容发布与零 token 批量定时发布能力。
 
-`Hermes/` 子目录存放 Hermes Agent 平台专用技能（本机 Hermes 实盘运维沉淀）：`codex-bridge-debugging`（Codex 会话监控排查方法论）、`wechat-desktop-automation`（微信自动回复机器人运维）、`llm-api-cost-monitoring`（LLM API 成本/余额 cron 监控）、`person-watchdog`（摄像头人形监控守护：部署/自启/省电/自动学习/飞书通知 + 相机监控排障方法论）。
+`Hermes/` 子目录存放 Hermes Agent 平台专用技能（本机 Hermes 实盘运维沉淀）：`codex-bridge`（飞书/微信 `@codex` 遥控本机 Codex 会话：fire-and-forget 注入、`--wait` 同步等待、`/switch` 切会话）、`codex-bridge-debugging`（Codex 会话监控排查方法论）、`wechat-desktop-automation`（微信自动回复机器人运维）、`llm-api-cost-monitoring`（LLM API 成本/余额 cron 监控）、`person-watchdog`（摄像头人形监控守护：部署/自启/省电/自动学习/飞书通知 + 相机监控排障方法论）。
 
 ## 包含的技能
 
@@ -16,6 +16,7 @@
 | `scheduled-social-campaign` | 零 token 批量定时发布（每小时一篇、内容不重复、N 篇后自动静默）：一次性预生成内容矩阵 JSON → 状态机发布脚本 → no_agent cron 驱动，发完零成本空转；附赫尔佐格回顾展 12 篇实战案例 |
 | `weekly-report-creator` | 周报生成（实习/工作/学习/项目/研究）：创建/优化/精简，Markdown 转 Word/PDF，逐步确认 + 过程可追溯 |
 | `skill-comparator` | Skill 版本 A/B 对比：独立子智能体实验隔离上下文污染，量化评估（有效性/效率/质量）选出最优版 |
+| `Hermes/codex-bridge` | 飞书/微信 `@codex` 遥控本机 Codex：任务注入（默认 fire-and-forget、`--wait` 同步等待）、`/switch` 会话切换、exec 会话侧边栏不显示修复（state sqlite source 字段） |
 | `Hermes/codex-bridge-debugging` | Codex 会话监控排查：`@codex` 新会话无提醒 / `/switch` 列表缺失时的 Z 盘优先阶梯排查（数据目录迁移根因、死路清单、修复模板、验证清单） |
 | `Hermes/wechat-desktop-automation` | 微信桌面客户端自动回复机器人运维（`watch_eruting.py`）：完整链路（BitBlt+RapidOCR 读取、Win32 发送、OCR 验证去空白）+ 全部已知坑与排障记录 |
 | `Hermes/llm-api-cost-monitoring` | LLM API 成本/余额监控（cron watchdog 模式）：DeepSeek 余额查询、零 token 告警、凭据安全读取纪律 |
