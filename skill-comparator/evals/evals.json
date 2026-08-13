@@ -1,0 +1,48 @@
+{
+  "skill_name": "skill-comparator",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "compare-three-skill-versions",
+      "prompt": "帮我对比一下这三个 skill 哪个最好：\n- /path/to/skill-alpha\n- /path/to/skill-beta\n- /path/to/skill-gamma",
+      "expected_output": "skill 应该：1）读取三个版本的完整文件；2）识别关键差异（任务分类、快速路径、过程资产等）；3）设计 3-5 个测试用例；4）定义评估维度和权重；5）输出测试方案供用户确认；6）启动三个独立子智能体并行执行；7）收集结果并评审；8）生成 review-report.md 和 final-report.md",
+      "files": [],
+      "assertions": [
+        {"text": "skill 应该读取所有三个版本的 SKILL.md 和参考文件", "type": "behavioral"},
+        {"text": "skill 应该识别出版本间的关键行为差异（不只是文件结构差异）", "type": "behavioral"},
+        {"text": "skill 应该设计 3-5 个测试用例，每个用例能凸显版本差异", "type": "structural"},
+        {"text": "skill 应该定义 5-7 个评估维度，权重总和为 100%", "type": "structural"},
+        {"text": "skill 应该输出测试方案供用户确认，而不是直接开始测试", "type": "behavioral"},
+        {"text": "skill 应该启动三个独立子智能体并行执行（使用 run_in_background: true）", "type": "behavioral"},
+        {"text": "skill 应该生成 review-report.md 和 final-report.md", "type": "structural"}
+      ]
+    },
+    {
+      "id": 2,
+      "eval_name": "compare-two-skills-efficiency",
+      "prompt": "只有两个 skill，对比一下哪个更快：\n- skill-A: /path/to/skill-alpha\n- skill-B: /path/to/skill-beta",
+      "expected_output": "skill 应该：1）识别用户聚焦于交互效率；2）读取两个 skill；3）设计聚焦效率的测试用例（高输入场景）；4）调整评估维度权重（交互效率权重提高）；5）启动两个子智能体；6）生成对比报告",
+      "files": [],
+      "assertions": [
+        {"text": "skill 应该识别用户聚焦于交互效率", "type": "behavioral"},
+        {"text": "skill 应该设计聚焦效率的测试用例（如高输入场景）", "type": "behavioral"},
+        {"text": "skill 应该调整评估维度权重，提高交互效率的权重", "type": "behavioral"},
+        {"text": "skill 应该启动两个独立子智能体", "type": "behavioral"},
+        {"text": "skill 应该生成对比报告", "type": "structural"}
+      ]
+    },
+    {
+      "id": 3,
+      "eval_name": "compare-different-skill-types",
+      "prompt": "帮我对比这两个 skill，看看哪个更适合做代码审查：\n- code-review-alpha: /path/to/code-review-alpha\n- code-review-beta: /path/to/code-review-beta",
+      "expected_output": "skill 应该：1）识别这是代码审查类 skill；2）调整评估维度（准确性、输出质量权重提高）；3）设计代码审查相关的测试用例；4）执行对比；5）生成报告",
+      "files": [],
+      "assertions": [
+        {"text": "skill 应该识别这是代码审查类 skill", "type": "behavioral"},
+        {"text": "skill 应该调整评估维度（如准确性、输出质量权重提高）", "type": "behavioral"},
+        {"text": "skill 应该设计代码审查相关的测试用例", "type": "behavioral"},
+        {"text": "skill 应该执行对比并生成报告", "type": "behavioral"}
+      ]
+    }
+  ]
+}
