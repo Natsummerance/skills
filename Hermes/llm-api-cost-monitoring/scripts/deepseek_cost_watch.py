@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""DeepSeek 消耗监控（watchdog 模式，零 LLM token）。
+"""DeepSeek 消耗监控 v2（watchdog 模式，零 LLM token）。
 
 每轮 cron 检查一次余额：
-- 余额较上次下降（消耗）且自上次提醒累计满 1 元 -> 打印通知（cron 投递）
+- 常规提醒：自上次提醒累计消耗 ≥ THRESHOLD（0.5 元）-> 打印通知（cron 投递）
+- 速率预警：单轮消耗 ≥ RATE_LIMIT（0.3 元/2 分钟，即 ≥9 元/小时）-> 立即预警「消耗过快」
+  （冷却 30 分钟防刷屏）
 - 未满阈值 / 无变化 -> 静默退出（cron 不发送任何消息）
-- 充值（余额上升）-> 重置累计
+- 充值（余额上升）-> 重置累计与速率冷却
 
 状态: HERMES_HOME/cron/deepseek_cost_state.json
 用法: 由 Hermes cron 以 no_agent=True 调度；也可手动运行测试。
@@ -28,7 +30,10 @@ HERMES_HOME = Path(os.environ.get("HERMES_HOME") or str(Path.home() / ".hermes")
 STATE_FILE = HERMES_HOME / "cron" / "deepseek_cost_state.json"
 ENV_FILE = HERMES_HOME / ".env"
 BALANCE_URL = "https://api.deepseek.com/user/balance"
-THRESHOLD = 1.0  # 通知阈值：元
+
+THRESHOLD = 0.5      # 常规提醒阈值：累计消耗（元）
+RATE_LIMIT = 0.3     # 速率预警阈值：单轮消耗（元）
+RATE_COOLDOWN = 1800  # 速率预警冷却：秒（30 分钟）
 
 
 def _load_env_key() -> str:
@@ -84,29 +89,46 @@ def main() -> int:
 
     last = state.get("last_balance")
     acc = float(state.get("accrued", 0.0))
+    rate_alert_at = float(state.get("rate_alert_at", 0.0))
     now = time.strftime("%Y-%m-%d %H:%M")
+    now_ts = time.time()
 
     if last is None:
         # 首次运行：只记录基线，不发通知
-        state.update({"last_balance": bal, "accrued": 0.0, "last_check": now, "notices": 0})
+        state.update({"last_balance": bal, "accrued": 0.0, "last_check": now,
+                      "notices": int(state.get("notices", 0)), "rate_alert_at": 0.0})
         _save(state)
         return 0
 
     delta = last - bal  # 正数 = 消耗；负数 = 充值
-    if delta > 0:
+    if delta < 0:
+        acc = 0.0          # 充值：重置累计
+        rate_alert_at = 0.0  # 与速率冷却
+    elif delta > 0:
         acc += delta
-    elif delta < 0:
-        acc = 0.0  # 充值，重置提醒周期
 
     state["last_balance"] = bal
     state["accrued"] = acc
     state["last_check"] = now
 
+    # ---- 速率预警：单轮消耗过大（消耗过快） ----
+    if delta >= RATE_LIMIT and (now_ts - rate_alert_at) >= RATE_COOLDOWN:
+        state["rate_alert_at"] = now_ts
+        hourly = delta * 30  # 2 分钟一轮 -> 换算元/小时
+        state["notices"] = int(state.get("notices", 0)) + 1
+        _save(state)
+        print(
+            f"🔥 DeepSeek 消耗过快预警：本轮（2 分钟）消耗 ¥{delta:.2f}，"
+            f"约合 ¥{hourly:.0f}/小时。当前余额 ¥{bal:.2f}"
+        )
+        return 0
+
+    # ---- 常规提醒：累计消耗达到阈值 ----
     if acc >= THRESHOLD:
         state["accrued"] = 0.0
         state["notices"] = int(state.get("notices", 0)) + 1
         _save(state)
-        print(f"💰 DeepSeek 消耗提醒：自上次提醒以来已消耗 ¥{acc:.2f}，当前余额 ¥{bal:.2f}")
+        print(f"💰 DeepSeek 消耗提醒：自上次提醒累计消耗 ¥{acc:.2f}，当前余额 ¥{bal:.2f}")
         return 0
 
     _save(state)

@@ -36,7 +36,7 @@ No query params. No official usage-detail/history API exists — only balance.
   network/HTTP errors as transient and stay silent
 - Top-ups appear as a positive jump in `total_balance`
 
-## Key location (this machine)
-`DEEPSEEK_API_KEY` lives in `T:\programming\project\Hermes\.env` (Hermes
-HERMES_HOME). Cron script env may not carry it — the watchdog script falls
-back to parsing the `.env` file. Never print the key value.
+## Key location
+`DEEPSEEK_API_KEY` lives in `<HERMES_HOME>/.env`. Cron script env may not
+carry it — the watchdog script falls back to parsing the `.env` file.
+Never print the key value.

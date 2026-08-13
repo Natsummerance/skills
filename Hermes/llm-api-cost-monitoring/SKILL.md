@@ -46,6 +46,15 @@ for DeepSeek; the pattern adapts to any provider exposing a balance/usage endpoi
 - `acc >= threshold` → print alert with spent amount + current balance, reset `acc`, persist
 - Transient API/network errors → exit 0 silently (never spam the user on blips)
 
+## v2 dual-alert design (2026-08-13, for fast-burning models like deepseek-v4-pro)
+Slow threshold-only alerts are TOO LATE when a model burns ¥1 in minutes. v2 adds a **rate alert**:
+- `RATE_LIMIT` (0.3 元) on the per-tick delta → immediate "消耗过快" warning
+- `RATE_COOLDOWN` (1800s) so a sustained burn alerts every 30 min instead of every 2 min
+- Recommended cadence: cron every 2m (balance endpoint tolerates it), THRESHOLD 0.5 元
+- Rate alert message includes ¥/hour projection: `delta * (3600 / poll_interval_seconds)`
+- Both alerts increment `notices`; rate alert state key is `rate_alert_at` (epoch seconds)
+- Falsify-test both paths: set `last_balance = real + 0.4` (rate path) and `accrued = 0.6` (threshold path), verify messages, then re-baseline with a real run
+
 ## Verification (do all before declaring done)
 1. Run 1: state file created with real balance, silent exit
 2. Run 2: balance unchanged → silent
