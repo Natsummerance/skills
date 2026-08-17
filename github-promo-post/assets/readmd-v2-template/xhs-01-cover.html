@@ -1,0 +1,49 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:100vw;height:100vh;overflow:hidden;background:#000}
+body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;-webkit-font-smoothing:antialiased}
+.mono{font-family:Consolas,"Courier New",monospace}
+.noise::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.04;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E")}
+.grid-bg{background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:54px 54px}
+.poster{position:relative;width:1080px;height:1440px;background:#0E1630;color:#fff;overflow:hidden;display:flex;flex-direction:column;padding:72px 76px 64px}
+.top{display:flex;justify-content:space-between;font-family:Consolas;font-size:22px;letter-spacing:.28em;color:rgba(255,255,255,.55)}
+.title{font-size:82px;line-height:1.28;font-weight:900;letter-spacing:-.01em;margin-top:34px}
+.sub{font-size:28px;font-weight:500;color:rgba(255,255,255,.72);margin-top:22px}
+.strip{margin-top:auto;border-top:2px solid rgba(255,255,255,.22);padding-top:26px;display:flex;gap:14px;flex-wrap:wrap}
+.strip span{font-size:23px;font-weight:700;border:2px solid rgba(255,255,255,.38);padding:9px 16px}
+.strip b{font-size:23px;font-weight:800;padding:9px 16px}
+.kicker{font-size:23px;font-weight:800;letter-spacing:.16em;color:var(--ac)}
+
+.poster{--ac:#E8FF00}
+
+.poster{background:#002FA7}
+.wm{position:absolute;right:-10px;bottom:200px;font-family:Consolas;font-size:280px;font-weight:700;color:rgba(255,255,255,.06);line-height:1}
+
+
+.top{margin-top:0}
+.title{font-size:98px}
+.title .hl{background:#E8FF00;color:#002FA7;padding:0 12px}
+.sub{font-size:34px;margin-top:26px}
+.ccs{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:auto 0 56px}
+.cc{background:rgba(255,255,255,.09);border:2px solid rgba(255,255,255,.28);padding:38px 34px}
+.cc .ic{font-size:50px;line-height:1}
+.cc .t{font-size:36px;font-weight:800;margin-top:14px}
+.cc .d{font-size:27px;color:rgba(255,255,255,.66);margin-top:8px;line-height:1.5}
+.cc .hl2{color:#E8FF00;font-weight:800}
+.strip span,.strip b{font-size:26px;padding:11px 18px}
+</style></head>
+<body>
+<div class="poster noise grid-bg">
+  <div class="wm">.md</div>
+  <div class="top"><span>GITHUB · NATSUMMERANCE/READMD</span><span>WINDOWS</span></div>
+  <div class="title">Typora 收费后<br>Windows 我换了<span class="hl">这个</span></div>
+  <div class="sub">纯本地 · 秒开 · 万物转 MD 的阅读器</div>
+  <div class="ccs">
+    <div class="cc"><div class="ic">🔒</div><div class="t">纯本地</div><div class="d">文件不出电脑，<span class="hl2">离线可用</span></div></div>
+    <div class="cc"><div class="ic">⚡</div><div class="t">秒开</div><div class="d">冷启动 <span class="hl2">1.5s</span> · 托盘 <span class="hl2">0.3s</span></div></div>
+    <div class="cc"><div class="ic">📄</div><div class="t">万物转 MD</div><div class="d">PDF · Word · 网页 · 图片</div></div>
+    <div class="cc"><div class="ic">🖼</div><div class="t">离线 OCR</div><div class="d">Windows 自带引擎，<span class="hl2">免费</span></div></div>
+  </div>
+  <div class="strip"><b style="background:#E8FF00;color:#002FA7">.MD</b><span>1.5s 冷启动</span><span>0.3s 唤起</span><span>自动纠错</span><span>万物转 MD</span><span>离线 OCR</span></div>
+</div></body></html>

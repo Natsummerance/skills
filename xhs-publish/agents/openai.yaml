@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书图文发布"
+  short_description: "Validate and publish Xiaohongshu notes"
+  default_prompt: "Use $xhs-publish to validate and publish the prepared Xiaohongshu artifact."

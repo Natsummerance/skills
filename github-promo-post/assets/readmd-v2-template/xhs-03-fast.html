@@ -1,0 +1,52 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:100vw;height:100vh;overflow:hidden;background:#000}
+body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;-webkit-font-smoothing:antialiased}
+.mono{font-family:Consolas,"Courier New",monospace}
+.noise::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.04;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E")}
+.grid-bg{background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:54px 54px}
+.poster{position:relative;width:1080px;height:1440px;background:#0E1630;color:#fff;overflow:hidden;display:flex;flex-direction:column;padding:72px 76px 64px}
+.top{display:flex;justify-content:space-between;font-family:Consolas;font-size:22px;letter-spacing:.28em;color:rgba(255,255,255,.55)}
+.title{font-size:82px;line-height:1.28;font-weight:900;letter-spacing:-.01em;margin-top:34px}
+.sub{font-size:28px;font-weight:500;color:rgba(255,255,255,.72);margin-top:22px}
+.strip{margin-top:auto;border-top:2px solid rgba(255,255,255,.22);padding-top:26px;display:flex;gap:14px;flex-wrap:wrap}
+.strip span{font-size:23px;font-weight:700;border:2px solid rgba(255,255,255,.38);padding:9px 16px}
+.strip b{font-size:23px;font-weight:800;padding:9px 16px}
+.kicker{font-size:23px;font-weight:800;letter-spacing:.16em;color:var(--ac)}
+
+.poster{--ac:#E8FF00}
+
+.poster{background:#002FA7}
+
+
+.fast{margin-top:54px;display:flex;align-items:flex-end;gap:30px}
+.fast .num{font-family:Consolas;font-size:300px;font-weight:700;line-height:.85;letter-spacing:-.04em}
+.fast .num small{font-size:120px}
+.fast .cap{font-size:36px;font-weight:600;color:rgba(255,255,255,.8);padding-bottom:20px;line-height:1.5}
+.fast2{margin-top:56px;display:flex;align-items:baseline;gap:24px}
+.fast2 .v{font-family:Consolas;font-size:120px;font-weight:700;color:#E8FF00;line-height:1}
+.fast2 .c{font-size:32px;color:rgba(255,255,255,.75);line-height:1.6}
+.cmp{margin-top:48px;background:rgba(255,255,255,.08);border:2px solid rgba(255,255,255,.25);padding:38px 44px}
+.cmp .l{font-size:30px;font-weight:700;color:rgba(255,255,255,.8);margin-bottom:28px}
+.bar{margin-bottom:22px;position:relative}
+.bar .lab{font-size:26px;font-weight:700;margin-bottom:10px;display:block}
+.bar .track{height:32px;background:rgba(255,255,255,.12);position:relative}
+.bar .track i{position:absolute;left:0;top:0;bottom:0}
+.bar .track em{position:absolute;right:10px;top:1px;font-style:normal;font-family:Consolas;font-size:24px;font-weight:700;color:#0E1630}
+.b1 .track i{background:#8892b0;width:86%}
+.b2 .track i{background:#E8FF00;width:12%}
+</style></head>
+<body>
+<div class="poster noise">
+  <div class="top"><span>SPEED</span><span>READMD</span></div>
+  <div class="title" style="font-size:80px">秒开，是阅读器的第一美德</div>
+  <div class="fast"><div class="num">1.5<small>s</small></div><div class="cap">冷启动<br>首次打开即用</div></div>
+  <div class="fast2"><div class="v">0.3s</div><div class="c">托盘唤起 · 双击 .md 即现<br>关掉不退出，随时待命</div></div>
+  <div class="cmp">
+    <div class="l">冷启动对比</div>
+    <div class="bar b1"><span class="lab">普通编辑器</span><div class="track"><i></i><em>5s+</em></div></div>
+    <div class="bar b2"><span class="lab">readMD</span><div class="track"><i></i><em>1.5s</em></div></div>
+  </div>
+  <div class="strip"><b style="background:#E8FF00;color:#002FA7">FAST</b><span>打开即读 · 无等待</span></div>
+</div></body></html>

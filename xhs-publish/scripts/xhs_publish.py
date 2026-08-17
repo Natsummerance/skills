@@ -29,6 +29,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import subprocess
 import sys
 import time
 import urllib.error
@@ -38,6 +39,7 @@ from pathlib import Path
 PUBLISH_URL = "https://creator.xiaohongshu.com/publish/publish?source=official"
 NOTE_MANAGER_URL = "https://creator.xiaohongshu.com/new/note-manager?source=official"
 DEFAULT_PROXY = "http://127.0.0.1:3456"
+SCRIPT_DIR = Path(__file__).resolve().parent
 
 BANNED_WORDS = [
     "公众号", "微信", "加微信", "vx", "weixin", "闲鱼", "咸鱼",
@@ -592,6 +594,16 @@ def cmd_publish(args):
     global PROXY
     PROXY = args.proxy
 
+    if getattr(args, "bootstrap_edge", False):
+        if args.dry_run:
+            raise RuntimeError("--dry-run 不需要启动浏览器；请移除 --bootstrap-edge")
+        command = [sys.executable, str(SCRIPT_DIR / "bootstrap_edge_cdp.py")]
+        if args.restart_edge:
+            command.append("--restart-edge")
+        prepared = subprocess.run(command, capture_output=True, text=True, encoding="utf-8")
+        if prepared.returncode:
+            raise RuntimeError("Edge/CDP 准备失败: " + (prepared.stdout or prepared.stderr).strip())
+
     # 输入校验
     if args.title_file:
         args.title = Path(args.title_file).read_text(encoding="utf-8").strip()
@@ -820,6 +832,8 @@ def main():
     p.add_argument("--dry-run", action="store_true", help="只校验输入，不操作浏览器")
     p.add_argument("--force", action="store_true", help="放行含敏感词的文案（不建议）")
     p.add_argument("--publish-timeout", type=int, default=60)
+    p.add_argument("--bootstrap-edge", action="store_true", help="先确认默认 Edge 的 CDP 调试端口")
+    p.add_argument("--restart-edge", action="store_true", help="与 --bootstrap-edge 一起使用：关闭并重启默认 Edge")
 
     p = sub.add_parser("draft", help="填充但停在发布前")
     p.add_argument("--proxy", default=DEFAULT_PROXY)
@@ -858,6 +872,9 @@ def main():
     p = sub.add_parser("tabs", help="列出页面 tab")
     p.add_argument("--proxy", default=DEFAULT_PROXY)
 
+    p = sub.add_parser("bootstrap", help="确认默认 Edge 的 CDP 调试端口")
+    p.add_argument("--restart-edge", action="store_true", help="关闭全部 Edge 后重启默认 profile")
+
     args = parser.parse_args()
     if not args.command:
         parser.print_help()
@@ -877,6 +894,11 @@ def main():
             cmd_login(args)
         elif args.command == "tabs":
             cmd_tabs(args)
+        elif args.command == "bootstrap":
+            command = [sys.executable, str(SCRIPT_DIR / "bootstrap_edge_cdp.py")]
+            if args.restart_edge:
+                command.append("--restart-edge")
+            raise SystemExit(subprocess.call(command))
     except RuntimeError as exc:
         print(json.dumps({"error": str(exc)}, ensure_ascii=False), file=sys.stderr)
         sys.exit(1)

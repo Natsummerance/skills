@@ -1,21 +1,33 @@
 ---
 name: xhs-publish
-description: "当用户要在小红书发布笔记/图文时使用：全自动发布、多图配图、话题标签、审核状态查询。"
-version: 1.0.0
-author: local
-license: MIT
-platforms: [windows, macos, linux]
-prerequisites:
-  commands: [python]
-metadata:
-  hermes:
-    tags: [xhs, xiaohongshu, social-media, publish, cdp, browser]
-    homepage: ""
+description: 发布小红书图文、上传多图、处理话题并查询审核状态。接收 github-promo-post 的 title/body/topics/6 张 1080×1440 JPG artifact；用户要求发小红书、发布 GitHub 项目推文或直接发布图文时使用。
 ---
 
 # xhs-publish — 小红书全自动发布
 
 驱动已登录的小红书创作者中心，自动完成「切图文 → 上传封面+多图 → 填标题/正文 → 加话题 → 点击发布 → 跟踪审核状态」全流程。封装为 Hermes 工具（`xhs_publish`）与本脚本，不改动 Hermes 主智能体。
+
+## Codex artifact 接口
+
+优先读取上游 `github-promo-post` 生成的 `artifacts/metadata.json`：
+
+- `title`：平台标题，必须 ≤20 字；
+- `body`：不含话题行、真实 URL 或站外引流；
+- `topics`：5 个不带 `#` 的话题；
+- `images`：6 个绝对路径，顺序固定为封面到 CTA；
+- `version_state`：记录版本是正式 Release、更新线还是准备中。
+
+发布前不得自行补造标题、正文、话题或图片；缺字段时返回缺失清单。
+
+## 自动化发布流程（Codex）
+
+1. 读取上游 `artifacts/metadata.json`，运行 `github-promo-post/scripts/validate_artifacts.py <artifacts>`；不通过就停止。
+2. 用户明确要求发布后，单命令执行 `publish --bootstrap-edge --restart-edge`。它会关闭所有 Edge 窗口、**用默认已登录 profile** 启动 Edge 143 的 CDP；绝不创建 `--user-data-dir` 临时 profile。
+3. `--restart-edge` 只用于 CDP 未就绪或需重建时。它会关闭用户 Edge，必须在用户已明确授权发布且已知晓影响时使用。
+4. 脚本完成输入校验、登录检查、六图上传、正文/话题填充、发布和 URL 成功判定；随后按标题查询审核状态。只返回平台实际状态或真实错误。
+5. 若 `version_state` 不是正式 Release，保留「更新线/准备中」措辞，不改成「已发布」。
+
+优先使用原生 `xhs_publish` 工具；工具不可用时才调用本 skill 内的 `scripts/xhs_publish.py`。禁止使用 `--force` 绕过敏感词或平台校验。
 
 ## When to Use
 
@@ -57,14 +69,21 @@ metadata:
 - `body` 不要包含话题行（`#xxx #yyy`），话题统一用 `topics` 传入，脚本会自动剥离正文尾部纯话题行。
 - 标题硬限制 **≤20 字（含标点）**，超出会被平台拦截（toast「标题最多输入20字哦~」）。
 
-### 方式 B：直接命令行
+### 方式 B：直接命令行（标准 artifact）
 
 ```powershell
-python scripts\xhs_publish.py publish `
-  --title "标题" --body-file body.txt `
-  --cover C:/cover.png --image C:/poster1.jpg `
-  --topic "赫尔佐格" --topic "中国电影资料馆"
+$a = 'C:/.../artifacts'
+python C:/.../github-promo-post/scripts/validate_artifacts.py $a
+python scripts\xhs_publish.py publish --bootstrap-edge --restart-edge `
+  --title-file "$a/title.txt" --body-file "$a/body.txt" `
+  --cover "$a/images/xhs-01-cover.jpg" `
+  --image "$a/images/xhs-02-pain.jpg" --image "$a/images/xhs-03-fast.jpg" `
+  --image "$a/images/xhs-04-fix.jpg" --image "$a/images/xhs-05-convert.jpg" --image "$a/images/xhs-06-cta.jpg" `
+  --topic "GitHub" --topic "开源项目" --topic "程序员" --topic "效率工具" --topic "Markdown"
+python scripts\xhs_publish.py status --note-title "标题"
 ```
+
+`bootstrap` 可独立诊断：`python scripts\xhs_publish.py bootstrap`；若端口未就绪，且用户已授权关闭 Edge，执行 `bootstrap --restart-edge`。CDP 代理保持在 `3456`，代理若在 Edge 重启前已运行会自动重连。
 
 常用参数：`--title-file/--body-file`（长文本用文件避免转义）、`--no-publish`（草稿模式）、`--dry-run`（只校验）、`--force`（放行敏感词，不建议）、`status --note-title "标题"`。
 
@@ -125,6 +144,7 @@ Hermes 工具 `xhs_enrich_stills`（同插件注册，toolset=hermes-cli）：�
 
 ## Common Pitfalls
 
+0. **Edge 后台预加载实例抢占 profile → 调试端口静默失效（2026-08-14 实证）**：Windows 上 Edge 常驻 `--no-startup-window` 后台预加载实例，会抢占默认 profile 锁；此时再启动 `msedge.exe --remote-debugging-port=9222` 参数会被转交给现有实例且**被忽略**，9222 无响应、发布脚本报「请求失败 /targets: WinError 10061 目标计算机积极拒绝」。修复：先 `taskkill -F -IM msedge.exe` 杀光全部 Edge（含预加载），再用默认 profile 启动调试实例（登录态在默认 profile 里，保留）。排查顺序：`curl 127.0.0.1:9222/json/version` → `curl 127.0.0.1:3456/` → `xhs_publish.py login`。
 1. **发布按钮是 closed shadow DOM**：`xhs-publish-btn` 内部内容查询不到，普通点击无效。正确触发：
    `document.querySelector("xhs-publish-btn").dispatchEvent(new CustomEvent("publish", {bubbles:true, composed:true}))`
 2. **切换图文后 `.creator-tab` 会从 DOM 移除**：判断是否图文模式要查图片 input（`input[type=file]` accept 含 `.jpg`），不能只看 tab。

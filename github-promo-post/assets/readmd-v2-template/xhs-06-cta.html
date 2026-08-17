@@ -1,0 +1,46 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:100vw;height:100vh;overflow:hidden;background:#000}
+body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;-webkit-font-smoothing:antialiased}
+.mono{font-family:Consolas,"Courier New",monospace}
+.noise::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.04;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E")}
+.grid-bg{background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:54px 54px}
+.poster{position:relative;width:1080px;height:1440px;background:#0E1630;color:#fff;overflow:hidden;display:flex;flex-direction:column;padding:72px 76px 64px}
+.top{display:flex;justify-content:space-between;font-family:Consolas;font-size:22px;letter-spacing:.28em;color:rgba(255,255,255,.55)}
+.title{font-size:82px;line-height:1.28;font-weight:900;letter-spacing:-.01em;margin-top:34px}
+.sub{font-size:28px;font-weight:500;color:rgba(255,255,255,.72);margin-top:22px}
+.strip{margin-top:auto;border-top:2px solid rgba(255,255,255,.22);padding-top:26px;display:flex;gap:14px;flex-wrap:wrap}
+.strip span{font-size:23px;font-weight:700;border:2px solid rgba(255,255,255,.38);padding:9px 16px}
+.strip b{font-size:23px;font-weight:800;padding:9px 16px}
+.kicker{font-size:23px;font-weight:800;letter-spacing:.16em;color:var(--ac)}
+
+.poster{--ac:#E8FF00}
+
+.poster{background:#E8FF00;color:#0E1630}
+
+
+.cta-title{margin-top:84px;font-size:116px;font-weight:900;line-height:1.35}
+.cta-title .ac{background:#002FA7;color:#E8FF00;padding:0 14px}
+.hint{margin-top:36px;font-size:36px;font-weight:700}
+.repo{margin-top:64px;background:#0E1630;color:#E8FF00;font-family:Consolas;font-size:52px;font-weight:700;padding:36px 40px}
+.suit{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:56px}
+.card{border:3px solid #0E1630;background:rgba(255,255,255,.5);padding:34px}
+.card h3{font-size:36px;font-weight:900;border-bottom:3px solid #0E1630;padding-bottom:14px;margin-bottom:18px}
+.card p{font-size:31px;font-weight:700;line-height:1.6}
+.q{margin-top:52px;font-size:44px;font-weight:800;border-top:3px solid #0E1630;padding-top:30px}
+.star{position:absolute;right:-60px;top:70px;font-size:220px;color:rgba(14,22,48,.12);transform:rotate(15deg)}
+</style></head>
+<body>
+<div class="poster">
+  <div class="star">★</div>
+  <div class="top" style="color:rgba(14,22,48,.6)"><span>GITHUB · NATSUMMERANCE/READMD</span><span>OPEN SOURCE</span></div>
+  <div class="cta-title">GitHub 搜<br><span class="ac" style="font-size:72px">Natsummerance/readMD</span></div>
+  <div class="hint">觉得好用，顺手点个 star ★</div>
+  <div class="repo">GitHub 搜索：Natsummerance/readMD</div>
+  <div class="suit">
+    <div class="card"><h3>适合</h3><p>写笔记的 · 读论文的<br>PDF 收藏家 · 离线党<br>学生党 · 自媒体人</p></div>
+    <div class="card"><h3>不适合</h3><p>重型编辑需求<br>（请出门左转 VS Code）<br>手机端重度使用</p></div>
+  </div>
+  <div class="q">你平时用什么工具看 Markdown？评论区聊聊 →</div>
+</div></body></html>

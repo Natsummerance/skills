@@ -1,0 +1,50 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:100vw;height:100vh;overflow:hidden;background:#000}
+body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;-webkit-font-smoothing:antialiased}
+.mono{font-family:Consolas,"Courier New",monospace}
+.noise::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.04;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E")}
+.grid-bg{background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:54px 54px}
+.poster{position:relative;width:1080px;height:1440px;background:#0E1630;color:#fff;overflow:hidden;display:flex;flex-direction:column;padding:72px 76px 64px}
+.top{display:flex;justify-content:space-between;font-family:Consolas;font-size:22px;letter-spacing:.28em;color:rgba(255,255,255,.55)}
+.title{font-size:82px;line-height:1.28;font-weight:900;letter-spacing:-.01em;margin-top:34px}
+.sub{font-size:28px;font-weight:500;color:rgba(255,255,255,.72);margin-top:22px}
+.strip{margin-top:auto;border-top:2px solid rgba(255,255,255,.22);padding-top:26px;display:flex;gap:14px;flex-wrap:wrap}
+.strip span{font-size:23px;font-weight:700;border:2px solid rgba(255,255,255,.38);padding:9px 16px}
+.strip b{font-size:23px;font-weight:800;padding:9px 16px}
+.kicker{font-size:23px;font-weight:800;letter-spacing:.16em;color:var(--ac)}
+
+.poster{--ac:#E8FF00}
+
+.poster{background:#002FA7}
+
+
+.srcs{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:40px}
+.src{background:rgba(255,255,255,.09);border:2px solid rgba(255,255,255,.3);padding:38px 24px;text-align:center}
+.src .ic{font-size:46px;font-weight:900;font-family:Consolas}
+.src .nm{font-size:30px;font-weight:700;margin-top:12px}
+.src .ds{font-size:23px;color:rgba(255,255,255,.6);margin-top:8px}
+.pipe{margin-top:44px;background:#fff;color:#0E1630;padding:40px 44px;display:flex;align-items:center;gap:22px}
+.pipe .out{font-family:Consolas;font-size:40px;font-weight:700}
+.pipe .arr{flex:1;text-align:center;font-size:54px;color:#002FA7;font-weight:700}
+.pipe .md{background:#002FA7;color:#E8FF00;font-family:Consolas;font-size:42px;font-weight:700;padding:18px 30px}
+.note{margin-top:36px;font-size:32px;color:rgba(255,255,255,.78);line-height:1.7}
+.note b{color:#E8FF00}
+</style></head>
+<body>
+<div class="poster noise">
+  <div class="top"><span>CONVERT</span><span>READMD</span></div>
+  <div class="title" style="font-size:80px">万物转 MD<br>一个入口搞定</div>
+  <div class="srcs">
+    <div class="src"><div class="ic">PDF</div><div class="nm">论文/文档</div><div class="ds">扫描版也行</div></div>
+    <div class="src"><div class="ic">DOCX</div><div class="nm">Word</div><div class="ds">保留标题层级</div></div>
+    <div class="src"><div class="ic">XLSX</div><div class="nm">表格/PPT</div><div class="ds">Excel·幻灯片</div></div>
+    <div class="src"><div class="ic">WEB</div><div class="nm">网页链接</div><div class="ds">同站批量10页</div></div>
+    <div class="src"><div class="ic">IMG</div><div class="nm">图片</div><div class="ds">截图直接识别</div></div>
+    <div class="src"><div class="ic">HTML</div><div class="nm">网页源码</div><div class="ds">正文自动提取</div></div>
+  </div>
+  <div class="pipe"><div class="out">PDF·DOCX·WEB·IMG</div><div class="arr">→→</div><div class="md">.md</div></div>
+  <div class="note"><b>OCR 识别</b>用 Windows 自带引擎——离线 · 免费 · 支持中文<br>调研笔记、资料库整理，一次转完</div>
+  <div class="strip"><b style="background:#E8FF00;color:#002FA7">→MD</b><span>PDF</span><span>Word</span><span>Excel</span><span>PPT</span><span>网页</span><span>图片</span></div>
+</div></body></html>

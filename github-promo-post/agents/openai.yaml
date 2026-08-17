@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub 推文与配图"
+  short_description: "核查 GitHub 更新并生成小红书图文与六张海报"
+  default_prompt: "Use $github-promo-post to turn a verified GitHub project update into a compliant Xiaohongshu post with six validated images."
