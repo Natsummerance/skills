@@ -28,8 +28,9 @@
 | art | 《爵士乐群英谱》村上春树×和田诚 | 1 |
 | art | 《见证：肖斯塔科维奇回忆录》伏尔科夫 | 2 |
 | art | 《人人都该懂的古典音乐》朱利安·约翰逊 | 1 |
+| art | 《辛丰年音乐文集》辛丰年 | 1 |
 
-**合计 12 本书 / 63 个 skills**。总导航见 [books/README.md](books/README.md)，分类索引在 `books/<category>/INDEX.md`，每本书有独立文件夹与书级 INDEX（含使用导航与质量记录）。
+**合计 13 本书 / 64 个 skills**。总导航见 [books/README.md](books/README.md)，分类索引在 `books/<category>/INDEX.md`，每本书有独立文件夹与书级 INDEX（含使用导航与质量记录）。
 
 示例入口：
 - 想学「怎么听懂一首爵士曲」→ [`books/art/how-to-listen-jazz/jazz-listening-framework`](books/art/how-to-listen-jazz/jazz-listening-framework/SKILL.md)（七步聆听法）
