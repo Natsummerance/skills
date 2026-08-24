@@ -1,6 +1,8 @@
-# Skills：技能集合（项目理解 + 信息改写 + 开发与 UX 优化 + 小红书发布 + Hermes 运维）
+# Skills：技能集合（项目理解 + 信息改写 + 开发与 UX 优化 + 小红书发布 + Hermes 运维 + 书籍蒸馏）
 
 八个互相独立、可按需调用的 AI Agent 技能（兼容 Codex / Claude Code / Hermes 的 SKILL.md 规范）：`project-learning` 与 `document-learning` 覆盖“吃透一个新项目”的两种形态；`info-rewrite` 提供工程化信息改写流水线；`dev-ux-optimizer` 提供既有应用的全周期开发与 UX 优化（工程基线 → 增量里程碑 → UX 重塑 → 部署验证），并配套可执行的 agent 集群；`xhs-publish` 与 `scheduled-social-campaign` 提供小红书内容发布与零 token 批量定时发布能力。
+
+**[books/](books/README.md) — 书籍蒸馏技能库**：用 cangjie RIA-TV++ 流水线把高价值书籍蒸馏成原子化 Agent Skills。按学科分类（philosophy/ art/ psychology/ science/），每本书独立文件夹+书级索引；分类索引见各子目录 INDEX.md，总导航见 [books/README.md](books/README.md)。
 
 `Hermes/` 子目录存放 Hermes Agent 平台专用技能（本机 Hermes 实盘运维沉淀）：`codex-bridge`（飞书/微信 `@codex` 遥控本机 Codex 会话：fire-and-forget 注入、`--wait` 同步等待、`/switch` 切会话）、`codex-bridge-debugging`（Codex 会话监控排查方法论）、`wechat-desktop-automation`（微信自动回复机器人运维）、`llm-api-cost-monitoring`（LLM API 成本/余额 cron 监控）、`person-watchdog`（摄像头人形监控守护：部署/自启/省电/自动学习/飞书通知 + 相机监控排障方法论）。
 
