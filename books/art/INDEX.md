@@ -9,6 +9,9 @@
 | [如何听爵士](how-to-listen-jazz/) | 7 | 技术聆听——曲子怎么听懂 | [INDEX](how-to-listen-jazz/INDEX.md) |
 | [然而，很美：爵士乐之书](but-beautiful/) | 4 | 人文审美——乐手为什么动人 | [INDEX](but-beautiful/INDEX.md) |
 | [美的历史·丑的历史](eco-beauty-ugly/) | 3 | 美学观念史——审美范畴的千年演变 | [INDEX](eco-beauty-ugly/INDEX.md) |
+| [爵士乐群英谱](murakami-jazz-portraits/) | 1 | 村上春树×和田诚——小品肖像写作法 | [INDEX](murakami-jazz-portraits/INDEX.md) |
+| [见证：肖斯塔科维奇回忆录](shostakovich-testimony/) | 2 | 恐惧中的创作与被规训音乐的解码 | [INDEX](shostakovich-testimony/INDEX.md) |
+| [人人都该懂的古典音乐](classical-history-map/) | 1 | 古典音乐六时期断代地图 | [INDEX](classical-history-map/INDEX.md) |
 
 ## 导航
 
