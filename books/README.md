@@ -9,11 +9,11 @@
 | 分类 | 收录书籍 | 索引 |
 |------|----------|------|
 | [philosophy/](philosophy/) | 哲学史方法论十四讲 ✅14 · 游心之路（庄子×比较哲学）✅7 | [INDEX](philosophy/INDEX.md) |
-| [art/](art/) | 如何听爵士7 · 然而很美4 · 艾柯美丑3 · 见证2 · 名家三部曲ⅠⅡ2 · 古典断代1 · 辛丰年1 · 群英谱1 | [INDEX](art/INDEX.md) |
+| [art/](art/) | 如何听爵士7 · 然而很美4 · 艾柯美丑3 · 见证2 · 流行简史2 · 名家三部曲ⅠⅡ2 · 古典断代1 · 辛丰年1 · 群英谱1 · 诺顿三卷3 | [INDEX](art/INDEX.md) |
 | [psychology/](psychology/) | 第二性 ✅12（全卷完成） | [INDEX](psychology/INDEX.md) |
 | [science/](science/) | 学术写作5 · 新教伦理+学术与政治3 · 中国的宗教3 · 大提琴史1 | [INDEX](science/INDEX.md) |
 
-**当前合计：17 本在库 / 69 个 skills**
+**当前合计：20 本在库 / 72 个 skills**
 
 ## 蒸馏方法论
 

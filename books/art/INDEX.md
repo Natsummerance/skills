@@ -16,6 +16,9 @@
 | [不朽的钢琴家](immortal-pianists/) | 1 | 钢琴演奏学派地图（勋伯格三部曲Ⅰ） | [INDEX](immortal-pianists/INDEX.md) |
 | [不朽的小提琴家](immortal-violinists/) | 1 | 小提琴传承谱系（三部曲Ⅱ） | [INDEX](immortal-violinists/INDEX.md) |
 | [流行音乐简史套装](pop-music-history-map/) | 2 | 欧美曲种演化 + 华语百年断代 | [INDEX](pop-music-history-map/INDEX.md) |
+| [诺顿·中世纪音乐](norton-medieval/) | 1 | 圣咏/记谱法/复调起源（断代史） | [INDEX](norton-medieval/INDEX.md) |
+| [诺顿·古典音乐](norton-classical-vienna/) | 1 | 古典风格诞生：维也纳三杰（断代史） | [INDEX](norton-classical-vienna/INDEX.md) |
+| [诺顿·浪漫+二十世纪](norton-romantic-modern/) | 1 | 语言解放两百年双卷并读（断代史） | [INDEX](norton-romantic-modern/INDEX.md) |
 
 ## 导航
 
