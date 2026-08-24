@@ -11,9 +11,9 @@
 | [philosophy/](philosophy/) | 哲学史方法论十四讲 ✅14 · 游心之路（庄子×比较哲学）✅7 | [INDEX](philosophy/INDEX.md) |
 | [art/](art/) | 如何听爵士 ✅7 · 然而，很美 ✅4（爵士双书互补） | [INDEX](art/INDEX.md) |
 | [psychology/](psychology/) | 第二性 ✅12（全卷完成） | [INDEX](psychology/INDEX.md) |
-| [science/](science/) | （蒸馏队列：学术写作 等） | [INDEX](science/INDEX.md) |
+| [science/](science/) | 学术写作原来是这样 ✅5 | [INDEX](science/INDEX.md) |
 
-**当前合计：5 本在库 / 44 个 skills**
+**当前合计：6 本在库 / 49 个 skills**
 
 ## 蒸馏方法论
 
