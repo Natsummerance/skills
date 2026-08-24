@@ -6,4 +6,4 @@
 
 | 书 | skills 数 | 完整度 | 索引 |
 |----|-----------|--------|------|
-| [第二性](dierxing/) | 5 | 🔶 Ⅰ完成 / Ⅱ排队 | [INDEX](dierxing/INDEX.md) |
+| [第二性](dierxing/) | 12 | ✅ 全卷完成（Ⅰ+Ⅱ） | [INDEX](dierxing/INDEX.md) |
