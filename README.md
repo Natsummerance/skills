@@ -1,52 +1,60 @@
-# Skills：技能集合（项目理解 + 信息改写 + 开发与 UX 优化 + 小红书发布 + Hermes 运维 + 书籍蒸馏）
+# Skills · AI Agent 技能集合
 
-八个互相独立、可按需调用的 AI Agent 技能（兼容 Codex / Claude Code / Hermes 的 SKILL.md 规范）：`project-learning` 与 `document-learning` 覆盖“吃透一个新项目”的两种形态；`info-rewrite` 提供工程化信息改写流水线；`dev-ux-optimizer` 提供既有应用的全周期开发与 UX 优化（工程基线 → 增量里程碑 → UX 重塑 → 部署验证），并配套可执行的 agent 集群；`xhs-publish` 与 `scheduled-social-campaign` 提供小红书内容发布与零 token 批量定时发布能力。
+个人开发的 AI Agent 技能库（兼容 Codex / Claude Code / Hermes 的 SKILL.md 规范），三大板块、15 个技能：
 
-**[books/](books/README.md) — 书籍蒸馏技能库**：用 cangjie RIA-TV++ 流水线把高价值书籍蒸馏成原子化 Agent Skills。按学科分类（philosophy/ art/ psychology/ science/），每本书独立文件夹+书级索引；分类索引见各子目录 INDEX.md，总导航见 [books/README.md](books/README.md)。
+| 板块 | 内容 |
+|------|------|
+| 📚 [books/](books/README.md) | **书籍蒸馏技能库**——6 本书 → 49 个原子化 Agent Skills |
+| 🛠 通用技能（根目录 9 个） | 项目理解 / 信息改写 / 开发与 UX / 内容发布 |
+| ⚙️ [Hermes/](Hermes/) | Hermes Agent 平台运维技能 5 个（实盘沉淀） |
 
-`Hermes/` 子目录存放 Hermes Agent 平台专用技能（本机 Hermes 实盘运维沉淀）：`codex-bridge`（飞书/微信 `@codex` 遥控本机 Codex 会话：fire-and-forget 注入、`--wait` 同步等待、`/switch` 切会话）、`codex-bridge-debugging`（Codex 会话监控排查方法论）、`wechat-desktop-automation`（微信自动回复机器人运维）、`llm-api-cost-monitoring`（LLM API 成本/余额 cron 监控）、`person-watchdog`（摄像头人形监控守护：部署/自启/省电/自动学习/飞书通知 + 相机监控排障方法论）。
+---
 
-## 包含的技能
+## 📚 books/ · 书籍蒸馏技能库
+
+用 cangjie RIA-TV++ 流水线把高价值书籍蒸馏成**原子化、可被 Agent 直接调用**的 skills：不是书摘，而是把书里的方法论抽成带触发条件、执行步骤、边界声明的可执行框架。每个 skill 保证原文引用可溯源、同类 skill 触发场景互斥。
+
+| 分类 | 书 | skills |
+|------|-----|--------|
+| philosophy | 《哲学史方法论十四讲》邓晓芒 | 14 |
+| philosophy | 《游心之路：〈庄子〉与现代西方哲学》Moeller & D'Ambrosio | 7 |
+| art | 《如何听爵士》Ted Gioia | 7 |
+| art | 《然而，很美：爵士乐之书》Geoff Dyer | 4 |
+| psychology | 《第二性》Ⅰ+Ⅱ 波伏瓦 | 12 |
+| science | 《学术写作原来是这样》易莉 | 5 |
+
+**合计 6 本书 / 49 个 skills**。总导航见 [books/README.md](books/README.md)，分类索引在 `books/<category>/INDEX.md`，每本书有独立文件夹与书级 INDEX（含使用导航与质量记录）。
+
+示例入口：
+- 想学「怎么听懂一首爵士曲」→ [`books/art/how-to-listen-jazz/jazz-listening-framework`](books/art/how-to-listen-jazz/jazz-listening-framework/SKILL.md)（七步聆听法）
+- 被社会角色压得喘不过气 → [`books/philosophy/genuine-pretending/zhuangzi-true-pretending`](books/philosophy/genuine-pretending/zhuangzi-true-pretending/SKILL.md)（庄子式「真实假装」）
+- 论文写完想自查论证 → [`books/science/xueshu-xiezuo/academic-argument-logic`](books/science/xueshu-xiezuo/academic-argument-logic/SKILL.md)
+
+## 🛠 通用技能
 
 | 技能 | 用途 |
 |---|---|
-| `project-learning` | 代码库 onboarding：识别架构类型 → README 优先 → 索取设计文档 → 交互确认深挖模块 → 访谈式探索 → 产出/增量更新 `ONBOARDING_NOTES.md` |
-| `document-learning` | 知识库/文档库深度理解：识别知识库形态 → 索引优先（TOC/nav/index）→ 交互确认深挖主题 → 渐进采样 + 交叉引用追踪 → 产出/增量更新 `ONBOARDING_NOTES.md` |
-| `info-rewrite` | 工程化信息改写：脱敏（过程脱敏+交付恢复）→ 子代理「改写执行+独立审查」双角色 → 主线程复核 + 机械校验 → 交付改写稿 + 逐条变更对照表 + 校验报告（可选导出 A4 中文 PDF），内置人称/称谓替换模板 |
-| `dev-ux-optimizer` | 全周期开发 + UX 优化：工程基线加固 → 数据闭环（记录→算法→回填验证）→ UX 重塑（token/暗色/动效/无障碍/移动端）→ 部署验证与排障；内置 agent 集群（角色/spawn 规则/并行与交接协议）与完整实战案例 |
-| `xhs-publish` | 小红书图文发布全流程：自动发布/编辑/草稿/状态查询/登录/多图配图/话题标签，CDP 桥接真实浏览器（Edge 9222），内置 12 条实战坑位与内容红线 |
-| `scheduled-social-campaign` | 零 token 批量定时发布（每小时一篇、内容不重复、N 篇后自动静默）：一次性预生成内容矩阵 JSON → 状态机发布脚本 → no_agent cron 驱动，发完零成本空转；附赫尔佐格回顾展 12 篇实战案例 |
-| `weekly-report-creator` | 周报生成（实习/工作/学习/项目/研究）：创建/优化/精简，Markdown 转 Word/PDF，逐步确认 + 过程可追溯 |
-| `skill-comparator` | Skill 版本 A/B 对比：独立子智能体实验隔离上下文污染，量化评估（有效性/效率/质量）选出最优版 |
-| `Hermes/codex-bridge` | 飞书/微信 `@codex` 遥控本机 Codex：任务注入（默认 fire-and-forget、`--wait` 同步等待）、`/switch` 会话切换、exec 会话侧边栏不显示修复（state sqlite source 字段） |
-| `Hermes/codex-bridge-debugging` | Codex 会话监控排查：`@codex` 新会话无提醒 / `/switch` 列表缺失时的 Z 盘优先阶梯排查（数据目录迁移根因、死路清单、修复模板、验证清单） |
-| `Hermes/wechat-desktop-automation` | 微信桌面客户端自动回复机器人运维（`watch_eruting.py`）：完整链路（BitBlt+RapidOCR 读取、Win32 发送、OCR 验证去空白）+ 全部已知坑与排障记录 |
-| `Hermes/llm-api-cost-monitoring` | LLM API 成本/余额监控（cron watchdog 模式）：DeepSeek 余额查询、零 token 告警、凭据安全读取纪律 |
-| `Hermes/person-watchdog` | 摄像头人形监控守护（PersonWatchdog）：部署/自启/省电/自动学习/飞书通知 + 相机监控类排障方法论（进程消失、CPU 飙高、ONNX 线程、画面亮度诊断、计划任务 LastRun=1999 等实测结论） |
+| `project-learning` | 代码库 onboarding：架构识别 → README 优先 → 交互确认深挖 → 产出 `ONBOARDING_NOTES.md` |
+| `document-learning` | 知识库/文档库深度理解：索引优先 → 渐进采样 + 交叉引用追踪 |
+| `info-rewrite` | 工程化信息改写：脱敏 → 子代理「改写+独立审查」双角色 → 机械校验 → 改写稿 + 变更对照表 + 校验报告 |
+| `dev-ux-optimizer` | 既有应用全周期开发与 UX 优化：工程基线 → 增量里程碑 → UX 重塑（token/暗色/动效）→ 部署验证；内置 agent 集群协议 |
+| `xhs-publish` | 小红书图文发布全流程：CDP 桥接真实浏览器（Edge 9222），自动发布/编辑/多图/话题标签，12 条实战坑位记录 |
+| `scheduled-social-campaign` | 零 token 批量定时发布：预生成内容矩阵 JSON → 状态机脚本 → no_agent cron 驱动，发完自动静默 |
+| `github-promo-post` | GitHub 项目推广 + 小红书图文：compare/Release 核查、推文撰写、1080×1440 海报生成 |
+| `weekly-report-creator` | 周报生成/优化/精简，Markdown 转 Word/PDF |
+| `skill-comparator` | Skill 版本 A/B 对比：独立子智能体实验隔离上下文污染，量化评估选优 |
 
-每个技能目录内含各自的 `references/` 说明与模板：`project-learning` / `document-learning` 的 `references/skill-ecosystem.md` 列出可引用的技能生态（skill-search 类技能、llm-wiki、research 等），用于扩展学习项目时的知识来源；`info-rewrite` 的 `references/pronoun-rewrite-template.md` 内置人称/称谓替换矩阵与轻顺稿边界。
+## ⚙️ Hermes/ · 平台运维技能
 
-## 判定与交接
+本机 Hermes Agent 实盘运维沉淀，均带完整排障记录：
 
-| 项目形态 | 使用技能 |
+| 技能 | 用途 |
 |---|---|
-| 以代码为主 | project-learning |
-| 以文档/知识库为主（文档站点、Wiki、规范库、帮助中心） | document-learning |
-| 混合（代码 + 大文档） | 先确认主次，两部分由两个技能接力完成 |
-| 既有应用要系统性完善功能与体验（或部署/线上故障排障） | dev-ux-optimizer |
-| 定时批量发布小红书/社交内容（每小时一篇、N 篇后暂停） | scheduled-social-campaign（配 xhs-publish 发布） |
-| 需要手动/单次发布小红书图文 | xhs-publish |
-| 检测摄像头前经过的人并飞书通知 / 相机监控排障 | Hermes/person-watchdog |
-
-> `info-rewrite` 与项目形态无关，用于任意文本的工程化改写（脱敏 + 子代理改写/审查 + 对照表 + 校验报告）。
-> `dev-ux-optimizer` 同样与项目形态无关，用于既有 Web 应用的开发完善与体验优化（React/Vite + Serverless + Postgres 栈已有完整排障经验沉淀）。
-
-## 共享产物
-
-- `ONBOARDING_NOTES.md`：`project-learning` / `document-learning` 增量维护同一文件的不同章节（代码部分 / 文档部分）
-- `CONTEXT.md` 术语表：共用
-- `AGENTS.md` / `CLAUDE.md`：摸清项目后提议创建，用户同意后写入
-- `info-rewrite` 交付：改写稿 + 逐条变更对照表 + 校验报告（用户要求时另出 PDF）
+| [`codex-bridge`](Hermes/codex-bridge/) | 飞书/微信 `@codex` 遥控本机 Codex 会话：fire-and-forget 注入、`--wait` 同步、`/switch` 切会话 |
+| [`codex-bridge-debugging`](Hermes/codex-bridge-debugging/) | Codex 会话监控排查：新会话无提醒时的 Z 盘优先阶梯排查 |
+| [`wechat-desktop-automation`](Hermes/wechat-desktop-automation/) | 微信桌面端自动回复机器人：BitBlt+RapidOCR 读取、Win32 发送、OCR 验证 |
+| [`llm-api-cost-monitoring`](Hermes/llm-api-cost-monitoring/) | LLM API 成本/余额 cron 监控与告警 |
+| [`person-watchdog`](Hermes/person-watchdog/) | 摄像头人形监控守护：YOLO 检测→飞书通知，部署/自启/省电/相机排障方法论 |
 
 ## 安装
 
@@ -54,8 +62,9 @@
 
 - Codex：`~/.codex/skills/<skill-name>/`
 - Claude Code：`~/.claude/skills/<skill-name>/`
-- Hermes：`<hermes-home>/skills/<category>/<skill-name>/`（如 `social-media/xhs-publish`）
+- Hermes：`<hermes-home>/skills/<category>/<skill-name>/`
 
 ## 设计原则
 
-交互式推进（不臆断）、省 token、多架构适配、只讲真实内容、中文输出、增量更新、提议后创建。
+交互式推进（不臆断）、省 token、只讲真实内容、中文输出、增量更新。
+书籍蒸馏红线：每 skill 带原文短引可溯源；解耦复查（触发互斥）+ 遗漏复查（对照全书目录）；慢就是快。
