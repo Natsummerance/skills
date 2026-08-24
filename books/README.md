@@ -12,8 +12,12 @@
 | [art/](art/) | 如何听爵士7 · 然而很美4 · 艾柯美丑3 · 见证2 · 流行简史2 · 名家三部曲ⅠⅡ2 · 古典断代1 · 辛丰年1 · 群英谱1 · 诺顿三卷3 | [INDEX](art/INDEX.md) |
 | [psychology/](psychology/) | 第二性 ✅12（全卷完成） | [INDEX](psychology/INDEX.md) |
 | [science/](science/) | 学术写作5 · 新教伦理+学术与政治3 · 中国的宗教3 · 大提琴史1 | [INDEX](science/INDEX.md) |
+| [history/](history/) | 中国历代政治得失 ✅1 | [INDEX](history/INDEX.md) |
+| [writing/](writing/) | 小说创作大师班 ✅2 · 文学阅读透镜三书 ✅1 | [INDEX](writing/INDEX.md) |
+| [literature/](literature/) | 诗词鉴赏四书合蒸 ✅2 | [INDEX](literature/INDEX.md) |
+| [film/](film/) | 电影是什么？✅1 · 理解戈达尔 ✅1 | [INDEX](film/INDEX.md) |
 
-**当前合计：20 本在库 / 72 个 skills**
+**当前合计：24 本在库 / 80 个 skills**
 
 ## 蒸馏方法论
 

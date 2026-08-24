@@ -34,8 +34,13 @@
 | science | 《不朽的大提琴家》（三部曲Ⅲ） | 1 |
 | art | 《流行音乐简史套装》尤静波（欧美+中国两卷） | 2 |
 | art | 诺顿断代史·中世纪/古典/浪漫/二十世纪（4册，3 skills） | 3 |
+| history | 《中国历代政治得失》钱穆 | 1 |
+| writing | 《小说创作大师班》威廉·凯恩 | 2 |
+| writing | 《文学的读法》+《文学理论》+《八百万种写法》三书合蒸 | 1 |
+| literature | 《人间词话》+迦陵讲稿+戴建业+钱选唐诗四书合蒸 | 2 |
+| film | 《电影是什么？》巴赞 + 《理解戈达尔》玛利 | 2 |
 
-**合计 20 本书 / 72 个 skills**。总导航见 [books/README.md](books/README.md)，分类索引在 `books/<category>/INDEX.md`，每本书有独立文件夹与书级 INDEX（含使用导航与质量记录）。
+**合计 24 本书 / 80 个 skills**。总导航见 [books/README.md](books/README.md)，分类索引在 `books/<category>/INDEX.md`，每本书有独立文件夹与书级 INDEX（含使用导航与质量记录）。
 
 示例入口：
 - 想学「怎么听懂一首爵士曲」→ [`books/art/how-to-listen-jazz/jazz-listening-framework`](books/art/how-to-listen-jazz/jazz-listening-framework/SKILL.md)（七步聆听法）
