@@ -20,10 +20,11 @@
 | philosophy | 《游心之路：〈庄子〉与现代西方哲学》Moeller & D'Ambrosio | 7 |
 | art | 《如何听爵士》Ted Gioia | 7 |
 | art | 《然而，很美：爵士乐之书》Geoff Dyer | 4 |
+| art | 《美的历史》《丑的历史》Umberto Eco | 3 |
 | psychology | 《第二性》Ⅰ+Ⅱ 波伏瓦 | 12 |
 | science | 《学术写作原来是这样》易莉 | 5 |
 
-**合计 6 本书 / 49 个 skills**。总导航见 [books/README.md](books/README.md)，分类索引在 `books/<category>/INDEX.md`，每本书有独立文件夹与书级 INDEX（含使用导航与质量记录）。
+**合计 7 本书 / 52 个 skills**。总导航见 [books/README.md](books/README.md)，分类索引在 `books/<category>/INDEX.md`，每本书有独立文件夹与书级 INDEX（含使用导航与质量记录）。
 
 示例入口：
 - 想学「怎么听懂一首爵士曲」→ [`books/art/how-to-listen-jazz/jazz-listening-framework`](books/art/how-to-listen-jazz/jazz-listening-framework/SKILL.md)（七步聆听法）

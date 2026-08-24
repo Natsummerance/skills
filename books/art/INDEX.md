@@ -8,10 +8,10 @@
 |----|-----------|------|------|
 | [如何听爵士](how-to-listen-jazz/) | 7 | 技术聆听——曲子怎么听懂 | [INDEX](how-to-listen-jazz/INDEX.md) |
 | [然而，很美：爵士乐之书](but-beautiful/) | 4 | 人文审美——乐手为什么动人 | [INDEX](but-beautiful/INDEX.md) |
+| [美的历史·丑的历史](eco-beauty-ugly/) | 3 | 美学观念史——审美范畴的千年演变 | [INDEX](eco-beauty-ugly/INDEX.md) |
 
-## 双书互补导航
+## 导航
 
-两本书构成爵士乐的一体两面，触发场景互斥：
-
-- **拿到一首曲子想听懂它** → `how-to-listen-jazz/`（七步框架入口）
-- **想知道这些乐手为何动人 / 该配什么心境** → `but-beautiful/`（精神肖像 + 心境选乐）
+- **听懂一首爵士曲** → `how-to-listen-jazz/`（七步框架入口）
+- **乐手为何动人 / 心境选乐** → `but-beautiful/`
+- **分析视觉作品的审美模型 / 理解暗黑与坎普审美** → `eco-beauty-ugly/`
