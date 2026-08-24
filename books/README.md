@@ -13,7 +13,7 @@
 | [psychology/](psychology/) | 第二性 ✅12（全卷完成） | [INDEX](psychology/INDEX.md) |
 | [science/](science/) | 学术写作5 · 新教伦理+学术与政治3 · 中国的宗教3 · 大提琴史1 | [INDEX](science/INDEX.md) |
 
-**当前合计：16 本在库 / 67 个 skills**
+**当前合计：17 本在库 / 69 个 skills**
 
 ## 蒸馏方法论
 

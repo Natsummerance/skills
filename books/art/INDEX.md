@@ -15,6 +15,7 @@
 | [辛丰年音乐文集](xinfengnian-music-essays/) | 1 | 爱乐随笔写作法——「看似游谈却有根」 | [INDEX](xinfengnian-music-essays/INDEX.md) |
 | [不朽的钢琴家](immortal-pianists/) | 1 | 钢琴演奏学派地图（勋伯格三部曲Ⅰ） | [INDEX](immortal-pianists/INDEX.md) |
 | [不朽的小提琴家](immortal-violinists/) | 1 | 小提琴传承谱系（三部曲Ⅱ） | [INDEX](immortal-violinists/INDEX.md) |
+| [流行音乐简史套装](pop-music-history-map/) | 2 | 欧美曲种演化 + 华语百年断代 | [INDEX](pop-music-history-map/INDEX.md) |
 
 ## 导航
 
