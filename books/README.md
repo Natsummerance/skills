@@ -8,8 +8,8 @@
 
 | 分类 | 收录书籍 | 索引 |
 |------|----------|------|
-| [philosophy/](philosophy/) | 哲学史方法论十四讲 等 | [INDEX](philosophy/INDEX.md) |
-| [art/](art/) | 如何听爵士 等 | [INDEX](art/INDEX.md) |
+| [philosophy/](philosophy/) | 哲学史方法论十四讲 ✅14 skills | [INDEX](philosophy/INDEX.md) |
+| [art/](art/) | 如何听爵士 等（排队中） | [INDEX](art/INDEX.md) |
 | [psychology/](psychology/) | 第二性 等 | [INDEX](psychology/INDEX.md) |
 | [science/](science/) | 学术写作 等 | [INDEX](science/INDEX.md) |
 

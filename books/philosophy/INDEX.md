@@ -6,4 +6,11 @@
 
 | 书 | skills 数 | 完整度 | 索引 |
 |----|-----------|--------|------|
-| [哲学史方法论十四讲](fangfalun-shisijiang/) | 1/8+ | 🔄 进行中 | [INDEX](fangfalun-shisijiang/INDEX.md) |
+| [哲学史方法论十四讲](fangfalun-shisijiang/) | 14 | ✅ 100%（十四讲全覆盖） | [INDEX](fangfalun-shisijiang/INDEX.md) |
+
+## 蒸馏队列（候选）
+
+- 精神现象学 句读本（黑格尔，含德汉词汇索引）→ 术语工具 skill
+- 维特根斯坦文集 8 卷 → 《逻辑哲学论》命题结构原子化
+- 游心之路（庄子×比较哲学）→ 「真实假装」框架
+- 西方哲学史四版本对勘 → 哲学史阅读导航
