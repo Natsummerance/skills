@@ -9,6 +9,7 @@
 | [学术写作原来是这样](xueshu-xiezuo/) | 5 | ✅ 全书覆盖（12章） | [INDEX](xueshu-xiezuo/INDEX.md) |
 | [新教伦理与资本主义精神 · 学术与政治](weber-protestant-ethic/) | 3 | ✅ 两部经典完成 | [INDEX](weber-protestant-ethic/INDEX.md) |
 | [中国的宗教：儒教与道教](weber-china-religion/) | 3 | ✅ 全书完成（含杨庆堃修正） | [INDEX](weber-china-religion/INDEX.md) |
+| [不朽的大提琴家](cello-history-notes/) | 1 | ✅ 乐器地位的社会建构史 | [INDEX](cello-history-notes/INDEX.md) |
 
 ## 蒸馏队列
 

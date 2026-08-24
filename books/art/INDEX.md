@@ -13,6 +13,8 @@
 | [见证：肖斯塔科维奇回忆录](shostakovich-testimony/) | 2 | 恐惧中的创作与被规训音乐的解码 | [INDEX](shostakovich-testimony/INDEX.md) |
 | [人人都该懂的古典音乐](classical-history-map/) | 1 | 古典音乐六时期断代地图 | [INDEX](classical-history-map/INDEX.md) |
 | [辛丰年音乐文集](xinfengnian-music-essays/) | 1 | 爱乐随笔写作法——「看似游谈却有根」 | [INDEX](xinfengnian-music-essays/INDEX.md) |
+| [不朽的钢琴家](immortal-pianists/) | 1 | 钢琴演奏学派地图（勋伯格三部曲Ⅰ） | [INDEX](immortal-pianists/INDEX.md) |
+| [不朽的小提琴家](immortal-violinists/) | 1 | 小提琴传承谱系（三部曲Ⅱ） | [INDEX](immortal-violinists/INDEX.md) |
 
 ## 导航
 
