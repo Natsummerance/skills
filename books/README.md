@@ -11,9 +11,9 @@
 | [philosophy/](philosophy/) | 哲学史方法论十四讲 ✅14 · 游心之路（庄子×比较哲学）✅7 | [INDEX](philosophy/INDEX.md) |
 | [art/](art/) | 如何听爵士 ✅7 · 然而，很美 ✅4 · 艾柯美丑 ✅3 · 群英谱 ✅1 · 见证 ✅2 · 古典断代 ✅1 | [INDEX](art/INDEX.md) |
 | [psychology/](psychology/) | 第二性 ✅12（全卷完成） | [INDEX](psychology/INDEX.md) |
-| [science/](science/) | 学术写作原来是这样 ✅5 · 韦伯双经典 🔶3 | [INDEX](science/INDEX.md) |
+| [science/](science/) | 学术写作 ✅5 · 新教伦理+学术与政治 ✅3 · 中国的宗教 ✅3 | [INDEX](science/INDEX.md) |
 
-**当前合计：11 本在库 / 60 个 skills**
+**当前合计：12 本在库 / 63 个 skills**
 
 ## 蒸馏方法论
 
