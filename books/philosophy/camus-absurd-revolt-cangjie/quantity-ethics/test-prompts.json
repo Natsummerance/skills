@@ -1,0 +1,44 @@
+{
+  "skill": "quantity-ethics",
+  "version": "0.1.0",
+  "source_book": "《西西弗神话》 — 阿尔贝·加缪（杜小真译）",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我想趁年轻多经历一些不同的东西",
+      "expected_behavior": "激活本skill区分耗尽vs收藏，给数量伦理视角建议",
+      "notes": "正面"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "谈了很多次恋爱是不是很渣",
+      "expected_behavior": "激活本skill分析唐璜式关系的伦理结构（清醒/投入/不留）",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "怎么攒钱效率高",
+      "expected_behavior": "理财问题不调用",
+      "notes": "诱饵: 「数量」字面联想"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "用境界说分析这首词",
+      "expected_behavior": "应触发 cihua-jingjie-method",
+      "notes": "跨分类混淆诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "同时和三个人约会算不算渣",
+      "expected_behavior": "边界: 涉及具体伦理判断→需引入知情同意等现代伦理约束而非仅数量伦理",
+      "notes": "边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

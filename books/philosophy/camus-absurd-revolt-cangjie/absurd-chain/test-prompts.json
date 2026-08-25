@@ -1,0 +1,44 @@
+{
+  "skill": "absurd-chain",
+  "version": "0.1.0",
+  "source_book": "《西西弗神话》 — 阿尔贝·加缪（杜小真译）",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "人为什么活着啊，想不通",
+      "expected_behavior": "激活本skill，用荒诞关系框架重构问题并排除自杀/跳跃两条歧途",
+      "notes": "正面"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "朋友信了个大师说要先相信才能开悟",
+      "expected_behavior": "激活本skill识别为「跳」，说明其取消张力的机制",
+      "notes": "正面: 诱饵场景的哲学版"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "加缪是哪国人",
+      "expected_behavior": "知识查询不调用",
+      "notes": "诱饵: 人名联想"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "分析《西西弗神话》里数量伦理的概念",
+      "expected_behavior": "应触发 quantity-ethics",
+      "notes": "跨skill混淆诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我就是觉得活着没劲",
+      "expected_behavior": "边界: 可能是抑郁信号→先关怀筛查；确认为形而上追问才调用。说清理由",
+      "notes": "边界: 心理健康红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

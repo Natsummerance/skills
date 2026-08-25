@@ -1,0 +1,44 @@
+{
+  "skill": "revolt-freedom-passion",
+  "version": "0.1.0",
+  "source_book": "《西西弗神话》 — 阿尔贝·加缪（杜小真译）",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "反正人都会死现在努力有什么用",
+      "expected_behavior": "激活本skill给出反抗/自由/激情三重回应并检查完整性",
+      "notes": "正面"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我不想卷也不想躺",
+      "expected_behavior": "激活本skill作为第三条路的框架",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我做职业规划",
+      "expected_behavior": "具体规划需求，不调用（可用sisyphus-test辅助）",
+      "notes": "诱饵: 未来规划"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "尼采的艺术拯救人生是什么意思",
+      "expected_behavior": "应触发 nietzsche-birth-tragedy",
+      "notes": "跨书混淆诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "躺平真的可耻吗",
+      "expected_behavior": "边界: 可用自由维度分析躺平的自洽性但不做道德审判",
+      "notes": "边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

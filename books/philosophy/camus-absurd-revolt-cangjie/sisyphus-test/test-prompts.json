@@ -1,0 +1,44 @@
+{
+  "skill": "sisyphus-test",
+  "version": "0.1.0",
+  "source_book": "《西西弗神话》 — 阿尔贝·加缪（杜小真译）",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "这个项目做了三年还没结果要不要放弃",
+      "expected_behavior": "激活本skill跑「过程还养得活你吗」检验",
+      "notes": "正面"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "每天带娃重复一样的事感觉快疯了",
+      "expected_behavior": "激活本skill分析循环劳动的过程自足可能性+诚实承认局限",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "这个股票该不该止损",
+      "expected_behavior": "投资决策不调用",
+      "notes": "诱饵: 「结果导向」字面联想"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "用钱穆的方法分析科举制",
+      "expected_behavior": "应触发 qianmu-institution-history",
+      "notes": "跨分类混淆诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "读博第五年毕不了业",
+      "expected_behavior": "边界: 先现实评估（导师/进度/心理）再用检验问句；若已抑郁优先支持",
+      "notes": "边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
