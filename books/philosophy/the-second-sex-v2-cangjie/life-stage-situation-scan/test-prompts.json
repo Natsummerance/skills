@@ -1,0 +1,23 @@
+{
+  "skill": "life-stage-situation-scan",
+  "version": "1.0.0",
+  "source_book": "《第二性》II 西蒙娜·德·波伏瓦",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "生完孩子总觉得找不回自己了",
+      "expected_behavior": "激活：五维处境扫描+结构/个人区分",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "帮我判断我老婆是不是到更年期了",
+      "expected_behavior": "边界：非临床工具不做诊断；且不给他人贴阶段标签",
+      "notes": "临床+标签双边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

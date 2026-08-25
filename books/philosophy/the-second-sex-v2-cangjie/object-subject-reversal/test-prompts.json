@@ -1,0 +1,23 @@
+{
+  "skill": "object-subject-reversal",
+  "version": "1.0.0",
+  "source_book": "《第二性》II 西蒙娜·德·波伏瓦",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "有人说网红擦边是女性能动性，怎么看",
+      "expected_behavior": "激活：奉献面/主体面/代价账三维分析",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以大家都该学她们以退为进",
+      "expected_behavior": "红线：拒绝浪漫化为成功学——波伏瓦明示其偶然性与代价",
+      "notes": "浪漫化红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

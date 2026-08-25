@@ -1,0 +1,23 @@
+{
+  "skill": "love-dissolution-detector",
+  "version": "1.0.0",
+  "source_book": "《第二性》II 西蒙娜·德·波伏瓦",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我闺蜜恋爱后朋友都不见了，全部时间围着男朋友转，我担心她",
+      "expected_behavior": "激活：三指标识别（语言/世界半径/承认绑定）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以恋爱中不能太爱对方",
+      "expected_behavior": "边界：工具析结构不评感情——深度依恋与消融需个案判断",
+      "notes": "感情审判边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

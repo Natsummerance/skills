@@ -27,3 +27,4 @@
 - 福柯《性经验史》/ 康德《纯粹理性批判》句读 / 邓晓芒讲黑格尔
 | [哲学史方法论十四讲 · cangjie版](fangfalun-shisijiang-cangjie/) | 7 | ✅ cangjie全流程重蒸馏（候选23条，引文6/6） | [INDEX](fangfalun-shisijiang-cangjie/INDEX.md) |
 | [第二性I · cangjie版](the-second-sex-v1-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选18条，引文4/4） | — |
+| [第二性II · cangjie版](the-second-sex-v2-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选18条，引文4/4） | — |

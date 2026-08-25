@@ -1,0 +1,23 @@
+{
+  "skill": "transcendent-labor-check",
+  "version": "1.0.0",
+  "source_book": "《第二性》II 西蒙娜·德·波伏瓦",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "全职在家带娃算不算失去独立",
+      "expected_behavior": "激活：投射性/可持性/重复度三问+照护劳动价值说明",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以家庭主妇都是不独立的失败者",
+      "expected_behavior": "红线：贬低照护劳动警告——批判被迫性而非劳动价值",
+      "notes": "贬低红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
