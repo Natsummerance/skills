@@ -28,3 +28,4 @@
 | [然而很美 · cangjie版](but-beautiful-cangjie/) | 3 | ✅ cangjie全流程重蒸馏 | — |
 | [丑的历史 · cangjie版](eco-ugly-history-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选16条，引文5/5） | — |
 | [如何听爵士 · cangjie版](how-to-listen-jazz-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选16条） | — |
+| [爵士群像 · cangjie版](murakami-jazz-portraits-cangjie/) | 2 | ✅ cangjie全流程重蒸馏（32KB随笔集合理密度） | — |

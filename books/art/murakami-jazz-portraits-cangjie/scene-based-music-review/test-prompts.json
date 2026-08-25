@@ -1,0 +1,23 @@
+{
+  "skill": "scene-based-music-review",
+  "version": "1.0.0",
+  "source_book": "《爵士群像》 村上春树",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "帮我写一段推荐Bill Evans专辑的小红书文案",
+      "expected_behavior": "激活：场景三件套（场景/点名/感官）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "从录音工程技术角度评价这张专辑",
+      "expected_behavior": "边界：技术分析体裁不适用场景式乐评",
+      "notes": "体裁边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,23 @@
+{
+  "skill": "paradox-portrait-hook",
+  "version": "1.0.0",
+  "source_book": "《爵士群像》 村上春树",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "给Miles Davis写一句有味道的人物介绍",
+      "expected_behavior": "激活：悖论句型试写",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "学术论文里能用这种句子吗",
+      "expected_behavior": "边界：学术文体不适用——修辞替代分析的风险在学术语境成立",
+      "notes": "文体边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
