@@ -26,3 +26,4 @@
 - **乐手为何动人 / 心境选乐** → `but-beautiful/`
 - **分析视觉作品的审美模型 / 理解暗黑与坎普审美** → `eco-beauty-ugly/`
 | [然而很美 · cangjie版](but-beautiful-cangjie/) | 3 | ✅ cangjie全流程重蒸馏 | — |
+| [丑的历史 · cangjie版](eco-ugly-history-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选16条，引文5/5） | — |

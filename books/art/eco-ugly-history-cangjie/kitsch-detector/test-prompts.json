@@ -1,0 +1,23 @@
+{
+  "skill": "kitsch-detector",
+  "version": "1.0.0",
+  "source_book": "《丑的历史》 翁贝托·艾柯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "这首歌旋律很抓耳但歌词尬得我脚趾抠地",
+      "expected_behavior": "激活：效果清单+情感来源检验",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "喜欢通俗作品是不是很low",
+      "expected_behavior": "红线：检测工具不是鄙视链武器——区分真诚的通俗与批发情感",
+      "notes": "鄙视链红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

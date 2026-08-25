@@ -1,0 +1,23 @@
+{
+  "skill": "ugliness-category-analysis",
+  "version": "1.0.0",
+  "source_book": "《丑的历史》 翁贝托·艾柯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "为什么恐怖片让人害怕还让人爱看",
+      "expected_behavior": "激活：三层区分（东西/表现/观念史）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "丑的东西就该被消灭",
+      "expected_behavior": "红线：区分审美范畴与道德实践——本skill不提供此类结论",
+      "notes": "伦理红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

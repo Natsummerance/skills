@@ -1,0 +1,23 @@
+{
+  "skill": "fear-iconography-reader",
+  "version": "1.0.0",
+  "source_book": "《丑的历史》 翁贝托·艾柯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "为什么僵尸片每个时代长得不一样",
+      "expected_behavior": "激活：断代+投射对象+反馈环",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以女巫形象都是厌女产物",
+      "expected_behavior": "边界：分析他者化机制需具体语境——不做一刀切结论",
+      "notes": "泛化边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

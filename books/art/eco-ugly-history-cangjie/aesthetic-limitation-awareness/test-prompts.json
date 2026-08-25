@@ -1,0 +1,23 @@
+{
+  "skill": "aesthetic-limitation-awareness",
+  "version": "1.0.0",
+  "source_book": "《丑的历史》 翁贝托·艾柯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我要写一篇世界雕塑史的课程论文怎么开头",
+      "expected_behavior": "激活：材料类型清单+文明范围标注+边界声明",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "既然都有局限那随便写写得了",
+      "expected_behavior": "边界：自省是为了更诚实的断言不是摆烂理由",
+      "notes": "摆烂边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
