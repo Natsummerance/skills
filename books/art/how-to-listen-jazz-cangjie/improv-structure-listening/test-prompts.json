@@ -1,0 +1,23 @@
+{
+  "skill": "improv-structure-listening",
+  "version": "1.0.0",
+  "source_book": "《如何听爵士》 特德·焦亚",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "爵士独奏听起来就是随机乱弹啊",
+      "expected_behavior": "激活：主题追踪+框架计数矫正误解",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "Ornette Coleman也是这样吗",
+      "expected_behavior": "边界：自由爵士在标准曲传统之外——本skill不适用",
+      "notes": "风格边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,23 @@
+{
+  "skill": "style-coordinate-locator",
+  "version": "1.0.0",
+  "source_book": "《如何听爵士》 特德·焦亚",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "Miles Davis的Kind of Blue属于哪种爵士",
+      "expected_behavior": "激活：三问定位（编制/功能/谱系）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以比波普比摇摆高级吗",
+      "expected_behavior": "边界：拒绝风格进化论——定位不是评级",
+      "notes": "进化论红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,23 @@
+{
+  "skill": "aaba-form-recognition",
+  "version": "1.0.0",
+  "source_book": "《如何听爵士》 特德·焦亚",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "Autumn Leaves是什么曲式",
+      "expected_behavior": "激活：四步识别流程",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "12小节布鲁斯怎么弹",
+      "expected_behavior": "另一曲式系统不调用",
+      "notes": "诱饵"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,23 @@
+{
+  "skill": "jazz-chart-drawing",
+  "version": "1.0.0",
+  "source_book": "《如何听爵士》 特德·焦亚",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "爵士入门该从哪张专辑听起",
+      "expected_behavior": "激活：图纸法+曲目单建议",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "自由爵士怎么画图",
+      "expected_behavior": "边界：无固定曲式风格图纸法失效——如实说明适用范围",
+      "notes": "适用性边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
