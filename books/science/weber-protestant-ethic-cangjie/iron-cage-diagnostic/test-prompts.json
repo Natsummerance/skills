@@ -1,0 +1,30 @@
+{
+  "skill": "iron-cage-diagnostic",
+  "version": "0.1.0",
+  "source_book": "《新教伦理与资本主义精神》 — 马克斯·韦伯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "公司流程越来越多，没人说得清为什么",
+      "expected_behavior": "激活：三问诊断（价值引擎追溯）",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "怎么优化报销流程",
+      "expected_behavior": "管理咨询不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以规则都是坏的",
+      "expected_behavior": "边界：明确本skill不构成反秩序依据",
+      "notes": "边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

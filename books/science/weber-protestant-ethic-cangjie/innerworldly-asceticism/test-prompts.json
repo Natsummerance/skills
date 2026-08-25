@@ -1,0 +1,30 @@
+{
+  "skill": "innerworldly-asceticism",
+  "version": "0.1.0",
+  "source_book": "《新教伦理与资本主义精神》 — 马克斯·韦伯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我给自己列了严格的日程表，违反就有罪恶感",
+      "expected_behavior": "激活：目的结构检验（义务本身vs享受服务）",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "怎么养成早起习惯",
+      "expected_behavior": "行为设计不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "自律是不是自我压迫",
+      "expected_behavior": "边界：提供谱系理解，价值判断留给用户",
+      "notes": "边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,30 @@
+{
+  "skill": "predestination-anxiety-engine",
+  "version": "0.1.0",
+  "source_book": "《新教伦理与资本主义精神》 — 马克斯·韦伯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我拿了第一还是焦虑，总觉得下次就保不住了",
+      "expected_behavior": "激活：义证机制分析——成就无法终结确证需求",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "焦虑症怎么治疗",
+      "expected_behavior": "临床问题不调用",
+      "notes": "红线"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "内卷是不是没救了",
+      "expected_behavior": "边界：可用于结构分析但不做宿命论结论",
+      "notes": "边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

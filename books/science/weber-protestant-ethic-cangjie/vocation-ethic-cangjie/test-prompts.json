@@ -1,0 +1,30 @@
+{
+  "skill": "vocation-ethic-cangjie",
+  "version": "0.1.0",
+  "source_book": "《新教伦理与资本主义精神》 — 马克斯·韦伯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "把工作当修行是好事吗",
+      "expected_behavior": "激活：语义分层（谋生/秩序/召唤）+历史定位",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我改简历",
+      "expected_behavior": "求职实操不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "职业倦怠是因为我不够虔诚吗",
+      "expected_behavior": "边界：提供概念史但拒绝道德归因；倦怠需多因分析",
+      "notes": "敏感边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
