@@ -1,0 +1,30 @@
+{
+  "skill": "freedom-in-situation",
+  "version": "0.2.0",
+  "source_book": "《存在主义是一种人道主义》 — 萨特",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "家里穷成这样我还能有什么选择",
+      "expected_behavior": "激活：处境约束列出+可选集标注",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "怎么突破阶层固化",
+      "expected_behavior": "宏观社会学议题不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以穷就活该被剥削吗",
+      "expected_behavior": "边界：绝不暗示「处境内选择=处境正当」，需显式否认",
+      "notes": "政治敏感边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

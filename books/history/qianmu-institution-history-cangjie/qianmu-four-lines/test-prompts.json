@@ -1,0 +1,30 @@
+{
+  "skill": "qianmu-four-lines",
+  "version": "0.2.0",
+  "source_book": "《中国历代政治得失》 — 钱穆",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "帮我梳理唐代政治制度的整体框架",
+      "expected_behavior": "激活：四线拆解+速查卡",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "唐朝的诗有什么特点",
+      "expected_behavior": "文学话题不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "宋朝为什么又穷又弱",
+      "expected_behavior": "边界：可用赋税/兵役两线回答但注意钱的立场局限",
+      "notes": "边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

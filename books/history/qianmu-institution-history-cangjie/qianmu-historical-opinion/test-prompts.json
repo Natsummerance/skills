@@ -1,0 +1,37 @@
+{
+  "skill": "qianmu-historical-opinion",
+  "version": "0.2.0",
+  "source_book": "《中国历代政治得失》 — 钱穆",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "科举制是不是扼杀了中国科学",
+      "expected_behavior": "激活：历史/时代意见区分四步",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "高考制度怎么改革比较好",
+      "expected_behavior": "现代政策讨论不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "用韦伯的观点分析中国为什么没有资本主义",
+      "expected_behavior": "应触发 weber-china-material-conditions",
+      "notes": "跨书混淆诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "明朝废宰相是不是坏事",
+      "expected_behavior": "边界：可用四步呈现双方但结论标「钱穆认为」",
+      "notes": "边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

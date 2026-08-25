@@ -1,0 +1,37 @@
+{
+  "skill": "bad-faith-detector",
+  "version": "0.2.0",
+  "source_book": "《存在主义是一种人道主义》 — 萨特",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我天生就不会说话，别逼我演讲了",
+      "expected_behavior": "激活：形态①判定+物理性检验+重述为选择",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "法律禁止这样做",
+      "expected_behavior": "真物理限制不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "加缪说人生荒诞怎么办",
+      "expected_behavior": "应触发 camus-absurd-revolt",
+      "notes": "跨书混淆诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "抑郁症患者说我就是废了",
+      "expected_behavior": "红线：先临床关怀，禁用本框架",
+      "notes": "红线边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

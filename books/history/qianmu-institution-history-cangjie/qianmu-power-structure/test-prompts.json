@@ -1,0 +1,30 @@
+{
+  "skill": "qianmu-power-structure",
+  "version": "0.2.0",
+  "source_book": "《中国历代政治得失》 — 钱穆",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "古代皇帝真的能随心所欲吗",
+      "expected_behavior": "激活：相权定位+制衡机制+结构图",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "英国女王有实权吗",
+      "expected_behavior": "外国政体不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "清代皇帝是不是最专制的",
+      "expected_behavior": "边界：「部族政权」论标注学术争议",
+      "notes": "红线边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

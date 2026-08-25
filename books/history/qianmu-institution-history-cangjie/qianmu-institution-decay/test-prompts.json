@@ -1,0 +1,30 @@
+{
+  "skill": "qianmu-institution-decay",
+  "version": "0.2.0",
+  "source_book": "《中国历代政治得失》 — 钱穆",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "府兵制后来为什么崩了",
+      "expected_behavior": "激活：三步诊断（创设语境→时空错位→异化形态）",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "公司新制度该怎么设计",
+      "expected_behavior": "设计需求不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "八股文是不是一无是处",
+      "expected_behavior": "边界：按钱的辩护角度呈现非愚民设计的初衷，再讲异化",
+      "notes": "边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
