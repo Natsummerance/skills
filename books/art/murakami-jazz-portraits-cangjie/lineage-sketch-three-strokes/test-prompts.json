@@ -1,0 +1,23 @@
+{
+  "skill": "lineage-sketch-three-strokes",
+  "version": "1.0.0",
+  "source_book": "《爵士群像》 村上春树",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "电台节目要介绍John Coltrane，给我一段串词",
+      "expected_behavior": "激活：师承+转折+预言 三笔",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "给我写他的完整学术传记",
+      "expected_behavior": "边界：完整谱系考据请用performer-lineage-tracing路径，速写法不适用",
+      "notes": "体裁边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

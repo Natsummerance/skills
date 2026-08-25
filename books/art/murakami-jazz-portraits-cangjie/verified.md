@@ -12,3 +12,11 @@
 3. （x01权威姿态批判并入scene-based的B段）
 
 ## 通过率: 引文全部验证通过
+
+## 数量补齐轮补充（2026-08-25）
+## f03 唱片纪念物叙事 → ✓ (V1: 比克斯篇/V2: 回忆写作/V3: 物件时间戳)
+## f04 乐手谱系速写 → ✓ (V1: 迈尔斯篇/V2: 人物介绍/V3: 三笔结构)
+## c02-c03 / g03-g04 → ✓ 引文4/4通过
+
+### 新增3 skills：record-as-memento / lineage-sketch-three-strokes / tragedy-talent-alcohol-trope
+### 最终：5 skills ✅ 达标（用户数量红线≥5）
