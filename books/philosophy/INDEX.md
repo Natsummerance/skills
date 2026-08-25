@@ -14,6 +14,8 @@
 | [存在主义是一种人道主义](sartre-existential-humanism/) | 1 | ✅ 深读（选择与责任） | [INDEX](sartre-existential-humanism/INDEX.md) |
 | [悲剧的诞生 · cangjie版](nietzsche-birth-tragedy-cangjie/) | 5 | ✅ cangjie流水线重蒸馏（RIA-TV++五阶段+压力测试） | [INDEX](nietzsche-birth-tragedy-cangjie/INDEX.md) |
 | [西西弗神话 · cangjie版](camus-absurd-revolt-cangjie/) | 4 | ✅ cangjie流水线重蒸馏 | [INDEX](camus-absurd-revolt-cangjie/INDEX.md) |
+| [疯癫与文明 · cangjie版](foucault-madness-history-cangjie/) | 2 | ✅ cangjie流水线重蒸馏 | [INDEX](foucault-madness-history-cangjie/INDEX.md) |
+| [存在主义是一种人道主义 · cangjie版](sartre-existential-humanism-cangjie/) | 1 | ✅ cangjie流水线重蒸馏 | [INDEX](sartre-existential-humanism-cangjie/INDEX.md) |
 
 ## 蒸馏队列（候选）
 

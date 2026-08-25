@@ -1,0 +1,30 @@
+{
+  "skill": "humane-reform-power-shift",
+  "version": "0.1.0",
+  "source_book": "《疯癫与文明》 — 米歇尔·福柯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "公司说不打卡了改自我管理，是好事吗",
+      "expected_behavior": "激活本skill做权力转移检验",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "怎么设计好的OKR",
+      "expected_behavior": "实操需求不调用",
+      "notes": "诱饵: 管理话题"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "取消体罚是进步吗",
+      "expected_behavior": "边界: 本skill会追问「新的控制形态是什么」，但需先承认体罚禁止本身的绝对进步性",
+      "notes": "边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

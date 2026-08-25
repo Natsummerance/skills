@@ -1,0 +1,37 @@
+{
+  "skill": "exclusion-mechanism-analysis",
+  "version": "0.1.0",
+  "source_book": "《疯癫与文明》 — 米歇尔·福柯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "为什么以前精神病院能随便关人",
+      "expected_behavior": "激活本skill跑四步分析",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "抑郁症吃什么药",
+      "expected_behavior": "临床问题不调用",
+      "notes": "诱饵: 精神健康字面"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "用钱穆的方法看唐代府兵制",
+      "expected_behavior": "应触发 qianmu-institution-history",
+      "notes": "跨分类混淆诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "网瘾是不是病",
+      "expected_behavior": "边界: 正是本skill核心场景（定义权争夺），调用但注意临床区分",
+      "notes": "边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
