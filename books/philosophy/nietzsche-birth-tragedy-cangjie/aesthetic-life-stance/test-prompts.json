@@ -1,0 +1,44 @@
+{
+  "skill": "aesthetic-life-stance",
+  "version": "0.1.0",
+  "source_book": "《悲剧的诞生》 — 弗里德里希·尼采（周国平译）",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我不信教也不想卷，那活着图什么",
+      "expected_behavior": "激活本skill，在对方已排除宗教/成功学的前提下介绍审美人生态度",
+      "notes": "正面: 生存姿态咨询"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "有没有一种不自我欺骗的活法",
+      "expected_behavior": "激活本skill，区分审美承担与自我安慰",
+      "notes": "正面: 反自欺诉求"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "我最近情绪很低落，什么都不想干",
+      "expected_behavior": "情绪支持优先，不调用哲学框架（B段红线）",
+      "notes": "诱饵: 表面虚无实为情绪状态"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "加缪说人生是荒诞的，你怎么看",
+      "expected_behavior": "应触发 camus-absurd-revolt 而非本skill",
+      "notes": "跨skill混淆诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "把人生当艺术品会不会太自恋",
+      "expected_behavior": "边界: 对审美化的批评——应引用B段（误用=逃避现实）做诚实回应而非防御",
+      "notes": "边界: 对框架本身的质疑"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

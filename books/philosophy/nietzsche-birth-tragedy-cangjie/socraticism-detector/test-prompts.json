@@ -1,0 +1,44 @@
+{
+  "skill": "socraticism-detector",
+  "version": "0.1.0",
+  "source_book": "《悲剧的诞生》 — 弗里德里希·尼采（周国平译）",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我们公司现在什么都要求量化，连设计岗都要周报打分",
+      "expected_behavior": "激活本skill，跑三症状检测并给再平衡建议",
+      "notes": "正面: 组织理性化诊断"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "现在的影评全是数据拆解，没人聊感受了",
+      "expected_behavior": "激活本skill，识别「可理解=好」预设对体验领域的殖民",
+      "notes": "正面: 领域话语诊断"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我检查这篇论文的论证逻辑",
+      "expected_behavior": "应触发 academic-argument-logic 而非本skill",
+      "notes": "跨skill混淆诱饵"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "苏格拉底的方法论是什么？",
+      "expected_behavior": "哲学史知识查询，不调用检测流程",
+      "notes": "诱饵: 人名联想但纯知识"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "学数学是不是让人变冷漠",
+      "expected_behavior": "边界: 数学本身高理性是本职；若谈教育体制的全面量化→可调用。需说清判断",
+      "notes": "边界: 本职理性化 vs 过度扩张"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

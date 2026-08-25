@@ -1,0 +1,44 @@
+{
+  "skill": "metaphysical-consolation-test",
+  "version": "0.1.0",
+  "source_book": "《悲剧的诞生》 — 弗里德里希·尼采（周国平译）",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "《活着》把人写成这样到底想干嘛",
+      "expected_behavior": "激活本skill，检验福贵叙事是否提供「生命本体不可摧毁」的确信",
+      "notes": "正面: 苦难叙事判准"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "致郁系动漫看完了特别难受但又觉得值",
+      "expected_behavior": "激活本skill，区分真悲剧效果与单纯情绪消耗",
+      "notes": "正面: 观后价值判断"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "给我推几部轻松的喜剧片",
+      "expected_behavior": "片单查询，不调用",
+      "notes": "诱饵: 电影话题但非苦难叙事"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "用巴赞的现实主义理论分析这个长镜头",
+      "expected_behavior": "应触发 bazin-realist-theory 而非本skill",
+      "notes": "跨分类混淆诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我朋友最近沉迷虐文怎么办",
+      "expected_behavior": "边界: 若讨论虐文的审美机制→本skill；若担心朋友心理→转关怀。说清理由",
+      "notes": "边界: 审美分析与心理健康"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

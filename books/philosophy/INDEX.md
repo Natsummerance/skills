@@ -8,9 +8,16 @@
 |----|-----------|--------|------|
 | [哲学史方法论十四讲](fangfalun-shisijiang/) | 14 | ✅ 100%（十四讲全覆盖） | [INDEX](fangfalun-shisijiang/INDEX.md) |
 | [游心之路：〈庄子〉与现代西方哲学](genuine-pretending/) | 7 | ✅ 全书覆盖（导言+四章+结论） | [INDEX](genuine-pretending/INDEX.md) |
+| [悲剧的诞生](nietzsche-birth-tragedy/) | 1 | ✅ 深读（日神酒神+艺术形而上学） | [INDEX](nietzsche-birth-tragedy/INDEX.md) |
+| [西西弗神话](camus-absurd-revolt/) | 1 | ✅ 深读（荒诞三结论） | [INDEX](camus-absurd-revolt/INDEX.md) |
+| [疯癫与文明](foucault-madness-history/) | 1 | ✅ 深读（理性建构疯癫史） | [INDEX](foucault-madness-history/INDEX.md) |
+| [存在主义是一种人道主义](sartre-existential-humanism/) | 1 | ✅ 深读（选择与责任） | [INDEX](sartre-existential-humanism/INDEX.md) |
+| [悲剧的诞生 · cangjie版](nietzsche-birth-tragedy-cangjie/) | 5 | ✅ cangjie流水线重蒸馏（RIA-TV++五阶段+压力测试） | [INDEX](nietzsche-birth-tragedy-cangjie/INDEX.md) |
 
 ## 蒸馏队列（候选）
 
 - 精神现象学 句读本（黑格尔，含德汉词汇索引）→ 术语工具 skill
 - 维特根斯坦文集 8 卷 → 《逻辑哲学论》命题结构原子化
 - 西方哲学史四版本对勘 → 哲学史阅读导航
+- 尼采著作集九册续：《查拉图斯特拉如是说》《论道德的谱系》
+- 福柯《性经验史》/ 康德《纯粹理性批判》句读 / 邓晓芒讲黑格尔

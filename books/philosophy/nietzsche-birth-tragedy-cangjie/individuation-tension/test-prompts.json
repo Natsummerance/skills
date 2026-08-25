@@ -1,0 +1,44 @@
+{
+  "skill": "individuation-tension",
+  "version": "0.1.0",
+  "source_book": "《悲剧的诞生》 — 弗里德里希·尼采（周国平译）",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "春节回家又压抑又温暖，这种感觉怎么回事？",
+      "expected_behavior": "激活本skill，分析家庭场域中界限与解体的并存张力",
+      "notes": "正面: 文化心理诊断"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我们团队要么死板要么混乱，有没有中间态？",
+      "expected_behavior": "激活本skill，用两极滑标设计再平衡动作",
+      "notes": "正面: 组织再平衡"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "推荐几部关于个体心理学的书",
+      "expected_behavior": "书单查询，不调用",
+      "notes": "诱饵: 关键词'心理学'但纯推荐"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "分析一下《悲剧的诞生》里日神和酒神的定义",
+      "expected_behavior": "应触发 apollonian-dionysian-dual 而非本skill",
+      "notes": "跨skill混淆诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我是不是该辞职换个活法",
+      "expected_behavior": "边界: 若已排除具体问题、属生存姿态讨论→aesthetic-life-stance；若有具体组织情境→本skill。说清判断理由",
+      "notes": "边界: 职业决策与状态诊断的交叉"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

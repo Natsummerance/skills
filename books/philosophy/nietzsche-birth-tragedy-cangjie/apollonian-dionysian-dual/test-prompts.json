@@ -1,0 +1,51 @@
+{
+  "skill": "apollonian-dionysian-dual",
+  "version": "0.1.0",
+  "source_book": "《悲剧的诞生》 — 弗里德里希·尼采（周国平译）",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "《疯狂的麦克斯》这种片子又暴力又美，怎么理解它的气质？",
+      "expected_behavior": "激活本skill，用日神/酒神两极定位影片气质并分析二者如何共存",
+      "notes": "正面: 作品气质定位"
+    },
+    {
+      "id": "should-trigger-02",
+      "type": "should_trigger",
+      "prompt": "我写的歌太规矩了，想加点疯的东西进去",
+      "expected_behavior": "激活本skill，诊断日神极过重，建议引入酒神元素的方式",
+      "notes": "正面: 创作失衡诊断"
+    },
+    {
+      "id": "should-trigger-03",
+      "type": "should_trigger",
+      "prompt": "为什么音乐节上大家那么疯狂还觉得很治愈？",
+      "expected_behavior": "激活本skill，用酒神解体+共同体融合解释",
+      "notes": "正面: 文化现象解释"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "尼采是哪年生的？",
+      "expected_behavior": "传记信息查询，不调用",
+      "notes": "诱饵: 人名联想但纯知识查询"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "帮我用海明威的冰山理论改这段文字",
+      "expected_behavior": "应触发 scene-craft-lessons 而非本skill",
+      "notes": "跨skill混淆诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我觉得现代生活太理性了",
+      "expected_behavior": "边界: 若用户想要文化诊断→本skill；若情绪倾诉→先共情。合理判断即可",
+      "notes": "边界: 分析需求 vs 情绪需求"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
