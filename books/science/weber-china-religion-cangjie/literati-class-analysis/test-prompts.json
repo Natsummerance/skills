@@ -1,0 +1,30 @@
+{
+  "skill": "literati-class-analysis",
+  "version": "1.0.0",
+  "source_book": "《中国的宗教》 — 马克斯·韦伯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "为什么中国古代没有职业科学家",
+      "expected_behavior": "激活：三重性格+知识形态判定（活书库vs专家）",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "科举考试考什么内容",
+      "expected_behavior": "史实查询不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以读书人都是废物",
+      "expected_behavior": "红线：明确本skill非价值排序——人文教育的当代价值另议",
+      "notes": "贬抑红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

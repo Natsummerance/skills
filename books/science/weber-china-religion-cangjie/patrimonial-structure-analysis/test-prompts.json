@@ -1,0 +1,30 @@
+{
+  "skill": "patrimonial-structure-analysis",
+  "version": "1.0.0",
+  "source_book": "《中国的宗教》 — 马克斯·韦伯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "皇权不下县这个说法对不对",
+      "expected_behavior": "激活：双轨图（中央政体vs氏族自治）+交叠区分析",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "现代公务员制度怎么改革",
+      "expected_behavior": "现代科层制不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "清代是不是部族政权",
+      "expected_behavior": "边界：钱穆论争议极大，标注新清史等修正后再谈家产制类型学",
+      "notes": "学术争议边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,30 @@
+{
+  "skill": "adapt-vs-transform",
+  "version": "1.0.0",
+  "source_book": "《中国的宗教》 — 马克斯·韦伯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "为什么传统中国社会不太鼓励挑战现状",
+      "expected_behavior": "激活：适应/改造两列对照+变革动力推演",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "中国文化就是落后",
+      "expected_behavior": "文化优劣判断不调用且需纠正框架误用",
+      "notes": "红线"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "现代中国企业为什么创新力强了",
+      "expected_behavior": "边界：韦伯框架针对帝制传统；当代变化需引入新变量，不可硬套",
+      "notes": "时代边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

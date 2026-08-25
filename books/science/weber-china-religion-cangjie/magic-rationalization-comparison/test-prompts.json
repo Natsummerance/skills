@@ -1,0 +1,30 @@
+{
+  "skill": "magic-rationalization-comparison",
+  "version": "1.0.0",
+  "source_book": "《中国的宗教》 — 马克斯·韦伯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "李约瑟难题怎么解释",
+      "expected_behavior": "激活：三重标注流程（韦伯→杨庆堃→余英时/彭慕兰）",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "中国古代四大发明有哪些",
+      "expected_behavior": "史实清单不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "是不是中国文化天生不适合科学",
+      "expected_behavior": "红线：拒绝本质主义结论——必须呈现学界修正与反例",
+      "notes": "本质主义红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
