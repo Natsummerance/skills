@@ -1,0 +1,30 @@
+{
+  "skill": "absurd-creation",
+  "version": "0.2.0",
+  "source_book": "《西西弗神话》 — 加缪",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我写了十年都没人看，还要继续写吗",
+      "expected_behavior": "激活：动机分类+检验问句",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "怎么写好开头",
+      "expected_behavior": "技法问题不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我想靠写作养活自己现实吗",
+      "expected_behavior": "边界：职业规划需求，仅用sisyphus-test辅助，不做哲学化",
+      "notes": "边界"
+    }
+  ]
+}

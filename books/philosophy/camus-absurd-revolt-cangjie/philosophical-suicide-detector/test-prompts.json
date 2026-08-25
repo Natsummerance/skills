@@ -1,0 +1,37 @@
+{
+  "skill": "philosophical-suicide-detector",
+  "version": "0.2.0",
+  "source_book": "《西西弗神话》 — 加缪",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "那个老师说怀疑是因为你还没入门，先信了再学",
+      "expected_behavior": "激活：三问检测（先信再说=跳跃标志）",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "相对论推翻了牛顿力学怎么看",
+      "expected_behavior": "证据驱动的科学更新不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "should-not-trigger-02",
+      "type": "should_not_trigger",
+      "prompt": "用境界说分析这首词",
+      "expected_behavior": "应触发 cihua-jingjie-method",
+      "notes": "跨分类混淆诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我信佛之后心里平静多了这有问题吗",
+      "expected_behavior": "边界：个人信仰不是分析对象；仅当对方从荒诞问题出发且以消除不安为动机才适用",
+      "notes": "宗教尊重边界"
+    }
+  ]
+}
