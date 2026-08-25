@@ -1,0 +1,23 @@
+{
+  "skill": "standards-reinvention-analysis",
+  "version": "1.0.0",
+  "source_book": "《然而很美：爵士乐之书》 杰夫·戴尔",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "My Funny Valentine这几个版本哪个最好",
+      "expected_behavior": "激活：对话性分析框架（保留/改变/对话点）",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "爵士乐的起源是什么",
+      "expected_behavior": "史实查询不调用",
+      "notes": "诱饵"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

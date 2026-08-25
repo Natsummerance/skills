@@ -1,0 +1,23 @@
+{
+  "skill": "fragmentary-portrait-writing",
+  "version": "1.0.0",
+  "source_book": "《然而很美：爵士乐之书》 杰夫·戴尔",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "帮我写一段介绍切特·贝克的文案，要有画面感",
+      "expected_behavior": "激活：三步法（决定性场景/异质意象/留白）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "写一篇他准确的生平年表",
+      "expected_behavior": "边界：需要事实完整性的体裁不适用此技法，如实说明",
+      "notes": "体裁边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
