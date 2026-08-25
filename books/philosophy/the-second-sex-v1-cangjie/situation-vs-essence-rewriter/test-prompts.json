@@ -1,0 +1,23 @@
+{
+  "skill": "situation-vs-essence-rewriter",
+  "version": "1.0.0",
+  "source_book": "《第二性》I 西蒙娜·德·波伏瓦",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我天生就不是学数学的料吧",
+      "expected_behavior": "激活：处境链追溯+可变性检验+改写句输出",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以只要努力什么都能做到吗",
+      "expected_behavior": "边界：承认某些约束的真实刚性——处境分析不是鸡汤",
+      "notes": "鸡汤边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

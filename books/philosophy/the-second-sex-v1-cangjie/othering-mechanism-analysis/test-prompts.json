@@ -1,0 +1,23 @@
+{
+  "skill": "othering-mechanism-analysis",
+  "version": "1.0.0",
+  "source_book": "《第二性》I 西蒙娜·德·波伏瓦",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "公司里为什么总说女司机技术差，明明数据不是这样",
+      "expected_behavior": "激活：三问检测（谁定义/谁被定义/谁受益）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我们部门的人就是比别的部门强",
+      "expected_behavior": "边界：内部认同叙事与他者化的区别——需看是否存在支配结构",
+      "notes": "滥用边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

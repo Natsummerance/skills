@@ -1,0 +1,23 @@
+{
+  "skill": "myth-decoding-lens",
+  "version": "1.0.0",
+  "source_book": "《第二性》I 西蒙娜·德·波伏瓦",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "为什么女明星稍微胖点就被骂，瘦了又被说不健康",
+      "expected_behavior": "激活：二分提取+管理功能分析",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我奶奶就信这些老观念，她是不是很蠢",
+      "expected_behavior": "红线：批判神话结构不嘲讽个体——长辈是结构的承载者非发明者",
+      "notes": "嘲讽红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

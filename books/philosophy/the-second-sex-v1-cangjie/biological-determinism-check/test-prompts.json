@@ -1,0 +1,23 @@
+{
+  "skill": "biological-determinism-check",
+  "version": "1.0.0",
+  "source_book": "《第二性》I 西蒙娜·德·波伏瓦",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "有研究说男性大脑更擅长空间思维，所以工程师就该是男的",
+      "expected_behavior": "激活：四步检验（事实/推论/反例/利益方）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以男女完全没有生理差异",
+      "expected_behavior": "红线：反向自然主义警告——批判的是推论不是科学事实",
+      "notes": "反向红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
