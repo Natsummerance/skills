@@ -1,0 +1,30 @@
+{
+  "skill": "internalized-judgment-detector",
+  "version": "0.2.0",
+  "source_book": "《疯癫与文明》 — 福柯",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我们公司自评完还要互评，大家都焦虑得不行",
+      "expected_behavior": "激活：标准可见性+结案可能性检验",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "我做了错事很内疚怎么办",
+      "expected_behavior": "道德咨询不调用",
+      "notes": "诱饵: 内疚字面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我总觉得自己不够好",
+      "expected_behavior": "红线筛查：先排除抑郁性自责；确认是体系驱动才用本skill",
+      "notes": "临床边界"
+    }
+  ]
+}

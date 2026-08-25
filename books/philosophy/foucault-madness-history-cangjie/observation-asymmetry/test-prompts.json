@@ -1,0 +1,30 @@
+{
+  "skill": "observation-asymmetry",
+  "version": "0.2.0",
+  "source_book": "《疯癫与文明》 — 福柯",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "公司装了监控看我们办公，感觉很不舒服",
+      "expected_behavior": "激活：观察图谱+对称性三问",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "怎么挑选家用摄像头",
+      "expected_behavior": "购物咨询不调用",
+      "notes": "诱饵: 监控字面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "老师课后找我单独谈话正常吗",
+      "expected_behavior": "边界：区分正常师生沟通与单向凝视——看是否有回应通道",
+      "notes": "敏感边界"
+    }
+  ]
+}
