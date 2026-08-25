@@ -1,0 +1,23 @@
+{
+  "skill": "testimony-art-reading",
+  "version": "1.0.0",
+  "source_book": "《见证：肖斯塔科维奇回忆录》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "肖斯塔科维奇第五交响曲的结尾到底是欢呼还是被迫的",
+      "expected_behavior": "激活：三问解码（纪念对象/双叙事/形式编码）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以他的每部作品都是反讽",
+      "expected_behavior": "红线：过度诠释警告——x01警示的一密码论",
+      "notes": "过度诠释边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

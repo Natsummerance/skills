@@ -1,0 +1,23 @@
+{
+  "skill": "source-authenticity-screen",
+  "version": "1.0.0",
+  "source_book": "《见证：肖斯塔科维奇回忆录》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我想引用见证这本书写论文怎么标注",
+      "expected_behavior": "激活：四项审查+信源分级标注法",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "既然有争议干脆别用了",
+      "expected_behavior": "边界：争议信源仍有条件价值——分级使用而非弃用",
+      "notes": "弃用边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

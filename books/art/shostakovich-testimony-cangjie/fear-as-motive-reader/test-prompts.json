@@ -1,0 +1,23 @@
+{
+  "skill": "fear-as-motive-reader",
+  "version": "1.0.0",
+  "source_book": "《见证：肖斯塔科维奇回忆录》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "他晚期的弦乐四重奏为什么那么阴郁",
+      "expected_behavior": "激活：恐惧源时间线+变形追踪",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "帮我判断他是不是有抑郁症",
+      "expected_behavior": "红线：非临床工具——不做精神诊断",
+      "notes": "临床红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -30,3 +30,4 @@
 | [如何听爵士 · cangjie版](how-to-listen-jazz-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选16条） | — |
 | [爵士群像 · cangjie版](murakami-jazz-portraits-cangjie/) | 2 | ✅ cangjie全流程重蒸馏（32KB随笔集合理密度） | — |
 | [新丰年 · cangjie版](xinfengnian-music-essays-cangjie/) | 3 | ✅ cangjie全流程重蒸馏（104KB合理密度） | — |
+| [见证 · cangjie版](shostakovich-testimony-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选18条；⚠️伏尔科夫争议信源随注） | — |

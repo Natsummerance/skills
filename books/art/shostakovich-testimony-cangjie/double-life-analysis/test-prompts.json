@@ -1,0 +1,23 @@
+{
+  "skill": "double-life-analysis",
+  "version": "1.0.0",
+  "source_book": "《见证：肖斯塔科维奇回忆录》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "如何评价在特殊年代表态的知识分子",
+      "expected_behavior": "激活：双清单对照+拒绝单面化",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "那主动告密的人也能用这个解释吗",
+      "expected_behavior": "红线：生存策略不适用于施害行为",
+      "notes": "最高红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
