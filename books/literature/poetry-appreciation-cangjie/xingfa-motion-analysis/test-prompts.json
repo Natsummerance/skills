@@ -1,0 +1,23 @@
+{
+  "skill": "xingfa-motion-analysis",
+  "version": "1.0.0",
+  "source_book": "《人间词话》/叶嘉莹/戴建业/钱锺书",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "为什么登幽州台歌这么短却这么震撼",
+      "expected_behavior": "激活：三问分析链",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "陈子昂的生平",
+      "expected_behavior": "传记查询不调用",
+      "notes": "诱饵"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

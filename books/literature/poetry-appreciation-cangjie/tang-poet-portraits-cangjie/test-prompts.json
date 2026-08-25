@@ -1,0 +1,23 @@
+{
+  "skill": "tang-poet-portraits-cangjie",
+  "version": "1.0.0",
+  "source_book": "《人间词话》/叶嘉莹/戴建业/钱锺书",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "给学生讲李白，怎么让他立体起来",
+      "expected_behavior": "激活：六格画像法",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "戴建业讲的是不是太娱乐化了",
+      "expected_behavior": "边界：娱乐化风险是本skill B段明示项——段子与学理需自持平衡",
+      "notes": "风格边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

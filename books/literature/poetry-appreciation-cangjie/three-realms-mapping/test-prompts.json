@@ -1,0 +1,30 @@
+{
+  "skill": "three-realms-mapping",
+  "version": "1.0.0",
+  "source_book": "《人间词话》/叶嘉莹/戴建业/钱锺书",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "考研二战失败，我该继续吗",
+      "expected_behavior": "激活：阶段定位（多为第二境界的漫长期）+预期管理",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "王国维是哪国人",
+      "expected_behavior": "史实查询不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "三种境界是成功学吗",
+      "expected_behavior": "边界：明确区分——它是描述性观察非承诺性公式",
+      "notes": "成功学边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,23 @@
+{
+  "skill": "anthology-eye-training",
+  "version": "1.0.0",
+  "source_book": "《人间词话》/叶嘉莹/戴建业/钱锺书",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "唐诗三百首为什么没选李贺的某些名作",
+      "expected_behavior": "激活：四步训练（自选→说理→对照→反思）",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "唐诗三百首是谁编的",
+      "expected_behavior": "史实查询不调用",
+      "notes": "诱饵"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

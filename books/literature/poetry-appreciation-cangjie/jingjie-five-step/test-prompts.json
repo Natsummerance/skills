@@ -1,0 +1,30 @@
+{
+  "skill": "jingjie-five-step",
+  "version": "1.0.0",
+  "source_book": "《人间词话》/叶嘉莹/戴建业/钱锺书",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "帮我深度赏析李清照的声声慢",
+      "expected_behavior": "激活：五步全流程",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "李清照是哪个朝代的",
+      "expected_behavior": "史实查询不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "这首打油诗有境界吗",
+      "expected_behavior": "边界：五步可运行但结论可能是无境界——如实判定并解释标准",
+      "notes": "判定边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

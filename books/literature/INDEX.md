@@ -10,3 +10,4 @@
 
 ## 蒸馏队列
 - 汪曾祺全集（散文笔法）/ 博尔赫斯全集 / 鲁迅全集
+| [诗词鉴赏群书 · cangjie版](poetry-appreciation-cangjie/) | 6 | ✅ cangjie全流程重蒸馏（候选26条，引文7/7） | [INDEX](poetry-appreciation-cangjie/INDEX.md) |
