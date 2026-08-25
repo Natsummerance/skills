@@ -1,0 +1,23 @@
+{
+  "skill": "rule-vs-theme-tension",
+  "version": "1.0.0",
+  "source_book": "《诺顿音乐史》四卷合蒸",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "写诗一定要守格律吗",
+      "expected_behavior": "激活：统一性来源光谱定位（迁移用法）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "守规则的都是没才华的",
+      "expected_behavior": "红线：价值排序警告——光谱两端各有大师",
+      "notes": "排序红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

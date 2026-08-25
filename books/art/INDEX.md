@@ -34,3 +34,4 @@
 | [流行音乐史 · cangjie版](pop-music-history-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选18条，引文4/4） | — |
 | [不朽的演奏家 · cangjie版](immortal-musicians-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选18条，引文4/4） | — |
 | [古典音乐入门 · cangjie版](classical-music-intro-cangjie/) | 3 | ✅ cangjie全流程重蒸馏（候选16条，引文4/4） | — |
+| [诺顿音乐史 · cangjie版](norton-music-history-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（四卷各45%语料，候选22条，引文4/4） | — |

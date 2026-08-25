@@ -1,0 +1,23 @@
+{
+  "skill": "notation-shapes-music",
+  "version": "1.0.0",
+  "source_book": "《诺顿音乐史》四卷合蒸",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "没有乐谱之前人们怎么学音乐，有什么不一样",
+      "expected_behavior": "激活：介质-形态-权力三层分析",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以口传的音乐都是低级的",
+      "expected_behavior": "红线：口传传统的复杂记忆系统被低估——介质无高低",
+      "notes": "等级红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

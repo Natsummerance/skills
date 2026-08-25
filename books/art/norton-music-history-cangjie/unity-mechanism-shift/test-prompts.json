@@ -1,0 +1,23 @@
+{
+  "skill": "unity-mechanism-shift",
+  "version": "1.0.0",
+  "source_book": "《诺顿音乐史》四卷合蒸",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "为什么勋伯格要发明十二音体系",
+      "expected_behavior": "激活：旧机制失效+新机制替代两问",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "中国古琴音乐的发展也适用吗",
+      "expected_behavior": "边界：非西方传统统一机制谱系不同——如实说明框架局限",
+      "notes": "适用性边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

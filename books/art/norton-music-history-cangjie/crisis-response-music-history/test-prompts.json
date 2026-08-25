@@ -1,0 +1,23 @@
+{
+  "skill": "crisis-response-music-history",
+  "version": "1.0.0",
+  "source_book": "《诺顿音乐史》四卷合蒸",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "印象主义音乐是怎么出现的",
+      "expected_behavior": "激活：危机-应答-新危机三环分析",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以历史都是必然的吗",
+      "expected_behavior": "边界：拒绝目的论回溯——演变含偶然与时尚成分",
+      "notes": "决定论边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
