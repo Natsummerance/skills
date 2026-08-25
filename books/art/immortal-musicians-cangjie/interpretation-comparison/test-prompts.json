@@ -1,0 +1,23 @@
+{
+  "skill": "interpretation-comparison",
+  "version": "1.0.0",
+  "source_book": "《不朽的演奏家》 勋伯格",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "古尔德和里赫特弹的哥德堡变奏曲有什么不同",
+      "expected_behavior": "激活：四步对比+作品观描述",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "直接告诉我该买哪张就行",
+      "expected_behavior": "边界：可给倾向但框架产出是差异的意义说明非唯一答案",
+      "notes": "排名边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

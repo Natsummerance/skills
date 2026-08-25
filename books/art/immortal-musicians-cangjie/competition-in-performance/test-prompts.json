@@ -1,0 +1,23 @@
+{
+  "skill": "competition-in-performance",
+  "version": "1.0.0",
+  "source_book": "《不朽的演奏家》 勋伯格",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "这个钢琴三重奏里大提琴是不是被压住了",
+      "expected_behavior": "激活：竞争信号识别+净影响评估",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "他们私下肯定不合吧",
+      "expected_behavior": "红线：八卦化解读警告——需行为证据不脑补人际关系",
+      "notes": "八卦红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

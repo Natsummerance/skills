@@ -1,0 +1,23 @@
+{
+  "skill": "recording-as-evidence",
+  "version": "1.0.0",
+  "source_book": "《不朽的演奏家》 勋伯格",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "你说他抢拍子了，证据呢",
+      "expected_behavior": "激活：时间码定位+开放验证三件套",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "贝多芬自己是怎么弹的",
+      "expected_behavior": "边界：无录音时代只能依赖文字史料与乐器研究",
+      "notes": "适用性边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

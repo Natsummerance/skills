@@ -1,0 +1,23 @@
+{
+  "skill": "performer-lineage-tracing",
+  "version": "1.0.0",
+  "source_book": "《不朽的演奏家》 勋伯格",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "王羽佳的演奏风格是跟谁学的",
+      "expected_behavior": "激活：师承链+学派定位+偏离清单",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "俄罗斯人是不是都弹得热情",
+      "expected_behavior": "红线：民族血统预测风格=本质主义套话",
+      "notes": "本质主义红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
