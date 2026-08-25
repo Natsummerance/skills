@@ -1,0 +1,30 @@
+{
+  "skill": "role-occasion-matching",
+  "version": "1.0.0",
+  "source_book": "《学术与政治》 — 马克斯·韦伯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "教授在课堂上公开支持某个候选人合适吗",
+      "expected_behavior": "激活：两轴判定（教师角色×讲台场合）+大街测试",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "这个候选人政策好不好",
+      "expected_behavior": "立场判断不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "网红医生在网上科普算越界吗",
+      "expected_behavior": "边界：平台可反驳性结构复杂化——需具体分析反驳通道而非套用物理讲台",
+      "notes": "边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

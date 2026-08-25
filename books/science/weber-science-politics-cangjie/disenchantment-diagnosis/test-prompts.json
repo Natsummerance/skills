@@ -1,0 +1,30 @@
+{
+  "skill": "disenchantment-diagnosis",
+  "version": "1.0.0",
+  "source_book": "《学术与政治》 — 马克斯·韦伯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "科技这么发达了，人怎么反而更空虚了",
+      "expected_behavior": "激活：变量分离（支配力vs意义）+误诊识别",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "5G技术有什么优势",
+      "expected_behavior": "纯技术问题不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以科技发展是坏事",
+      "expected_behavior": "边界：明确本skill非反科技立场——诊断的是误诊不是进步本身",
+      "notes": "反智红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

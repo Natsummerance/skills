@@ -1,0 +1,30 @@
+{
+  "skill": "ethic-spectrum-analyzer",
+  "version": "1.0.0",
+  "source_book": "《学术与政治》 — 马克斯·韦伯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "他说为了环保目标牺牲一部分人是可以接受的",
+      "expected_behavior": "激活：圣洁化检测+后果账本检验",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我选A方案还是B方案",
+      "expected_behavior": "具体决策不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "理想主义者是不是都很幼稚",
+      "expected_behavior": "边界：明确反对简单化对立——心志伦理者未必不负责任",
+      "notes": "标签红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

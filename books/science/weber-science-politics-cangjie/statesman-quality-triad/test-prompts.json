@@ -1,0 +1,30 @@
+{
+  "skill": "statesman-quality-triad",
+  "version": "1.0.0",
+  "source_book": "《学术与政治》 — 马克斯·韦伯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我们会长特别有热情但完全不接地气",
+      "expected_behavior": "激活：三素质雷达图+虚荣筛查",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "这次选举你会投给谁",
+      "expected_behavior": "站队表态不调用",
+      "notes": "政治红线"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "韦伯自己够格当政治家吗",
+      "expected_behavior": "边界：历史人物分析可做但标注时代局限",
+      "notes": "边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
