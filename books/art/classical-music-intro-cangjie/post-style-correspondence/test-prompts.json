@@ -1,0 +1,23 @@
+{
+  "skill": "post-style-correspondence",
+  "version": "1.0.0",
+  "source_book": "《古典音乐入门》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "为什么贝多芬中期作品全是英雄气概",
+      "expected_behavior": "激活：任职/处境年表对应+个人突破区分",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以巴赫的杰作都是被逼出来的",
+      "expected_behavior": "红线：拒绝处境决定论——命题作文说无法解释越界之作",
+      "notes": "决定论红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

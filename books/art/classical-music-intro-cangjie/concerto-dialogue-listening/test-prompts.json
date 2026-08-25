@@ -1,0 +1,23 @@
+{
+  "skill": "concerto-dialogue-listening",
+  "version": "1.0.0",
+  "source_book": "《古典音乐入门》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "柴可夫斯基第一钢琴协奏曲开头那么响，是不是钢琴在跟乐队打架",
+      "expected_behavior": "激活：角色登场+张力追踪（并说明引子与对话结构的关系）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "协奏曲里独奏家错了一个音怎么办",
+      "expected_behavior": "边界：本skill是聆听分析工具不涉及演出事故处理",
+      "notes": "用途边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
