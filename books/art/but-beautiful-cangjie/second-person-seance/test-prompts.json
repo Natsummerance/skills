@@ -1,0 +1,23 @@
+{
+  "skill": "second-person-seance",
+  "version": "1.0.0",
+  "source_book": "《然而很美》 杰夫·戴尔",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "爷爷去世一周年，想写一篇纪念文章",
+      "expected_behavior": "激活：实物支点+第二人称+压抒情三步（在世者需改用书信体变体）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "用这个方法写我还活着的老板",
+      "expected_behavior": "红线：拒绝用于在世人物——视角僭越冒犯",
+      "notes": "在世红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,23 @@
+{
+  "skill": "character-grounded-fiction",
+  "version": "1.0.0",
+  "source_book": "《然而很美》 杰夫·戴尔",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我想写一篇图灵和警察对话的小说化短文",
+      "expected_behavior": "激活：性格档案→造场景→应对校验+边界声明",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "让图灵支持一下我的产品代言",
+      "expected_behavior": "红线：拒绝为逝者虚构其不可能持有的立场——不背叛原则",
+      "notes": "背叛红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
