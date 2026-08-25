@@ -1,0 +1,23 @@
+{
+  "skill": "intrinsic-extrinsic-router",
+  "version": "1.0.0",
+  "source_book": "《文学的读法》/《文学理论》 — 伊格尔顿 / 韦勒克沃伦",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "写百年孤独的论文，该分析魔幻现实主义还是拉美历史背景",
+      "expected_behavior": "激活：两侧归档+主线判定",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "马尔克斯生平经历",
+      "expected_behavior": "传记事实查询不调用",
+      "notes": "诱饵"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

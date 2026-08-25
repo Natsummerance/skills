@@ -1,0 +1,23 @@
+{
+  "skill": "work-mode-of-existence",
+  "version": "1.0.0",
+  "source_book": "《文学的读法》/《文学理论》 — 伊格尔顿 / 韦勒克沃伦",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我们说的作品到底是指纸上的字还是读者心里的感受",
+      "expected_behavior": "激活：四朴素说驳斥+层面声明",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "网文算不算有存在方式",
+      "expected_behavior": "边界：分层模式对网络文学适用性未检验——如实说明",
+      "notes": "覆盖边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,30 @@
+{
+  "skill": "value-judgment-developer",
+  "version": "1.0.0",
+  "source_book": "《文学的读法》/《文学理论》 — 伊格尔顿 / 韦勒克沃伦",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "凭什么村上春树得不了诺贝尔奖",
+      "expected_behavior": "激活：三问显影",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "文学的定义是什么",
+      "expected_behavior": "纯概念查询不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以文学经典都是骗局",
+      "expected_behavior": "边界：显影不否定判断——责任化非虚无化",
+      "notes": "虚无化红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

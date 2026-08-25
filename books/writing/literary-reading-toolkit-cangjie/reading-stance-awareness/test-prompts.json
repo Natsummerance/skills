@@ -1,0 +1,23 @@
+{
+  "skill": "reading-stance-awareness",
+  "version": "1.0.0",
+  "source_book": "《文学的读法》/《文学理论》 — 伊格尔顿 / 韦勒克沃伦",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我读简爱总是代入罗切斯特的视角正常吗",
+      "expected_behavior": "激活：立场清单+三源对照",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "立场分析会不会导致怎么读都行",
+      "expected_behavior": "边界：细读地基不可动摇——三方校验非相对主义",
+      "notes": "相对主义边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

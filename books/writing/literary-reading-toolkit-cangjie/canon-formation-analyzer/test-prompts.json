@@ -1,0 +1,30 @@
+{
+  "skill": "canon-formation-analyzer",
+  "version": "1.0.0",
+  "source_book": "《文学的读法》/《文学理论》 — 伊格尔顿 / 韦勒克沃伦",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "杜甫是怎么从唐代诗人变成诗圣的",
+      "expected_behavior": "激活：入典节点+当时理由+今日效力",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "杜甫有哪些名篇",
+      "expected_behavior": "作品清单不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以课本都是洗脑",
+      "expected_behavior": "红线：建构论不等于贬低——解释来源不等于否认品质",
+      "notes": "政治化红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
