@@ -1,0 +1,30 @@
+{
+  "skill": "history-logic-consistency-check",
+  "version": "1.0.0",
+  "source_book": "《哲学史方法论十四讲》 — 邓晓芒",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "帮我看看这篇康德研究论文写得怎么样",
+      "expected_behavior": "激活：换名字测试+概念链抽取",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "康德哪年生的",
+      "expected_behavior": "史实查询不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "考据学研究怎么评价",
+      "expected_behavior": "边界：明确此标准只针对概念史不针对实证考据",
+      "notes": "适用性边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

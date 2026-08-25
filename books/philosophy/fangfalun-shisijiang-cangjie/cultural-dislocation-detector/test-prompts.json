@@ -1,0 +1,30 @@
+{
+  "skill": "cultural-dislocation-detector",
+  "version": "1.0.0",
+  "source_book": "《哲学史方法论十四讲》 — 邓晓芒",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "Being翻译成存在是不是有问题",
+      "expected_behavior": "激活：问题意识对齐检测",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "democracy怎么翻译好",
+      "expected_behavior": "一般翻译咨询不调用（无理论负载）",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "邓晓芒自己有没有文化错位",
+      "expected_behavior": "边界：反身性风险如实讨论——其框架亦可被反向审视",
+      "notes": "反身性边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

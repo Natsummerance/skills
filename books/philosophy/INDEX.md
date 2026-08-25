@@ -25,3 +25,4 @@
 - 西方哲学史四版本对勘 → 哲学史阅读导航
 - 尼采著作集九册续：《查拉图斯特拉如是说》《论道德的谱系》
 - 福柯《性经验史》/ 康德《纯粹理性批判》句读 / 邓晓芒讲黑格尔
+| [哲学史方法论十四讲 · cangjie版](fangfalun-shisijiang-cangjie/) | 7 | ✅ cangjie全流程重蒸馏（候选23条，引文6/6） | [INDEX](fangfalun-shisijiang-cangjie/INDEX.md) |

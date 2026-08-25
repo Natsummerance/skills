@@ -1,0 +1,30 @@
+{
+  "skill": "self-negation-analyzer",
+  "version": "1.0.0",
+  "source_book": "《哲学史方法论十四讲》 — 邓晓芒",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "自由这个概念是怎么一步步变成现在这样的",
+      "expected_behavior": "激活：三步分析（初始形态→对立环节→转化）",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "自由的定义是什么",
+      "expected_behavior": "词典查询不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我的观念变化是因为失恋",
+      "expected_behavior": "边界：外部事件触发的变化需区分诱因与内在张力",
+      "notes": "外因论边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

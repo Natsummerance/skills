@@ -1,0 +1,30 @@
+{
+  "skill": "horizon-fusion-evaluator",
+  "version": "1.0.0",
+  "source_book": "《哲学史方法论十四讲》 — 邓晓芒",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "为什么每次重读《红楼梦》感受都不一样",
+      "expected_behavior": "激活：视界标出+效果历史定位",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "红楼梦作者考证最新进展",
+      "expected_behavior": "考据进展不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以怎么解读都行",
+      "expected_behavior": "边界：视界融合要求更严格自觉而非相对主义通行证",
+      "notes": "相对主义边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

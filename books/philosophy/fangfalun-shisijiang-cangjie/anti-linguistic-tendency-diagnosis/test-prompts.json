@@ -1,0 +1,30 @@
+{
+  "skill": "anti-linguistic-tendency-diagnosis",
+  "version": "1.0.0",
+  "source_book": "《哲学史方法论十四讲》 — 邓晓芒",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "中国哲学的书总是说不清楚，是我的问题吗",
+      "expected_behavior": "激活：语言自觉检测+后果链追踪",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "推荐几本中国哲学入门书",
+      "expected_behavior": "书单需求不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以中国哲学不行",
+      "expected_behavior": "红线：拒绝贬低结论——诊断目的是对治且框架有反身性风险",
+      "notes": "贬低红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

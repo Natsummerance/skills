@@ -1,0 +1,30 @@
+{
+  "skill": "sinicized-philosophy-review",
+  "version": "1.0.0",
+  "source_book": "《哲学史方法论十四讲》 — 邓晓芒",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "Dasein翻译成本真存在状态靠谱吗",
+      "expected_behavior": "激活：四步定名流程",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "这个软件界面文案怎么改",
+      "expected_behavior": "产品文案不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "信达雅哪个最重要",
+      "expected_behavior": "边界：本skill立场是问题意识优先于流畅，但需说明这是技术性标准非唯一标准",
+      "notes": "立场边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
