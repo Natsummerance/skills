@@ -1,8 +1,9 @@
 ---
 name: abandonment-anguish-despair
+version: 1.0.0
 description: |
   讨论信仰崩塌/失去权威后的无所适从 不适用于: 急性心理危机——先安全评估再谈哲学
-source_book: 《存在主义是一种人道主义》 让-保罗·萨特（周煦良等译）
+source_book: 《存在主义是一种人道主义》
 source_chapter: 正文§3-4
 tags: [萨特, 存在主义, 蒸馏技能]
 related_skills: []

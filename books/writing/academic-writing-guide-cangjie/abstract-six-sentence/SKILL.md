@@ -1,5 +1,6 @@
 ---
 name: abstract-six-sentence
+version: 1.0.0
 description: |
   期刊论文摘要写作 不适用于: 用于人文思辨类论文——其摘要常需问题意识式写法，模板需变通
   EN trigger: abstract template

@@ -1,9 +1,10 @@
 ---
 name: anti-linguistic-tendency-diagnosis
+version: 1.0.0
 description: |
   分析某个学术传统的概念精确化程度 不适用于: 把诊断当贬低中国哲学——邓晓芒目的是对治而非否定；其框架有反身性风险
   EN trigger: anti-linguistic tendency
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《哲学史方法论十四讲》；作者: 邓晓芒；重庆大学出版社
 source_chapter: L04 中国哲学中的反语言学倾向
 tags: [蒸馏技能]
 related_skills: []

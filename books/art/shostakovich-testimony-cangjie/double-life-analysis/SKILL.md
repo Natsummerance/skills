@@ -1,9 +1,10 @@
 ---
 name: double-life-analysis
+version: 1.0.0
 description: |
   评价历史争议人物 不适用于: 用此框架为主动作恶开脱——生存策略不适用于施害行为
   EN trigger: double life analysis
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《见证》
 source_chapter: 各章（公开行为vs私人话语）
 tags: [蒸馏技能]
 related_skills: []

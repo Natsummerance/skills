@@ -1,8 +1,9 @@
 ---
 name: innerworldly-asceticism
+version: 1.0.0
 description: |
   分析「自我系统化管理」文化原型时调用：自我优化、时间管理、自律人设——在世俗职业中实行方法性自我管制的历史结构。理解自律话语的宗教谱系时调用。不适用于: 具体习惯养成方案。
-source_book: 《新教伦理与资本主义精神》 马克斯·韦伯（康乐/简惠美译）
+source_book: 《新教伦理与资本主义精神》
 source_chapter: 第二卷第一、二章
 tags: [韦伯, 社会学, 蒸馏技能]
 related_skills: []

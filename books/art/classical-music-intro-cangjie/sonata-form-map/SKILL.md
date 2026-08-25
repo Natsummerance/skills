@@ -1,5 +1,6 @@
 ---
 name: sonata-form-map
+version: 1.0.0
 description: |
   第一次认真听完一首奏鸣曲第一乐章 不适用于: 套用到浪漫派晚期自由曲式——结构已松绑，地图会失灵
   EN trigger: sonata form

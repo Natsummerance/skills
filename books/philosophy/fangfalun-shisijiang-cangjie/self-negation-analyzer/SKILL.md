@@ -1,9 +1,10 @@
 ---
 name: self-negation-analyzer
+version: 1.0.0
 description: |
   分析某个概念/制度/观念的历史演变 不适用于: 把自否定当万能解释——需要先确认内在张力真实存在
   EN trigger: self-negation / immanent critique
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《哲学史方法论十四讲》；作者: 邓晓芒；重庆大学出版社
 source_chapter: L05-L06 辩证法诸讲
 tags: [蒸馏技能]
 related_skills: []

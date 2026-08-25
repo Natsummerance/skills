@@ -1,5 +1,6 @@
 ---
 name: canon-formation-analyzer
+version: 1.0.0
 description: |
   分析某作家经典地位的形成史 不适用于: 用建构论直接贬低经典作品的价值——解释地位来源不等于否认品质
   EN trigger: canon formation

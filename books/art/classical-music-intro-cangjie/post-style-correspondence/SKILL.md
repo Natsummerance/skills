@@ -1,5 +1,6 @@
 ---
 name: post-style-correspondence
+version: 1.0.0
 description: |
   理解某作曲家为何集中写某类作品 不适用于: 倒推所有作品都是应制——例外与越界之作正是天才的证据
   EN trigger: composer periods

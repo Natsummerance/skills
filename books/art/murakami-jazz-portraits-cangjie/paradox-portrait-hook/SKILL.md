@@ -1,9 +1,10 @@
 ---
 name: paradox-portrait-hook
+version: 1.0.0
 description: |
   为介绍文案写开头钩子 不适用于: 用于严肃学术人物介绍——修辞替代分析的批评在此完全成立
   EN trigger: paradox hook / character sketch
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《爵士群像》
 source_chapter: 加农炮艾德利篇
 tags: [蒸馏技能]
 related_skills: []

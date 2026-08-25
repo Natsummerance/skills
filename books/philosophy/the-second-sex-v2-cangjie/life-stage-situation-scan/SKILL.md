@@ -1,9 +1,10 @@
 ---
 name: life-stage-situation-scan
+version: 1.0.0
 description: |
   理解人生转折期的失落感 不适用于: 用于给人贴阶段标签——工具用于自察与理解他人，不定义他人
   EN trigger: life stage situation
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《第二性》II
 source_chapter: 下部整体结构
 tags: [蒸馏技能]
 related_skills: []

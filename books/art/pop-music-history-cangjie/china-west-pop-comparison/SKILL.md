@@ -1,5 +1,6 @@
 ---
 name: china-west-pop-comparison
+version: 1.0.0
 description: |
   写中西音乐交流论文 不适用于: 推导谁更高级——对照法的产出是结构性理解不是排名
   EN trigger: china pop vs western pop

@@ -1,9 +1,10 @@
 ---
 name: jazz-life-music-unity
+version: 1.0.0
 description: |
   听完一张专辑想了解乐手 不适用于: 为早逝天才贴为艺术献身标签——痛苦的真实性优先于美学叙事
   EN trigger: life-music unity
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《然而很美：爵士乐之书》
 source_chapter: 各乐手章节
 tags: [蒸馏技能]
 related_skills: []

@@ -1,8 +1,9 @@
 ---
 name: absurd-creation
+version: 1.0.0
 description: |
   分析「创作/作品/留名」议题时调用：创作者把作品当永恒背书还是当下经历？荒诞创作=边否定边激发、向虚无奉献色彩。讨论写作动机、身后名焦虑、艺术价值时调用。不适用于: 具体创作技法指导。
-source_book: 《西西弗神话》 阿尔贝·加缪（杜小真译）
+source_book: 《西西弗神话》
 source_chapter: 荒诞的创造
 tags: [加缪, 荒诞, 创作论, 蒸馏技能]
 related_skills: []

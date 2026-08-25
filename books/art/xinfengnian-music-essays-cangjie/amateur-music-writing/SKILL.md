@@ -1,9 +1,10 @@
 ---
 name: amateur-music-writing
+version: 1.0.0
 description: |
   开始写自己的音乐电影书籍笔记 不适用于: 以乐迷写作由头拒绝基本事实核查——认真听的认真含查证义务
   EN trigger: amateur music writing
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《新丰年》
 source_chapter: 全书笔法
 tags: [蒸馏技能]
 related_skills: []

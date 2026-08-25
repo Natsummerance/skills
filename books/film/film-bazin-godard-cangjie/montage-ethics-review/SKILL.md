@@ -1,5 +1,6 @@
 ---
 name: montage-ethics-review
+version: 1.0.0
 description: |
   分析一段剪辑的引导性 不适用于: 把所有快速剪辑都判为越界——动作片节奏需求合法
   EN trigger: montage ethics / ambiguity

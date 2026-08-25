@@ -1,8 +1,9 @@
 ---
 name: qianmu-historical-opinion
+version: 1.0.0
 description: |
   读史/论政时区分「历史意见」与「时代意见」的方法工具：评价古代制度先采集当事人切身反映，再对照今人批评并标注现代预设。分析科举/宰相/赋税/兵制等传统制度、或警惕以今度古的思维错误时调用。不适用于: 现代政治制度比较、需要定量经济史的场景。
-source_book: 《中国历代政治得失》 钱穆（三联书店）
+source_book: 《中国历代政治得失》；作者: 钱穆；三联书店
 source_chapter: 总论
 tags: [钱穆, 制度史, 史学方法, 蒸馏技能]
 related_skills: []

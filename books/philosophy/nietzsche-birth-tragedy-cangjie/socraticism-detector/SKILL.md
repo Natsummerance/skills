@@ -1,8 +1,9 @@
 ---
 name: socraticism-detector
+version: 1.0.0
 description: |
   诊断组织/公司创新枯竭的原因 不适用于: 对数学/工程等天然高理性领域滥用——那里理性化就是本职
-source_book: 《悲剧的诞生》 弗里德里希·尼采（周国平译）
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §19
 tags: [尼采, 美学, 蒸馏技能]
 related_skills: []

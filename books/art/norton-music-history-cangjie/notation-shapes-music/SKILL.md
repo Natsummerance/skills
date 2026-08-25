@@ -1,5 +1,6 @@
 ---
 name: notation-shapes-music
+version: 1.0.0
 description: |
   理解录音技术对流行乐的改变 不适用于: 宣称介质决定一切——人的听觉审美需求同样反向驱动技术发明
   EN trigger: notation and music

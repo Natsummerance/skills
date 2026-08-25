@@ -1,5 +1,6 @@
 ---
 name: style-migration-analyzer
+version: 1.0.0
 description: |
   分析K-pop或国风的全球传播 不适用于: 用于无跨文化传播的纯本土风格——三段框架不适用单点传统
   EN trigger: style migration

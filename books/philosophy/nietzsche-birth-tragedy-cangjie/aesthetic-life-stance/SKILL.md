@@ -1,8 +1,9 @@
 ---
 name: aesthetic-life-stance
+version: 1.0.0
 description: |
   讨论「人生没有意义怎么办」，且对方已拒绝宗教/成功学答案 不适用于: 抑郁发作期——审美超越不能替代临床干预
-source_book: 《悲剧的诞生》 弗里德里希·尼采（周国平译）
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §5
 tags: [尼采, 美学, 蒸馏技能]
 related_skills: []

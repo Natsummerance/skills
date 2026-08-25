@@ -1,5 +1,6 @@
 ---
 name: adapt-vs-transform
+version: 1.0.0
 description: |
   分析一种文化/组织/个人对「世界」的基本态度时调用：适应取向（把自身调整到与世界和谐）vs 改造取向（以规范塑造世界）；组合体人格vs系统统一体。讨论文化比较、变革动力、创新阻力时调用。不适用于: 评判文化优劣。
   Analyzing adaptation-oriented vs transform-oriented cultural attitudes. Not for ranking cultures.

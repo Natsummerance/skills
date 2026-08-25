@@ -1,8 +1,9 @@
 ---
 name: sisyphus-test
+version: 1.0.0
 description: |
   评估一份长期看不到尽头的工作/项目要不要继续 不适用于: 有明确截止日期的项目评估——那是项目管理不是存在检验
-source_book: 《西西弗神话》 阿尔贝·加缪（杜小真译）
+source_book: 《西西弗神话》
 source_chapter: 西西弗神话
 tags: [加缪, 荒诞, 蒸馏技能]
 related_skills: []

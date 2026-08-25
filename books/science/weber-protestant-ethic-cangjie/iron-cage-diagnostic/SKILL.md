@@ -1,8 +1,9 @@
 ---
 name: iron-cage-diagnostic
+version: 1.0.0
 description: |
   诊断「价值动力枯竭的秩序惯性」时调用：KPI文化、形式主义、为流程而流程——秩序仍在运转但最初的意义引擎已熄火。分析组织僵化、教育异化、内卷的制度面时调用。不适用于: 具体管理咨询方案。
-source_book: 《新教伦理与资本主义精神》 马克斯·韦伯（康乐/简惠美译）
+source_book: 《新教伦理与资本主义精神》
 source_chapter: 第二卷第二章 结尾
 tags: [韦伯, 社会学, 蒸馏技能]
 related_skills: []

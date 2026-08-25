@@ -1,9 +1,10 @@
 ---
 name: sinicized-philosophy-review
+version: 1.0.0
 description: |
   评估哲学/学术译本质量 不适用于: 以「读起来顺」为第一标准评价学术翻译——那恰恰是错位的开始
   EN trigger: philosophy in Chinese / translation as thinking
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《哲学史方法论十四讲》；作者: 邓晓芒；重庆大学出版社
 source_chapter: L12 让哲学说汉语——从康德三大批判的翻译说起
 tags: [蒸馏技能]
 related_skills: []

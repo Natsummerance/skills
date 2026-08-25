@@ -1,5 +1,6 @@
 ---
 name: auteur-self-reflexivity
+version: 1.0.0
 description: |
   分析元电影（戏中戏或关于拍电影的电影） 不适用于: 把所有幕后花絮当自反——需进入正片叙事才算
   EN trigger: self-reflexivity / auteur theory

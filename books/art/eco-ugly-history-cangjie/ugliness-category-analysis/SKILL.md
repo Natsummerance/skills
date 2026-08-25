@@ -1,9 +1,10 @@
 ---
 name: ugliness-category-analysis
+version: 1.0.0
 description: |
   分析恐怖片/暗黑美学作品 不适用于: 用「表现丑=宣扬丑」的逻辑批判艺术品——艾柯全书正为此辩护
   EN trigger: aesthetics of ugliness
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《丑的历史》
 source_chapter: 导论/各时代章
 tags: [蒸馏技能]
 related_skills: []

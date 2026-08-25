@@ -1,8 +1,9 @@
 ---
 name: revolt-freedom-passion
+version: 1.0.0
 description: |
   讨论「既然都会死那现在努力干嘛」 不适用于: 寻求单一答案/速效方案的场景——三重结论是一个组合拳
-source_book: 《西西弗神话》 阿尔贝·加缪（杜小真译）
+source_book: 《西西弗神话》
 source_chapter: 荒诞人
 tags: [加缪, 荒诞, 蒸馏技能]
 related_skills: []

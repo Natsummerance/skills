@@ -1,9 +1,10 @@
 ---
 name: creator-performer-separation
+version: 1.0.0
 description: |
   评估创始人亲自管理公司 不适用于: 否定创作者参与演绎的价值——其直觉仍有不可替代处，只是不自动等于专业能力
   EN trigger: creator performer gap
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《新丰年》
 source_chapter: 指挥史话篇
 tags: [蒸馏技能]
 related_skills: []

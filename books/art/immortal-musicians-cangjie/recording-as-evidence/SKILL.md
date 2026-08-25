@@ -1,9 +1,10 @@
 ---
 name: recording-as-evidence
+version: 1.0.0
 description: |
   写有说服力的乐评 不适用于: 用于无录音存世的早期演奏讨论——只能依赖文字史料
   EN trigger: recording evidence
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《不朽的演奏家》
 source_chapter: 西盖蒂章等
 tags: [蒸馏技能]
 related_skills: []

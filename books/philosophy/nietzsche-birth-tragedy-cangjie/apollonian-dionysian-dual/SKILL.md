@@ -1,8 +1,9 @@
 ---
 name: apollonian-dionysian-dual
+version: 1.0.0
 description: |
   分析一部作品/电影的气质构成（如「这部片是冷静克制还是癫狂失控」） 不适用于: 纯信息查询（「尼采是谁」）——那是传记知识不是分析框架
-source_book: 《悲剧的诞生》 弗里德里希·尼采（周国平译）
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §1
 tags: [尼采, 美学, 蒸馏技能]
 related_skills: []

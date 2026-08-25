@@ -1,5 +1,6 @@
 ---
 name: crisis-response-music-history
+version: 1.0.0
 description: |
   理解任何艺术形式的演变动力 不适用于: 把一切变化都解释成危机应答——有些演变只是偶然与时尚
   EN trigger: crisis and response

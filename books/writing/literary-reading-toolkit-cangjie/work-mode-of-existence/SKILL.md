@@ -1,5 +1,6 @@
 ---
 name: work-mode-of-existence
+version: 1.0.0
 description: |
   写文本分析前确定分析对象 不适用于: 诗歌音韵研究强行上升到世界观层——层面间需过渡论证
   EN trigger: mode of existence / stratified structure

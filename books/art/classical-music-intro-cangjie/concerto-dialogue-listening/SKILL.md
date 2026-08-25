@@ -1,5 +1,6 @@
 ---
 name: concerto-dialogue-listening
+version: 1.0.0
 description: |
   第一次听钢琴或小提琴协奏曲 不适用于: 用于现代协奏曲变体前需确认其仍保留对话结构
   EN trigger: concerto listening

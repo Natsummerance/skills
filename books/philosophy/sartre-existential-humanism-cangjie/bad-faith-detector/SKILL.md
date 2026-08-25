@@ -1,8 +1,9 @@
 ---
 name: bad-faith-detector
+version: 1.0.0
 description: |
   分析自己或朋友的「没办法」「不得不」话术 不适用于: 对方处于抑郁/创伤状态——那是临床场景不是哲学辩论
-source_book: 《存在主义是一种人道主义》 让-保罗·萨特（周煦良等译）
+source_book: 《存在主义是一种人道主义》
 source_chapter: 正文§5-6
 tags: [萨特, 存在主义, 蒸馏技能]
 related_skills: []

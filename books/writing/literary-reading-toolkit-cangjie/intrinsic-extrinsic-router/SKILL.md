@@ -1,5 +1,6 @@
 ---
 name: intrinsic-extrinsic-router
+version: 1.0.0
 description: |
   组织文学论文的分析框架 不适用于: 文化研究类课题硬套二分——后结构主义已大量突破此边界
   EN trigger: intrinsic vs extrinsic study

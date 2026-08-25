@@ -1,5 +1,6 @@
 ---
 name: weak-virtue-recognizer
+version: 1.0.0
 description: |
   解读婉约词/李煜/朱彝尊 不适用于: 美化无原则的忍受——无持守无完成的忍耐不是弱德
   EN trigger: weak virtue aesthetics

@@ -1,9 +1,10 @@
 ---
 name: improv-structure-listening
+version: 1.0.0
 description: |
   朋友说爵士就是瞎吹时反驳 不适用于: 否定真正自由的自由爵士——本skill针对标准曲传统
   EN trigger: improvisation structure
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《如何听爵士》
 source_chapter: 结构章
 tags: [蒸馏技能]
 related_skills: []

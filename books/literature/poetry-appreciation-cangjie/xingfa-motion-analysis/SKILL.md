@@ -1,5 +1,6 @@
 ---
 name: xingfa-motion-analysis
+version: 1.0.0
 description: |
   解读一首古诗为什么动人 不适用于: 用兴发感动否定形式分析的价值——叶嘉莹同样重视格律
   EN trigger: xingfa / evocative power

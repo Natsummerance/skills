@@ -1,5 +1,6 @@
 ---
 name: jump-cut-grammar-reader
+version: 1.0.0
 description: |
   分析一部电影的剪辑风格 不适用于: 把一切剪辑错误都当跳接美学——先区分有意与失误
   EN trigger: jump cut / jump cut grammar

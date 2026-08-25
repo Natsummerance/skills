@@ -1,9 +1,10 @@
 ---
 name: myth-decoding-lens
+version: 1.0.0
 description: |
   分析影视剧的女性角色套路 不适用于: 嘲讽持有传统观念的个人——批判指向神话结构而非个体
   EN trigger: myth decoding
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《第二性》I
 source_chapter: 神话章
 tags: [蒸馏技能]
 related_skills: []

@@ -1,9 +1,10 @@
 ---
 name: fear-as-motive-reader
+version: 1.0.0
 description: |
   理解创作者的黑暗期作品 不适用于: 用于精神诊断或替他人下心理结论——此为艺术分析非临床工具
   EN trigger: fear as motive
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《见证》
 source_chapter: 战争交响曲章
 tags: [蒸馏技能]
 related_skills: []

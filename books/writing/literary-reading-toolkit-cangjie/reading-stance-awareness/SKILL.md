@@ -1,5 +1,6 @@
 ---
 name: reading-stance-awareness
+version: 1.0.0
 description: |
   书评/论文写作前的自检 不适用于: 用立场分析否定一切文本证据——细读仍是地基
   EN trigger: reading stance / objective interpretation

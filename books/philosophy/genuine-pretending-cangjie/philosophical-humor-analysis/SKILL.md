@@ -1,9 +1,10 @@
 ---
 name: philosophical-humor-analysis
+version: 1.0.0
 description: |
   分析一个段子/喜剧为何好笑且深刻 不适用于: 用幽默分析贬低他人的真诚信念——庄子式幽默不嘲讽真诚本身
   EN trigger: humor as philosophy / irony analysis
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《游心之路：〈庄子〉与现代西方哲学》
 source_chapter: 第三章
 tags: [蒸馏技能]
 related_skills: []

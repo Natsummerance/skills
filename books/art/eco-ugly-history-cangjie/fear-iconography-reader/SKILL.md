@@ -1,9 +1,10 @@
 ---
 name: fear-iconography-reader
+version: 1.0.0
 description: |
   分析影视游戏中的怪物/恶魔形象 不适用于: 把历史恐惧图像直接映射到当代特定群体——那是重复排斥而非分析
   EN trigger: iconography of fear
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《丑的历史》
 source_chapter: 女巫章
 tags: [蒸馏技能]
 related_skills: []

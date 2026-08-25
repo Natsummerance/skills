@@ -1,9 +1,10 @@
 ---
 name: horizon-fusion-evaluator
+version: 1.0.0
 description: |
   评估一篇史学研究/书评的立场自觉度 不适用于: 把「视界融合」当主观主义通行证——它要求的是更严格的自觉而非放松
   EN trigger: horizon fusion / effective history
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《哲学史方法论十四讲》；作者: 邓晓芒；重庆大学出版社
 source_chapter: L03 论历史感——现代解释学的启示
 tags: [蒸馏技能]
 related_skills: []

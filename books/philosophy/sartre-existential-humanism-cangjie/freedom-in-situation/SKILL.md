@@ -1,8 +1,9 @@
 ---
 name: freedom-in-situation
+version: 1.0.0
 description: |
   讨论结构性压迫下个人还能做什么 不适用于: 用「处境有限」为彻底不行动辩护——那正是自我欺骗
-source_book: 《存在主义是一种人道主义》 让-保罗·萨特（周煦良等译）
+source_book: 《存在主义是一种人道主义》
 source_chapter: 正文§4
 tags: [萨特, 存在主义, 蒸馏技能]
 related_skills: []

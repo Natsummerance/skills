@@ -1,5 +1,6 @@
 ---
 name: three-realms-mapping
+version: 1.0.0
 description: |
   长期项目做到怀疑人生时的阶段定位 不适用于: 把三种境界当成功学阶梯硬套——它是描述不是承诺
   EN trigger: three realms of achievement

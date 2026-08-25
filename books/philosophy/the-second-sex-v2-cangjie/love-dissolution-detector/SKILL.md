@@ -1,9 +1,10 @@
 ---
 name: love-dissolution-detector
+version: 1.0.0
 description: |
   朋友恋爱后像变了个人 不适用于: 用于评判他人的感情选择——工具用于自察与文学分析，不做道德审判
   EN trigger: love dissolution
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《第二性》II
 source_chapter: 恋爱中的女人章
 tags: [蒸馏技能]
 related_skills: []

@@ -1,9 +1,10 @@
 ---
 name: performer-lineage-tracing
+version: 1.0.0
 description: |
   了解某钢琴家小提琴家的风格来历 不适用于: 用民族血统预测演奏风格——x01警示的本质主义
   EN trigger: performer lineage
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《不朽的演奏家》
 source_chapter: 演奏风格起源章
 tags: [蒸馏技能]
 related_skills: []

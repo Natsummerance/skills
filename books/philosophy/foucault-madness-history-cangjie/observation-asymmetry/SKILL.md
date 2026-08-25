@@ -1,8 +1,9 @@
 ---
 name: observation-asymmetry
+version: 1.0.0
 description: |
   讨论绩效考核/360评估的公平性 不适用于: 医疗场景中必要的监护——本skill用于批判性分析而非否定一切照护
-source_book: 《疯癫与文明》 米歇尔·福柯（刘北成等译）
+source_book: 《疯癫与文明：理性时代的疯癫史》；作者: 米歇尔·福柯；译者: 刘北成等
 source_chapter: §6-7 图克休养院
 tags: [福柯, 权力知识, 蒸馏技能]
 related_skills: []

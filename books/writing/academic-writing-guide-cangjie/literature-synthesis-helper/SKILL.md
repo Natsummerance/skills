@@ -1,5 +1,6 @@
 ---
 name: literature-synthesis-helper
+version: 1.0.0
 description: |
   毕业论文文献综述章节 不适用于: 用于系统性综述或meta分析——那需要PRISMA等更严格流程
   EN trigger: literature review

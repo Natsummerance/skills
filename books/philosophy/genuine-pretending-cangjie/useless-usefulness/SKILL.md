@@ -1,9 +1,10 @@
 ---
 name: useless-usefulness
+version: 1.0.0
 description: |
   为自己的「无用爱好」辩护 不适用于: 用无用之用为彻底躺平背书——重点是免于收割而非拒绝一切参与
   EN trigger: useless usefulness
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《游心之路：〈庄子〉与现代西方哲学》
 source_chapter: 第四章（引《人间世》）
 tags: [蒸馏技能]
 related_skills: []

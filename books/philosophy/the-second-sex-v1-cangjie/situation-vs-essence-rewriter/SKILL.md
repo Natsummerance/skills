@@ -1,9 +1,10 @@
 ---
 name: situation-vs-essence-rewriter
+version: 1.0.0
 description: |
   反驳天生不行类论调 不适用于: 否认生理差异存在——波伏瓦承认事实但拒绝其成为命运辩护
   EN trigger: nature vs nurture
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《第二性》I
 source_chapter: 命运章
 tags: [蒸馏技能]
 related_skills: []

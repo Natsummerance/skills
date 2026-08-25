@@ -1,8 +1,9 @@
 ---
 name: exclusion-mechanism-analysis
+version: 1.0.0
 description: |
   讨论精神疾病的社会建构、「正常/异常」由谁定义 不适用于: 为具体个人做精神健康诊断——那是临床场景
-source_book: 《疯癫与文明》 米歇尔·福柯（刘北成等译）
+source_book: 《疯癫与文明：理性时代的疯癫史》；作者: 米歇尔·福柯；译者: 刘北成等
 source_chapter: §3 大禁闭
 tags: [福柯, 权力知识, 蒸馏技能]
 related_skills: []

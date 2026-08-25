@@ -1,5 +1,6 @@
 ---
 name: symphony-unity-listening
+version: 1.0.0
 description: |
   第一次完整听一部交响曲 不适用于: 用于无调性或后现代作品——元素统一非其美学目标
   EN trigger: symphony listening

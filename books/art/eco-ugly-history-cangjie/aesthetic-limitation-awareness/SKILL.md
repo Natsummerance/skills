@@ -1,9 +1,10 @@
 ---
 name: aesthetic-limitation-awareness
+version: 1.0.0
 description: |
   写文化史艺术史论文的方法论章节 不适用于: 用都有局限取消所有论述价值——自省是为了更诚实的断言
   EN trigger: scope limitation statement
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《丑的历史》
 source_chapter: 导论
 tags: [蒸馏技能]
 related_skills: []

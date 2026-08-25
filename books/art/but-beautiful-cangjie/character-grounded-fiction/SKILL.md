@@ -1,9 +1,10 @@
 ---
 name: character-grounded-fiction
+version: 1.0.0
 description: |
   历史人物题材的小说化写作 不适用于: 为传主虚构其明确拒绝过的立场或行为——性格忠实的前提是不背叛
   EN trigger: fictionalized biography
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《然而很美：爵士乐之书》
 source_chapter: 比莉·哈乐黛章
 tags: [蒸馏技能]
 related_skills: []

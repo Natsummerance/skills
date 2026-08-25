@@ -1,5 +1,6 @@
 ---
 name: segmentation-method
+version: 1.0.0
 description: |
   写严肃影评或论文前的素材整理 不适用于: 对短视频做全片分段——成本收益不成比例，抽关键段即可
   EN trigger: film segmentation

@@ -1,9 +1,10 @@
 ---
 name: fragmentary-portrait-writing
+version: 1.0.0
 description: |
   人物特稿或传记散文写作 不适用于: 新闻报道式写作需要事实完整性时慎用——此法牺牲线性事实
   EN trigger: literary portrait writing
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《然而很美：爵士乐之书》
 source_chapter: 全书方法
 tags: [蒸馏技能]
 related_skills: []

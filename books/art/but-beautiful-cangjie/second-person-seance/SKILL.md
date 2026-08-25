@@ -1,9 +1,10 @@
 ---
 name: second-person-seance
+version: 1.0.0
 description: |
   悼念文章或周年纪念写作 不适用于: 用于在世人物——此视角对活人是冒犯性的僭越
   EN trigger: second person elegy
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《然而很美：爵士乐之书》
 source_chapter: 钢琴家章（布德·鲍威尔）
 tags: [蒸馏技能]
 related_skills: []

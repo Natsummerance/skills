@@ -1,9 +1,10 @@
 ---
 name: history-logic-consistency-check
+version: 1.0.0
 description: |
   审查一篇思想史论文/专著的方法论质量 不适用于: 对实证史学研究（考据/社会经济史）套用此标准——它针对的是概念史/哲学史
   EN trigger: history-logic consistency
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《哲学史方法论十四讲》；作者: 邓晓芒；重庆大学出版社
 source_chapter: L02 哲学史方法论新探
 tags: [蒸馏技能]
 related_skills: []

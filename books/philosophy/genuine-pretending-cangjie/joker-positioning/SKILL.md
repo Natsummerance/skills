@@ -1,9 +1,10 @@
 ---
 name: joker-positioning
+version: 1.0.0
 description: |
   给自己或产品做差异化定位 不适用于: 用小丑牌姿态逃避承诺——定位是策略不是免责
   EN trigger: joker card positioning
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《游心之路：〈庄子〉与现代西方哲学》
 source_chapter: 导言 牌堆里的小丑
 tags: [蒸馏技能]
 related_skills: []

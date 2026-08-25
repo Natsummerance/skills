@@ -1,9 +1,10 @@
 ---
 name: aaba-form-recognition
+version: 1.0.0
 description: |
   学标准曲的第一课 不适用于: 12小节布鲁斯不适用——那是另一套曲式系统
   EN trigger: aaba form
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《如何听爵士》
 source_chapter: 结构章
 tags: [蒸馏技能]
 related_skills: []

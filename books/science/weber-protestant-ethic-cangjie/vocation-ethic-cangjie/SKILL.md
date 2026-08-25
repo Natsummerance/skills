@@ -1,8 +1,9 @@
 ---
 name: vocation-ethic-cangjie
+version: 1.0.0
 description: |
   分析「工作意义/职业使命」话语时调用：Beruf概念从路德译经到现代职业观的历史生成链。讨论「把工作当天命」「职业倦怠的意义面」时调用。不适用于: 职业规划实操。
-source_book: 《新教伦理与资本主义精神》 马克斯·韦伯（康乐/简惠美译）
+source_book: 《新教伦理与资本主义精神》
 source_chapter: 第一卷第三章 路德的职业观
 tags: [韦伯, 社会学, 蒸馏技能]
 related_skills: []

@@ -1,5 +1,6 @@
 ---
 name: rule-vs-theme-tension
+version: 1.0.0
 description: |
   讨论AI辅助创作是否限制创造力 不适用于: 给他人规定唯一正确的创作方式——光谱两端各有大师
   EN trigger: rules vs inspiration

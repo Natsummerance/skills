@@ -1,8 +1,9 @@
 ---
 name: absurd-chain
+version: 1.0.0
 description: |
   讨论「人生有什么意义」且已拒绝标准答案 不适用于: 抑郁发作期——先转介临床支持再谈哲学
-source_book: 《西西弗神话》 阿尔贝·加缪（杜小真译）
+source_book: 《西西弗神话》
 source_chapter: 荒诞之墙
 tags: [加缪, 荒诞, 蒸馏技能]
 related_skills: []

@@ -1,9 +1,10 @@
 ---
 name: master-style-selector
+version: 1.0.0
 description: |
   写作遇到具体瓶颈想找对应方法论 不适用于: 机械拼接多位大师技法于同一文本——风格会互相打架
   EN trigger: which master for which problem
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《小说创作大师班》
 source_chapter: 全书体例
 tags: [蒸馏技能]
 related_skills: []

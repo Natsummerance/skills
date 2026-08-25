@@ -1,9 +1,10 @@
 ---
 name: smooth-operator-recognition
+version: 1.0.0
 description: |
   分析某个「混得很好但不按常理出牌」的人 不适用于: 把投机取巧误认作处世高手——后者需要成就的真实性
   EN trigger: smooth operator pattern
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《游心之路：〈庄子〉与现代西方哲学》
 source_chapter: 第四章
 tags: [蒸馏技能]
 related_skills: []

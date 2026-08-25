@@ -1,9 +1,10 @@
 ---
 name: allegory-structure-matching
+version: 1.0.0
 description: |
   写一个设定超现实的故事不知如何展开 不适用于: 类型小说（悬疑/推理需要解答）——解释真空会激怒读者
   EN trigger: kafkaesque structure
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《小说创作大师班》
 source_chapter: 卡夫卡章
 tags: [蒸馏技能]
 related_skills: []

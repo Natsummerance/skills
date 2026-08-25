@@ -1,8 +1,9 @@
 ---
 name: metaphysical-consolation-test
+version: 1.0.0
 description: |
   看完一部悲剧/致郁作品后讨论它「值不值得」 不适用于: 安慰刚经历创伤的人——那需要心理支持不是美学判准
-source_book: 《悲剧的诞生》 弗里德里希·尼采（周国平译）
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §7
 tags: [尼采, 美学, 蒸馏技能]
 related_skills: []

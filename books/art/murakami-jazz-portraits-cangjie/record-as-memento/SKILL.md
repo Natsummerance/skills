@@ -1,9 +1,10 @@
 ---
 name: record-as-memento
+version: 1.0.0
 description: |
   回忆性散文写作 不适用于: 虚构不存在的物件经历冒充真实——非虚构写作的诚信底线
   EN trigger: memento narrative
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《爵士群像》
 source_chapter: 比克斯篇
 tags: [蒸馏技能]
 related_skills: []

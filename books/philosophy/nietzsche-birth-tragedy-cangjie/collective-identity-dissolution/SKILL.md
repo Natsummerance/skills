@@ -1,8 +1,9 @@
 ---
 name: collective-identity-dissolution
+version: 1.0.0
 description: |
   分析「群体性身份溶解」现象时调用：演唱会人海/球迷看台/集体狂欢/宗教集会——个体公民身份暂时消解为共同体成员的机制。理解酒神颂歌队的现代对应物。不适用于: 评估具体群体的正当性。
-source_book: 《悲剧的诞生》 尼采（周国平译）
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §8
 tags: [尼采, 美学, 群体心理, 蒸馏技能]
 related_skills: []

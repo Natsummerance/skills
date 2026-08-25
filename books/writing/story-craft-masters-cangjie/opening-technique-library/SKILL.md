@@ -1,9 +1,10 @@
 ---
 name: opening-technique-library
+version: 1.0.0
 description: |
   小说/剧本的第一页反复重写 不适用于: 为炫技而反常——开头承诺的张力全文必须兑现
   EN trigger: opening lines / in medias res
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《小说创作大师班》
 source_chapter: 毛姆章及各章开头节
 tags: [蒸馏技能]
 related_skills: []

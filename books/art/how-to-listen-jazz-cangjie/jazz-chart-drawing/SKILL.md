@@ -1,9 +1,10 @@
 ---
 name: jazz-chart-drawing
+version: 1.0.0
 description: |
   爵士入门不知从何听起 不适用于: 把图纸当欣赏目的——它是脚手架，拆掉后要能裸耳聆听
   EN trigger: jazz chart / listening map
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《如何听爵士》
 source_chapter: 聆听方法章
 tags: [蒸馏技能]
 related_skills: []

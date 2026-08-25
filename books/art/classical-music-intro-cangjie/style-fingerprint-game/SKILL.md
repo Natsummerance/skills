@@ -1,5 +1,6 @@
 ---
 name: style-fingerprint-game
+version: 1.0.0
 description: |
   古典音乐猜谜游戏 不适用于: 用于风格模仿度高的时期交界作品——指纹重叠会导致误判
   EN trigger: composer fingerprint

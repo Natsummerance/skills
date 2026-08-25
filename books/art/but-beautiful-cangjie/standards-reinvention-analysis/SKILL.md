@@ -1,9 +1,10 @@
 ---
 name: standards-reinvention-analysis
+version: 1.0.0
 description: |
   比较同一首标准曲的不同演绎版本 不适用于: 用于无对话意图的纯复制型翻唱评判——那不在本框架问题域内
   EN trigger: standards reinvention / jazz covers
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《然而很美：爵士乐之书》
 source_chapter: 首尾评论章
 tags: [蒸馏技能]
 related_skills: []

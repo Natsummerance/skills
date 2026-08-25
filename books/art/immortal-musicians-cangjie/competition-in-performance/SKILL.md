@@ -1,9 +1,10 @@
 ---
 name: competition-in-performance
+version: 1.0.0
 description: |
   分析重奏组合的化学反应 不适用于: 把一切风格差异读成人际竞争——需行为证据而非脑补
   EN trigger: performance rivalry
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《不朽的演奏家》
 source_chapter: 西盖蒂章
 tags: [蒸馏技能]
 related_skills: []

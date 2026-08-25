@@ -1,9 +1,10 @@
 ---
 name: double-consistency-diagnostic
+version: 1.0.0
 description: |
   分析「上班演戏」类职场人设困境 不适用于: 对方处于严重抑郁/耗竭状态——先关怀支持再谈框架
   EN trigger: double consistency / role ethics
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《游心之路：〈庄子〉与现代西方哲学》
 source_chapter: 第一章
 tags: [蒸馏技能]
 related_skills: []

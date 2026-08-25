@@ -1,9 +1,10 @@
 ---
 name: discourse-mode-comparison
+version: 1.0.0
 description: |
   比较不同思想传统的论辩风格 不适用于: 把言说方式差异当优劣判定——邓晓芒有倾向性，使用者需自持
   EN trigger: discourse mode comparison
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《哲学史方法论十四讲》；作者: 邓晓芒；重庆大学出版社
 source_chapter: L11 苏格拉底和孔子的言说方式比较
 tags: [蒸馏技能]
 related_skills: []

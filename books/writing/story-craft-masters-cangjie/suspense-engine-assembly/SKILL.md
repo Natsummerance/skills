@@ -1,9 +1,10 @@
 ---
 name: suspense-engine-assembly
+version: 1.0.0
 description: |
   长篇写到中段张力流失 不适用于: 文学性短篇硬套金式脉冲——会破坏氛围叙事
   EN trigger: suspense pacing / cliffhanger
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《小说创作大师班》
 source_chapter: 斯蒂芬·金章
 tags: [蒸馏技能]
 related_skills: []

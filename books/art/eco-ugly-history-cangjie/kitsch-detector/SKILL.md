@@ -1,9 +1,10 @@
 ---
 name: kitsch-detector
+version: 1.0.0
 description: |
   分析煽情影视歌曲为什么让人不适 不适用于: 用媚俗标签攻击大众审美——检测工具不是鄙视链武器
   EN trigger: kitsch detector
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《丑的历史》
 source_chapter: 媚俗章
 tags: [蒸馏技能]
 related_skills: []

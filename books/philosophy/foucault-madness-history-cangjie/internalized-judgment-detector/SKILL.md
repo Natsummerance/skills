@@ -1,8 +1,9 @@
 ---
 name: internalized-judgment-detector
+version: 1.0.0
 description: |
   分析「自我审判」型控制机制时调用：绩效考核自评、信用评分、宗教愧疚、平台声誉分。检验体系是否让成员内化法官、「永远不断地悔悟」。不适用于: 临床自罪妄想症状（那是精神症状不是权力分析对象）。
-source_book: 《疯癫与文明》 米歇尔·福柯（刘北成等译）
+source_book: 《疯癫与文明：理性时代的疯癫史》；作者: 米歇尔·福柯；译者: 刘北成等
 source_chapter: §6-7 皮内尔与审判环境
 tags: [福柯, 权力知识, 蒸馏技能]
 related_skills: []

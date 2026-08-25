@@ -1,8 +1,9 @@
 ---
 name: humane-reform-power-shift
+version: 1.0.0
 description: |
   公司宣布取消打卡改OKR/自评，想分析真实效果 不适用于: 对真正的解放性改革做条件反射式怀疑——本skill是分析工具不是立场
-source_book: 《疯癫与文明》 米歇尔·福柯（刘北成等译）
+source_book: 《疯癫与文明：理性时代的疯癫史》；作者: 米歇尔·福柯；译者: 刘北成等
 source_chapter: §6-7 图克与皮内尔
 tags: [福柯, 权力知识, 蒸馏技能]
 related_skills: []

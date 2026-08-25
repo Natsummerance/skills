@@ -1,5 +1,6 @@
 ---
 name: bazin-ontology-analysis
+version: 1.0.0
 description: |
   分析一部电影的写实主义主张 不适用于: 把本体论当评价标准——巴赞描述的是影像本质不是优劣
   EN trigger: bazin ontology / realism

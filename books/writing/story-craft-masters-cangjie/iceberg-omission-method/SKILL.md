@@ -1,9 +1,10 @@
 ---
 name: iceberg-omission-method
+version: 1.0.0
 description: |
   初稿修改时判断哪些解释该删 不适用于: 悬疑关键信息的省略——那是悬念管理不是冰山
   EN trigger: iceberg theory / omission
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《小说创作大师班》
 source_chapter: 海明威章
 tags: [蒸馏技能]
 related_skills: []

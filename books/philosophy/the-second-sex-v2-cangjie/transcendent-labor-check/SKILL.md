@@ -1,9 +1,10 @@
 ---
 name: transcendent-labor-check
+version: 1.0.0
 description: |
   评估自己的工作是否滋养主体感 不适用于: 贬低家务与照护劳动——批判的是其被迫性与无承认状态，非劳动价值本身
   EN trigger: transcendent labor
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《第二性》II
 source_chapter: 走向独立章
 tags: [蒸馏技能]
 related_skills: []

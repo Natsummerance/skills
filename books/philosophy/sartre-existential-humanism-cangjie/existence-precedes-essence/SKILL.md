@@ -1,8 +1,9 @@
 ---
 name: existence-precedes-essence
+version: 1.0.0
 description: |
   用户讨论「天生是什么样的人」「性格决定论」「我是不是就这样了」等本质主义话语时调用；分析英雄/懦夫、选择与责任的伦理结构时调用。不适用于: 临床心理评估、需要决定论框架的科学讨论。
-source_book: 《存在主义是一种人道主义》 让-保罗·萨特（周煦良等译）
+source_book: 《存在主义是一种人道主义》
 source_chapter: 正文
 tags: [萨特, 存在主义, 蒸馏技能]
 related_skills: []

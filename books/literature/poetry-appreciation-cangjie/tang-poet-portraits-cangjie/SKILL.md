@@ -1,5 +1,6 @@
 ---
 name: tang-poet-portraits-cangjie
+version: 1.0.0
 description: |
   给学生讲诗人生平与作品的关系 不适用于: 把画像当定论——诗人是多面的，六格只是入口
   EN trigger: poet portrait card

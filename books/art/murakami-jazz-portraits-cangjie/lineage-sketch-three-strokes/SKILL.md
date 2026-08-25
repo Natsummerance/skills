@@ -1,9 +1,10 @@
 ---
 name: lineage-sketch-three-strokes
+version: 1.0.0
 description: |
   节目串词或介绍文案 不适用于: 用于学术传记写作——速写牺牲细节，需完整谱系时用勋伯格法
   EN trigger: lineage sketch
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《爵士群像》
 source_chapter: 迈尔斯篇
 tags: [蒸馏技能]
 related_skills: []

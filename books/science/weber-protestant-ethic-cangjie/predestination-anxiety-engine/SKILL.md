@@ -1,8 +1,9 @@
 ---
 name: predestination-anxiety-engine
+version: 1.0.0
 description: |
   分析「焦虑驱动的成就追求」机制时调用：内卷、绩点军备竞赛、绩效自证——不可知审判→持续义证→系统劳动的心理引擎原型。理解「停不下来」的结构性来源时调用。不适用于: 临床焦虑治疗。
-source_book: 《新教伦理与资本主义精神》 马克斯·韦伯（康乐/简惠美译）
+source_book: 《新教伦理与资本主义精神》
 source_chapter: 第二卷第一章 入世禁欲的宗教基础
 tags: [韦伯, 社会学, 蒸馏技能]
 related_skills: []

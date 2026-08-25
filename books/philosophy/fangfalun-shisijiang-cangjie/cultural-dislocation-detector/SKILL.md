@@ -1,9 +1,10 @@
 ---
 name: cultural-dislocation-detector
+version: 1.0.0
 description: |
   审查一本译著/一篇引介文章的准确性 不适用于: 给译者个人挑刺——错位是结构性的，非个人能力问题
   EN trigger: cultural dislocation / translation studies
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《哲学史方法论十四讲》；作者: 邓晓芒；重庆大学出版社
 source_chapter: L13-L14
 tags: [蒸馏技能]
 related_skills: []

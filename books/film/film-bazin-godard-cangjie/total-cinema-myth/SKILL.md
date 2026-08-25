@@ -1,5 +1,6 @@
 ---
 name: total-cinema-myth
+version: 1.0.0
 description: |
   讨论AI/VR等新媒介的起源叙事 不适用于: 否认技术条件的作用——神话需要物质载体才能成真
   EN trigger: myth of total cinema

@@ -1,9 +1,10 @@
 ---
 name: adaptation-value-assessment
+version: 1.0.0
 description: |
   讨论小说改电影是否忠实 不适用于: 用于原创作品的内部评价——本框架只针对跨媒介转换
   EN trigger: adaptation assessment
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《新丰年》
 source_chapter: 改编话题篇
 tags: [蒸馏技能]
 related_skills: []

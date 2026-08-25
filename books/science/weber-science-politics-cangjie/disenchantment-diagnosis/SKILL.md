@@ -1,5 +1,6 @@
 ---
 name: disenchantment-diagnosis
+version: 1.0.0
 description: |
   分析「技术进步为何没带来意义感」「理性化与意义的张力」时调用：除魅=计算支配力增强而非意义供给增加，两者是独立变量。讨论科技乌托邦、现代性焦虑、专家无灵魂现象时调用。不适用于: 反对具体技术应用。
   When discussing why technological progress fails to bring meaning; analyzing the tension between rationalization and meaning. Not for opposing specific technologies.

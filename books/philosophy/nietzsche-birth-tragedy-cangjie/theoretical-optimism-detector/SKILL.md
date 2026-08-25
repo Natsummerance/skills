@@ -1,8 +1,9 @@
 ---
 name: theoretical-optimism-detector
+version: 1.0.0
 description: |
   检测「科学乐观主义」话语时调用：一种论述是否声称一切问题终将被知识/技术解决、是否用理解替代体验。分析科技乌托邦叙事、教育唯分数论、「科学终将证明」式断言时调用。不适用于: 批评具体科学研究。
-source_book: 《悲剧的诞生》 尼采（周国平译）
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §17-18
 tags: [尼采, 美学, 批判工具, 蒸馏技能]
 related_skills: []

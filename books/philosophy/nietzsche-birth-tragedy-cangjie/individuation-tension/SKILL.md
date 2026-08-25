@@ -1,8 +1,9 @@
 ---
 name: individuation-tension
+version: 1.0.0
 description: |
   诊断一种文化现象（饭圈、节日、宗教仪式）在两极间的位置 不适用于: 对临床抑郁/躁狂做医学判断——那是专业医疗场景
-source_book: 《悲剧的诞生》 弗里德里希·尼采（周国平译）
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §1
 tags: [尼采, 美学, 蒸馏技能]
 related_skills: []

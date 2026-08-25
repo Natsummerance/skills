@@ -1,5 +1,6 @@
 ---
 name: reader-burden-audit
+version: 1.0.0
 description: |
   论文提交前的最后一轮自查 不适用于: 用于文学创作——留白是美学选择不是缺陷
   EN trigger: readability audit

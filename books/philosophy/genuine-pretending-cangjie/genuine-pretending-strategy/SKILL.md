@@ -1,9 +1,10 @@
 ---
 name: genuine-pretending-strategy
+version: 1.0.0
 description: |
   讨论如何在职场规则中保持自我 不适用于: 把真诚伪装用作欺骗他人的话术——它是对自己的解药不是对他人的手段
   EN trigger: genuine pretending
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《游心之路：〈庄子〉与现代西方哲学》
 source_chapter: 第二章 / 全书主旨
 tags: [蒸馏技能]
 related_skills: []

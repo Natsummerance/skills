@@ -1,8 +1,9 @@
 ---
 name: philosophical-suicide-detector
+version: 1.0.0
 description: |
   识别「先信再说」型思想结构时调用：克尔凯郭尔/雅斯贝斯/舍斯托夫式的跳、任何要求放弃理性以换取安宁的方案。分析宗教劝信/成功学话术/宏大叙事的逃避机制时调用。不适用于: 有证据基础的立场转变。
-source_book: 《西西弗神话》 阿尔贝·加缪（杜小真译）
+source_book: 《西西弗神话》
 source_chapter: 哲学性的自杀
 tags: [加缪, 荒诞, 批判工具, 蒸馏技能]
 related_skills: []

@@ -1,8 +1,9 @@
 ---
 name: qianmu-four-lines
+version: 1.0.0
 description: |
   分析某个朝代的整体政治结构 不适用于: 需要经济史定量数据的研究——本书是理念型概观
-source_book: 《中国历代政治得失》 钱穆（三联书店）
+source_book: 《中国历代政治得失》；作者: 钱穆；三联书店
 source_chapter: 总论
 tags: [钱穆, 制度史, 史学方法, 蒸馏技能]
 related_skills: []

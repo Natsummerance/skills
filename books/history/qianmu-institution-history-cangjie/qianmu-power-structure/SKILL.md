@@ -1,8 +1,9 @@
 ---
 name: qianmu-power-structure
+version: 1.0.0
 description: |
   讨论「古代皇帝是不是想干嘛就干嘛」 不适用于: 清代专题需格外谨慎——「部族政权」论在学界争议极大，引用必须标注
-source_book: 《中国历代政治得失》 钱穆（三联书店）
+source_book: 《中国历代政治得失》；作者: 钱穆；三联书店
 source_chapter: 汉代篇·唐代篇
 tags: [钱穆, 制度史, 史学方法, 蒸馏技能]
 related_skills: []

@@ -1,5 +1,6 @@
 ---
 name: social-mood-decoder
+version: 1.0.0
 description: |
   分析一首爆红神曲的社会背景 不适用于: 用时代情绪解释一切个体审美——总有人逆着时代听
   EN trigger: music and society

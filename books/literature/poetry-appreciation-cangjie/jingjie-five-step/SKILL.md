@@ -1,5 +1,6 @@
 ---
 name: jingjie-five-step
+version: 1.0.0
 description: |
   深度赏析一首诗词 不适用于: 套五步公式替代真实的审美体验——方法服务于感受不是取代
   EN trigger: jingjie / poetry appreciation

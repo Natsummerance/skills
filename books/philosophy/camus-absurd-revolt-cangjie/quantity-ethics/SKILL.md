@@ -1,8 +1,9 @@
 ---
 name: quantity-ethics
+version: 1.0.0
 description: |
   讨论「广度活法 vs 深度活法」哪个更好 不适用于: 把数量伦理当作消费主义辩护——加缪的前提恰是反消费的清醒
-source_book: 《西西弗神话》 阿尔贝·加缪（杜小真译）
+source_book: 《西西弗神话》
 source_chapter: 唐璜主义
 tags: [加缪, 荒诞, 蒸馏技能]
 related_skills: []

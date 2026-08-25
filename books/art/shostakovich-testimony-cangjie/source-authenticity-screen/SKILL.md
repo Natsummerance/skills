@@ -1,9 +1,10 @@
 ---
 name: source-authenticity-screen
+version: 1.0.0
 description: |
   引用回忆录或访谈写论文前 不适用于: 用于否定一切口述史料——审查的目的是分级不是取消
   EN trigger: source authenticity
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《见证》
 source_chapter: 方法论警示（由真伪争议引申）
 tags: [蒸馏技能]
 related_skills: []
