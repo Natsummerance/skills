@@ -1,7 +1,7 @@
 # test-results — 压力测试（fallback 自测）
 
-> ⚠️ 可信度说明: 独立盲测 sub-agent 因网关故障不可用，本结果为主流程自测（fallback），
-> 可信度低于独立盲测。zen 网关恢复后建议重跑独立盲测。
+> ⚠️ 可信度说明: 独立盲测 sub-agent 三次均因 zen 网关故障失败（08:14 / 08:33 / 08:32 重派），
+> 本结果为主流程自测（fallback），可信度低于独立盲测。建议网关长期稳定后重跑。
 
 ## apollonian-dionysian-dual
 通过率: 6/6 = 100% ✅
