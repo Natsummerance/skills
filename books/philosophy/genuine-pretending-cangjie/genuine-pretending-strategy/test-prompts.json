@@ -1,0 +1,30 @@
+{
+  "skill": "genuine-pretending-strategy",
+  "version": "1.0.0",
+  "source_book": "《游心之路》 — 梅勒/多霍斯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我不想躺平也不想硬刚职场，有没有别的活法",
+      "expected_behavior": "激活：三步检验（命名游戏/全情/出戏）",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "庄子是哪个朝代的",
+      "expected_behavior": "知识查询不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以装样子就行了呗",
+      "expected_behavior": "边界：明确区分于犬儒——自嘲成分是必要条件",
+      "notes": "误读边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,30 @@
+{
+  "skill": "philosophical-humor-analysis",
+  "version": "1.0.0",
+  "source_book": "《游心之路》 — 梅勒/多霍斯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "这个段子笑完之后感觉有点扎心",
+      "expected_behavior": "激活：三功能定位+道德恐惧检测",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "推荐几个搞笑博主",
+      "expected_behavior": "娱乐需求不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "拿残疾人开玩笑的段子怎么评价",
+      "expected_behavior": "边界：区分优越论幽默与自嘲式幽默——前者需指出其伤害结构",
+      "notes": "伦理边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -8,6 +8,7 @@
 |----|-----------|--------|------|
 | [哲学史方法论十四讲](fangfalun-shisijiang/) | 14 | ✅ 100%（十四讲全覆盖） | [INDEX](fangfalun-shisijiang/INDEX.md) |
 | [游心之路：〈庄子〉与现代西方哲学](genuine-pretending/) | 7 | ✅ 全书覆盖（导言+四章+结论） | [INDEX](genuine-pretending/INDEX.md) |
+| [游心之路 · cangjie版](genuine-pretending-cangjie/) | 6 | ✅ cangjie全流程重蒸馏（候选25条） | [INDEX](genuine-pretending-cangjie/INDEX.md) |
 | [悲剧的诞生](nietzsche-birth-tragedy/) | 1 | ✅ 深读（日神酒神+艺术形而上学） | [INDEX](nietzsche-birth-tragedy/INDEX.md) |
 | [西西弗神话](camus-absurd-revolt/) | 1 | ✅ 深读（荒诞三结论） | [INDEX](camus-absurd-revolt/INDEX.md) |
 | [疯癫与文明](foucault-madness-history/) | 1 | ✅ 深读（理性建构疯癫史） | [INDEX](foucault-madness-history/INDEX.md) |

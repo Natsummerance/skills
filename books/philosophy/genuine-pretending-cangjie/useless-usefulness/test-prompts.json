@@ -1,0 +1,30 @@
+{
+  "skill": "useless-usefulness",
+  "version": "1.0.0",
+  "source_book": "《游心之路》 — 梅勒/多霍斯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我养鱼画画这些爱好都不能变现，是不是该戒了",
+      "expected_behavior": "激活：有用性压力源识别+豁免效应评估",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "怎么把爱好变成副业",
+      "expected_behavior": "变现规划不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以躺平就对了",
+      "expected_behavior": "边界：免于收割≠拒绝参与——庄子的重点是保全不是放弃",
+      "notes": "躺平误读边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,30 @@
+{
+  "skill": "joker-positioning",
+  "version": "1.0.0",
+  "source_book": "《游心之路》 — 梅勒/多霍斯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我是设计师也是程序员也是写手，简历不知道怎么写",
+      "expected_behavior": "激活：三问定位（游戏/规则/万能牌）",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "帮我优化简历格式",
+      "expected_behavior": "实操需求不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "外科医生能不能当小丑牌",
+      "expected_behavior": "边界：高度结构化领域适用性有限——作者未讨论此边界",
+      "notes": "适用性边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

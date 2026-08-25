@@ -1,0 +1,30 @@
+{
+  "skill": "smooth-operator-recognition",
+  "version": "1.0.0",
+  "source_book": "《游心之路》 — 梅勒/多霍斯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我们公司有个怪人从不加班但业绩最好",
+      "expected_behavior": "激活：三特征核对+瓦解效应判定",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "职场生存技巧有哪些",
+      "expected_behavior": "泛技巧需求不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "投机取巧算不算处世高手",
+      "expected_behavior": "边界：成就真实性检验——投机无真实成就不算",
+      "notes": "边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
