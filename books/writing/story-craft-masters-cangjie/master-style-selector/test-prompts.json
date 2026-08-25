@@ -1,0 +1,30 @@
+{
+  "skill": "master-style-selector",
+  "version": "1.0.0",
+  "source_book": "《小说创作大师班》 — 威廉·凯恩 等",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我对话写得很生硬，该学谁",
+      "expected_behavior": "激活：问题命名→匹配大师→精读单章",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "这些大师谁的文学史地位最高",
+      "expected_behavior": "评价排序不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "把毛姆的开头和金的悬念和海明威的省略全用上行不行",
+      "expected_behavior": "边界：机械拼接警告——风格互斥风险",
+      "notes": "拼接红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,30 @@
+{
+  "skill": "opening-technique-library",
+  "version": "1.0.0",
+  "source_book": "《小说创作大师班》 — 威廉·凯恩 等",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我的小说开头改了二十遍还是不满意",
+      "expected_behavior": "激活：四类试写法",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "这本小说开头写得怎么样帮我看看",
+      "expected_behavior": "具体文本批评需读全文，先要求提供再分析",
+      "notes": "流程边界"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "慢热的名著开头是不是都失败了",
+      "expected_behavior": "边界：本书覆盖不足的领域如实说明——慢热有合法形态",
+      "notes": "覆盖边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

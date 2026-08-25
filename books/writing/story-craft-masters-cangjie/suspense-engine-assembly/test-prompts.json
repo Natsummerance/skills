@@ -1,0 +1,30 @@
+{
+  "skill": "suspense-engine-assembly",
+  "version": "1.0.0",
+  "source_book": "《小说创作大师班》 — 威廉·凯恩 等",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我的网文写到三十万字就没追了，怎么留住读者",
+      "expected_behavior": "激活：核心问题定义+兑现节律表",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "推荐几本斯蒂芬·金",
+      "expected_behavior": "书单不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "每章都留钩子会不会太累",
+      "expected_behavior": "边界：节律设计允许疏密变化——钟声有间隔",
+      "notes": "节奏边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

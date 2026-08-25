@@ -1,0 +1,30 @@
+{
+  "skill": "iceberg-omission-method",
+  "version": "1.0.0",
+  "source_book": "《小说创作大师班》 — 威廉·凯恩 等",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我写小说总怕读者看不懂，什么都解释一遍",
+      "expected_behavior": "激活：复述测试+强化检验",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "海明威哪年得的诺贝尔奖",
+      "expected_behavior": "史实查询不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "删掉伏笔算不算冰山",
+      "expected_behavior": "边界：区分省略解释与删除伏笔——后者破坏承诺",
+      "notes": "边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,30 @@
+{
+  "skill": "allegory-structure-matching",
+  "version": "1.0.0",
+  "source_book": "《小说创作大师班》 — 威廉·凯恩 等",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我想写一个人一觉醒来变成甲虫的故事",
+      "expected_behavior": "激活：适配性检验+封死解释口",
+      "notes": "正面（卡夫卡原典场景）"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "写个群像家族史诗怎么安排视角",
+      "expected_behavior": "多线故事不适配此结构",
+      "notes": "反向诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "荒诞故事最后要不要给解释",
+      "expected_behavior": "边界：本skill立场是拒绝解释但内在规则须自洽",
+      "notes": "核心边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
