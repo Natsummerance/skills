@@ -1,0 +1,23 @@
+{
+  "skill": "reader-burden-audit",
+  "version": "1.0.0",
+  "source_book": "《学术写作指南》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "导师总说我论文逻辑跳，帮我查哪里跳了",
+      "expected_behavior": "激活：换读者眼标记跳跃点+修改单",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "帮我把这首诗改得更易懂",
+      "expected_behavior": "边界：文学留白是美学选择不适用此审计",
+      "notes": "文体边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

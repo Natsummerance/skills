@@ -1,0 +1,23 @@
+{
+  "skill": "literature-synthesis-helper",
+  "version": "1.0.0",
+  "source_book": "《学术写作指南》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我收集了30篇文献但不知道怎么组织进综述",
+      "expected_behavior": "激活：四问梳理（关系/分歧/共识/缺口）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "帮我做meta分析",
+      "expected_behavior": "边界：系统综述需PRISMA等严格流程，超出本skill范围",
+      "notes": "范围边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

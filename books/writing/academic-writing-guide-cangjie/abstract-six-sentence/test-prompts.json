@@ -1,0 +1,23 @@
+{
+  "skill": "abstract-six-sentence",
+  "version": "1.0.0",
+  "source_book": "《学术写作指南》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "论文摘要总是写太长，帮我压缩",
+      "expected_behavior": "激活：六格模板+删冗词",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "哲学论文摘要也用这个模板吗",
+      "expected_behavior": "边界：思辨类需问题意识式变通——如实说明模板局限",
+      "notes": "文体边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
