@@ -1,0 +1,23 @@
+{
+  "skill": "style-fingerprint-game",
+  "version": "1.0.0",
+  "source_book": "《古典音乐入门》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "随机放一段古典乐我能猜出是谁写的吗，教我方法",
+      "expected_behavior": "激活：建指纹卡+盲听流程",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "学生弹得像莫扎特就是莫扎特吗",
+      "expected_behavior": "边界：指纹识别针对原作判断，模仿之作需另查文献",
+      "notes": "误判边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

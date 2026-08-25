@@ -33,3 +33,4 @@
 | [见证 · cangjie版](shostakovich-testimony-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选18条；⚠️伏尔科夫争议信源随注） | — |
 | [流行音乐史 · cangjie版](pop-music-history-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选18条，引文4/4） | — |
 | [不朽的演奏家 · cangjie版](immortal-musicians-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选18条，引文4/4） | — |
+| [古典音乐入门 · cangjie版](classical-music-intro-cangjie/) | 3 | ✅ cangjie全流程重蒸馏（候选16条，引文4/4） | — |

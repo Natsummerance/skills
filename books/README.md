@@ -17,5 +17,5 @@
 | [literature/](literature/) | 诗词鉴赏四书合蒸 ✅2 | [INDEX](literature/INDEX.md) |
 | [film/](film/) | 电影是什么？✅1 · 理解戈达尔 ✅1 | [INDEX](film/INDEX.md) |
 
-**当前合计：30 本在库 / 167 个 skills**（cangjie全量重蒸馏轮：14/30完成，第三批3/5）**分类**或书籍完成时更新
+**当前合计：30 本在库 / 170 个 skills**（cangjie全量重蒸馏轮：15/30完成，第三批4/5）**分类**或书籍完成时更新
 - 书籍完整度状态见各分类 INDEX 的进度列

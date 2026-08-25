@@ -1,0 +1,23 @@
+{
+  "skill": "sonata-form-map",
+  "version": "1.0.0",
+  "source_book": "《古典音乐入门》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "第一次听贝多芬月光第一乐章该怎么听",
+      "expected_behavior": "激活：双主题-展开-再现地图（并说明该乐章的特殊性）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "肖邦的叙事曲也是奏鸣曲式吗",
+      "expected_behavior": "边界：浪漫派自由曲式需个案分析——地图可能失灵",
+      "notes": "曲式边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

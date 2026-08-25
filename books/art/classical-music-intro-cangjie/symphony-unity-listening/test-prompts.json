@@ -1,0 +1,23 @@
+{
+  "skill": "symphony-unity-listening",
+  "version": "1.0.0",
+  "source_book": "《古典音乐入门》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "贝多芬第五交响曲四个乐章是怎么连起来的",
+      "expected_behavior": "激活：对立-争锋-统一三步",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "勋伯格的交响曲为什么听起来很乱",
+      "expected_behavior": "边界：元素统一非其目标——如实说明框架适用范围",
+      "notes": "适用性边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

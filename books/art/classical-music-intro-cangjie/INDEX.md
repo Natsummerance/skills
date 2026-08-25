@@ -1,0 +1,9 @@
+# INDEX — 《古典音乐入门》cangjie 蒸馏包
+
+> 3 个原子 skills · 候选池16条 · 引文4/4通过（112KB合理密度）
+
+| skill | 一句话 | 触发核心 |
+|-------|--------|---------|
+| [symphony-unity-listening](symphony-unity-listening/SKILL.md) | 对立-争锋-统一三步 | 「四个乐章什么关系」 |
+| [style-fingerprint-game](style-fingerprint-game/SKILL.md) | 作曲家指纹猜谜 | 「这是谁写的」 |
+| [sonata-form-map](sonata-form-map/SKILL.md) | 奏鸣曲式三幕剧地图 | 「奏鸣曲式是什么」 |
