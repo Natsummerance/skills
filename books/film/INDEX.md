@@ -11,3 +11,4 @@
 
 ## 蒸馏队列
 - 《认识电影》《电影史》类教材 / 作者研究（希区柯克、小津）
+| [电影双书合蒸 · cangjie版](film-bazin-godard-cangjie/) | 6 | ✅ cangjie全流程重蒸馏（候选26条，引文6/6） | [INDEX](film-bazin-godard-cangjie/INDEX.md) |

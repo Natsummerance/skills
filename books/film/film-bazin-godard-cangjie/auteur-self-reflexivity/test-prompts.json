@@ -1,0 +1,23 @@
+{
+  "skill": "auteur-self-reflexivity",
+  "version": "1.0.0",
+  "source_book": "《电影是什么？》巴赞 /《理解戈达尔》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "八部半那种讲导演拍不出片子的电影叫什么类型",
+      "expected_behavior": "激活：三问分析（自反点/动机/观众关系）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "漫威彩蛋算自反吗",
+      "expected_behavior": "边界：幕后花絮式彩蛋不进入叙事不算真自反",
+      "notes": "彩蛋边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

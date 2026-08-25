@@ -1,0 +1,23 @@
+{
+  "skill": "jump-cut-grammar-reader",
+  "version": "1.0.0",
+  "source_book": "《电影是什么？》巴赞 /《理解戈达尔》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "筋疲力尽里面开车那段画面突然跳了一下，是故意的吗",
+      "expected_behavior": "激活：三步识别（机位/时间/功能）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我剪辑手滑跳了一帧算不算戈达尔",
+      "expected_behavior": "边界：区分有意语法与失误——看是否有表达目的",
+      "notes": "失误边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

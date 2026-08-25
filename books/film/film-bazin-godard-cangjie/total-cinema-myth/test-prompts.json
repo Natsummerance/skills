@@ -1,0 +1,23 @@
+{
+  "skill": "total-cinema-myth",
+  "version": "1.0.0",
+  "source_book": "《电影是什么？》巴赞 /《理解戈达尔》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "为什么VR一出现大家就说它是终极媒介",
+      "expected_behavior": "激活：梦想与技术时序重估",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以技术不重要",
+      "expected_behavior": "边界：神话需要物质载体——否认技术条件即误读",
+      "notes": "技术否定边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

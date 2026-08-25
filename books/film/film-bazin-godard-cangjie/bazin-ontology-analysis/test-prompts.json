@@ -1,0 +1,23 @@
+{
+  "skill": "bazin-ontology-analysis",
+  "version": "1.0.0",
+  "source_book": "《电影是什么？》巴赞 /《理解戈达尔》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "CGI做的画面和实拍在美学上有区别吗",
+      "expected_behavior": "激活：物理成因链+暧昧保留检验",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "巴赞是哪个国家的",
+      "expected_behavior": "史实查询不调用",
+      "notes": "诱饵"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

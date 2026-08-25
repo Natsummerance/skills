@@ -1,0 +1,23 @@
+{
+  "skill": "montage-ethics-review",
+  "version": "1.0.0",
+  "source_book": "《电影是什么？》巴赞 /《理解戈达尔》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "这个纪录片把采访剪得面目全非，怎么分析",
+      "expected_behavior": "激活：三问审查+暧昧性检验",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "动作片快速剪辑是不是都在操纵观众",
+      "expected_behavior": "边界：类型节奏需求合法——越界判定需具体语境",
+      "notes": "泛化边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
