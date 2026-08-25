@@ -1,0 +1,23 @@
+{
+  "skill": "adaptation-value-assessment",
+  "version": "1.0.0",
+  "source_book": "《新丰年》 辛丰年",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "三体动画版是不是毁了原著",
+      "expected_behavior": "激活：精华层识别（设定vs叙事）+双向判定",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以一切改编都不行",
+      "expected_behavior": "边界：媒介原教旨主义警告——幽默曲式救活案例",
+      "notes": "教条边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

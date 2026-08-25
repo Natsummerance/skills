@@ -1,0 +1,23 @@
+{
+  "skill": "amateur-music-writing",
+  "version": "1.0.0",
+  "source_book": "《新丰年》 辛丰年",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我不是学音乐的，但想开始写点听后感",
+      "expected_behavior": "激活：四步路径（积累曲目/诚实好恶/轶史锚点/转折笔法）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "随便写写就行不用查资料吧",
+      "expected_behavior": "边界：认真的听含查证义务——具体性是底线",
+      "notes": "查证边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

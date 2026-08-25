@@ -1,0 +1,23 @@
+{
+  "skill": "creator-performer-separation",
+  "version": "1.0.0",
+  "source_book": "《新丰年》 辛丰年",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "作家自己读的有声书会不会更好",
+      "expected_behavior": "激活：双维矩阵（创作分/演绎分分开打分）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以创作者都不该出面",
+      "expected_behavior": "边界：直觉仍有不可替代处——分离不等于否定参与价值",
+      "notes": "否定边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
