@@ -1,0 +1,30 @@
+{
+  "skill": "theoretical-optimism-detector",
+  "version": "0.2.0",
+  "source_book": "《悲剧的诞生》 — 尼采",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "随着AI发展，人类所有问题最终都会被解决",
+      "expected_behavior": "激活：三问检测（普遍有效自命+不可知处置）",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "这篇论文的研究方法有什么问题",
+      "expected_behavior": "具体学术评估不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以学习科学知识没用了",
+      "expected_behavior": "边界：明确本skill不构成反智主义依据——批判的是自命边界非科学实践",
+      "notes": "反智红线"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "skill": "collective-identity-dissolution",
+  "version": "0.2.0",
+  "source_book": "《悲剧的诞生》 — 尼采",
+  "darwin_compatible": true,
+  "minimum_pass_rate": 0.8,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "演唱会大合唱的时候感觉整个人都融化了",
+      "expected_behavior": "激活：三要素分析（触发装置/溶解对象/重构出口）",
+      "notes": "正面"
+    },
+    {
+      "id": "should-not-trigger-01",
+      "type": "should_not_trigger",
+      "prompt": "怎么组织团建活动",
+      "expected_behavior": "实操策划不调用",
+      "notes": "诱饵"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我朋友进了某个团体就变了个人，退不出来",
+      "expected_behavior": "边界：可逆性检验触发；若涉人身控制需提示求助渠道而非仅哲学分析",
+      "notes": "安全边界"
+    }
+  ]
+}

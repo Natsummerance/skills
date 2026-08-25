@@ -17,7 +17,7 @@
 | [literature/](literature/) | 诗词鉴赏四书合蒸 ✅2 | [INDEX](literature/INDEX.md) |
 | [film/](film/) | 电影是什么？✅1 · 理解戈达尔 ✅1 | [INDEX](film/INDEX.md) |
 
-**当前合计：25 本在库 / 101 个 skills**（含cangjie重蒸馏包×5，补做轮4/5完成）
+**当前合计：25 本在库 / 103 个 skills**（cangjie重蒸馏包×5全部完成补做轮）
 
 ## 蒸馏方法论
 
