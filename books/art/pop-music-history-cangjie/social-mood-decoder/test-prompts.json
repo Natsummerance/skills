@@ -1,0 +1,23 @@
+{
+  "skill": "social-mood-decoder",
+  "version": "1.0.0",
+  "source_book": "《流行音乐史》西方卷+中国卷",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "为什么这几年怀旧金曲翻红这么多",
+      "expected_behavior": "激活：听众定位+补偿主题+事件验证",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "我就是单纯喜欢这首歌没有原因",
+      "expected_behavior": "边界：尊重个体审美的自主性——框架解释集体现象不否定个人感受",
+      "notes": "个体边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

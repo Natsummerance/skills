@@ -1,0 +1,23 @@
+{
+  "skill": "tech-born-style-analysis",
+  "version": "1.0.0",
+  "source_book": "《流行音乐史》西方卷+中国卷",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "AI生成音乐算不算新的音乐风格",
+      "expected_behavior": "激活：反事实检验+三档判定",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以技术决定了一切音乐",
+      "expected_behavior": "红线：技术决定论警告——歌词与社会语境同样构成风格",
+      "notes": "决定论红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

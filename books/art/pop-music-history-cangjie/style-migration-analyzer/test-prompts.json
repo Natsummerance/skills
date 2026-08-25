@@ -1,0 +1,23 @@
+{
+  "skill": "style-migration-analyzer",
+  "version": "1.0.0",
+  "source_book": "《流行音乐史》西方卷+中国卷",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "K-pop为什么能全球爆火",
+      "expected_behavior": "激活：输入-本土化-反哺三段分析",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "京剧的历史沿革",
+      "expected_behavior": "边界：单点传统无跨文化传播不适用三段框架",
+      "notes": "适用性边界"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,23 @@
+{
+  "skill": "china-west-pop-comparison",
+  "version": "1.0.0",
+  "source_book": "《流行音乐史》西方卷+中国卷",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "华语乐坛是不是一直都在抄欧美",
+      "expected_behavior": "激活：双时间轴+本土化资源调用分析，反驳延迟复制叙事",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以中国流行乐比欧美的强",
+      "expected_behavior": "边界：对照法不做排名——产出是结构性理解",
+      "notes": "排名红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
