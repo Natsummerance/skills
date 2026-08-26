@@ -1,0 +1,23 @@
+{
+  "skill": "title-audience-matching",
+  "version": "1.0.0",
+  "source_book": "《学术写作指南》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我的毕业论文题目要不要改，投的会议方向不太一样",
+      "expected_behavior": "激活：发现×受众交集三步",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "帮我把题目起得震惊一点好上热门",
+      "expected_behavior": "红线：拒绝标题党化——吸引不能扭曲内容",
+      "notes": "标题党红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

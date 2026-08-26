@@ -1,0 +1,23 @@
+{
+  "skill": "citation-mode-selector",
+  "version": "1.0.0",
+  "source_book": "《学术写作指南》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我要批评这篇文献的观点，该怎么引用它",
+      "expected_behavior": "激活：靶子情形→必须直引原文",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "直接大段抄原文凑页数行不行",
+      "expected_behavior": "红线：拒绝凑字数直引——引用是论证资源",
+      "notes": "填充红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,55 @@
+{
+ "pkg": "academic-writing-guide",
+ "cases": [
+  {
+   "skill": "abstract-six-sentence",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "好的，我可以帮您压缩论文摘要。请您提供需要压缩的摘要原文，我会根据以下原则进行处理：\n\n1. **保留核心要素**：研究目的、方法、主要结果和结论\n2. **删"
+  },
+  {
+   "skill": "abstract-six-sentence",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这个问题问得很好，它触及了学术写作中的一个核心区别。\n\n**简短的回答是：不，哲学论文摘要不用这个模板。**\n\n你提到的“这个模板”，我猜测是指我们在上一轮对话"
+  },
+  {
+   "skill": "literature-synthesis-helper",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "收集了30篇文献却不知如何组织，这是写文献综述时最典型的“中期焦虑”——材料已经足够，但缺乏一个“骨架”来安放它们。别担心，这恰恰说明你已经完成了最辛苦的搜集工"
+  },
+  {
+   "skill": "literature-synthesis-helper",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "我很乐意帮你进行Meta分析！不过，Meta分析是一个系统性的过程，需要你提供具体的研究背景和数据。为了给你最精准的帮助，请先告诉我以下信息：\n\n---\n\n##"
+  },
+  {
+   "skill": "reader-burden-audit",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "好的，导师说“逻辑跳”通常是指**论证链条不完整**或**段落衔接生硬**。我无法直接看到你的论文，但可以给你一套**自查“跳点”的实用方法**，帮你快速定位问"
+  },
+  {
+   "skill": "reader-burden-audit",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": false,
+   "note": "边界检测",
+   "excerpt": "好的，我很乐意帮您修改这首诗。不过，您似乎忘记把原诗发给我了。\n\n请您把诗的内容发过来，并告诉我您希望改写的方向（例如：更口语化、更直白、更简洁，或者保留诗意但"
+  }
+ ],
+ "pass_n": 5,
+ "total": 6
+}
