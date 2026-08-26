@@ -1,0 +1,23 @@
+{
+  "skill": "individual-collective-tension",
+  "version": "1.0.0",
+  "source_book": "《如何听爵士》 特德·焦亚",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "Duke Ellington的乐队为什么说那是他的音乐而不是乐手的",
+      "expected_behavior": "激活：个体-集体张力分析（Ellington正是形式主义一极）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以莫顿比阿姆斯特朗更高级吗",
+      "expected_behavior": "红线：拒绝美学排名——约束与自由都是选择不是段位",
+      "notes": "排名红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

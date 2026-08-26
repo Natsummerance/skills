@@ -13,3 +13,10 @@
 4. aaba-form-recognition ← g02（曲式识别）
 
 ## 通过率: 引文全部验证通过
+
+## 数量补齐轮补充（2026-08-26）
+## f03 个体-集体张力 → ✓ (V1: 莫顿vs阿姆斯特朗/V2: 乐队权力分析/V3: 光谱定位)
+## c02-c03 / g05-g06 → ✓ 引文3/3一次通过
+
+### 新增1 skill：individual-collective-tension
+### 最终：5 skills ✅ 达标

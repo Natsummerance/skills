@@ -1,6 +1,6 @@
 # INDEX — 《如何听爵士》cangjie 蒸馏包
 
-> 4 个原子 skills · 候选池16条 · 引文全部通过
+> 5 个原子 skills · 候选池20条（补齐轮4→5） · 引文全部通过
 
 | skill | 一句话 | 触发核心 |
 |-------|--------|---------|
@@ -15,3 +15,4 @@ graph TD
     SCL[风格坐标] --> AFR[AABA识别]
     JCD --> SCL
 ```
+| [individual-collective-tension](individual-collective-tension/SKILL.md) | 集体织体vs个人英雄 | 「这个乐队谁是主角」 |

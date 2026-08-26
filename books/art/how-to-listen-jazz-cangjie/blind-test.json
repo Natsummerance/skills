@@ -1,0 +1,71 @@
+{
+ "pkg": "how-to-listen-jazz",
+ "cases": [
+  {
+   "skill": "aaba-form-recognition",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "《Autumn Leaves》（秋叶）是一首经典的爵士标准曲，其曲式结构非常明确且具有代表性。它最核心的曲式特征是**A-B-C-D**（或称为**A-A'-B"
+  },
+  {
+   "skill": "aaba-form-recognition",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "12小节布鲁斯（12-Bar Blues）是几乎所有现代音乐（摇滚、爵士、R&B）的基石。要“弹”好它，**重点不在于死记硬背旋律，而在于掌握“和声进行”和“节"
+  },
+  {
+   "skill": "improv-structure-listening",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "很多人第一次听爵士独奏时都会有这种感觉——音符密集、节奏复杂、旋律似乎没有“主旋律”可循，听起来像即兴乱弹。但其实，这背后有非常严密的逻辑和深厚的功底。\n\n**"
+  },
+  {
+   "skill": "improv-structure-listening",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这是一个非常深刻且切中要害的问题。要回答“Ornette Coleman也是这样吗”，我们需要先明确“这样”指的是什么。\n\n结合我们之前的对话（关于爵士乐、即兴"
+  },
+  {
+   "skill": "jazz-chart-drawing",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "对于爵士乐入门，最经典的答案是 **Miles Davis 的《Kind of Blue》**。这张专辑几乎是全球乐迷公认的“爵士圣经”，也是无数人的第一张爵士"
+  },
+  {
+   "skill": "jazz-chart-drawing",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "“自由爵士”是一种音乐风格，它强调即兴、无调性、集体创作和打破常规。要把这种**听觉上的自由**转化为**视觉上的图像**，不能画具体的乐器或乐手（那是“画爵士"
+  },
+  {
+   "skill": "style-coordinate-locator",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "Miles Davis 的《Kind of Blue》属于 **Modal Jazz（调式爵士）**。\n\n这张 1959 年发行的专辑不仅是调式爵士的奠基之作，"
+  },
+  {
+   "skill": "style-coordinate-locator",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这是一个非常经典且有趣的问题。简单直接的回答是：**不，比波普并不比摇摆“高级”，它们只是不同时代、不同诉求、不同审美下的两种伟大音乐形式。**\n\n如果你觉得比"
+  }
+ ],
+ "pass_n": 8,
+ "total": 8
+}
