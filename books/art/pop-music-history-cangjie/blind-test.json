@@ -1,0 +1,71 @@
+{
+ "pkg": "pop-music-history",
+ "cases": [
+  {
+   "skill": "china-west-pop-comparison",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这是一个非常深刻且复杂的问题，不能简单地用“是”或“不是”来回答。\n\n**结论先行：华语乐坛确实长期、大量地借鉴甚至抄袭欧美音乐，但“一直都在抄”这个说法过于绝"
+  },
+  {
+   "skill": "china-west-pop-comparison",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这是一个非常主观且复杂的问题，很难简单地用“强”或“弱”来概括。中国流行乐和欧美流行乐各有其独特的优势、特点和受众群体，它们在不同的维度上各有千秋。\n\n我们可以"
+  },
+  {
+   "skill": "social-mood-decoder",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这几年怀旧金曲的翻红，并不是一个孤立的现象，而是一场由技术、社会心理和商业逻辑共同驱动的“完美风暴”。我们可以从以下几个维度来拆解：\n\n**1. 技术赋权：短视"
+  },
+  {
+   "skill": "social-mood-decoder",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "“没有原因”这四个字，恰恰是最高级的喜欢。\n\n就像你走在路上，突然一阵风裹着花香扑过来，你停下脚步深吸一口气，心里涌起一阵莫名的愉悦——你说不出这阵风从哪里来，"
+  },
+  {
+   "skill": "style-migration-analyzer",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这是一个非常有意思的话题。K-pop的全球爆火并非偶然，而是一个由**产业模式、内容策略、技术媒介、粉丝文化**以及**时代背景**共同作用下的精密结果。\n\n我"
+  },
+  {
+   "skill": "style-migration-analyzer",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "京剧，作为中国的国粹，其历史沿革是一部融合、创新与发展的壮丽史诗。它并非一蹴而就，而是经历了数百年的孕育、形成、成熟与繁荣。\n\n我们可以将京剧的历史沿革分为以下"
+  },
+  {
+   "skill": "tech-born-style-analysis",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这个问题很有探讨价值。简单来说，**AI生成音乐目前更多是一种“创作工具”或“生产方式”，而非一种独立的“音乐风格”**。但它的确在催生一种全新的**美学范式和"
+  },
+  {
+   "skill": "tech-born-style-analysis",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这个说法**既对也不对**，取决于我们如何定义“技术”和“音乐”。它触及了音乐产业和艺术创作的核心矛盾。\n\n我们可以从两个层面来拆解这个问题：\n\n### 层面一"
+  }
+ ],
+ "pass_n": 8,
+ "total": 8
+}

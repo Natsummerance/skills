@@ -1,6 +1,6 @@
 # INDEX — 《流行音乐史》（西方卷+中国卷）cangjie 蒸馏包
 
-> 4 个原子 skills · 候选池18条 · 引文4/4通过
+> 5 个原子 skills · 候选池22条（补齐轮4→5） · 引文4/4通过
 
 | skill | 一句话 | 触发核心 |
 |-------|--------|---------|
@@ -15,3 +15,4 @@ graph TD
     TBS[技术催生] --> SMD[情绪解码]
     SMA --> SMD
 ```
+| [underground-mainstream-cycle](underground-mainstream-cycle/SKILL.md) | 出圈四段生命周期 | 「小众文化一火就烂？」 |

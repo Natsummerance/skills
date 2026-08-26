@@ -1,0 +1,23 @@
+{
+  "skill": "underground-mainstream-cycle",
+  "version": "1.0.0",
+  "source_book": "《流行音乐史》",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我喜欢的一个说唱歌手上了春晚之后老粉都在骂他，怎么看",
+      "expected_behavior": "激活：四段定位+张力分析（不站队）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以火了的乐队都是叛徒",
+      "expected_behavior": "红线：拒绝道德审判个体——出圈是结构不是背叛",
+      "notes": "道德审判红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
