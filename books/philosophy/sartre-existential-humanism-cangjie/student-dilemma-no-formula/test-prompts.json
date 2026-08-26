@@ -1,0 +1,21 @@
+{
+ "skill": "student-dilemma-no-formula",
+ "version": "1.0.0",
+ "source_book": "《存在主义是一种人道主义》 萨特",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "考研还是工作，所有人都给我不同建议",
+   "expected_behavior": "激活：无公式抉择四步（含拒绝外包）"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "帮我决定我该选哪个",
+   "expected_behavior": "边界：存在主义答案只适用于自主决策者本人"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

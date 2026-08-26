@@ -1,0 +1,21 @@
+{
+ "skill": "moral-choice-under-pressure",
+ "version": "1.0.0",
+ "source_book": "《存在主义是一种人道主义》 萨特",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "deadline压到极限时抄不抄近路最考验人",
+   "expected_behavior": "激活：压力即考场+应对姿态命名"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以被胁迫做坏事也算自己的选择",
+   "expected_behavior": "边界：真实胁迫的强制性需区分——萨特谈的是极限情境"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,21 @@
+{
+ "skill": "resistance-choice-testimony",
+ "version": "1.0.0",
+ "source_book": "《存在主义是一种人道主义》 萨特",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "公司里有问题大家都不说话，我要不要提",
+   "expected_behavior": "激活：选择光谱定位+示范效应"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "不转发就是帮凶",
+   "expected_behavior": "边界：处境压力描述不是逼问权利；信息不足可暂缓"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

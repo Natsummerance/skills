@@ -1,0 +1,21 @@
+{
+ "skill": "pseudo-necessity-exposure",
+ "version": "1.0.0",
+ "source_book": "《存在主义是一种人道主义》 萨特",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "我也不想加班但没办法啊",
+   "expected_behavior": "激活：不得不翻译练习（真约束如实标注）"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以一切都是我的错",
+   "expected_behavior": "边界：目标是自觉不是自罪；真约束如实标注"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

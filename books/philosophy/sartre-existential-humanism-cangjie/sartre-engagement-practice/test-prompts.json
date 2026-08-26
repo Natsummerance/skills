@@ -1,0 +1,21 @@
+{
+ "skill": "sartre-engagement-practice",
+ "version": "1.0.0",
+ "source_book": "《存在主义是一种人道主义》 萨特",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "专业人士应该为公共议题发声吗",
+   "expected_behavior": "激活：介入层次+能力匹配+代价设计"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "不发声的知识分子都是懦夫",
+   "expected_behavior": "红线：介入形式因人而异"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

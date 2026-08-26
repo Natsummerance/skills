@@ -1,0 +1,21 @@
+{
+ "skill": "total-responsibility-weight",
+ "version": "1.0.0",
+ "source_book": "《存在主义是一种人道主义》 萨特",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "回顾过去十年，我怎么变成了现在的自己",
+   "expected_behavior": "激活：人格即作品的选择史重写"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "童年被怎样对待都是我自己的选择",
+   "expected_behavior": "边界：童年期自主度极低——当时认知也是处境一部分"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

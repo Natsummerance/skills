@@ -1,0 +1,21 @@
+{
+ "skill": "means-ends-consistency-check",
+ "version": "1.0.0",
+ "source_book": "《存在主义是一种人道主义》 萨特",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "项目做着做着手段越来越极端了",
+   "expected_behavior": "激活：计划外手段清单+止损三选一"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "中途调整方向就是失败",
+   "expected_behavior": "边界：合理调整与失控追加要区分"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

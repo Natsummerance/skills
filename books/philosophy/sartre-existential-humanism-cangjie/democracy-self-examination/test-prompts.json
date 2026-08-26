@@ -1,0 +1,21 @@
+{
+ "skill": "democracy-self-examination",
+ "version": "1.0.0",
+ "source_book": "《存在主义是一种人道主义》 萨特",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "我们公司的决策流程民主吗",
+   "expected_behavior": "激活：微观场域审计表"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以凡事都该投票",
+   "expected_behavior": "边界：把民主简化为凡事投票是误读"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

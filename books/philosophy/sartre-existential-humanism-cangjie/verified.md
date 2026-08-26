@@ -30,3 +30,8 @@
 ---
 ## rejected/
 ### g06 荒诞人 — 并入f02（同上，不重复）
+
+## 候选池全额转化轮（2026-08-26）
+## 新增9 skills（c01/c03/x01-x02/p01-p04全部转化；c02并入resistance；x03-x04与韦伯包跨书重复跳过并注明；f05介入人道主义由resistance+engagement覆盖）
+## 最高红线：determinism-excuse的临床场景（抑郁症）禁用条款
+### 最终：13 skills ✅ 池尽其用达标

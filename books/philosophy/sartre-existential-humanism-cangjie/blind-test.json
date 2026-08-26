@@ -1,0 +1,119 @@
+{
+ "pkg": "sartre-existential-humanism",
+ "cases": [
+  {
+   "skill": "abandonment-anguish-despair",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "你的感受非常真实，许多人在离开信仰体系后都会经历类似的“地基松动”阶段。这种迷茫不是倒退，而是重建的开始。我想和你分享几个视角，或许能帮你找到新的立足点：\n\n*"
+  },
+  {
+   "skill": "abandonment-anguish-despair",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "存在主义是一个关注个体存在、自由、选择、意义与荒诞的哲学与文学运动。它不只是一套抽象理论，更是一种面对生活的态度。\n\n根据你的阅读偏好（是偏哲学理论，还是偏文学"
+  },
+  {
+   "skill": "abandonment-anguish-despair",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "看到你现在的状态，我非常担心。**请先记住：你现在的感受是真实且重要的，但“活着没意思”这种感觉，是暂时的，也是可以被改变的。** 你主动说出来，这本身就是非常"
+  },
+  {
+   "skill": "bad-faith-detector",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "我完全理解你的感受。那种站在众人面前，感觉舌头打结、大脑空白、手心冒汗的体验，确实非常煎熬。但请先别急着给自己贴上“天生不会说话”的标签，因为**演讲不是天赋，"
+  },
+  {
+   "skill": "bad-faith-detector",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这句话是一个非常基础且重要的法律概念。在法律语境下，**“法律禁止这样做”** 意味着该行为具有**违法性**，行为人将因此承担相应的法律后果。\n\n为了让你更准"
+  },
+  {
+   "skill": "bad-faith-detector",
+   "id": "should-not-trigger-02",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "加缪所说的“荒诞”，并非一个让人绝望的结论，而是一个**清醒的起点**。他从未建议我们“怎么办”去消除荒诞，而是教我们如何在荒诞中**有尊严地活着**。\n\n面对"
+  },
+  {
+   "skill": "bad-faith-detector",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "听到你这样说，我感到很心疼。那种“我就是废了”的感觉，一定非常沉重、非常孤独。请允许我先给你一个温暖的拥抱——你愿意把这句话说出来，本身就已经是很有勇气的行为了"
+  },
+  {
+   "skill": "existence-precedes-essence",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "我理解你现在的感受，这种“天生不是学习的料”的想法一定让你感到挫败和疲惫。但请允许我告诉你一个重要的真相：**学习能力不是天生的固定属性，而是可以通过方法、心态"
+  },
+  {
+   "skill": "existence-precedes-essence",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这是一个非常深刻且前沿的科学问题。关于“基因决定行为”的证据，科学界目前的共识是：**基因不“决定”行为，但基因“强烈影响”行为，且这种影响是通过与环境的复杂互"
+  },
+  {
+   "skill": "existence-precedes-essence",
+   "id": "should-not-trigger-02",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "加缪所说的“荒诞”，并不是一个让人绝望的结论，而是一个**清醒的起点**。他从未建议我们因为荒诞而放弃，恰恰相反，他是在教我们如何在看清真相后，依然热烈地活着。"
+  },
+  {
+   "skill": "existence-precedes-essence",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "当抑郁症患者说出“我是废物”时，这通常不是简单的自我否定，而是疾病带来的认知扭曲和情绪宣泄。你的回应需要既传递接纳，又避免陷入无力的安慰。以下是一些具体的回应思"
+  },
+  {
+   "skill": "freedom-in-situation",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "面对经济困难，你可能会感到迷茫、焦虑甚至无力，但请相信，**选择永远存在，只是需要被看见和挖掘**。以下是一些具体的方向和思路，或许能帮你找到突破口：\n\n---"
+  },
+  {
+   "skill": "freedom-in-situation",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "突破阶层固化是一个复杂且系统性的问题，它涉及社会结构、个人努力、时代机遇和资源分配等多重因素。虽然不存在“一键逆袭”的万能公式，但我们可以从**认知、能力、资源"
+  },
+  {
+   "skill": "freedom-in-situation",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这是一个非常深刻且沉重的问题，触及了社会结构、伦理和经济的核心。直接回答“是”或“不是”都过于简单，但我们可以从几个层面来拆解这个命题。\n\n**首先，从道德和伦"
+  }
+ ],
+ "pass_n": 14,
+ "total": 14
+}
