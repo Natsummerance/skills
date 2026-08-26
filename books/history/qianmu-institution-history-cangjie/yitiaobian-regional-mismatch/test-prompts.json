@@ -1,0 +1,21 @@
+{
+ "skill": "yitiaobian-regional-mismatch",
+ "version": "1.0.0",
+ "source_book": "《中国历代政治得失》 钱穆",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "全国统一政策为什么在有的省份水土不服",
+   "expected_behavior": "激活：隐含前提区域分布三问"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "那就什么都让地方自己定",
+   "expected_behavior": "边界：统一恰是某些领域的公平底线"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

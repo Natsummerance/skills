@@ -1,0 +1,21 @@
+{
+ "skill": "nine-rank-aristocratization",
+ "version": "1.0.0",
+ "source_book": "《中国历代政治得失》 钱穆",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "我们的绩效评级是不是越来越看关系了",
+   "expected_behavior": "激活：评价权同构三要素检测"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以主观评价都不可靠",
+   "expected_behavior": "边界：评审委员会仍是多数场景最优解"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

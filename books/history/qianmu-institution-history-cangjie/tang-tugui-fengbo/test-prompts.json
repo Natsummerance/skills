@@ -1,0 +1,21 @@
+{
+ "skill": "tang-tugui-fengbo",
+ "version": "1.0.0",
+ "source_book": "《中国历代政治得失》 钱穆",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "古代皇帝下的圣旨需要谁签字才生效",
+   "expected_behavior": "激活：中书门下尚书流程+副署否决点"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以唐代已经实现民主制衡了",
+   "expected_behavior": "红线：程序制衡非主权在民"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

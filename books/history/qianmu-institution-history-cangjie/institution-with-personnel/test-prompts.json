@@ -1,0 +1,21 @@
+{
+ "skill": "institution-with-personnel",
+ "version": "1.0.0",
+ "source_book": "《中国历代政治得失》 钱穆",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "新公司的制度文档和实际运作完全是两回事",
+   "expected_behavior": "激活：条文×人事实况对照表"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以制度没用全靠人治",
+   "expected_behavior": "边界：结构约束同样真实——反对两种懒"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

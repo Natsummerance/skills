@@ -1,0 +1,21 @@
+{
+ "skill": "institution-entropy-principle",
+ "version": "1.0.0",
+ "source_book": "《中国历代政治得失》 钱穆",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "公司十年前的规定还在执行但没人知道为什么",
+   "expected_behavior": "激活：原始病灶考古+处置三选一"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以制度就该三年一换全部重来",
+   "expected_behavior": "红线：频繁变动同样摧毁预期——复审非推倒"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

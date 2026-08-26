@@ -1,0 +1,21 @@
+{
+ "skill": "fubing-decay-chain",
+ "version": "1.0.0",
+ "source_book": "《中国历代政治得失》 钱穆",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "为什么义务献血的激励措施总是失效",
+   "expected_behavior": "激活：荣誉兑现速度=制度生命线"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "强制加惩罚就能解决流失",
+   "expected_behavior": "红线：强制抓丁级联加速瓦解"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

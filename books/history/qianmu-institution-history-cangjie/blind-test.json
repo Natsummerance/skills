@@ -1,0 +1,111 @@
+{
+ "pkg": "qianmu-institution-history",
+ "cases": [
+  {
+   "skill": "qianmu-four-lines",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "唐代政治制度是中国古代政治制度史上的一座高峰，其核心特点是**“皇权专制”**与**“官僚体系”**的高度结合，并辅以**“三省六部制”**为中枢、**“科举制"
+  },
+  {
+   "skill": "qianmu-four-lines",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "唐朝（618—907年）是中国古典诗歌的黄金时代，其诗歌特点可以概括为“气象万千，百花齐放”。具体来说，有以下几个显著特征：\n\n**1. 题材的极度拓展与世俗化"
+  },
+  {
+   "skill": "qianmu-four-lines",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "关于宋朝“又穷又弱”的印象，其实是一个流传很广的**历史错觉**。如果从现代经济史和军事史的角度来看，宋朝不仅不穷，反而是中国古代**经济最繁荣、市民生活最富庶"
+  },
+  {
+   "skill": "qianmu-historical-opinion",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这是一个非常经典且复杂的历史问题。简单回答“是”或“否”都不够全面。更准确的结论是：**科举制本身并不直接扼杀科学，但它所塑造的“价值导向”和“人才筛选机制”，"
+  },
+  {
+   "skill": "qianmu-historical-opinion",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "关于高考制度的改革，这是一个牵一发而动全身的系统工程，涉及教育公平、人才选拔、社会流动等深层问题。没有完美的方案，只有在不同利益诉求间寻求动态平衡的“更优解”。"
+  },
+  {
+   "skill": "qianmu-historical-opinion",
+   "id": "should-not-trigger-02",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "用马克斯·韦伯的理论框架来分析“中国为什么没有自发产生资本主义”是一个经典且深刻的学术问题。韦伯在《新教伦理与资本主义精神》及《儒教与道教》等著作中，给出了一个"
+  },
+  {
+   "skill": "qianmu-historical-opinion",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这是一个非常经典且深刻的历史问题。关于明朝废除宰相制度是否是“坏事”，不能简单地用“好”或“坏”来一刀切，因为它是一个**利弊交织、影响深远**的制度变革。\n\n"
+  },
+  {
+   "skill": "qianmu-institution-decay",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "府兵制的崩溃，是一个极其复杂且漫长的历史过程，绝非单一原因所致。它就像一座精心构建的大厦，随着地基的松动和支柱的腐朽，最终轰然倒塌。\n\n我们可以从**经济基础、"
+  },
+  {
+   "skill": "qianmu-institution-decay",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "设计一套公司新制度，最核心的挑战往往不是“写文件”，而是**“如何让制度从纸面真正落到地面”**。一个失败的制度往往是“老板拍脑袋、HR写文档、员工骂娘、最后束"
+  },
+  {
+   "skill": "qianmu-institution-decay",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这是一个很有深度的问题。简单回答“是”或“不是”都过于片面。八股文作为明清两代近五百年的科举考试文体，**不能简单地用“一无是处”或“大有价值”来概括，它更像是"
+  },
+  {
+   "skill": "qianmu-power-structure",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这个问题触及了皇权运作的核心矛盾。简单来说，**皇帝在“法理”上拥有无限权力，但在“现实”中却处处受制，远非随心所欲。**\n\n我们可以从以下几个维度来拆解这个“"
+  },
+  {
+   "skill": "qianmu-power-structure",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这是一个非常经典且重要的问题。简短的回答是：**在法律和宪法层面上，英国女王（现为国王）拥有巨大的“法律特权”，但在现实政治运作中，她几乎没有“实际决策权”。*"
+  },
+  {
+   "skill": "qianmu-power-structure",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这是一个非常深刻且具有思辨性的历史问题。要回答“清代皇帝是不是最专制的”，我们不能简单地用“是”或“否”来定论，而需要从**制度设计、权力边界、历史比较**三个"
+  }
+ ],
+ "pass_n": 13,
+ "total": 13
+}

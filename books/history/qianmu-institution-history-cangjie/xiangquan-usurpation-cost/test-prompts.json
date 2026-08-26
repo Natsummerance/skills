@@ -1,0 +1,21 @@
+{
+ "skill": "xiangquan-usurpation-cost",
+ "version": "1.0.0",
+ "source_book": "《中国历代政治得失》 钱穆",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "创始人把高管权力都收回来自己管好不好",
+   "expected_behavior": "激活：废相代价定律+真空填充预判"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "这条定律适用于所有现代公司",
+   "expected_behavior": "边界：皇权世袭政体的特殊结构不可直接套用"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

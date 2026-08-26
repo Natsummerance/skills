@@ -1,0 +1,21 @@
+{
+ "skill": "han-chaju-two-faces",
+ "version": "1.0.0",
+ "source_book": "《中国历代政治得失》 钱穆",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "公司内部推荐招聘靠谱吗",
+   "expected_behavior": "激活：荐主约束+追责通道评估"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "推荐制就该全废掉用考试",
+   "expected_behavior": "边界：科举也带来新窄门问题"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

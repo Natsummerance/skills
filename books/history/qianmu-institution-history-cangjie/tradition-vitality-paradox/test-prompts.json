@@ -1,0 +1,21 @@
+{
+ "skill": "tradition-vitality-paradox",
+ "version": "1.0.0",
+ "source_book": "《中国历代政治得失》 钱穆",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "老字号的传统工艺还有保留价值吗",
+   "expected_behavior": "激活：内核/形式分层+履历检验"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "活得久就说明是对的",
+   "expected_behavior": "红线：幸存者偏差——活的也可能是路径依赖"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

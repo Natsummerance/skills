@@ -22,3 +22,9 @@
 - qianmu-four-lines ← f02+p04+c03+c05+x01
 - qianmu-institution-decay ← f03+p05+c04+x02+x05
 - qianmu-power-structure ← f04+f05+p03+c01+x03+g04
+
+## 候选池全额转化轮（2026-08-26）
+## 新增15 skills（c01-c05/x01-x05/f05/p01-p05全部转化；f01-f04已被原4skill覆盖）
+## 引文锚点：16条候选引文直接采用；book参数已修复为BOOK_OVERVIEW自动推断
+## 全部RIA++六段+B段三子段+A2双语+test-prompts双用例
+### 最终：19 skills ✅ 池尽其用达标

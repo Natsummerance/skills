@@ -1,0 +1,21 @@
+{
+ "skill": "fubing-desertion-case",
+ "version": "1.0.0",
+ "source_book": "《中国历代政治得失》 钱穆",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "社区志愿者最近都在跑路怎么办",
+   "expected_behavior": "激活：成本收益信号链+修复窗口判断"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "跑路的人就是没有奉献精神",
+   "expected_behavior": "红线：逃离是失灵结果不是原因"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

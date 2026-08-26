@@ -1,0 +1,21 @@
+{
+ "skill": "tang-song-exam-cohort",
+ "version": "1.0.0",
+ "source_book": "《中国历代政治得失》 钱穆",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "高考分数面前人人平等这话对吗",
+   "expected_behavior": "激活：开放度/池子结构/隐性资本三层"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以寒门永远没机会",
+   "expected_behavior": "红线：拒绝宿命论——隐性差距恰说明投入意义"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

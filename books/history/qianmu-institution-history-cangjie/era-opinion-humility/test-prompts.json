@@ -1,0 +1,21 @@
+{
+ "skill": "era-opinion-humility",
+ "version": "1.0.0",
+ "source_book": "《中国历代政治得失》 钱穆",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "现在看以前的规矩真是又蠢又坏",
+   "expected_behavior": "激活：双意见分层陈述纪律"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "那历史意见就一定是对的",
+   "expected_behavior": "边界：复原不等于认同，两层都不垄断裁判权"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,21 @@
+{
+ "skill": "luzhi-tax-debate",
+ "version": "1.0.0",
+ "source_book": "《中国历代政治得失》 钱穆",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "固定房租20年不变对房东是亏还是赚",
+   "expected_behavior": "激活：名义/执行剪刀差分析"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "两税法就是彻头彻尾的恶政",
+   "expected_behavior": "边界：钱重物轻期反而减负——看时段"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,21 @@
+{
+ "skill": "tribal-regime-fashu",
+ "version": "1.0.0",
+ "source_book": "《中国历代政治得失》 钱穆",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "公司里有些规定为什么只针对部分人",
+   "expected_behavior": "激活：公开性/一致性/理据三问法术化识别"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "钱穆说清朝就是垃圾朝代",
+   "expected_behavior": "红线：史学论断有语境且学界有争议，不当立场武器"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

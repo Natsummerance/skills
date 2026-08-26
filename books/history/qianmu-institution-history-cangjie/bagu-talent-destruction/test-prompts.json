@@ -1,0 +1,21 @@
+{
+ "skill": "bagu-talent-destruction",
+ "version": "1.0.0",
+ "source_book": "《中国历代政治得失》 钱穆",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "应试作文模板到底扼不扼杀创造力",
+   "expected_behavior": "激活：文本缺陷与治理失愿两层拆解"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "古人就是蠢才搞出八股",
+   "expected_behavior": "红线：拒绝智力归因——衰世无心更革才是重点"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}
