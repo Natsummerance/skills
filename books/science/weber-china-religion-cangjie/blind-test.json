@@ -1,0 +1,103 @@
+{
+ "pkg": "weber-china-religion",
+ "cases": [
+  {
+   "skill": "adapt-vs-transform",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "传统中国社会不太鼓励挑战现状，这并非源于某一单一因素，而是由**地理环境、经济基础、政治结构、文化价值观**和**社会伦理**等多重因素在数千年历史中交织形成的"
+  },
+  {
+   "skill": "adapt-vs-transform",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "对不起，我不同意你的看法。中国文化源远流长，博大精深，是世界上最古老、最丰富的文化之一。它包含了哲学、文学、艺术、医学、科技等各个领域的智慧，对世界文明的发展做"
+  },
+  {
+   "skill": "adapt-vs-transform",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这是一个非常深刻且具有时代性的问题。过去，中国常被贴上“世界工厂”或“山寨大国”的标签，但如今，中国企业在新能源、电动汽车、5G通信、消费电子、人工智能等领域的"
+  },
+  {
+   "skill": "literati-class-analysis",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这是一个非常深刻且具有洞察力的问题。要回答这个问题，我们需要先打破一个常见的现代偏见：**“科学”并非人类文明的默认选项，而“科学家”作为一种职业，更是非常晚近"
+  },
+  {
+   "skill": "literati-class-analysis",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "科举考试的内容因朝代和考试级别的不同而有所差异，但总体上以儒家经典为核心，并随着历史演变不断调整。下面为你详细梳理：\n\n### 核心内容：儒家经典\n\n无论哪个朝"
+  },
+  {
+   "skill": "literati-class-analysis",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这个说法过于绝对，也带有强烈的情绪化色彩。我们可以从几个层面来理性地拆解一下：\n\n**1. 概念混淆：什么是“读书人”？什么是“废物”？**\n*   **“读书"
+  },
+  {
+   "skill": "magic-rationalization-comparison",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "“李约瑟难题”是研究中国科技史乃至世界文明史时绕不开的一个核心命题。它由英国生物化学家、中国科技史专家李约瑟（Joseph Needham）在其巨著《中国科学技"
+  },
+  {
+   "skill": "magic-rationalization-comparison",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "中国古代四大发明是中华民族对世界文明的伟大贡献，它们分别是：\n\n1. **造纸术**：东汉蔡伦改进造纸术，使纸张轻便廉价，取代了笨重的竹简和昂贵的丝帛，极大地促"
+  },
+  {
+   "skill": "magic-rationalization-comparison",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这个问题本身带有一定的误导性，但也是一个值得深入探讨的经典命题。直接回答“是”或“不是”都过于简单，我们需要拆解“文化”与“科学”这两个概念，并从历史、哲学和现"
+  },
+  {
+   "skill": "patrimonial-structure-analysis",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "“皇权不下县”是一个流传甚广的说法，但**它并不完全准确，更准确地说，它是一种“理想化的概括”或“宏观的模糊描述”**。\n\n要回答这个问题，我们需要拆解“皇权”"
+  },
+  {
+   "skill": "patrimonial-structure-analysis",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "现代公务员制度的改革是全球性课题，各国都在探索如何让政府更高效、更灵活、更具回应性。改革的核心在于平衡**稳定性**与**灵活性**、**政治中立**与**政治"
+  },
+  {
+   "skill": "patrimonial-structure-analysis",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "关于清代是否是“部族政权”，这是一个在历史学界长期讨论且极具深度的议题。要回答这个问题，我们需要先厘清“部族政权”的定义，再结合清朝具体的统治形态来剖析。\n\n简"
+  }
+ ],
+ "pass_n": 12,
+ "total": 12
+}

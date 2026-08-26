@@ -21,3 +21,4 @@ graph TD
 ## ⚠️ 全包引用纪律
 凡涉「中国为何无资本主义/科学」结论，必须三重标注：
 韦伯原文 → 杨庆堃修正 → 余英时/彭慕兰反驳。单引韦伯=学术事故。
+| [charisma-mismatch-analysis](charisma-mismatch-analysis/SKILL.md) | 制度功能vs民间赋义错位 | 「为什么迷信名校」 |

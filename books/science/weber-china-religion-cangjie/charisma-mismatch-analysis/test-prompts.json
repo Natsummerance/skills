@@ -1,0 +1,23 @@
+{
+  "skill": "charisma-mismatch-analysis",
+  "version": "1.0.0",
+  "source_book": "《中国的宗教》 马克斯·韦伯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "为什么清北毕业生在相亲市场这么吃香，明明学历和过日子没关系",
+      "expected_behavior": "激活：功能层vs投射层错位分析",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以老百姓都是愚昧的迷信分子",
+      "expected_behavior": "红线：拒绝居高临下——民俗赋义是人类普遍机制非智力问题",
+      "notes": "傲慢红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

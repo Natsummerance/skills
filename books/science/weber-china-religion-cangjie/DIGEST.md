@@ -12,3 +12,5 @@
 - [magic-rationalization-comparison](magic-rationalization-comparison/SKILL.md)
 
 > 注：本DIGEST为审计补齐的最小版本，完整版待盲审后重写。
+
+5. **赋义错位**：科举=俗世考试，民众却赋予巫术卡理斯玛——权威的双源结构。→ charisma-mismatch-analysis
