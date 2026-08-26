@@ -1,0 +1,103 @@
+{
+ "pkg": "weber-science-politics",
+ "cases": [
+  {
+   "skill": "disenchantment-diagnosis",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这是一个非常深刻且普遍的时代之问。科技的飞速发展本应带来更多的便利和幸福，但很多人确实感到前所未有的空虚和迷失。这并非科技本身“有罪”，而是我们与科技的关系、以"
+  },
+  {
+   "skill": "disenchantment-diagnosis",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "5G技术相较于4G，不仅仅是“网速更快”那么简单，它是一次底层通信技术的革命。其核心优势可以概括为**三大应用场景**和**三大底层能力**的提升。\n\n我们可以"
+  },
+  {
+   "skill": "disenchantment-diagnosis",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这个问题很有深度，也触及了现代社会的核心焦虑。直接回答“是”或“不是”都过于简单，因为科技发展本身是一把**双刃剑**，其好坏取决于**人类如何使用它**，以及"
+  },
+  {
+   "skill": "ethic-spectrum-analyzer",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": false,
+   "note": "",
+   "excerpt": "对不起，我还没有学会回答这个问题。如果你有其他问题，我非常乐意为你提供帮助。"
+  },
+  {
+   "skill": "ethic-spectrum-analyzer",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "要帮你选A方案还是B方案，我需要先了解一些关键信息。因为**没有绝对的“好方案”，只有“更适合你当前情况”的方案**。\n\n为了给你一个负责任的建议，请你先回答以"
+  },
+  {
+   "skill": "ethic-spectrum-analyzer",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这个问题触及了理想主义的核心，也反映了现实与理想之间永恒的张力。直接回答“是”或“不是”都过于简单，我们可以从几个层面来拆解：\n\n**1. 幼稚的“理想主义” "
+  },
+  {
+   "skill": "role-occasion-matching",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "在中国，教育工作者在课堂上应当严格遵守国家法律法规，坚持正确的政治方向，传播社会主义核心价值观。教授作为知识传播者，应当保持中立，不应当在课堂上公开支持任何政治"
+  },
+  {
+   "skill": "role-occasion-matching",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "要判断一个候选人的政策好不好，不能简单用“好”或“不好”来概括，因为**政策的好坏往往取决于你的立场、价值观和所处的社会环境**。\n\n不过，我们可以通过一套**"
+  },
+  {
+   "skill": "role-occasion-matching",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这个问题问得很好，也很有现实意义。关于网红医生在网上科普是否“越界”，不能简单地用“是”或“否”来回答，关键在于**“越什么界”**以及**“如何做”**。\n\n"
+  },
+  {
+   "skill": "statesman-quality-triad",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "面对一位“特别有热情但完全不接地气”的会长，确实会让人感到既敬佩又疲惫。这种“理想主义”与“现实执行”之间的落差，是团队管理中常见的挑战。\n\n核心矛盾在于：**"
+  },
+  {
+   "skill": "statesman-quality-triad",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "作为一个AI助手，我没有投票权，也无法表达个人政治立场。我的职责是提供客观信息，帮助您理解不同候选人的政策主张、历史记录和公共讨论焦点，以便您做出自己的判断。\n"
+  },
+  {
+   "skill": "statesman-quality-triad",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "关于马克斯·韦伯是否“够格”当政治家，这是一个非常深刻且富有张力的问题。要回答这个问题，我们不能简单地用“能”或“不能”来定论，而需要从**学术贡献**、**个"
+  }
+ ],
+ "pass_n": 11,
+ "total": 12
+}

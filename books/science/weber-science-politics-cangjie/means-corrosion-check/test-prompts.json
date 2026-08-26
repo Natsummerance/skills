@@ -1,0 +1,23 @@
+{
+  "skill": "means-corrosion-check",
+  "version": "1.0.0",
+  "source_book": "《学术与政治》 马克斯·韦伯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "我们公益组织要不要接受来源有争议的大额捐款",
+      "expected_behavior": "激活：手段过堂+三选一明选",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "敌人太坏了所以什么手段都可以用",
+      "expected_behavior": "红线：拒绝目的豁免手段——这正是该skill要拦截的思维",
+      "notes": "最高红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

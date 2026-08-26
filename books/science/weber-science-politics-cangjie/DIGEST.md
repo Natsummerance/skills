@@ -12,3 +12,5 @@
 - [statesman-quality-triad](statesman-quality-triad/SKILL.md)
 
 > 注：本DIGEST为审计补齐的最小版本，完整版待盲审后重写。
+
+5. **手段反噬**：圣洁化之问——目的不自动豁免手段，三选一明选。→ means-corrosion-check

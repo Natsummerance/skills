@@ -17,3 +17,4 @@ graph TD
     ESA --> SQT[三素质检验]
 ```
 术语见 GLOSSARY.md（含钱译本译名纪律）。
+| [means-corrosion-check](means-corrosion-check/SKILL.md) | 目的能否圣洁化手段 | 「为了好目的可以用坏手段吗」 |
