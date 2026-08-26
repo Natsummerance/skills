@@ -1,0 +1,21 @@
+{
+ "skill": "eternal-judgment-modernity",
+ "version": "1.0.0",
+ "source_book": "《疯癫与文明》 福柯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "领导说我状态有问题但不说依据",
+   "expected_behavior": "激活：索正文三回应"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "医生诊断我抑郁就是无正文指控",
+   "expected_behavior": "边界：正规诊断有可查标准（DSM等）"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

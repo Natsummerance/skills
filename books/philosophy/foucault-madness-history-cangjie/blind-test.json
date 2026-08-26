@@ -1,0 +1,111 @@
+{
+ "pkg": "foucault-madness-history",
+ "cases": [
+  {
+   "skill": "exclusion-mechanism-analysis",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这个问题触及了中国法治进程中的一个重要转折点，也反映了社会对精神卫生认知的深刻变化。要理解“以前”和“现在”的区别，我们需要从**法律框架、社会管理观念、医疗资"
+  },
+  {
+   "skill": "exclusion-mechanism-analysis",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "抑郁症的药物治疗是**非常个性化**的，**绝对不可以自行购买或服用**。用药必须在精神科医生的指导下进行，因为医生需要根据你的具体症状、严重程度、身体状况、既"
+  },
+  {
+   "skill": "exclusion-mechanism-analysis",
+   "id": "should-not-trigger-02",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "钱穆先生治史，最重“制度”与“人事”相配合，主张从历史意见而非时代意见出发，去理解一项制度的本原精神及其演变。用他的方法来看唐代府兵制，我们不能仅仅把它看作一种"
+  },
+  {
+   "skill": "exclusion-mechanism-analysis",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这是一个非常值得探讨的问题。简单来说，**网瘾（或称网络成瘾）在医学界和心理学界，目前被认定为一种需要关注的心理行为障碍，但它的“疾病”属性有明确的界定和争议。"
+  },
+  {
+   "skill": "humane-reform-power-shift",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "公司取消打卡、改为自我管理，这确实是一个让人既兴奋又不安的变化。它像是一把双刃剑，既有可能是公司文化升级的信号，也可能暗藏管理上的隐患。我们可以从几个维度来拆解"
+  },
+  {
+   "skill": "humane-reform-power-shift",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "设计一套好的OKR，核心不在于“写”得多漂亮，而在于**“想”得是否足够透彻**。它是一套战略对齐和执行力管理工具，而不是简单的任务清单。\n\n以下是一套从底层逻"
+  },
+  {
+   "skill": "humane-reform-power-shift",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这是一个非常值得深入探讨的问题。简单回答“是”或“不是”都过于片面。从现代教育理念、心理学和法理学的角度看，**取消体罚是文明的进步**，但这背后也伴随着需要正"
+  },
+  {
+   "skill": "internalized-judgment-detector",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "我能感受到你们团队现在弥漫的那种紧张和焦虑。自评已经让人绞尽脑汁，互评更是像一场“社交大考”，担心评价别人会得罪人，又担心自己被评价得不够好。这种“双重压力”确"
+  },
+  {
+   "skill": "internalized-judgment-detector",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "能意识到自己的错误并感到内疚，这本身恰恰说明你是一个有良知、有责任感的人。这种不适感不是惩罚，而是你内心深处的道德指南针在提醒你：你重视这段关系，也重视自己的品"
+  },
+  {
+   "skill": "internalized-judgment-detector",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "你的感受是很多人都会经历的，这种“不够好”的自我怀疑往往源于我们内心深处的比较、对完美的追求，或是外界环境的影响。但请相信，这种感受并不等同于事实，它只是你内心"
+  },
+  {
+   "skill": "observation-asymmetry",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "我完全理解你的感受。当发现自己的一举一动都在摄像头下时，那种被监视、不被信任的感觉确实会让人感到压抑、焦虑，甚至有些愤怒。这不仅仅是隐私问题，更关乎个人的尊严和"
+  },
+  {
+   "skill": "observation-asymmetry",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "挑选家用摄像头，核心是**“看需求”**和**“看环境”**。市面上的产品五花八门，从几十块的“玩具”到上千元的专业设备都有。\n\n为了帮你选到合适的，我把挑选步"
+  },
+  {
+   "skill": "observation-asymmetry",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "老师课后找你单独谈话是否正常，**取决于谈话的内容、老师的风格以及你们平时的互动模式**。但总体来说，**在绝大多数情况下，这是正常的，甚至是老师负责任的表现*"
+  }
+ ],
+ "pass_n": 13,
+ "total": 13
+}

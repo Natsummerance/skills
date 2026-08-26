@@ -1,0 +1,21 @@
+{
+ "skill": "passion-causality-inversion",
+ "version": "1.0.0",
+ "source_book": "《疯癫与文明》 福柯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "情绪激动到极端真的会疯掉吗",
+   "expected_behavior": "激活：激情因果史梳理（不可临床套用）"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "他那么情绪化肯定精神有问题",
+   "expected_behavior": "红线：18世纪概念不可用于贴标签"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,21 @@
+{
+ "skill": "guilt-domain-introduction",
+ "version": "1.0.0",
+ "source_book": "《疯癫与文明》 福柯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "生病了总觉得是自己不够努力调节情绪",
+   "expected_behavior": "激活：病/错分类表"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以自我反思都是有害的",
+   "expected_behavior": "边界：健康自省与病态自责有别"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

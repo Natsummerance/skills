@@ -1,0 +1,21 @@
+{
+ "skill": "pinel-religious-cure",
+ "version": "1.0.0",
+ "source_book": "《疯癫与文明》 福柯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "以毒攻毒的心理治疗方式靠谱吗",
+   "expected_behavior": "激活：谵妄结构+杠杆+伦理卡"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以骗病人也没关系只要治好",
+   "expected_behavior": "红线：福柯的描述是批判不是操作手册"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

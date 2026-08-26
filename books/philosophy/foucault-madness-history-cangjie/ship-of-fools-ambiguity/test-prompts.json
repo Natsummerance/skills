@@ -1,0 +1,21 @@
+{
+ "skill": "ship-of-fools-ambiguity",
+ "version": "1.0.0",
+ "source_book": "《疯癫与文明》 福柯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "中世纪是怎么对待疯人的",
+   "expected_behavior": "激活：共存vs排斥断代分析"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "愚人船听着好浪漫",
+   "expected_behavior": "红线：拒绝浪漫化——真实放逐条件极其残酷"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

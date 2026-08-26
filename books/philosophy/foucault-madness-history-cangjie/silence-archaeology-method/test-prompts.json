@@ -1,0 +1,21 @@
+{
+ "skill": "silence-archaeology-method",
+ "version": "1.0.0",
+ "source_book": "《疯癫与文明》 福柯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "公司会议记录里好像从来只有一种声音",
+   "expected_behavior": "激活：沉默地图方法"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "历史没记载就说明被掩盖了",
+   "expected_behavior": "边界：有些空白只是没有史料"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

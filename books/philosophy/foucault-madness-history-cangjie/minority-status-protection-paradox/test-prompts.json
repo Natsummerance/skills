@@ -1,0 +1,21 @@
+{
+ "skill": "minority-status-protection-paradox",
+ "version": "1.0.0",
+ "source_book": "《疯癫与文明》 福柯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "父母总说为我好替我做决定",
+   "expected_behavior": "激活：保护/剥夺清单平衡分析"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以监护制度应该废除",
+   "expected_behavior": "边界：失能者确实需要保护机制——区分必要照护与过度代管"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

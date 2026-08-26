@@ -1,0 +1,21 @@
+{
+ "skill": "family-alienation-effect",
+ "version": "1.0.0",
+ "source_book": "《疯癫与文明》 福柯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "家人说我恢复正常点病就好了",
+   "expected_behavior": "激活：正常生活的表演性分析"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以家人的支持都是假的",
+   "expected_behavior": "边界：批判强制表演非亲情本身"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

@@ -27,3 +27,8 @@
 ### 阶段2扩充: exclusion/humane之外新增 observation-asymmetry + internalized-judgment-detector
 
 ## 通过率: 18/18 引文验证通过
+
+## 候选池全额转化轮（2026-08-26）
+## 新增14 skills（c01-c06/x01-x04/p01-p04全部转化；f01-f04/g类已被原skill覆盖）
+## 最高红线：civilization-soil不得阻止专业求助；tribal-fashu不得用于现实民族议题
+### 最终：18 skills ✅ 池尽其用达标

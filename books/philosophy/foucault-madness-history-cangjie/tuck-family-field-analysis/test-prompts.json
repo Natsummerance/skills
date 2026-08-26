@@ -1,0 +1,21 @@
+{
+ "skill": "tuck-family-field-analysis",
+ "version": "1.0.0",
+ "source_book": "《疯癫与文明》 福柯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "公司天天说我们是一家人",
+   "expected_behavior": "激活：家庭修辞审计四步"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以说团队温情都是假的",
+   "expected_behavior": "边界：批判的是不可退出的拟家庭权力非善意本身"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

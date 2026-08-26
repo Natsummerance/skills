@@ -1,0 +1,21 @@
+{
+ "skill": "great-confinement-economy-moral",
+ "version": "1.0.0",
+ "source_book": "《疯癫与文明》 福柯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "为什么舆论总说穷人穷是因为懒",
+   "expected_behavior": "激活：经济道德混同的谱系"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以福利制度都是压迫工具",
+   "expected_behavior": "边界：福柯批判话语结构不是福利本身"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

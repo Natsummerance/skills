@@ -1,0 +1,21 @@
+{
+ "skill": "religious-delusion-trial",
+ "version": "1.0.0",
+ "source_book": "《疯癫与文明》 福柯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "心理咨询里咨询师一直引导我承认自己有问题",
+   "expected_behavior": "激活：双重审判结构识别（含同意要素）"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所有认知疗法都是洗脑",
+   "expected_behavior": "边界：现代疗法有知情同意框架，区分协作与操纵"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

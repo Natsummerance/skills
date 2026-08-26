@@ -1,0 +1,21 @@
+{
+ "skill": "protective-language-capture",
+ "version": "1.0.0",
+ "source_book": "《疯癫与文明》 福柯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "这些政策文件里的保护字眼越读越不对劲",
+   "expected_behavior": "激活：词汇漂移三步审计"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以一切保护性语言都要警惕",
+   "expected_behavior": "边界：漂移是趋势不是必然，禁用是因噎废食"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,21 @@
+{
+ "skill": "hydrotherapy-accident-reading",
+ "version": "1.0.0",
+ "source_book": "《疯癫与文明》 福柯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "电击疗法这种东西当年是怎么想出来的",
+   "expected_behavior": "激活：疗法起源双版本叙述"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "出身这么黑暗的疗法肯定不能用",
+   "expected_behavior": "边界：起源谬误反向使用——现在有效性需独立验证"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}
