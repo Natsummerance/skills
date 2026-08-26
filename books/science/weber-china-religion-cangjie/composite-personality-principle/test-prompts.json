@@ -1,0 +1,21 @@
+{
+ "skill": "composite-personality-principle",
+ "version": "1.0.0",
+ "source_book": "《中国的宗教》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "我在不同朋友面前像完全不同的人，这正常吗",
+   "expected_behavior": "激活：统一体-组合体光谱定位"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "多面人格就是不真诚",
+   "expected_behavior": "边界：场合适应是成熟非分裂；慎独传统并读"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,21 @@
+{
+ "skill": "living-library-literati-ideal",
+ "version": "1.0.0",
+ "source_book": "《中国的宗教》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "背诵到底有没有用，AI时代还需要记东西吗",
+   "expected_behavior": "激活：记忆型/批判型学习分野"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "背书的人都是书呆子",
+   "expected_behavior": "边界：无印刷时代存储能力是硬通货"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

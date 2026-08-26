@@ -28,3 +28,8 @@ x01（资本主义缺失的韦伯命题）为全书最著名争议点——skill
 
 ### 新增1 skill：charisma-mismatch-analysis
 ### 最终：5 skills ✅ 达标
+
+## 候选池全额转化轮（2026-08-26）
+## 新增6 skills（c01-c03/x01/p01-p02全部转化；p03灵魂多元并入composite案例；f01-f05/supplement已被原skill覆盖）
+## 最高红线：weber-thesis的本质主义化禁用
+### 最终：11 skills ✅ 池尽其用达标

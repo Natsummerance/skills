@@ -1,0 +1,21 @@
+{
+ "skill": "clan-autonomy-vs-patrimonial",
+ "version": "1.0.0",
+ "source_book": "《中国的宗教》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "为什么古代皇帝管不到县以下",
+   "expected_behavior": "激活：治理分工实际格局图"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "宗族就是美好的自治天堂",
+   "expected_behavior": "边界：宗族同样有族规私刑等压迫性"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

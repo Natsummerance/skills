@@ -1,0 +1,21 @@
+{
+ "skill": "astronomy-to-astrology-drift",
+ "version": "1.0.0",
+ "source_book": "《中国的宗教》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "古代中国的天文观测水平很高为什么没发展出天文学",
+   "expected_behavior": "激活：知识异化时间线卡片"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以中国文化天生反科学",
+   "expected_behavior": "红线：韦伯命题已被大量修正，拒绝本质主义"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,21 @@
+{
+ "skill": "weber-thesis-china-missing",
+ "version": "1.0.0",
+ "source_book": "《中国的宗教》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "李约瑟问题到底是什么，有答案了吗",
+   "expected_behavior": "激活：候选因排除法+修正注记"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以中国文化就是搞不了现代化",
+   "expected_behavior": "最高红线：韦伯命题是假说非定论，本质主义化禁用"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}
