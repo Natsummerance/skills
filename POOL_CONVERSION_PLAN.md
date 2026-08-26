@@ -34,6 +34,10 @@ eco-ugly-history / immortal-musicians / shostakovich-testimony /
 the-second-sex-v1 / the-second-sex-v2 / norton-music-history /
 film-bazin-godard / poetry-appreciation
 
+## 进度
+- ✅ nietzsche-birth-tragedy: 7→22（缺口18清零，f44d8e7）
+- ⏳ qianmu(16) / camus-sisyphus(15) / foucault(13) / sartre(11) …
+
 ## 执行顺序
 第一梯队（哲学深读五书）→ 第二梯队（韦伯+庄子+十四讲）→ 第三梯队扫尾。
 预计全库从 ~202 增至 **350+ skills**。
