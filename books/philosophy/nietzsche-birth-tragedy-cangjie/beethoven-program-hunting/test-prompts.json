@@ -1,0 +1,21 @@
+{
+ "skill": "beethoven-program-hunting",
+ "version": "1.0.0",
+ "source_book": "《悲剧的诞生》 尼采",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "贝多芬第五开头真的是命运敲门吗",
+   "expected_behavior": "激活：图解病矫正三问（不否定联想但指出降格）"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "柏辽兹的标题交响曲是不是也该被批评",
+   "expected_behavior": "边界：自觉的标题体裁≠误读，区分对待"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

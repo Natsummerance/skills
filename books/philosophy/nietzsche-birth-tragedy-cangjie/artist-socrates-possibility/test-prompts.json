@@ -1,0 +1,21 @@
+{
+ "skill": "artist-socrates-possibility",
+ "version": "1.0.0",
+ "source_book": "《悲剧的诞生》 尼采",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "我一个理工科的现在想搞写作来得及吗",
+   "expected_behavior": "激活：艺术家苏格拉底假说——逻辑训练可转化为形式感"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以所有科学家晚年都该转行艺术",
+   "expected_behavior": "边界：假说是可能性不是普遍规律"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

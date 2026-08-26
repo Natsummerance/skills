@@ -1,0 +1,21 @@
+{
+ "skill": "miracle-audience-test",
+ "version": "1.0.0",
+ "source_book": "《悲剧的诞生》 尼采",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "我看剧总忍不住挑逻辑毛病，是不是有问题",
+   "expected_behavior": "激活：两类观众模式自检（无对错）"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "爱挑逻辑的人是不是没文化",
+   "expected_behavior": "红线：拒绝审美鄙视链——两种模式各有价值"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

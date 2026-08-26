@@ -1,0 +1,21 @@
+{
+ "skill": "tragedy-suicide-death-analysis",
+ "version": "1.0.0",
+ "source_book": "《悲剧的诞生》 尼采",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "京剧为什么会衰落，是不是没人看了",
+   "expected_behavior": "激活：他杀/自杀四问分析"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "衰落了就该保护起来别动",
+   "expected_behavior": "边界：判可逆环节要求评估复活条件而非冻结"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

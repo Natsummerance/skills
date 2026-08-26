@@ -1,0 +1,21 @@
+{
+ "skill": "satyr-chorus-origin",
+ "version": "1.0.0",
+ "source_book": "《悲剧的诞生》 尼采",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "古希腊戏剧里歌队到底起什么作用",
+   "expected_behavior": "激活：歌队=酒神镜像的起源论"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "现代话剧加个合唱团就是学希腊了",
+   "expected_behavior": "边界：形式移植≠功能等同"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

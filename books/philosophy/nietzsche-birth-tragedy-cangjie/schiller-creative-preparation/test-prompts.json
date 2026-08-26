@@ -1,0 +1,21 @@
+{
+ "skill": "schiller-creative-preparation",
+ "version": "1.0.0",
+ "source_book": "《悲剧的诞生》 尼采",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "写作总是先有情绪画面才有主题，正常吗",
+   "expected_behavior": "激活：音乐情绪先行的发生学确认"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以我永远等灵感来了再写就行",
+   "expected_behavior": "边界：等待不等于方法——情绪之后仍有推敲"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

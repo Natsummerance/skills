@@ -1,0 +1,263 @@
+{
+ "pkg": "nietzsche-birth-tragedy",
+ "cases": [
+  {
+   "skill": "aesthetic-life-stance",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": false,
+   "note": "",
+   "excerpt": "你的问题触及了人类存在意义的深层思考，而“不信教”和“不想卷”恰恰是许多人重新定义生活的起点。让我们放下标准答案，像拆解一个魔方那样，从不同维度看看生命的可能性"
+  },
+  {
+   "skill": "aesthetic-life-stance",
+   "id": "should-trigger-02",
+   "type": "should_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "aesthetic-life-stance",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "aesthetic-life-stance",
+   "id": "should-not-trigger-02",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "aesthetic-life-stance",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "apollonian-dionysian-dual",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "apollonian-dionysian-dual",
+   "id": "should-trigger-02",
+   "type": "should_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "apollonian-dionysian-dual",
+   "id": "should-trigger-03",
+   "type": "should_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "apollonian-dionysian-dual",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "apollonian-dionysian-dual",
+   "id": "should-not-trigger-02",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "apollonian-dionysian-dual",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "collective-identity-dissolution",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "collective-identity-dissolution",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "collective-identity-dissolution",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "individuation-tension",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "individuation-tension",
+   "id": "should-trigger-02",
+   "type": "should_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "individuation-tension",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "individuation-tension",
+   "id": "should-not-trigger-02",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "individuation-tension",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "metaphysical-consolation-test",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "metaphysical-consolation-test",
+   "id": "should-trigger-02",
+   "type": "should_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "metaphysical-consolation-test",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "metaphysical-consolation-test",
+   "id": "should-not-trigger-02",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "metaphysical-consolation-test",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "socraticism-detector",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "socraticism-detector",
+   "id": "should-trigger-02",
+   "type": "should_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "socraticism-detector",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "socraticism-detector",
+   "id": "should-not-trigger-02",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "socraticism-detector",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "theoretical-optimism-detector",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "theoretical-optimism-detector",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  },
+  {
+   "skill": "theoretical-optimism-detector",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": null,
+   "note": "API错误",
+   "excerpt": "__ERROR__:HTTP Error 401: Authorization Required"
+  }
+ ],
+ "pass_n": 0,
+ "total": 1
+}

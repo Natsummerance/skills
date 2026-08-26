@@ -1,0 +1,21 @@
+{
+ "skill": "prometheus-dual-reading",
+ "version": "1.0.0",
+ "source_book": "《悲剧的诞生》 尼采",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "为什么普罗米修斯在西方是英雄在中国神话里像大禹治水不一样",
+   "expected_behavior": "激活：同一母题跨文化双读法"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以说西方文化天生崇尚反抗",
+   "expected_behavior": "红线：拒绝本质主义——19世纪语汇需历史化处理"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

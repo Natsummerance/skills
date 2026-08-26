@@ -1,0 +1,21 @@
+{
+ "skill": "theory-optimism-modern-disease",
+ "version": "1.0.0",
+ "source_book": "《悲剧的诞生》 尼采",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "我天天囤课收藏干货但越来越焦虑",
+   "expected_behavior": "激活：求知目的分布自检三问"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以学习实用技能都是肤浅的",
+   "expected_behavior": "红线：拒绝贬低糊口——效用型学习正当"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

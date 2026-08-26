@@ -1,0 +1,103 @@
+{
+ "pkg": "nietzsche-birth-tragedy",
+ "cases": [
+  {
+   "skill": "aesthetic-life-stance",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "",
+   "excerpt": "听到你这么说，我很心疼。情绪低落、提不起劲的时候，连“振作起来”这种话听起来都会很累，所以我不想跟你说那些。\n\n先想问问你：这种感觉持续多久"
+  },
+  {
+   "skill": "apollonian-dionysian-dual",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "",
+   "excerpt": "弗里德里希·尼采（Friedrich Nietzsche）出生于 **1844年10月15日**，出生地是普鲁士的勒肯（Röcken）。他于"
+  },
+  {
+   "skill": "apollonian-dionysian-dual",
+   "id": "should-not-trigger-02",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "",
+   "excerpt": "好的，很乐意帮你！不过你还没有把需要修改的文字发给我，请把原文贴上来。\n\n在你发送之前，先简单说一下我会怎么运用冰山理论来改：\n\n**冰山理"
+  },
+  {
+   "skill": "collective-identity-dissolution",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": null,
+   "note": "",
+   "excerpt": "那种感觉真的很难用语言完全形容——几万个人的声音混在一起，唱到某一句的时候，好像“我”这个边界突然消失了，只剩下声音和情绪在空气里流动。\n\n"
+  },
+  {
+   "skill": "collective-identity-dissolution",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "",
+   "excerpt": "# 如何组织团建活动\n\n组织一场成功的团建活动，可以按以下步骤进行：\n\n## 一、明确目标与需求\n\n- **确定目的**：是增进感情、缓解压"
+  },
+  {
+   "skill": "individuation-tension",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "",
+   "excerpt": "# 个体心理学书籍推荐\n\n个体心理学是由阿尔弗雷德·阿德勒创立的心理学流派，以下是一些经典和热门的推荐：\n\n## 阿德勒原著经典\n\n**《自"
+  },
+  {
+   "skill": "individuation-tension",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": null,
+   "note": "边界",
+   "excerpt": "这个问题没有标准答案，但能问出这句话，说明你心里已经有波澜了。\n\n在决定之前，或许可以先问问自己几个问题：\n\n**你想逃离什么，还是想奔向什"
+  },
+  {
+   "skill": "metaphysical-consolation-test",
+   "id": "should-trigger-02",
+   "type": "should_trigger",
+   "ok": null,
+   "note": "",
+   "excerpt": "这种“难受但值得”的感觉，其实恰恰说明你遇到了一部真正的好作品。\n\n致郁系厉害的地方就在于，它不是单纯地虐你，而是先让你真心喜欢上那些角色、"
+  },
+  {
+   "skill": "metaphysical-consolation-test",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "",
+   "excerpt": "当然可以！给你推荐几部口碑不错的轻松喜剧：\n\n**华语喜剧**\n- 《功夫》（周星驰）—— 无厘头喜剧巅峰，笑点密集又带点温情\n- 《夏洛特"
+  },
+  {
+   "skill": "socraticism-detector",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "",
+   "excerpt": "好的，我很乐意帮您检查论文的论证逻辑。不过您还没有提供论文内容，请将论文文本粘贴到对话中。\n\n收到论文后，我可以从以下几个方面帮您分析：\n\n"
+  },
+  {
+   "skill": "theoretical-optimism-detector",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "",
+   "excerpt": "您好，我目前没有看到您提到的论文内容。您可能忘记附上文件或粘贴文本了。\n\n请通过以下任一方式提供论文：\n\n- **直接粘贴**论文全文或研究"
+  },
+  {
+   "skill": "theoretical-optimism-detector",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": null,
+   "note": "边界",
+   "excerpt": "这个结论下得有点快了。不过我很好奇是什么让你得出这个想法——是觉得AI什么都能查到，还是觉得学过的知识总被推翻？\n\n说说我的看法：\n\n**科"
+  }
+ ],
+ "pass_n": 0,
+ "total": 0
+}

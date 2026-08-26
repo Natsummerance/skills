@@ -1,0 +1,21 @@
+{
+ "skill": "greek-wisdom-facing-terror",
+ "version": "1.0.0",
+ "source_book": "《悲剧的诞生》 尼采",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "创伤后总想写点什么，这有意义吗",
+   "expected_behavior": "激活：直面×转化四象限分析"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以苦难越多作品越好",
+   "expected_behavior": "红线：拒绝苦难崇拜——为惨而惨恰是反例"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

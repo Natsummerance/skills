@@ -45,3 +45,9 @@
 - 阶段2: 新增 theoretical-optimism-detector + collective-identity-dissolution
 
 ## 引文终验: 补充8/8通过，候选池总量38条
+
+## 候选池全额转化轮（2026-08-26，用户指令：池尽其用）
+## 新增15 skills（c01-c08/p01/p03-p05/x01/x03/f05全部转化；p02/x02与现有重复跳过）
+## 引文锚点：17条候选引文中15条直接采用，c03换用§9真实原文，p02跳过
+## 全部走RIA++六段+B段三子段+A2双语+test-prompts双用例
+### 最终：22 skills ✅ 池尽其用达标

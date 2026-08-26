@@ -1,0 +1,21 @@
+{
+ "skill": "tragic-pleasure-test",
+ "version": "1.0.0",
+ "source_book": "《悲剧的诞生》 尼采",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "《活着》这部电影高级在哪",
+   "expected_behavior": "激活：三层快感检验（L1/L2/L3定位）"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "不到L3的都是垃圾作品",
+   "expected_behavior": "红线：拒绝单一标准——卡塔西斯本身是人类发明"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

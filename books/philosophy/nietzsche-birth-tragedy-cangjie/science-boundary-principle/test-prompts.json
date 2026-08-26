@@ -1,0 +1,21 @@
+{
+ "skill": "science-boundary-principle",
+ "version": "1.0.0",
+ "source_book": "《悲剧的诞生》 尼采",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "科学以后能不能完全解释艺术美感",
+   "expected_behavior": "激活：边界卡制作（能答/不能答清单）"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "既然科学有界限那我说什么都行",
+   "expected_behavior": "红线：拒绝伪科学后门——自限≠随便说"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

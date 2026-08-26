@@ -1,0 +1,21 @@
+{
+ "skill": "lyric-poet-double-self",
+ "version": "1.0.0",
+ "source_book": "《悲剧的诞生》 尼采",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "这首诗写的就是作者自己的真实经历吧",
+   "expected_behavior": "激活：经验的我vs发声的我分层"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以诗里的话都不能当真",
+   "expected_behavior": "边界：分层是为了细读不是取消作者责任"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

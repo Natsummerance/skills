@@ -1,0 +1,21 @@
+{
+ "skill": "art-as-truth-antidote",
+ "version": "1.0.0",
+ "source_book": "《悲剧的诞生》 尼采",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "知道太多人生的真相会不会活不下去",
+   "expected_behavior": "激活：真理之毒+艺术解药框架"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以装傻最幸福",
+   "expected_behavior": "红线：拒绝蒙昧主义——是承受方式不是拒绝知晓"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}
