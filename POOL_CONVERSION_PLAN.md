@@ -50,5 +50,6 @@ film-bazin-godard / poetry-appreciation
 - ✅ nietzsche-birth-tragedy: 7→22（缺口18清零，f44d8e7）
 - ✅ qianmu-institution-history: 4→19（缺口16清零，eef2b8f；gen_skill book自动推断修复）
 - ✅ camus-sisyphus: 6→19（缺口15清零，8db139b）
-- ⏳ foucault(13) / 学术政治(12) / sartre(11) / 新教伦理(8) / 庄子(7) / 中国宗教(6) / 十四讲(4) / 第三梯队9包
+- ✅ foucault: 4→18（缺口14清零，5a4f6f1）
+- ⏳ 学术政治(12) / sartre(11) / 新教伦理(8) / 庄子(7) / 中国宗教(6) / 十四讲(4) / 第三梯队9包
 - 全库实体：246（目标350+）
