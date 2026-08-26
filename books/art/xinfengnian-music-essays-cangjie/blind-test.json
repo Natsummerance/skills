@@ -1,0 +1,55 @@
+{
+ "pkg": "xinfengnian-music-essays",
+ "cases": [
+  {
+   "skill": "adaptation-value-assessment",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这是一个在《三体》粉丝圈里讨论度很高、也很有争议的话题。简单来说，**动画版（艺画开天制作）并没有“毁”了原著，但它确实是一部非常失败、且严重辜负了原著的改编作"
+  },
+  {
+   "skill": "adaptation-value-assessment",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "你的这句话“所以一切改编都不行”听起来带着一丝无奈或失望，可能是在经历了某些不愉快的改编作品后，产生的感慨。\n\n我想先给你一个**拥抱**，然后试着和你聊聊这个"
+  },
+  {
+   "skill": "amateur-music-writing",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "太好了！**“非专业”恰恰是写听后感最珍贵的起点**。你没有被乐理术语和“标准答案”束缚，拥有最直接的感官和情感，这正是好评论的基石。\n\n别担心“不懂音乐”，你"
+  },
+  {
+   "skill": "amateur-music-writing",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "确实，随便聊聊就行，不用查资料。  \n\n有时候，写点东西就像在纸上散步，不需要目的地，也不需要地图。想到哪儿，笔尖就滑到哪儿，字句像路边的石子，踢一脚就滚远，也"
+  },
+  {
+   "skill": "creator-performer-separation",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这个问题很有意思，也是很多有声书爱好者讨论的焦点。简单来说，答案是：**不一定，但确实有它独特的魅力和优势。**\n\n我们可以从几个维度来拆解这个问题：\n\n**1"
+  },
+  {
+   "skill": "creator-performer-separation",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这句话是一个**非常极端且绝对**的判断，在现实世界中并不成立。更准确的说法应该是：**创作者不该“轻易”出面，或者不该“以错误的方式”出面。**\n\n“创作者是"
+  }
+ ],
+ "pass_n": 6,
+ "total": 6
+}

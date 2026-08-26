@@ -1,6 +1,6 @@
 # INDEX — 《新丰年》cangjie 蒸馏包
 
-> 3 个原子 skills · 候选池16条 · 引文全部通过
+> 5 个原子 skills · 候选池22条（补齐轮3→5） · 引文全部通过
 > 注：104KB随笔集，3 skills为合理产出
 
 | skill | 一句话 | 触发核心 |
@@ -14,3 +14,5 @@ graph TD
     AVA[改编得失] -.对照.-> SRA[standards-reinvention-analysis]
     CPS[技能分离] --> AMW[乐迷写作]
 ```
+| [instrument-affinity-analysis](instrument-affinity-analysis/SKILL.md) | 乐器亲和力vs演奏技能 | 「为何他写的钢琴曲不好听」 |
+| [deadline-driven-creation](deadline-driven-creation/SKILL.md) | deadline创作的两面 | 「不到截止不动手」 |

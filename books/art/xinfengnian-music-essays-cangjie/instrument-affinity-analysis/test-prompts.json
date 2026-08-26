@@ -1,0 +1,23 @@
+{
+  "skill": "instrument-affinity-analysis",
+  "version": "1.0.0",
+  "source_book": "《新丰年》 辛丰年",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "拉赫玛尼诺夫钢琴曲写那么好，他是不是钢琴弹得比拉小提琴好",
+      "expected_behavior": "激活：技能/亲和分离分析",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以不会乐器的乐评人都没资格说话",
+      "expected_behavior": "红线：亲和力与发言资格无关——批判对象是推论不是身份",
+      "notes": "身份红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}
