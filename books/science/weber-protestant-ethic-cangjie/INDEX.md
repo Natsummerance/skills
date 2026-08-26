@@ -19,3 +19,4 @@ graph TD
 
 ## 引用纪律
 引用韦伯必带限定语「选择性亲和」——单向因果「新教导致资本主义」是最常见误读（见 rejected/f04）。
+| [wealth-reinvestment-divide](wealth-reinvestment-divide/SKILL.md) | 禁欲压制消费→财富再投资分流 | 「赚了钱为什么买地不扩产」 |

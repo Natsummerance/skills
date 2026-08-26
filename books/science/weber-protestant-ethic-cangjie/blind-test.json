@@ -1,0 +1,103 @@
+{
+ "pkg": "weber-protestant-ethic",
+ "cases": [
+  {
+   "skill": "innerworldly-asceticism",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "我能感受到你对自己有着很高的要求，这种自律和追求进步的态度非常值得敬佩。同时，我也注意到，这种严格的自我约束似乎正在给你带来一些心理上的负担，让你在偶尔偏离计划"
+  },
+  {
+   "skill": "innerworldly-asceticism",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "养成早起习惯确实不容易，但绝对是可以做到的。这不仅仅是靠意志力，更需要科学的方法和巧妙的设计。\n\n我为你整理了一套从**心态建设**到**具体执行**的完整方案"
+  },
+  {
+   "skill": "innerworldly-asceticism",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这个问题问得很深刻，触及了自律本质的核心。很多人都有过类似的困惑：为什么我明明在“自律”，却感觉像在自我惩罚？\n\n直接回答你的问题：**自律本身不是自我压迫，但"
+  },
+  {
+   "skill": "iron-cage-diagnostic",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这确实是一个非常普遍且令人沮丧的职场困境。当流程的复杂度超过了它所带来的效率价值时，它就从“管理工具”变成了“组织熵增”。\n\n你感到困惑是正常的，因为**流程的"
+  },
+  {
+   "skill": "iron-cage-diagnostic",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "优化报销流程的核心目标是：**降本增效、提升员工体验、加强合规风控**。一个优秀的报销流程，应该让员工“少跑腿、少填表”，让财务“少审核、少返工”，让老板“看得"
+  },
+  {
+   "skill": "iron-cage-diagnostic",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "我理解你这句话背后可能带着一些挫败感或无奈。但“所有规则都是坏的”这个判断，可能过于绝对了。\n\n我们可以试着把“规则”拆开来看，或许能找到一个更平衡的视角：\n\n"
+  },
+  {
+   "skill": "predestination-anxiety-engine",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "你的感受非常真实，也很有普遍性。许多人在取得成就后，反而会陷入一种“高处不胜寒”的焦虑，这被称为“冒名顶替综合征”或“成功焦虑”。你能够坦诚地面对这种情绪，本身"
+  },
+  {
+   "skill": "predestination-anxiety-engine",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "焦虑症的治疗是一个**系统性的过程**，通常需要**药物治疗**、**心理治疗**和**生活方式调整**三管齐下。每个人的情况不同，治疗方案也需要个体化。\n\n*"
+  },
+  {
+   "skill": "predestination-anxiety-engine",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "“内卷”这个话题，确实让很多人感到疲惫和迷茫。但直接说“没救了”可能过于绝对——它更像是一个**系统性问题**，而非**绝症**。我们可以从几个层面来看：\n\n*"
+  },
+  {
+   "skill": "vocation-ethic-cangjie",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "把工作当修行，既不是一句鸡汤，也不是一个陷阱，而是一种**视角的转换**。它好不好，取决于你是在“主动选择”还是在“被动忍受”。\n\n我们可以从三个维度来拆解这个"
+  },
+  {
+   "skill": "vocation-ethic-cangjie",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "好的，我很乐意帮您改简历！为了能给您提供最有效的帮助，我需要先了解一些基本情况。\n\n**在您把简历内容发给我之前，请先回答以下几个问题，这样我才能更有针对性地帮"
+  },
+  {
+   "skill": "vocation-ethic-cangjie",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "你的问题触及了一个非常深刻且普遍的困惑。首先，请允许我直接回答你：**职业倦怠与“虔诚”或“不够虔诚”没有必然联系，它更多是身心在长期压力下发出的求救信号。**"
+  }
+ ],
+ "pass_n": 12,
+ "total": 12
+}

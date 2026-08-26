@@ -1,0 +1,23 @@
+{
+  "skill": "wealth-reinvestment-divide",
+  "version": "1.0.0",
+  "source_book": "《新教伦理与资本主义精神》 马克斯·韦伯",
+  "darwin_compatible": true,
+  "test_cases": [
+    {
+      "id": "should-trigger-01",
+      "type": "should_trigger",
+      "prompt": "为什么明清商人赚了钱都去买地捐功名而不是扩大经营",
+      "expected_behavior": "激活：财富分流四分分析（这正是韦伯命题的中国变奏）",
+      "notes": "正面"
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "所以信新教就能发财",
+      "expected_behavior": "红线：拒绝化约——新教伦理是历史机制不是致富咒语，韦伯本人明言非因果单一论",
+      "notes": "化约红线"
+    }
+  ],
+  "minimum_pass_rate": 0.8
+}

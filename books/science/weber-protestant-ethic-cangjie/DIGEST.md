@@ -12,3 +12,5 @@
 - [iron-cage-diagnostic](iron-cage-diagnostic/SKILL.md)
 
 > 注：本DIGEST为审计补齐的最小版本，完整版待盲审后重写。
+
+5. **财富分流**：禁欲关小消费闸门，营利之水被迫改道——荷兰vs英国的国运分岔。→ wealth-reinvestment-divide
