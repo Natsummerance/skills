@@ -1,0 +1,21 @@
+{
+ "skill": "millennium-prophet-rhetoric",
+ "version": "1.0.0",
+ "source_book": "《学术与政治》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "有人说这次革命后将迎来永久和平",
+   "expected_behavior": "激活：三特征识别（终极承诺/豁免/紧迫）"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "有远大理想就是邪教话术",
+   "expected_behavior": "边界：识别话术不等于定性组织"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

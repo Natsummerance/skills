@@ -1,0 +1,21 @@
+{
+ "skill": "live-for-vs-live-off-politics",
+ "version": "1.0.0",
+ "source_book": "《学术与政治》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "自媒体恰饭会不会改变我的观点",
+   "expected_behavior": "激活：现金流防火墙设计+漂移审计"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "拿钱办事的人都不可信",
+   "expected_behavior": "边界：职业政客是必要分工——重点是独立性设计"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

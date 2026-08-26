@@ -1,0 +1,21 @@
+{
+ "skill": "vanity-destroys-distance",
+ "version": "1.0.0",
+ "source_book": "《学术与政治》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "他做公益是不是为了出名",
+   "expected_behavior": "激活：切事度与自我距离自检（用于己非诛人）"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "低调的人就没有虚荣",
+   "expected_behavior": "边界：虚荣是普遍人性，时刻克服而非有无问题"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

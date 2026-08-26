@@ -1,0 +1,21 @@
+{
+ "skill": "value-question-clarity-demo",
+ "version": "1.0.0",
+ "source_book": "《学术与政治》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "老师你怎么看这个争议话题",
+   "expected_behavior": "激活：代价对照表演示（不替学生选）"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以老师永远不能表态",
+   "expected_behavior": "边界：公共公民表态与讲坛中立并行不悖"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

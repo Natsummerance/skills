@@ -1,0 +1,21 @@
+{
+ "skill": "bureaucrat-sine-ira-et-studio",
+ "version": "1.0.0",
+ "source_book": "《学术与政治》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "执行明显错误的决定要不要阳奉阴违",
+   "expected_behavior": "激活：执行伦理vs申诉通道辨析"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "纳粹官僚也是这么辩解的",
+   "expected_behavior": "最高红线：sine ira绝不适用于反人类行为——韦伯同时要求政治家对后果负全责"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

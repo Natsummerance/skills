@@ -1,0 +1,21 @@
+{
+ "skill": "inspiration-labor-fusion",
+ "version": "1.0.0",
+ "source_book": "《学术与政治》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "我等灵感来了再写论文行不行",
+   "expected_behavior": "激活：热情-工作-灵感飞轮"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以苦熬就一定出成果",
+   "expected_behavior": "边界：无效苦工同样挤占灵感空间"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

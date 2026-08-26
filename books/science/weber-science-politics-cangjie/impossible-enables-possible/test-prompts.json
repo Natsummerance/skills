@@ -1,0 +1,21 @@
+{
+ "skill": "impossible-enables-possible",
+ "version": "1.0.0",
+ "source_book": "《学术与政治》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "我的理想被所有人说不现实",
+   "expected_behavior": "激活：不可能清单+第一块可能基石"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以我拒绝一切可行性分析坚持到底",
+   "expected_behavior": "红线：引用此句拒绝可行性分析是对韦伯的误读"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

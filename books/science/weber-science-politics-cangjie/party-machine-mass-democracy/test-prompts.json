@@ -1,0 +1,21 @@
+{
+ "skill": "party-machine-mass-democracy",
+ "version": "1.0.0",
+ "source_book": "《学术与政治》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "为什么国会里那么多富二代",
+   "expected_behavior": "激活：党机器/私财二选一结构"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以民主就是假的",
+   "expected_behavior": "红线：韦伯仍视民主为最不坏选拔装置"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

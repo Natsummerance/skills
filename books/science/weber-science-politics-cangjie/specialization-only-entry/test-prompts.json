@@ -1,0 +1,21 @@
+{
+ "skill": "specialization-only-entry",
+ "version": "1.0.0",
+ "source_book": "《学术与政治》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "什么都学一点好还是深耕一个方向",
+   "expected_behavior": "激活：窄度/完成感/权威圈三测"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以通才都是失败者",
+   "expected_behavior": "边界：韦伯说的是学院结构非知识全景"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

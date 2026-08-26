@@ -1,20 +1,21 @@
 # INDEX — 《学术与政治》cangjie 蒸馏包
 
-> 4 个原子 skills · 候选池27条（22单元+5术语）· 引文14/14通过
-> ⚠️ 本包第一版为旧版格式贴牌假货，2026-08-25 彻底重做——以此为戒
+> 15 个原子 skills · 候选池22条转化（2026-08-26）
 
 | skill | 一句话 | 触发核心 |
 |-------|--------|---------|
-| [disenchantment-diagnosis](disenchantment-diagnosis/SKILL.md) | 除魅=计算力↑≠意义↑，两变量解耦 | 「科技发达为何还空虚」 |
-| [role-occasion-matching](role-occasion-matching/SKILL.md) | 角色×场合两轴+大街测试+清明交付 | 「专家该不该谈立场」 |
-| [ethic-spectrum-analyzer](ethic-spectrum-analyzer/SKILL.md) | 心志vs责任光谱定位（非善恶标签） | 「初心好就行吗」 |
-| [statesman-quality-triad](statesman-quality-triad/SKILL.md) | 热情/责任/判断力三素质雷达 | 「有热情但不接地气」 |
-
-```mermaid
-graph TD
-    DD[除魅诊断] --> ROM[角色场合匹配]
-    ROM --> ESA[双伦理光谱]
-    ESA --> SQT[三素质检验]
-```
-术语见 GLOSSARY.md（含钱译本译名纪律）。
-| [means-corrosion-check](means-corrosion-check/SKILL.md) | 目的能否圣洁化手段 | 「为了好目的可以用坏手段吗」 |
+| [disenchantment-diagnosis](disenchantment-diagnosis/SKILL.md) | 除魅诊断 | 「世界为什么不再神秘」 |
+| [role-occasion-matching](role-occasion-matching/SKILL.md) | 角色场合匹配 | 「这话能不能在这说」 |
+| [ethic-spectrum-analyzer](ethic-spectrum-analyzer/SKILL.md) | 心志/责任双伦理光谱 | 「原则派还是结果派」 |
+| [statesman-quality-triad](statesman-quality-triad/SKILL.md) | 政治家三素质 | 「谁适合搞政治」 |
+| [means-corrosion-check](means-corrosion-check/SKILL.md) | 手段反噬检验 | 「目的能洗白手段吗」 |
+| [value-question-clarity-demo](value-question-clarity-demo/SKILL.md) | 价值问题的清明演示 | 「老师怎么看争议」 |
+| [party-machine-mass-democracy](party-machine-mass-democracy/SKILL.md) | 党机器与群众政治家 | 「普通人能从政吗」 |
+| [millennium-prophet-rhetoric](millennium-prophet-rhetoric/SKILL.md) | 千年王国话术识别 | 「最后一次暴力论」 |
+| [pulpit-preaching-structure](pulpit-preaching-structure/SKILL.md) | 讲台布道结构性滥用 | 「关评论区带节奏」 |
+| [vanity-destroys-distance](vanity-destroys-distance/SKILL.md) | 虚荣摧毁切事距离 | 「他在作秀吗」 |
+| [inspiration-labor-fusion](inspiration-labor-fusion/SKILL.md) | 灵感与苦工结合 | 「没灵感怎么创作」 |
+| [specialization-only-entry](specialization-only-entry/SKILL.md) | 专业化唯一入口 | 「要不要深耕方向」 |
+| [bureaucrat-sine-ira-et-studio](bureaucrat-sine-ira-et-studio/SKILL.md) | 无恶无好的官僚伦理 | 「执行者要有想法吗」 |
+| [live-for-vs-live-off-politics](live-for-vs-live-off-politics/SKILL.md) | 为政治而活vs依赖而活 | 「恰饭会改变立场吗」 |
+| [impossible-enables-possible](impossible-enables-possible/SKILL.md) | 不可能成就可能 | 「理想太不现实了」 |

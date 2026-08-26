@@ -29,3 +29,8 @@
 
 ### 新增1 skill：means-corrosion-check
 ### 最终：5 skills ✅ 达标
+
+## 候选池全额转化轮（2026-08-26）
+## 新增10 skills（c02-c03/x01-x03/p01-p05全部转化；c01系跨包错放跳过；f01-f06/supplement已被原5skill覆盖）
+## 最高红线：bureaucrat-sine-ira的恶法执行不适用条款
+### 最终：15 skills ✅ 池尽其用达标
