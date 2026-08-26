@@ -45,3 +45,9 @@ film-bazin-godard / poetry-appreciation
 ## 质量红线不变
 每skill仍须：引文溯源✓ + RIA++六段 + B段三子段 + A2双语 + test-prompts双用例；
 无对应原文的候选不硬造；跨包重复概念合并并注明。
+
+## ✅ 转化进度（实时）
+- ✅ nietzsche-birth-tragedy: 7→22（缺口18清零，f44d8e7）
+- ✅ qianmu-institution-history: 4→19（缺口16清零，eef2b8f；gen_skill book自动推断修复）
+- ⏳ camus-sisyphus(15) / foucault(13) / sartre(11) / 学术政治(12) / 新教伦理(8) / 庄子(7) / 中国宗教(6) / 十四讲(4) / 第三梯队9包
+- 全库实体：246（目标350+）
