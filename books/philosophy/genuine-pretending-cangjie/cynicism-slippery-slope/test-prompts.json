@@ -1,0 +1,21 @@
+{
+ "skill": "cynicism-slippery-slope",
+ "version": "1.0.0",
+ "source_book": "《游心之路》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "我现在觉得认真做事的人都是傻子",
+   "expected_behavior": "激活：犬儒滑坡信号检测+回摆行动"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "理想主义失败都是因为个人犬儒",
+   "expected_behavior": "边界：制度性失望与个人犬儒的因果方向未分"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

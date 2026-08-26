@@ -1,0 +1,21 @@
+{
+ "skill": "live-dont-perform-principle",
+ "version": "1.0.0",
+ "source_book": "《游心之路》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "感觉在所有人面前都在演好累",
+   "expected_behavior": "激活：后台时间占比审计+防线设计"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以要把真实一面全公开才算真诚",
+   "expected_behavior": "边界：后台的价值恰在其私密性"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

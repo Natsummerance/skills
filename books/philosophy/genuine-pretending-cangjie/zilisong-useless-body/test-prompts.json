@@ -1,0 +1,21 @@
+{
+ "skill": "zilisong-useless-body",
+ "version": "1.0.0",
+ "source_book": "《游心之路》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "不想被公司榨干有没有退出策略",
+   "expected_behavior": "激活：用途清单+无用区+代价评估"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "残疾反而是好事",
+   "expected_behavior": "红线：庄子说的是逻辑不是赞美伤害"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

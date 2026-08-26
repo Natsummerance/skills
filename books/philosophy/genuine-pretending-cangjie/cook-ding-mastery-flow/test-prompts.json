@@ -1,0 +1,21 @@
+{
+ "skill": "cook-ding-mastery-flow",
+ "version": "1.0.0",
+ "source_book": "《游心之路》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "怎么把专业技能练到顶尖还不累",
+   "expected_behavior": "激活：依纹理/找间隙/养其刃三步"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以顺着来就不用努力了",
+   "expected_behavior": "红线：依纹理恰需最深的功夫"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,71 @@
+{
+ "pkg": "genuine-pretending",
+ "cases": [
+  {
+   "skill": "double-consistency-diagnostic",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": null,
+   "note": "边界",
+   "excerpt": "听到你这么说，我很心疼。能撑到现在已经很不容易了。\n\n想先问问你——这种状态持续多久了？是最近工作发生了什么具体的事情，还是慢慢积累起来的疲"
+  },
+  {
+   "skill": "genuine-pretending-strategy",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": null,
+   "note": "边界",
+   "excerpt": "哈哈，这话听着有点无奈啊。不过你说的“装样子”是指什么？工作、社交，还是别的什么事？\n\n没有上下文我不太确定你在说啥——是有人建议你这么做，"
+  },
+  {
+   "skill": "joker-positioning",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "",
+   "excerpt": "当然可以！请把你的简历内容发给我（直接粘贴文字即可），我会帮你优化格式和排版。\n\n为了让优化效果更好，你也可以补充以下信息：\n\n1. **目"
+  },
+  {
+   "skill": "philosophical-humor-analysis",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": null,
+   "note": "",
+   "excerpt": "哈哈，这种“笑着笑着就沉默了”的感觉确实很微妙——很多段子好笑恰恰是因为太真实了。\n\n不过你好像没把段子发出来？我这边只看到这一句话。把原文"
+  },
+  {
+   "skill": "philosophical-humor-analysis",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": null,
+   "note": "边界",
+   "excerpt": "这类段子总体上我认为是有问题的，可以从几个角度来看：\n\n**为什么通常不妥**\n\n- **“向下开玩笑”的问题**：幽默里有个常见的区分——"
+  },
+  {
+   "skill": "smooth-operator-recognition",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "",
+   "excerpt": "# 职场生存技巧\n\n## 一、专业能力是根本\n- **持续学习**：保持技能更新，让自己“不可替代”\n- **交付靠谱**：答应的事情按时完"
+  },
+  {
+   "skill": "useless-usefulness",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": null,
+   "note": "",
+   "excerpt": "# 把爱好变成副业的实用思路\n\n## 一、先做可行性评估\n\n在动手之前，问自己三个问题：\n\n- **有需求吗？** 你的爱好成果是否有人愿意"
+  },
+  {
+   "skill": "useless-usefulness",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": null,
+   "note": "边界",
+   "excerpt": "这话得看怎么说 😄\n\n“躺平”作为一种对过度竞争、无效内卷的回应，确实有其合理性——当努力的边际回报越来越低，选择降低欲望、减少消耗，其实是"
+  }
+ ],
+ "pass_n": 0,
+ "total": 0
+}

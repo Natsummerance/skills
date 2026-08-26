@@ -1,0 +1,21 @@
+{
+ "skill": "hundun-death-deconstruction",
+ "version": "1.0.0",
+ "source_book": "《游心之路》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "我什么问题都想分析清楚很累",
+   "expected_behavior": "激活：留白练习+分析欲成本笔记"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以读书思考都没用",
+   "expected_behavior": "红线：克制的是强制阐释不是求知"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

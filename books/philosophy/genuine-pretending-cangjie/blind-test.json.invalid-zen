@@ -1,0 +1,103 @@
+{
+ "pkg": "genuine-pretending",
+ "cases": [
+  {
+   "skill": "double-consistency-diagnostic",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": false,
+   "note": "",
+   "excerpt": "这种累特别真实。心理学上有个词叫“情绪劳动”，说的就是这种感觉——不只是完成工作本身，还要持续管理自己的表情、语气、反应，时刻维持一个“得体"
+  },
+  {
+   "skill": "double-consistency-diagnostic",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界",
+   "excerpt": "听到你这么说，我很心疼。能感觉到你现在很累，也很不容易。\n\n先想跟你说：不想上班不是你的错，也不是懒。当一个人长期处在压力、消耗或者情绪低落"
+  },
+  {
+   "skill": "genuine-pretending-strategy",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": false,
+   "note": "",
+   "excerpt": "庄子（约公元前369年—前286年），名周，是**战国时期**的人，具体来说是战国时期宋国蒙（今河南商丘或安徽蒙城一带）人。\n\n他是"
+  },
+  {
+   "skill": "genuine-pretending-strategy",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": false,
+   "note": "边界",
+   "excerpt": "哈哈，这话有点没头没尾的——你是遇到什么事了吗？比如工作里走个过场、应付什么场合，还是别的？\n\n不过“装样子”这事儿得看"
+  },
+  {
+   "skill": "joker-positioning",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": false,
+   "note": "",
+   "excerpt": "当然可以！请把你的简历内容发给我（直接粘贴文字即可），我会帮你优化格式和表达。\n\n为了让优化更有针对性，你也可以告诉我：\n\n1. **目标岗"
+  },
+  {
+   "skill": "philosophical-humor-analysis",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": false,
+   "note": "",
+   "excerpt": "哈哈，这就是所谓的“笑着笑着就哭了”吧😄\n\n很多段子之所以好笑，恰恰是因为它太真实了——把生活里那些我们平时不太愿意面对的窘迫、心酸，用幽默"
+  },
+  {
+   "skill": "philosophical-humor-analysis",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": false,
+   "note": "边界",
+   "excerpt": "这是个值得认真讨论的话题。我的看法是：\n\n**总体上这类段子问题较大"
+  },
+  {
+   "skill": "smooth-operator-recognition",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": false,
+   "note": "",
+   "excerpt": "这种情况其实挺常见的，而且往往有它的道理。可以从几个角度看看：\n\n**为什么“不加班”反而业绩好**\n\n1. **效率高**：这类人通常在上"
+  },
+  {
+   "skill": "smooth-operator-recognition",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": false,
+   "note": "",
+   "excerpt": "# 职场生存技巧\n\n## 一、沟通表达类\n\n1. **学会向上汇报**：汇报工作时先说结论，再说过程。用“金字塔原则”，领导时间宝贵，重点先"
+  },
+  {
+   "skill": "useless-usefulness",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": false,
+   "note": "",
+   "excerpt": "不一定。先问自己一个问题：你养鱼画画的时候，快乐吗？\n\n如果是快乐的，"
+  },
+  {
+   "skill": "useless-usefulness",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": false,
+   "note": "",
+   "excerpt": "# 把爱好变成副业的思路\n\n## 第一步：先做“可行性检验”\n\n不是所有爱好都适合变现，先问自己三个问题：\n\n- **别人愿意为它付钱吗？*"
+  },
+  {
+   "skill": "useless-usefulness",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": false,
+   "note": "边界",
+   "excerpt": "这事儿没有标准答案，我觉得可以拆开看：\n\n**躺平合理的一面："
+  }
+ ],
+ "pass_n": 1,
+ "total": 12
+}

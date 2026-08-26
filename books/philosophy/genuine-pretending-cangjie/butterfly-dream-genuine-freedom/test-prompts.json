@@ -1,0 +1,21 @@
+{
+ "skill": "butterfly-dream-genuine-freedom",
+ "version": "1.0.0",
+ "source_book": "《游心之路》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "我总是忍不住自我审视放松不下来",
+   "expected_behavior": "激活：忘我时刻盘点+干扰识别"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以自我意识是坏事要消灭它",
+   "expected_behavior": "边界：忘我是暂时休憩非生存常态；病理性丧失需区分"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}
