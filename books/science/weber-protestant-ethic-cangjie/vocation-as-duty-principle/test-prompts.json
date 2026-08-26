@@ -1,0 +1,21 @@
+{
+ "skill": "vocation-as-duty-principle",
+ "version": "1.0.0",
+ "source_book": "《新教伦理与资本主义精神》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "干一行就要爱一行这话对吗",
+   "expected_behavior": "激活：工作神圣化话术溯源"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所有热爱工作的说法都是资本洗脑",
+   "expected_behavior": "边界：区分真诚热爱与被灌输义务"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

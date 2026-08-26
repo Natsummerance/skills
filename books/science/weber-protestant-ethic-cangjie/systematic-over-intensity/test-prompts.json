@@ -1,0 +1,21 @@
+{
+ "skill": "systematic-over-intensity",
+ "version": "1.0.0",
+ "source_book": "《新教伦理与资本主义精神》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "一夜暴富和稳定现金流哪种更资本主义",
+   "expected_behavior": "激活：赌徒型vs簿记型对照"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以创新冒险都是不理性的",
+   "expected_behavior": "边界：系统性是对已有业务的纪律要求"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

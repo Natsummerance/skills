@@ -1,0 +1,21 @@
+{
+ "skill": "labor-as-end-itself",
+ "version": "1.0.0",
+ "source_book": "《新教伦理与资本主义精神》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "人是不是天生就得工作",
+   "expected_behavior": "激活：自然/建构双栏辨析"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "那大家都不用工作了",
+   "expected_behavior": "边界：祛魅是为了更自觉选择而非躺平"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

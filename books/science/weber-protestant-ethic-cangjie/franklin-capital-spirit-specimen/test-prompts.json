@@ -1,0 +1,21 @@
+{
+ "skill": "franklin-capital-spirit-specimen",
+ "version": "1.0.0",
+ "source_book": "《新教伦理与资本主义精神》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "赚钱到底是欲望驱动还是纪律驱动",
+   "expected_behavior": "激活：欲望型vs义务型商人画像"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "富兰克林是虔诚清教徒所以才有成就",
+   "expected_behavior": "边界：他本人并非虔诚教徒——反讽未展开"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

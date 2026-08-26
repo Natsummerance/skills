@@ -1,0 +1,21 @@
+{
+ "skill": "denomination-credit-credential",
+ "version": "1.0.0",
+ "source_book": "《新教伦理与资本主义精神》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "为什么大厂履历在相亲市场这么值钱",
+   "expected_behavior": "激活：成员资格=信用代理分析"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "没有好履历的人不可信",
+   "expected_behavior": "红线：拒绝出身决定论——凭证也曾降低交易成本"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

@@ -1,0 +1,21 @@
+{
+ "skill": "lutheran-moral-passivity",
+ "version": "1.0.0",
+ "source_book": "《新教伦理与资本主义精神》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "路德和加尔文的区别对普通人有什么影响",
+   "expected_behavior": "激活：教义差异→行为后果对照矩阵"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "路德宗的人道德都不行",
+   "expected_behavior": "边界：相对软弱是群体统计非个体审判；贬低路德宗红线"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

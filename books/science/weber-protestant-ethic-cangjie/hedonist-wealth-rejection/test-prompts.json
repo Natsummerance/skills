@@ -1,0 +1,21 @@
+{
+ "skill": "hedonist-wealth-rejection",
+ "version": "1.0.0",
+ "source_book": "《新教伦理与资本主义精神》 马克斯·韦伯",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "赚了很多钱却不敢花是什么心理",
+   "expected_behavior": "激活：双重禁令+盈余流向自查"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "有钱人省钱就是抠门虚伪",
+   "expected_behavior": "边界：禁欲遗产也曾是建设性能量"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

@@ -25,3 +25,8 @@
 
 ### 新增1 skill：wealth-reinvestment-divide
 ### 最终：5 skills ✅ 达标
+
+## 候选池全额转化轮（2026-08-26）
+## 新增8 skills（c01-c03/x01-x02/f04/p01-p04全部转化；f01-f03/f05/supplement已被原5skill覆盖）
+## 最高红线：lutheran-moral-passivity不得贬低路德宗教信仰
+### 最终：13 skills ✅ 池尽其用达标
