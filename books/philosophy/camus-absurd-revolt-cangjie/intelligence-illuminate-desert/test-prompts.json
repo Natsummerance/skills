@@ -1,0 +1,21 @@
+{
+ "skill": "intelligence-illuminate-desert",
+ "version": "1.0.0",
+ "source_book": "《西西弗神话》 加缪",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "我没天赋但逻辑还行能搞创作吗",
+   "expected_behavior": "激活：智力优于天才论"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以直觉型创作者都是自欺",
+   "expected_behavior": "边界：加缪说的是自己的路径"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

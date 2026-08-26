@@ -1,0 +1,21 @@
+{
+ "skill": "writer-buried-hope-trap",
+ "version": "1.0.0",
+ "source_book": "《西西弗神话》 加缪",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "写的文章没人看还要坚持吗",
+   "expected_behavior": "激活：过程回报与结果回报比例检验"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "追求发表就是堕落",
+   "expected_behavior": "边界：正常期待不是罪，拒绝纯洁度竞赛"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

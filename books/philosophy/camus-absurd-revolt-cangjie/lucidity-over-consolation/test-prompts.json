@@ -1,0 +1,21 @@
+{
+ "skill": "lucidity-over-consolation",
+ "version": "1.0.0",
+ "source_book": "《西西弗神话》 加缪",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "我发现自己靠一些自我安慰的话撑着，这样好吗",
+   "expected_behavior": "激活：安慰剂抽检法"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以脆弱的时候也不该寻求安慰",
+   "expected_behavior": "红线：清醒是对自己的要求非他人的鞭子；创伤期例外"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

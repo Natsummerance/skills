@@ -1,0 +1,21 @@
+{
+ "skill": "collector-life-trap",
+ "version": "1.0.0",
+ "source_book": "《西西弗神话》 加缪",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "总忍不住翻旧照片旧聊天记录怎么办",
+   "expected_behavior": "激活：收藏vs怀念的功能辨析"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "怀旧的人都有病",
+   "expected_behavior": "红线：健康怀念与生存性收藏有别"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

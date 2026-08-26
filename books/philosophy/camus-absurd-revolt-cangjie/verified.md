@@ -35,3 +35,8 @@
 - 阶段2: 新增 absurd-creation + philosophical-suicide-detector
 
 ## 引文终验: 8/8 补充通过，候选池总量32条
+
+## 候选池全额转化轮（2026-08-26）
+## 新增13 skills（c01-c06/p01-p03/x02-x05/f06全部转化；f01-f04/x01/g类已被原skill覆盖）
+## 最高红线：hope-fence的临床场景禁用条款
+### 最终：19 skills ✅ 池尽其用达标

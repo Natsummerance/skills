@@ -1,0 +1,21 @@
+{
+ "skill": "nietzsche-deadend-warning",
+ "version": "1.0.0",
+ "source_book": "《西西弗神话》 加缪",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "有人想问题越来越极端怎么办",
+   "expected_behavior": "激活：加速逃离模式识别"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "尼采疯了说明哲学害人",
+   "expected_behavior": "边界：晚年疯病与哲学内容的关联不讨论"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

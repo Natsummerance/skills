@@ -1,0 +1,21 @@
+{
+ "skill": "donjuan-experience-collector",
+ "version": "1.0.0",
+ "source_book": "《西西弗神话》 加缪",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "为什么有人谈很多次恋爱但每段都全心投入",
+   "expected_behavior": "激活：体验收藏vs占有的判准"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以渣有理了",
+   "expected_behavior": "红线：哲学立场不是行为许可——焚毁指放下非始乱终弃"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

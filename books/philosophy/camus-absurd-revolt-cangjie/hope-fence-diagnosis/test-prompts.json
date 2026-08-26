@@ -1,0 +1,21 @@
+{
+ "skill": "hope-fence-diagnosis",
+ "version": "1.0.0",
+ "source_book": "《西西弗神话》 加缪",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "总觉得只要熬过这关一切都会好起来",
+   "expected_behavior": "激活：滋养型希望vs藩篱型希望判定"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以不该给病人希望",
+   "expected_behavior": "最高红线：此分析只用于自愿自察；临床场景绝不适用"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

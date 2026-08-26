@@ -1,0 +1,21 @@
+{
+ "skill": "revolt-must-continue",
+ "version": "1.0.0",
+ "source_book": "《西西弗神话》 加缪",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "我三个月前决定的事现在完全不动了",
+   "expected_behavior": "激活：反抗持续性纪律+仪式设计"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以要坚持跟所有人作对",
+   "expected_behavior": "边界：形而上姿态先于政治行动，防表演化"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

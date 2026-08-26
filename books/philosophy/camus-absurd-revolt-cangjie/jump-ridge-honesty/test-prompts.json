@@ -1,0 +1,21 @@
+{
+ "skill": "jump-ridge-honesty",
+ "version": "1.0.0",
+ "source_book": "《西西弗神话》 加缪",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "考研还是工作一直决定不了很痛苦",
+   "expected_behavior": "激活：悬置耐受训练（注：客观限期决策除外）"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "有些事必须立刻决定怎么办",
+   "expected_behavior": "边界：某些问题客观上必须限期决策，山脊法仅适用于真开放问题"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

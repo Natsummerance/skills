@@ -1,0 +1,21 @@
+{
+ "skill": "conqueror-flesh-certainty",
+ "version": "1.0.0",
+ "source_book": "《西西弗神话》 加缪",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "创业者明知九死一生为什么还干",
+   "expected_behavior": "激活：行动无用仍斗争的荒诞坐标"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "所以身体好就什么都不怕",
+   "expected_behavior": "边界：肉体是确定性地基非享乐许可"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

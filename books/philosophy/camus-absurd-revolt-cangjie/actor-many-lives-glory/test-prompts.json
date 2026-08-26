@@ -1,0 +1,21 @@
+{
+ "skill": "actor-many-lives-glory",
+ "version": "1.0.0",
+ "source_book": "《西西弗神话》 加缪",
+ "darwin_compatible": true,
+ "test_cases": [
+  {
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "prompt": "演员为什么总说舍不得角色",
+   "expected_behavior": "激活：多命荣耀+谢幕即死结构"
+  },
+  {
+   "id": "edge-01",
+   "type": "edge_case",
+   "prompt": "流量明星就是当代演员典范",
+   "expected_behavior": "边界：眼见为实的现场感与数据流量是两套荣耀体系"
+  }
+ ],
+ "minimum_pass_rate": 0.8
+}

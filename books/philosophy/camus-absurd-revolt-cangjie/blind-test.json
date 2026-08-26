@@ -1,0 +1,223 @@
+{
+ "pkg": "camus-sisyphus-revolt",
+ "cases": [
+  {
+   "skill": "absurd-chain",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这是一个古老而深刻的问题，每个人在某个时刻都可能为此困惑。当你说“想不通”时，或许正站在一个重要的思考节点上。让我们一起来探索这个问题的不同维度。\n\n**关于“"
+  },
+  {
+   "skill": "absurd-chain",
+   "id": "should-trigger-02",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "面对朋友深信“大师”的情况，你的担忧和关心是完全可以理解的。当亲近的人陷入某种看似非理性的信仰时，我们既想保护他们，又不想破坏关系。这种两难处境确实需要谨慎处理"
+  },
+  {
+   "skill": "absurd-chain",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "加缪是**法国人**。\n\n具体来说，他于1913年出生于法属阿尔及利亚的蒙多维（现名德雷安），尽管他成长于阿尔及利亚，但在国籍上属于法国。他是一位著名的哲学家、"
+  },
+  {
+   "skill": "absurd-chain",
+   "id": "should-not-trigger-02",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "《西西弗神话》是加缪的哲学随笔集，核心探讨“荒诞”。在书中，加缪提出了一个非常关键且极具颠覆性的概念——“数量伦理”（或译为“量的伦理”）。要理解这个概念，我们"
+  },
+  {
+   "skill": "absurd-chain",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "我理解你现在的感受，那种“活着没劲”的感觉可能像一层灰色的雾，笼罩着生活的色彩。这种情绪并不少见，很多人都会在某个阶段经历类似的迷茫或倦怠。但请相信，这种感觉并"
+  },
+  {
+   "skill": "absurd-creation",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "看到你的问题，我能感受到那种坚持了十年却未见回响的疲惫与迷茫。这不仅仅是关于“写不写”的抉择，更是一次关于自我价值与热爱的深刻拷问。请允许我先给你一个拥抱，这十"
+  },
+  {
+   "skill": "absurd-creation",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "问“怎么写好开头”的，通常不是不会写字，而是太想写好，结果被“第一句”卡住了。\n\n其实，好开头只有一个核心任务：**在3秒钟内，让读者产生“然后呢？”的好奇心。"
+  },
+  {
+   "skill": "absurd-creation",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "关于“靠写作养活自己”这件事，我想先给你一个拥抱——因为当这个问题在脑海中浮现时，说明你内心已燃起对文字的热望，同时也带着对现实的清醒审视。这种既浪漫又理性的矛"
+  },
+  {
+   "skill": "philosophical-suicide-detector",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这句话非常典型，而且在不同领域（尤其是数学、物理、编程、哲学或某些专业技能）里，确实有它深刻的道理。但这句话也容易被误用。\n\n我们可以从两个层面来理解它，帮你判"
+  },
+  {
+   "skill": "philosophical-suicide-detector",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这是一个非常经典且深刻的问题。很多人第一次听到“相对论推翻了牛顿力学”时，都会感到困惑甚至震撼。但物理学界的共识是：**相对论并没有“推翻”牛顿力学，而是“扩展"
+  },
+  {
+   "skill": "philosophical-suicide-detector",
+   "id": "should-not-trigger-02",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "要运用“境界说”分析词作，首先需要明确王国维在《人间词话》中提出的核心理论。**境界说**强调“能写真景物、真感情者，谓之有境界”，并区分了“有我之境”与“无我"
+  },
+  {
+   "skill": "philosophical-suicide-detector",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "你感到心里平静，这本身**没有任何问题**，反而是一件值得珍惜的好事。\n\n从心理学和身心健康的层面来看，信佛带来的平静通常源于几个非常积极的机制：\n\n1. **"
+  },
+  {
+   "skill": "quantity-ethics",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "你的想法非常珍贵——在年轻的时候主动寻求丰富的人生体验，是一种对生命深度和广度的积极探索。这种心态本身就是一种财富，它意味着你不满足于单一的生活轨迹，而是渴望在"
+  },
+  {
+   "skill": "quantity-ethics",
+   "id": "should-trigger-02",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这是一个非常普遍且复杂的问题，答案并不是简单的“是”或“不是”。**“谈很多次恋爱”本身不等于“渣”，关键在于“为什么谈”和“怎么谈”。**\n\n我们可以从两个维"
+  },
+  {
+   "skill": "quantity-ethics",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "关于“攒钱效率”，绝大多数人一开始就搞错了重点——**效率的核心不是“省”的力度，而是“结构”的合理性。**\n\n如果只靠意志力硬撑，很容易陷入“报复性消费”的循"
+  },
+  {
+   "skill": "quantity-ethics",
+   "id": "should-not-trigger-02",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "要运用“境界说”分析词作，首先需要明确王国维在《人间词话》中提出的核心理论。**境界说**强调“能写真景物、真感情者，谓之有境界”，并区分了“有我之境”与“无我"
+  },
+  {
+   "skill": "quantity-ethics",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这个问题没有绝对的“是”或“否”，因为**“渣”的定义取决于你的动机、透明度以及对他人的尊重程度**。我们可以从几个维度来拆解：\n\n**1. 核心分界线：是否“"
+  },
+  {
+   "skill": "revolt-freedom-passion",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这个问题触及了人类对存在意义的终极追问。当“死亡”成为终点时，“努力”的意义确实容易被质疑。但或许我们可以换个视角来看待这件事：\n\n**1. 努力不是为了“对抗"
+  },
+  {
+   "skill": "revolt-freedom-passion",
+   "id": "should-trigger-02",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "你的感受非常真实，也代表了许多人在快节奏社会中的困惑。“不想卷”是对无意义内耗的疲惫，“不想躺”是对自我价值的珍视——这两者并不矛盾，反而指向一种更清醒的生活态"
+  },
+  {
+   "skill": "revolt-freedom-passion",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "你好！我很乐意帮你做职业规划。职业规划不是一次性的“算命”，而是一个**动态调整**的过程。\n\n为了给你提供真正有价值的建议，而不是泛泛而谈，我需要先了解你的*"
+  },
+  {
+   "skill": "revolt-freedom-passion",
+   "id": "should-not-trigger-02",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这是一个非常深刻且迷人的问题。尼采的“艺术拯救人生”并非指用艺术来消遣或逃避现实，而是指**通过艺术（尤其是悲剧艺术）所代表的审美态度，来对抗人生根本性的痛苦与"
+  },
+  {
+   "skill": "revolt-freedom-passion",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "“躺平”是否可耻，这个问题本身没有标准答案，因为它触及了个人选择与社会期待之间的深层矛盾。我们可以从几个维度来探讨：\n\n**1. 从个人角度看：这是对“过度内卷"
+  },
+  {
+   "skill": "sisyphus-test",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "面对一个坚持了三年却未见成果的项目，是否放弃确实是一个艰难的决定。这不仅仅是时间投入的问题，更关乎你的目标、资源、心理状态和未来可能性。以下是一些系统性的思考框"
+  },
+  {
+   "skill": "sisyphus-test",
+   "id": "should-trigger-02",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "你的感受非常真实，也完全值得被理解。每天重复的育儿日常，就像在跑一场没有终点的马拉松，那种被琐事淹没、失去自我的感觉，几乎是每位父母都会经历的“至暗时刻”。这不"
+  },
+  {
+   "skill": "sisyphus-test",
+   "id": "should-not-trigger-01",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这个问题我无法直接给你“该”或“不该”的答案，因为**止损与否取决于你的交易系统、持仓成本和风险承受能力**，而不是股票本身。\n\n不过，我可以给你一套**科学的"
+  },
+  {
+   "skill": "sisyphus-test",
+   "id": "should-not-trigger-02",
+   "type": "should_not_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "钱穆先生（1895-1990）是国学大师，其治史方法最重“温情与敬意”，强调从历史的内在逻辑和制度演变中寻求“历史意见”，而非以现代人的“时代意见”去苛责古人。"
+  },
+  {
+   "skill": "sisyphus-test",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "读博第五年，这是一个非常艰难且充满压力的节点。你能够坚持到这里，已经付出了巨大的努力和心血。首先，请允许我告诉你：**这不是你一个人的困境，这是许多博士都曾经历"
+  }
+ ],
+ "pass_n": 27,
+ "total": 27
+}
