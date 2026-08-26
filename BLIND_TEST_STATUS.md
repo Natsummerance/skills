@@ -35,3 +35,9 @@
 - nietzsche-birth-tragedy: zen重跑0/1
 - **结论：zen当前不可承担judge角色。两包结果作废，连同剩余5包统一标记待重跑**
 - **触发条件：deepseek key恢复 或 zen解除限流**
+
+## 🔴 v3重判中断记录（2026-08-26）
+- ox-alpha 429限流反复：重判进行中额度耗尽，__ERR__→False污染5包判定
+- 已停止进程并重置污染的ok字段（excerpt原始回复25条+全部完好）
+- **最终方案**：等ox-alpha额度恢复（或deepseek key修复）后一次性跑v3重判
+- 有效盲测数据维持：deepseek完成的22包（20达标）
