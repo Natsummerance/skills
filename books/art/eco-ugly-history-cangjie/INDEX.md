@@ -1,6 +1,6 @@
 # INDEX — 《丑的历史》cangjie 蒸馏包
 
-> 4 个原子 skills · 候选池16条 · 引文5/5通过
+> 5 个原子 skills · 候选池20条（补齐轮4→5） · 引文5/5通过
 
 | skill | 一句话 | 触发核心 |
 |-------|--------|---------|
@@ -15,3 +15,4 @@ graph TD
     KD[媚俗检测] -.对照.-> VJD[value-judgment-developer]
     ALA[局限自省] -.对照.-> QHO[qianmu-historical-opinion]
 ```
+| [enemy-uglification-analysis](enemy-uglification-analysis/SKILL.md) | 敌人丑怪化的镜像武器结构 | 「这张宣传画哪里有问题」 |

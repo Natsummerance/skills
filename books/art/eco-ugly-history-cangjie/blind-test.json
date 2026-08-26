@@ -1,0 +1,71 @@
+{
+ "pkg": "eco-ugly-history",
+ "cases": [
+  {
+   "skill": "aesthetic-limitation-awareness",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "写世界雕塑史论文的开头，确实是个技术活。我理解你的处境——面对从史前维纳斯到当代装置艺术的浩瀚内容，如何找到一个既有学术深度又能吸引读者的切入点，确实需要一些巧"
+  },
+  {
+   "skill": "aesthetic-limitation-awareness",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "你说得对，既然都有局限，那“随便写写”本身就是一种很诚实的姿态。\n\n不过，既然要“随便”，那就随便得彻底一点。我试着写一段没有中心思想、没有起承转合、纯粹是字词"
+  },
+  {
+   "skill": "fear-iconography-reader",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这个问题问得特别有意思，而且切中了一个文化现象的核心。僵尸片里的“僵尸”之所以每个时代长得不一样，**本质上不是因为“僵尸”变了，而是因为“恐惧”变了。**\n\n"
+  },
+  {
+   "skill": "fear-iconography-reader",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "这是一个非常深刻且值得探讨的问题。直接回答“是”或“不是”都过于简单化。更准确的答案是：**女巫形象是厌女情绪的产物，但同时也是女性力量、反抗和自由的象征。**"
+  },
+  {
+   "skill": "kitsch-detector",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "哈哈，完全懂这种感觉！旋律像钩子一样拽着耳朵，歌词却像“用脚写的”——这种“听歌如坐过山车”的体验，简直是当代音乐界的“薛定谔的耳朵”。  \n\n**如果你正被这"
+  },
+  {
+   "skill": "kitsch-detector",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "喜欢通俗作品一点都不low，反而是一种非常自然、健康且普遍的状态。\n\n我们可以从几个角度来拆解这个问题，你会发现“low”这个标签本身才是站不住脚的：\n\n**1"
+  },
+  {
+   "skill": "ugliness-category-analysis",
+   "id": "should-trigger-01",
+   "type": "should_trigger",
+   "ok": true,
+   "note": "",
+   "excerpt": "这个问题触及了人类心理一个非常迷人的矛盾：我们如何从“被吓到”中获得乐趣？\n\n简单来说，**恐怖片是一种“安全的危险”**。它让我们在绝对安全的环境中，体验最极"
+  },
+  {
+   "skill": "ugliness-category-analysis",
+   "id": "edge-01",
+   "type": "edge_case",
+   "ok": true,
+   "note": "边界检测",
+   "excerpt": "你的观点触及了一个深刻的哲学与伦理问题。关于“丑”的定义、价值以及是否应该被“消灭”，我们可以从多个角度来探讨：\n\n---\n\n### 1. **“丑”是主观的，"
+  }
+ ],
+ "pass_n": 8,
+ "total": 8
+}

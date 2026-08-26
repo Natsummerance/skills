@@ -17,5 +17,5 @@
 | [literature/](literature/) | 诗词鉴赏四书合蒸 ✅2 | [INDEX](literature/INDEX.md) |
 | [film/](film/) | 电影是什么？✅1 · 理解戈达尔 ✅1 | [INDEX](film/INDEX.md) |
 
-**当前合计：34 本在库 / 199 个 skills**（数量补齐轮 8/约14）**分类**或书籍完成时更新
+**当前合计：34 本在库 / 200 个 skills**（数量补齐轮 9/约14，突破200）**分类**或书籍完成时更新
 - 书籍完整度状态见各分类 INDEX 的进度列
