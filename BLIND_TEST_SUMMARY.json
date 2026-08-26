@@ -1,0 +1,21 @@
+{
+ "backend_history": [
+  "deepseek-chat(22包,19达标)",
+  "zen(2包,不可信作废)",
+  "openrouter ox-alpha(6包采集+judge bug)"
+ ],
+ "valid_results": {
+  "deepseek完成": 22,
+  "达标": 20,
+  "误报复核后": 22,
+  "ox_alpha采集": 6,
+  "judge修复待重判": true
+ },
+ "pending": [
+  "genuine-pretending重判",
+  "nietzsche/camus等5包已有原始记录待重判",
+  "deepseek key恢复后可全量复验"
+ ],
+ "root_cause_judge_bug": "JUDGE_T把expected_behavior当模板匹配；JUDGE_NT对裸模型场景语义不清",
+ "fix_direction": "reason-first两段式判定(v3)已写好，429恢复后执行"
+}
