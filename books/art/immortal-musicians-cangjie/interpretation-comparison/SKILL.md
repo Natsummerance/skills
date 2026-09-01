@@ -3,7 +3,7 @@ name: interpretation-comparison
 description: |
   版本比较聆听会设计 不适用于: 用于拉踩引战——对比的产出是理解不是站队
   EN trigger: version comparison
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《不朽的演奏家》
 source_chapter: 韦伯斯特章
 tags: [蒸馏技能]
 related_skills: []

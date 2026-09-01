@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   分析某作家经典地位的形成史 不适用于: 用建构论直接贬低经典作品的价值——解释地位来源不等于否认品质
   EN trigger: canon formation
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《文学阅读透镜三书合蒸》
 source_chapter: 伊格尔顿卷·定义之争 + 韦勒克卷·文学史
 tags: [蒸馏技能]
 related_skills: []

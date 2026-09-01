@@ -3,7 +3,7 @@ name: luzhi-tax-debate
 description: |
   理解固定租金定额税的通胀风险 不适用于: 脱离货币史背景套用到现代法定货币体系——前提不同
   EN trigger: tax inflation history
-source_book: 《中国历代政治得失》 钱穆
+source_book: 《中国历代政治得失》（钱穆，三联书店）
 source_chapter: 唐代赋税章（案例c02）
 tags: [蒸馏技能]
 related_skills: []

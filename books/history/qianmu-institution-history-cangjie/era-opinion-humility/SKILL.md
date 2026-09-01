@@ -3,7 +3,7 @@ name: era-opinion-humility
 description: |
   评价历史人物事件 不适用于: 用于拒绝一切现代批判——复原不等于认同
   EN trigger: presentism
-source_book: 《中国历代政治得失》；作者: 钱穆；三联书店
+source_book: 《中国历代政治得失》（钱穆，三联书店）
 source_chapter: 总论（原则p02）
 tags: [蒸馏技能]
 related_skills: []

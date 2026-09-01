@@ -3,7 +3,7 @@ name: means-corrosion-check
 description: |
   activism策略的伦理审查 不适用于: 用于为恶行辩护——本skill是审查工具不是豁免证书
   EN trigger: ends justify means
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《学术与政治》（马克斯·韦伯，钱永祥等译）
 source_chapter: 信念伦理与责任伦理之辨
 tags: [蒸馏技能]
 related_skills: []

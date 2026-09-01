@@ -3,7 +3,7 @@ name: patrimonial-structure-analysis
 version: 1.0.0
 description: |
   分析传统官僚帝国的权力结构时调用：家产制三件套——俸禄国家中央政体、氏族村落自治的抗衡、改革的「恶灵阻力」。理解传统中国/奥斯曼/旧俄等家产制社会的变革困境时调用。不适用于: 现代官僚制分析。
-source_book: 《中国的宗教：儒教与道教》 马克斯·韦伯（康乐/简惠美译）
+source_book: 《中国的宗教：儒教与道教》（马克斯·韦伯，康乐/简惠美译）
 source_chapter: 第二章-第四章
 tags: [韦伯, 历史社会学, 蒸馏技能]
 related_skills: []

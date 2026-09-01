@@ -3,7 +3,7 @@ name: music-spirit-priority
 description: |
   小说改编电影得失分析 不适用于: 用于贬低视觉艺术或文学——等级是功能描述不是价值歧视
   EN trigger: adaptation fidelity
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §5 §16 §19（框架f05）
 tags: [蒸馏技能]
 related_skills: []

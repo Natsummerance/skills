@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   分析一段剪辑的引导性 不适用于: 把所有快速剪辑都判为越界——动作片节奏需求合法
   EN trigger: montage ethics / ambiguity
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《电影双书合蒸》（巴赞《电影是什么？》+《理解戈达尔》）
 source_chapter: 巴赞卷·禁用蒙太奇诸篇
 tags: [蒸馏技能]
 related_skills: []

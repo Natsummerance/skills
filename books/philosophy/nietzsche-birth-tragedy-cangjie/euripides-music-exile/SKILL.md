@@ -3,7 +3,7 @@ name: euripides-music-exile
 description: |
   分析影视剧过度解释台词 不适用于: 用于全盘贬低欧里庇得斯或现代编剧——清晰化有其正当受众
   EN trigger: show dont tell
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §10-12 欧里庇得斯批判（案例c07/x04）
 tags: [蒸馏技能]
 related_skills: []

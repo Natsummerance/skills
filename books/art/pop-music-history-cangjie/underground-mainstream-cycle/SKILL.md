@@ -3,7 +3,7 @@ name: underground-mainstream-cycle
 description: |
   分析小众爱好出圈现象 不适用于: 用于贬低新入圈听众——循环是结构现象不是个人罪过
   EN trigger: sell out
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《流行音乐史》（中西卷合蒸本）
 source_chapter: 嘻哈章
 tags: [蒸馏技能]
 related_skills: []

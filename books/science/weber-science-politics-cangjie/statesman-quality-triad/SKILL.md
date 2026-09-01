@@ -3,7 +3,7 @@ name: statesman-quality-triad
 version: 1.0.0
 description: |
   评估领导者素质结构时调用：韦伯三素质——切事的热情、责任感、判断力（对现实的距离感）；虚荣是切事与距离的共同死敌。分析政治人物/企业管理者/学生领袖时调用。不用于站队表态。When evaluating leadership quality structure. Not for political endorsement.
-source_book: 《学术与政治》 马克斯·韦伯（钱永祥等译）
+source_book: 《学术与政治》（马克斯·韦伯，钱永祥等译）
 source_chapter: 《政治作为一种志业》§54-55, §69
 tags: [韦伯, 领导力, 蒸馏技能]
 related_skills: []

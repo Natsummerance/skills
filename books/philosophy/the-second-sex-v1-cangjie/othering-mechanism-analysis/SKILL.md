@@ -3,7 +3,7 @@ name: othering-mechanism-analysis
 description: |
   识别日常对话中的客体化 不适用于: 用于给具体人扣他者化帽子打压对方——工具不武器化
   EN trigger: othering
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《第二性》I（事实与神话）
 source_chapter: 导言/历史章
 tags: [蒸馏技能]
 related_skills: []

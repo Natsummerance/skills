@@ -3,7 +3,7 @@ name: impossible-enables-possible
 description: |
   长期目标的可行性争论 不适用于: 用于为空想辩护——韦伯说的是历史机制不是个人许愿
   EN trigger: visionary goals
-source_book: 未知书目
+source_book: 《学术与政治》（马克斯·韦伯，钱永祥等译）
 source_chapter: 政治作为志业结尾（原则p05）
 tags: [蒸馏技能]
 related_skills: []

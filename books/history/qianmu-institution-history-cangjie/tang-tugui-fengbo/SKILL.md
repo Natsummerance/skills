@@ -3,7 +3,7 @@ name: tang-tugui-fengbo
 description: |
   公司审批流设计讨论 不适用于: 美化古代制度为民主——是皇权体制内的程序制衡非主权在民
   EN trigger: checks and balances 古代
-source_book: 《中国历代政治得失》 钱穆
+source_book: 《中国历代政治得失》（钱穆，三联书店）
 source_chapter: 唐代政府章（案例c01）
 tags: [蒸馏技能]
 related_skills: []

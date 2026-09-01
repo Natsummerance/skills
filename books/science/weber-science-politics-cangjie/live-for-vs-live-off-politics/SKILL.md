@@ -3,7 +3,7 @@ name: live-for-vs-live-off-politics
 description: |
   职业与信念的冲突设计 不适用于: 用于鄙视以政治为业者——职业政客是现代政治的必要分工
   EN trigger: independence design
-source_book: 未知书目
+source_book: 《学术与政治》（马克斯·韦伯，钱永祥等译）
 source_chapter: 政治作为志业（原则p04）
 tags: [蒸馏技能]
 related_skills: []

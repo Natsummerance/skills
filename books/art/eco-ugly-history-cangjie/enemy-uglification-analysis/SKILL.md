@@ -3,7 +3,7 @@ name: enemy-uglification-analysis
 description: |
   解读政治讽刺漫画 不适用于: 用于给具体个人P侮辱图——分析丑怪化不等于参与丑怪化
   EN trigger: propaganda analysis
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《丑的历史》
 source_chapter: 讽刺画章
 tags: [蒸馏技能]
 related_skills: []

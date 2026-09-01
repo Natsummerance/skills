@@ -1,14 +1,22 @@
-# film/ · 电影
+# Film 领域书籍技能索引
 
-> 电影理论、作者研究类蒸馏技能（2026-08-24 开张）
+本目录收录 **film** 分类下的所有书籍精读与 RIA-TV++ 方法论技能。
 
-## 书籍
+## 书籍与技能列表
 
-| 书 | skills 数 | 完整度 | 索引 |
-|----|-----------|--------|------|
-| [电影是什么？](bazin-realism/) | 1 | ✅ 核心篇目覆盖 | [INDEX](bazin-realism/INDEX.md) |
-| [理解戈达尔](godard-new-wave/) | 1 | ✅ 双片聚焦 | [INDEX](godard-new-wave/INDEX.md) |
+### 📖 bazin-realism (1 篇)
 
-## 蒸馏队列
-- 《认识电影》《电影史》类教材 / 作者研究（希区柯克、小津）
-| [电影双书合蒸 · cangjie版](film-bazin-godard-cangjie/) | 6 | ✅ cangjie全流程重蒸馏（候选26条，引文6/6） | [INDEX](film-bazin-godard-cangjie/INDEX.md) |
+- [bazin-realist-theory](bazin-realism/bazin-realist-theory/SKILL.md)
+
+### 📖 film-bazin-godard-cangjie (6 篇)
+
+- [auteur-self-reflexivity](film-bazin-godard-cangjie/auteur-self-reflexivity/SKILL.md)
+- [bazin-ontology-analysis](film-bazin-godard-cangjie/bazin-ontology-analysis/SKILL.md)
+- [jump-cut-grammar-reader](film-bazin-godard-cangjie/jump-cut-grammar-reader/SKILL.md)
+- [montage-ethics-review](film-bazin-godard-cangjie/montage-ethics-review/SKILL.md)
+- [segmentation-method](film-bazin-godard-cangjie/segmentation-method/SKILL.md)
+- [total-cinema-myth](film-bazin-godard-cangjie/total-cinema-myth/SKILL.md)
+
+### 📖 godard-new-wave (1 篇)
+
+- [godard-jump-cut-grammar](godard-new-wave/godard-jump-cut-grammar/SKILL.md)

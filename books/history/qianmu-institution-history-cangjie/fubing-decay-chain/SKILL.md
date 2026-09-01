@@ -3,7 +3,7 @@ name: fubing-decay-chain
 description: |
   理解义务兵役制的历史教训 不适用于: 用于论证军功爵位制万能——荣誉体系的载体因时代而异
   EN trigger: military institution decay
-source_book: 《中国历代政治得失》；作者: 钱穆；三联书店
+source_book: 《中国历代政治得失》（钱穆，三联书店）
 source_chapter: 唐代兵制章（案例c04）
 tags: [蒸馏技能]
 related_skills: []

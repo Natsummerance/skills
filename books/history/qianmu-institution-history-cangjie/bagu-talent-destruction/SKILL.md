@@ -3,7 +3,7 @@ name: bagu-talent-destruction
 description: |
   讨论应试作文的利弊 不适用于: 用于全盘否定考试制度——钱穆对考试选才本身持肯定态度
   EN trigger: eight-legged essay
-source_book: 《中国历代政治得失》；作者: 钱穆；三联书店
+source_book: 《中国历代政治得失》（钱穆，三联书店）
 source_chapter: 明代考试章（反例x02）
 tags: [蒸馏技能]
 related_skills: []

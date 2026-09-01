@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   深度赏析一首诗词 不适用于: 套五步公式替代真实的审美体验——方法服务于感受不是取代
   EN trigger: jingjie / poetry appreciation
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《诗词鉴赏群书合蒸》（人间词话/叶嘉莹/戴建业/钱锺书）
 source_chapter: 人间词话
 tags: [蒸馏技能]
 related_skills: []

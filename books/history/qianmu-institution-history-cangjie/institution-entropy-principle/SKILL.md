@@ -3,7 +3,7 @@ name: institution-entropy-principle
 description: |
   组织旧规章的清理复盘 不适用于: 推出一切制度都该常换常新——频繁变动同样摧毁预期
   EN trigger: institutional inertia
-source_book: 《中国历代政治得失》；作者: 钱穆；三联书店
+source_book: 《中国历代政治得失》（钱穆，三联书店）
 source_chapter: 魏晋章（原则p05）
 tags: [蒸馏技能]
 related_skills: []

@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   分析书评/榜单/经典争议背后的判断结构 不适用于: 用显影结果直接判定作品好坏——本skill分析判断不替代判断
   EN trigger: literary canon / value judgment
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《文学阅读透镜三书合蒸》
 source_chapter: 伊格尔顿卷·文学的定义
 tags: [蒸馏技能]
 related_skills: []

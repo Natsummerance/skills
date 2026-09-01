@@ -3,7 +3,7 @@ name: clan-autonomy-vs-patrimonial
 description: |
   基层自治的历史理解 不适用于: 浪漫化宗族自治——它同样有压迫性（族规私刑）
   EN trigger: informal institution
-source_book: 未知书目
+source_book: 《中国的宗教：儒教与道教》（马克斯·韦伯，康乐/简惠美译）
 source_chapter: 氏族章（案例c03）
 tags: [蒸馏技能]
 related_skills: []

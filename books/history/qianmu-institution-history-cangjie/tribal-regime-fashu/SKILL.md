@@ -3,7 +3,7 @@ name: tribal-regime-fashu
 description: |
   区分规则与潜规则 不适用于: 用于现实民族议题——这是史学论断有特定语境，且学界对部族政权说有争议
   EN trigger: tribal politics
-source_book: 《中国历代政治得失》；作者: 钱穆；三联书店
+source_book: 《中国历代政治得失》（钱穆，三联书店）
 source_chapter: 清代章（反例x03）
 tags: [蒸馏技能]
 related_skills: []

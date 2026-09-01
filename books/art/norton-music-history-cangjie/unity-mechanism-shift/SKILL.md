@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   理解无调性作品为什么不是乱写 不适用于: 用于非西方音乐传统——其统一机制谱系完全不同
   EN trigger: unity mechanism / music history
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《诺顿音乐史》（四卷合蒸本）
 source_chapter: 20世纪卷·序列主义章
 tags: [蒸馏技能]
 related_skills: []

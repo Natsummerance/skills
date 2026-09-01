@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   给学生讲诗人生平与作品的关系 不适用于: 把画像当定论——诗人是多面的，六格只是入口
   EN trigger: poet portrait card
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《诗词鉴赏群书合蒸》（人间词话/叶嘉莹/戴建业/钱锺书）
 source_chapter: 戴建业品读唐诗
 tags: [蒸馏技能]
 related_skills: []

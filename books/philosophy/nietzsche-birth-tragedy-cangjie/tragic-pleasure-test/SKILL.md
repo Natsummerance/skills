@@ -3,7 +3,7 @@ name: tragic-pleasure-test
 description: |
   评价悲剧电影戏剧的深度 不适用于: 用于贬低只到L2的作品——卡塔西斯本身是人类发明
   EN trigger: why tragedy pleases
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §7（原则p04）
 tags: [蒸馏技能]
 related_skills: []

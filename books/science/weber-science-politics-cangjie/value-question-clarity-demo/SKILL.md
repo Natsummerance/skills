@@ -3,7 +3,7 @@ name: value-question-clarity-demo
 description: |
    controversial 话题的教学设计 不适用于: 用于回避一切表态——公共场合的公民表态与讲坛中立并行不悖
   EN trigger: value neutral
-source_book: 未知书目
+source_book: 《学术与政治》（马克斯·韦伯，钱永祥等译）
 source_chapter: 学术作为志业（案例c02）
 tags: [蒸馏技能]
 related_skills: []

@@ -3,7 +3,7 @@ name: composite-personality-principle
 description: |
   跨文化人格观比较 不适用于: 贬低组合式人格为虚伪——场合适应是成熟非分裂
   EN trigger: contextual self
-source_book: 未知书目
+source_book: 《中国的宗教：儒教与道教》（马克斯·韦伯，康乐/简惠美译）
 source_chapter: 儒教生活取向章（原则p01）
 tags: [蒸馏技能]
 related_skills: []

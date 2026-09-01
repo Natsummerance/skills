@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   写文本分析前确定分析对象 不适用于: 诗歌音韵研究强行上升到世界观层——层面间需过渡论证
   EN trigger: mode of existence / stratified structure
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《文学阅读透镜三书合蒸》
 source_chapter: 韦勒克卷·内部研究开篇
 tags: [蒸馏技能]
 related_skills: []

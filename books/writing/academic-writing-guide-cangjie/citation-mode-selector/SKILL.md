@@ -3,7 +3,7 @@ name: citation-mode-selector
 description: |
   论文写作中的引用决策 不适用于: 大段直引凑字数——引用是论证资源不是填充物
   EN trigger: paraphrase or quote
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《学术写作原来是这样》（易莉）
 source_chapter: 引用章
 tags: [蒸馏技能]
 related_skills: []

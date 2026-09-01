@@ -3,7 +3,7 @@ name: tragedy-suicide-death-analysis
 description: |
   分析一门手艺或流派的消亡 不适用于: 用于浪漫化宁为玉碎——尼采对自杀式灭亡是痛惜非赞颂
   EN trigger: cultural death
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §11（反例x01）
 tags: [蒸馏技能]
 related_skills: []

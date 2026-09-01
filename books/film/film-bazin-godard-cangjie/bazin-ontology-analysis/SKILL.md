@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   分析一部电影的写实主义主张 不适用于: 把本体论当评价标准——巴赞描述的是影像本质不是优劣
   EN trigger: bazin ontology / realism
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《电影双书合蒸》（巴赞《电影是什么？》+《理解戈达尔》）
 source_chapter: 巴赞卷·01 摄影影像的本体论
 tags: [蒸馏技能]
 related_skills: []

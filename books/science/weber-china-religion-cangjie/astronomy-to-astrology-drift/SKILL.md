@@ -3,7 +3,7 @@ name: astronomy-to-astrology-drift
 description: |
   科学史中的知识异化案例 不适用于: 推出中国文化反科学的本质主义结论——韦伯命题已被大量修正
   EN trigger: 李约瑟问题
-source_book: 未知书目
+source_book: 《中国的宗教：儒教与道教》（马克斯·韦伯，康乐/简惠美译）
 source_chapter: 自然科学章（案例c01）
 tags: [蒸馏技能]
 related_skills: []

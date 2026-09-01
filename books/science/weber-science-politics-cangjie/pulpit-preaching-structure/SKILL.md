@@ -3,7 +3,7 @@ name: pulpit-preaching-structure
 description: |
   识别知识付费的话术结构 不适用于: 禁止一切有感染力的表达——韦伯反对的是利用结构性保护非激情本身
   EN trigger: one-way communication
-source_book: 未知书目
+source_book: 《学术与政治》（马克斯·韦伯，钱永祥等译）
 source_chapter: 学术作为志业（反例x02）
 tags: [蒸馏技能]
 related_skills: []

@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   第一次听钢琴或小提琴协奏曲 不适用于: 用于现代协奏曲变体前需确认其仍保留对话结构
   EN trigger: concerto listening
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《古典音乐入门》（合蒸本）
 source_chapter: 协奏曲章（莫扎特钢琴协奏曲）
 tags: [蒸馏技能]
 related_skills: []

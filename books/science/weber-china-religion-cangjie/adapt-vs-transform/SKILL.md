@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   分析一种文化/组织/个人对「世界」的基本态度时调用：适应取向（把自身调整到与世界和谐）vs 改造取向（以规范塑造世界）；组合体人格vs系统统一体。讨论文化比较、变革动力、创新阻力时调用。不适用于: 评判文化优劣。
   Analyzing adaptation-oriented vs transform-oriented cultural attitudes. Not for ranking cultures.
-source_book: 《中国的宗教：儒教与道教》 马克斯·韦伯（康乐/简惠美译）
+source_book: 《中国的宗教：儒教与道教》（马克斯·韦伯，康乐/简惠美译）
 source_chapter: 第六章 儒教的生活取向 / 第八章 结论
 tags: [韦伯, 比较宗教社会学, 蒸馏技能]
 related_skills: []

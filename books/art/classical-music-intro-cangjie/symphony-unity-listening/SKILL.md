@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   第一次完整听一部交响曲 不适用于: 用于无调性或后现代作品——元素统一非其美学目标
   EN trigger: symphony listening
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《古典音乐入门》（合蒸本）
 source_chapter: 交响乐章
 tags: [蒸馏技能]
 related_skills: []

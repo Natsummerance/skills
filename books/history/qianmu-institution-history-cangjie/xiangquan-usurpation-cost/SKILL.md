@@ -3,7 +3,7 @@ name: xiangquan-usurpation-cost
 description: |
   创始人收权风险评估 不适用于: 套用于现代企业——钱穆论的是皇权世袭政体的特殊结构
   EN trigger: centralization risk
-source_book: 《中国历代政治得失》；作者: 钱穆；三联书店
+source_book: 《中国历代政治得失》（钱穆，三联书店）
 source_chapter: 历代趋势（原则p03）
 tags: [蒸馏技能]
 related_skills: []

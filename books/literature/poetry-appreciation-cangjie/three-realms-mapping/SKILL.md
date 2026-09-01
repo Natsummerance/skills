@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   长期项目做到怀疑人生时的阶段定位 不适用于: 把三种境界当成功学阶梯硬套——它是描述不是承诺
   EN trigger: three realms of achievement
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《诗词鉴赏群书合蒸》（人间词话/叶嘉莹/戴建业/钱锺书）
 source_chapter: 人间词话
 tags: [蒸馏技能]
 related_skills: []

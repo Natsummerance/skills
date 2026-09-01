@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   解读一首古诗为什么动人 不适用于: 用兴发感动否定形式分析的价值——叶嘉莹同样重视格律
   EN trigger: xingfa / evocative power
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《诗词鉴赏群书合蒸》（人间词话/叶嘉莹/戴建业/钱锺书）
 source_chapter: 叶嘉莹说诗讲稿
 tags: [蒸馏技能]
 related_skills: []

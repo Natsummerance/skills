@@ -3,7 +3,7 @@ name: satyr-chorus-origin
 description: |
   理解戏剧起源讨论 不适用于: 套用于一切合唱现象——尼采论的是特定酒神式歌队非泛指
   EN trigger: chorus origin
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §7-8 歌队论（案例c04）
 tags: [蒸馏技能]
 related_skills: []

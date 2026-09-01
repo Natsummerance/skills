@@ -3,7 +3,7 @@ name: wealth-reinvestment-divide
 description: |
   分析家族企业二代为何败家 不适用于: 用于个人理财建议——韦伯命题是社会层面机制不是投资指南
   EN trigger: wealth culture
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《新教伦理与资本主义精神》
 source_chapter: 入世禁欲章（荷兰案例）
 tags: [蒸馏技能]
 related_skills: []

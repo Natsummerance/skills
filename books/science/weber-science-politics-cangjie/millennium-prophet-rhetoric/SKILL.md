@@ -3,7 +3,7 @@ name: millennium-prophet-rhetoric
 description: |
   极端组织话术识别 不适用于: 用于给异见者扣邪教帽子——识别话术不等于定性组织
   EN trigger: 为了最好的目的做坏事行吗
-source_book: 未知书目
+source_book: 《学术与政治》（马克斯·韦伯，钱永祥等译）
 source_chapter: 政治作为志业（反例x01）
 tags: [蒸馏技能]
 related_skills: []

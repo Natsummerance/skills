@@ -3,7 +3,7 @@ name: specialization-only-entry
 description: |
   研究生方向选择 不适用于: 推出通才无用论——韦伯说的是学院结构非人类知识全景
   EN trigger: expert boundary
-source_book: 未知书目
+source_book: 《学术与政治》（马克斯·韦伯，钱永祥等译）
 source_chapter: 学术作为志业（原则p02）
 tags: [蒸馏技能]
 related_skills: []

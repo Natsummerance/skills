@@ -3,7 +3,7 @@ name: nine-rank-aristocratization
 description: |
   分析绩效评级系统的异化 不适用于: 用于论证一切主观评价皆不可靠——评审委员会仍是多数场景的最优解
   EN trigger: rating system capture
-source_book: 《中国历代政治得失》；作者: 钱穆；三联书店
+source_book: 《中国历代政治得失》（钱穆，三联书店）
 source_chapter: 魏晋南北朝章（反例x01）
 tags: [蒸馏技能]
 related_skills: []

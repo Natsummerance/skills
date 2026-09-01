@@ -3,7 +3,7 @@ name: art-as-truth-antidote
 description: |
   讨论知道太多会不会毁掉生活 不适用于: 用于鼓吹蒙昧主义——尼采说的是承受真相的方式不是拒绝真相
   EN trigger: truth is ugly
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §7（原则p03）
 tags: [蒸馏技能]
 related_skills: []

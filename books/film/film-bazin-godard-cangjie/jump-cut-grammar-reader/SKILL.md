@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   分析一部电影的剪辑风格 不适用于: 把一切剪辑错误都当跳接美学——先区分有意与失误
   EN trigger: jump cut / jump cut grammar
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《电影双书合蒸》（巴赞《电影是什么？》+《理解戈达尔》）
 source_chapter: 戈达尔卷·筋疲力尽镜头组分析
 tags: [蒸馏技能]
 related_skills: []

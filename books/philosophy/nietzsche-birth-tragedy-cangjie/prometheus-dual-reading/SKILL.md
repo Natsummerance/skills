@@ -3,7 +3,7 @@ name: prometheus-dual-reading
 description: |
   比较神话学入门思维 不适用于: 用于论证民族优越论——尼采的雅利安用语是19世纪语汇需历史化处理
   EN trigger: prometheus myth
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §9 神话对比（案例c03）
 tags: [蒸馏技能]
 related_skills: []

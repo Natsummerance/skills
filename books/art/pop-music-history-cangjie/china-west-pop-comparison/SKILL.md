@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   写中西音乐交流论文 不适用于: 推导谁更高级——对照法的产出是结构性理解不是排名
   EN trigger: china pop vs western pop
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《流行音乐史》（中西卷合蒸本）
 source_chapter: 中国卷总论
 tags: [蒸馏技能]
 related_skills: []

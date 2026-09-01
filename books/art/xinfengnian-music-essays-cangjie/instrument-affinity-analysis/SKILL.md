@@ -3,7 +3,7 @@ name: instrument-affinity-analysis
 description: |
   解释某作曲家为何偏爱某乐器 不适用于: 倒推不会演奏就写不好——柏辽兹正是反例
   EN trigger: instrument affinity
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《新丰年》
 source_chapter: 配器与乐器诸篇
 tags: [蒸馏技能]
 related_skills: []

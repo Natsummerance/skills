@@ -3,7 +3,7 @@ name: artist-socrates-possibility
 description: |
   理解批评家转创作家的现象 不适用于: 用于强行给所有理性派贴艺术家标签——假说是可能性不是普遍规律
   EN trigger: artist socrates
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §14-15（案例c08）
 tags: [蒸馏技能]
 related_skills: []

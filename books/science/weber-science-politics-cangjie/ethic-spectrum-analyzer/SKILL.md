@@ -3,7 +3,7 @@ name: ethic-spectrum-analyzer
 version: 1.0.0
 description: |
   分析行动者的伦理姿态时调用：心志伦理vs责任伦理光谱定位——「行为正当后果委诸上帝」vs「对可预见后果负责且不假定人性善」。评估政治人物、 activists、自己的决策风格时调用。不用于给立场贴善恶标签。When analyzing an actor's ethics of conviction vs responsibility. Not for moral labeling.
-source_book: 《学术与政治》 马克斯·韦伯（钱永祥等译）
+source_book: 《学术与政治》（马克斯·韦伯，钱永祥等译）
 source_chapter: 《政治作为一种志业》§60-67
 tags: [韦伯, 政治哲学, 蒸馏技能]
 related_skills: []

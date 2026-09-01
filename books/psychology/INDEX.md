@@ -1,9 +1,20 @@
-# psychology/ · 心理与他者
+# Psychology 领域书籍技能索引
 
-> 性别研究、性心理学蒸馏技能
+本目录收录 **psychology** 分类下的所有书籍精读与 RIA-TV++ 方法论技能。
 
-## 书籍
+## 书籍与技能列表
 
-| 书 | skills 数 | 完整度 | 索引 |
-|----|-----------|--------|------|
-| [第二性](dierxing/) | 12 | ✅ 全卷完成（Ⅰ+Ⅱ） | [INDEX](dierxing/INDEX.md) |
+### 📖 dierxing (12 篇)
+
+- [beauvoir-becoming-woman](dierxing/beauvoir-becoming-woman/SKILL.md)
+- [beauvoir-five-male-gazes](dierxing/beauvoir-five-male-gazes/SKILL.md)
+- [beauvoir-girlhood-formation](dierxing/beauvoir-girlhood-formation/SKILL.md)
+- [beauvoir-independent-woman](dierxing/beauvoir-independent-woman/SKILL.md)
+- [beauvoir-marriage-critique](dierxing/beauvoir-marriage-critique/SKILL.md)
+- [beauvoir-motherhood-myth](dierxing/beauvoir-motherhood-myth/SKILL.md)
+- [beauvoir-myth-decode](dierxing/beauvoir-myth-decode/SKILL.md)
+- [beauvoir-patriarchy-history](dierxing/beauvoir-patriarchy-history/SKILL.md)
+- [beauvoir-sexual-initiation](dierxing/beauvoir-sexual-initiation/SKILL.md)
+- [beauvoir-social-woman](dierxing/beauvoir-social-woman/SKILL.md)
+- [beauvoir-three-reductions](dierxing/beauvoir-three-reductions/SKILL.md)
+- [beauvoir-three-refuges](dierxing/beauvoir-three-refuges/SKILL.md)

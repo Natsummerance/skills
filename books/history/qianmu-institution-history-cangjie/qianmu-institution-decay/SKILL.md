@@ -3,7 +3,7 @@ name: qianmu-institution-decay
 version: 1.0.0
 description: |
   评估一个老流程/老政策要不要改 不适用于: 为新制度设计提供依据——本skill只诊断不设计
-source_book: 《中国历代政治得失》；作者: 钱穆；三联书店
+source_book: 《中国历代政治得失》（钱穆，三联书店）
 source_chapter: 总论·九品中正论
 tags: [钱穆, 制度史, 史学方法, 蒸馏技能]
 related_skills: []

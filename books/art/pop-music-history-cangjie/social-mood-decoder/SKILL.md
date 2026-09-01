@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   分析一首爆红神曲的社会背景 不适用于: 用时代情绪解释一切个体审美——总有人逆着时代听
   EN trigger: music and society
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《流行音乐史》（中西卷合蒸本）
 source_chapter: 西方卷·英国背景章
 tags: [蒸馏技能]
 related_skills: []

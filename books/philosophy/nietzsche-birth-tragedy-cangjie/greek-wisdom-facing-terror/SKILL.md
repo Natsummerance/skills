@@ -3,7 +3,7 @@ name: greek-wisdom-facing-terror
 description: |
   解读创伤后的创作冲动 不适用于: 用于美化苦难或鼓励硬扛——直面是为了转化不是表演坚强
   EN trigger: art from suffering
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §7 希腊智慧（原则p01）
 tags: [蒸馏技能]
 related_skills: []

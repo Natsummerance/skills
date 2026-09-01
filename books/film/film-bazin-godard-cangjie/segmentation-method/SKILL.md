@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   写严肃影评或论文前的素材整理 不适用于: 对短视频做全片分段——成本收益不成比例，抽关键段即可
   EN trigger: film segmentation
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《电影双书合蒸》（巴赞《电影是什么？》+《理解戈达尔》）
 source_chapter: 戈达尔卷·分析方法
 tags: [蒸馏技能]
 related_skills: []

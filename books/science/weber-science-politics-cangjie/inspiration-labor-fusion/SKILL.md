@@ -3,7 +3,7 @@ name: inspiration-labor-fusion
 description: |
   创作流程设计 不适用于: 用于自我压榨——苦工是容器不是逼灵感的人质
   EN trigger: creative routine
-source_book: 未知书目
+source_book: 《学术与政治》（马克斯·韦伯，钱永祥等译）
 source_chapter: 学术作为志业（原则p01）
 tags: [蒸馏技能]
 related_skills: []

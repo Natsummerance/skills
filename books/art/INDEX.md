@@ -1,37 +1,150 @@
-# art/ · 艺术与聆听
+# Art 领域书籍技能索引
 
-> 音乐/电影/美学类
+本目录收录 **art** 分类下的所有书籍精读与 RIA-TV++ 方法论技能。
 
-## 书籍
+## 书籍与技能列表
 
-| 书 | skills 数 | 维度 | 索引 |
-|----|-----------|------|------|
-| [如何听爵士](how-to-listen-jazz/) | 7 | 技术聆听——曲子怎么听懂 | [INDEX](how-to-listen-jazz/INDEX.md) |
-| [然而，很美：爵士乐之书](but-beautiful/) | 4 | 人文审美——乐手为什么动人 | [INDEX](but-beautiful/INDEX.md) |
-| [美的历史·丑的历史](eco-beauty-ugly/) | 3 | 美学观念史——审美范畴的千年演变 | [INDEX](eco-beauty-ugly/INDEX.md) |
-| [爵士乐群英谱](murakami-jazz-portraits/) | 1 | 村上春树×和田诚——小品肖像写作法 | [INDEX](murakami-jazz-portraits/INDEX.md) |
-| [见证：肖斯塔科维奇回忆录](shostakovich-testimony/) | 2 | 恐惧中的创作与被规训音乐的解码 | [INDEX](shostakovich-testimony/INDEX.md) |
-| [人人都该懂的古典音乐](classical-history-map/) | 1 | 古典音乐六时期断代地图 | [INDEX](classical-history-map/INDEX.md) |
-| [辛丰年音乐文集](xinfengnian-music-essays/) | 1 | 爱乐随笔写作法——「看似游谈却有根」 | [INDEX](xinfengnian-music-essays/INDEX.md) |
-| [不朽的钢琴家](immortal-pianists/) | 1 | 钢琴演奏学派地图（勋伯格三部曲Ⅰ） | [INDEX](immortal-pianists/INDEX.md) |
-| [不朽的小提琴家](immortal-violinists/) | 1 | 小提琴传承谱系（三部曲Ⅱ） | [INDEX](immortal-violinists/INDEX.md) |
-| [流行音乐简史套装](pop-music-history-map/) | 2 | 欧美曲种演化 + 华语百年断代 | [INDEX](pop-music-history-map/INDEX.md) |
-| [诺顿·中世纪音乐](norton-medieval/) | 1 | 圣咏/记谱法/复调起源（断代史） | [INDEX](norton-medieval/INDEX.md) |
-| [诺顿·古典音乐](norton-classical-vienna/) | 1 | 古典风格诞生：维也纳三杰（断代史） | [INDEX](norton-classical-vienna/INDEX.md) |
-| [诺顿·浪漫+二十世纪](norton-romantic-modern/) | 1 | 语言解放两百年双卷并读（断代史） | [INDEX](norton-romantic-modern/INDEX.md) |
+### 📖 but-beautiful (4 篇)
 
-## 导航
+- [jazz-critical-writing](but-beautiful/jazz-critical-writing/SKILL.md)
+- [jazz-listening-mood](but-beautiful/jazz-listening-mood/SKILL.md)
+- [jazz-melancholy-aesthetics](but-beautiful/jazz-melancholy-aesthetics/SKILL.md)
+- [jazz-spirit-portrait](but-beautiful/jazz-spirit-portrait/SKILL.md)
 
-- **听懂一首爵士曲** → `how-to-listen-jazz/`（七步框架入口）
-- **乐手为何动人 / 心境选乐** → `but-beautiful/`
-- **分析视觉作品的审美模型 / 理解暗黑与坎普审美** → `eco-beauty-ugly/`
-| [然而很美 · cangjie版](but-beautiful-cangjie/) | 3 | ✅ cangjie全流程重蒸馏 | — |
-| [丑的历史 · cangjie版](eco-ugly-history-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选16条，引文5/5） | — |
-| [如何听爵士 · cangjie版](how-to-listen-jazz-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选16条） | — |
-| [爵士群像 · cangjie版](murakami-jazz-portraits-cangjie/) | 2 | ✅ cangjie全流程重蒸馏（32KB随笔集合理密度） | — |
-| [新丰年 · cangjie版](xinfengnian-music-essays-cangjie/) | 3 | ✅ cangjie全流程重蒸馏（104KB合理密度） | — |
-| [见证 · cangjie版](shostakovich-testimony-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选18条；⚠️伏尔科夫争议信源随注） | — |
-| [流行音乐史 · cangjie版](pop-music-history-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选18条，引文4/4） | — |
-| [不朽的演奏家 · cangjie版](immortal-musicians-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选18条，引文4/4） | — |
-| [古典音乐入门 · cangjie版](classical-music-intro-cangjie/) | 3 | ✅ cangjie全流程重蒸馏（候选16条，引文4/4） | — |
-| [诺顿音乐史 · cangjie版](norton-music-history-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（四卷各45%语料，候选22条，引文4/4） | — |
+### 📖 but-beautiful-cangjie (5 篇)
+
+- [character-grounded-fiction](but-beautiful-cangjie/character-grounded-fiction/SKILL.md)
+- [fragmentary-portrait-writing](but-beautiful-cangjie/fragmentary-portrait-writing/SKILL.md)
+- [jazz-life-music-unity](but-beautiful-cangjie/jazz-life-music-unity/SKILL.md)
+- [second-person-seance](but-beautiful-cangjie/second-person-seance/SKILL.md)
+- [standards-reinvention-analysis](but-beautiful-cangjie/standards-reinvention-analysis/SKILL.md)
+
+### 📖 classical-history-map (1 篇)
+
+- [classical-era-map](classical-history-map/classical-era-map/SKILL.md)
+
+### 📖 classical-music-intro-cangjie (5 篇)
+
+- [concerto-dialogue-listening](classical-music-intro-cangjie/concerto-dialogue-listening/SKILL.md)
+- [post-style-correspondence](classical-music-intro-cangjie/post-style-correspondence/SKILL.md)
+- [sonata-form-map](classical-music-intro-cangjie/sonata-form-map/SKILL.md)
+- [style-fingerprint-game](classical-music-intro-cangjie/style-fingerprint-game/SKILL.md)
+- [symphony-unity-listening](classical-music-intro-cangjie/symphony-unity-listening/SKILL.md)
+
+### 📖 eco-beauty-ugly (3 篇)
+
+- [beauty-classical-models](eco-beauty-ugly/beauty-classical-models/SKILL.md)
+- [beauty-modern-turn](eco-beauty-ugly/beauty-modern-turn/SKILL.md)
+- [ugly-aesthetics-map](eco-beauty-ugly/ugly-aesthetics-map/SKILL.md)
+
+### 📖 eco-ugly-history-cangjie (5 篇)
+
+- [aesthetic-limitation-awareness](eco-ugly-history-cangjie/aesthetic-limitation-awareness/SKILL.md)
+- [enemy-uglification-analysis](eco-ugly-history-cangjie/enemy-uglification-analysis/SKILL.md)
+- [fear-iconography-reader](eco-ugly-history-cangjie/fear-iconography-reader/SKILL.md)
+- [kitsch-detector](eco-ugly-history-cangjie/kitsch-detector/SKILL.md)
+- [ugliness-category-analysis](eco-ugly-history-cangjie/ugliness-category-analysis/SKILL.md)
+
+### 📖 how-to-listen-jazz (7 篇)
+
+- [jazz-cultural-context](how-to-listen-jazz/jazz-cultural-context/SKILL.md)
+- [jazz-greats-150](how-to-listen-jazz/jazz-greats-150/SKILL.md)
+- [jazz-history-map](how-to-listen-jazz/jazz-history-map/SKILL.md)
+- [jazz-improvisation-anatomy](how-to-listen-jazz/jazz-improvisation-anatomy/SKILL.md)
+- [jazz-listening-framework](how-to-listen-jazz/jazz-listening-framework/SKILL.md)
+- [jazz-rhythm-decode](how-to-listen-jazz/jazz-rhythm-decode/SKILL.md)
+- [jazz-structure-blueprint](how-to-listen-jazz/jazz-structure-blueprint/SKILL.md)
+
+### 📖 how-to-listen-jazz-cangjie (5 篇)
+
+- [aaba-form-recognition](how-to-listen-jazz-cangjie/aaba-form-recognition/SKILL.md)
+- [gioia-jazz-listening-architecture](how-to-listen-jazz-cangjie/gioia-jazz-listening-architecture/SKILL.md)
+- [improv-structure-listening](how-to-listen-jazz-cangjie/improv-structure-listening/SKILL.md)
+- [individual-collective-tension](how-to-listen-jazz-cangjie/individual-collective-tension/SKILL.md)
+- [jazz-chart-drawing](how-to-listen-jazz-cangjie/jazz-chart-drawing/SKILL.md)
+
+### 📖 immortal-musicians-cangjie (5 篇)
+
+- [competition-in-performance](immortal-musicians-cangjie/competition-in-performance/SKILL.md)
+- [interpretation-comparison](immortal-musicians-cangjie/interpretation-comparison/SKILL.md)
+- [performer-lineage-tracing](immortal-musicians-cangjie/performer-lineage-tracing/SKILL.md)
+- [recording-as-evidence](immortal-musicians-cangjie/recording-as-evidence/SKILL.md)
+- [schonberg-rubato-phrasing-technique](immortal-musicians-cangjie/schonberg-rubato-phrasing-technique/SKILL.md)
+
+### 📖 immortal-pianists (1 篇)
+
+- [pianist-schools-map](immortal-pianists/pianist-schools-map/SKILL.md)
+
+### 📖 immortal-violinists (1 篇)
+
+- [violinist-lineage](immortal-violinists/violinist-lineage/SKILL.md)
+
+### 📖 murakami-jazz-portraits (1 篇)
+
+- [murakami-jazz-portrait-mini](murakami-jazz-portraits/murakami-jazz-portrait-mini/SKILL.md)
+
+### 📖 murakami-jazz-portraits-cangjie (5 篇)
+
+- [lineage-sketch-three-strokes](murakami-jazz-portraits-cangjie/lineage-sketch-three-strokes/SKILL.md)
+- [murakami-sensory-portraiture-method](murakami-jazz-portraits-cangjie/murakami-sensory-portraiture-method/SKILL.md)
+- [paradox-portrait-hook](murakami-jazz-portraits-cangjie/paradox-portrait-hook/SKILL.md)
+- [record-as-memento](murakami-jazz-portraits-cangjie/record-as-memento/SKILL.md)
+- [tragedy-talent-alcohol-trope](murakami-jazz-portraits-cangjie/tragedy-talent-alcohol-trope/SKILL.md)
+
+### 📖 norton-classical-vienna (1 篇)
+
+- [classical-vienna-style](norton-classical-vienna/classical-vienna-style/SKILL.md)
+
+### 📖 norton-medieval (1 篇)
+
+- [medieval-music-foundations](norton-medieval/medieval-music-foundations/SKILL.md)
+
+### 📖 norton-music-history-cangjie (5 篇)
+
+- [crisis-response-music-history](norton-music-history-cangjie/crisis-response-music-history/SKILL.md)
+- [norton-polyphonic-texture-evolution](norton-music-history-cangjie/norton-polyphonic-texture-evolution/SKILL.md)
+- [notation-shapes-music](norton-music-history-cangjie/notation-shapes-music/SKILL.md)
+- [rule-vs-theme-tension](norton-music-history-cangjie/rule-vs-theme-tension/SKILL.md)
+- [unity-mechanism-shift](norton-music-history-cangjie/unity-mechanism-shift/SKILL.md)
+
+### 📖 norton-romantic-modern (1 篇)
+
+- [romantic-music-breakthrough](norton-romantic-modern/romantic-music-breakthrough/SKILL.md)
+
+### 📖 pop-music-history-cangjie (5 篇)
+
+- [china-west-pop-comparison](pop-music-history-cangjie/china-west-pop-comparison/SKILL.md)
+- [pop-genre-cross-pollination-mapping](pop-music-history-cangjie/pop-genre-cross-pollination-mapping/SKILL.md)
+- [social-mood-decoder](pop-music-history-cangjie/social-mood-decoder/SKILL.md)
+- [style-migration-analyzer](pop-music-history-cangjie/style-migration-analyzer/SKILL.md)
+- [underground-mainstream-cycle](pop-music-history-cangjie/underground-mainstream-cycle/SKILL.md)
+
+### 📖 pop-music-history-map (2 篇)
+
+- [pop-china-genre-history](pop-music-history-map/pop-china-genre-history/SKILL.md)
+- [pop-western-genre-evolution](pop-music-history-map/pop-western-genre-evolution/SKILL.md)
+
+### 📖 shostakovich-testimony (2 篇)
+
+- [shostakovich-fear-creation](shostakovich-testimony/shostakovich-fear-creation/SKILL.md)
+- [shostakovich-listening-dictatorship](shostakovich-testimony/shostakovich-listening-dictatorship/SKILL.md)
+
+### 📖 shostakovich-testimony-cangjie (5 篇)
+
+- [double-life-analysis](shostakovich-testimony-cangjie/double-life-analysis/SKILL.md)
+- [fear-as-motive-reader](shostakovich-testimony-cangjie/fear-as-motive-reader/SKILL.md)
+- [shostakovich-double-coding-irony](shostakovich-testimony-cangjie/shostakovich-double-coding-irony/SKILL.md)
+- [source-authenticity-screen](shostakovich-testimony-cangjie/source-authenticity-screen/SKILL.md)
+- [testimony-art-reading](shostakovich-testimony-cangjie/testimony-art-reading/SKILL.md)
+
+### 📖 xinfengnian-music-essays (1 篇)
+
+- [xinfengnian-music-essay](xinfengnian-music-essays/xinfengnian-music-essay/SKILL.md)
+
+### 📖 xinfengnian-music-essays-cangjie (5 篇)
+
+- [adaptation-value-assessment](xinfengnian-music-essays-cangjie/adaptation-value-assessment/SKILL.md)
+- [amateur-music-writing](xinfengnian-music-essays-cangjie/amateur-music-writing/SKILL.md)
+- [creator-performer-separation](xinfengnian-music-essays-cangjie/creator-performer-separation/SKILL.md)
+- [deadline-driven-creation](xinfengnian-music-essays-cangjie/deadline-driven-creation/SKILL.md)
+- [instrument-affinity-analysis](xinfengnian-music-essays-cangjie/instrument-affinity-analysis/SKILL.md)

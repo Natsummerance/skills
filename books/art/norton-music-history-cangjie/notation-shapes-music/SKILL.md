@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   理解录音技术对流行乐的改变 不适用于: 宣称介质决定一切——人的听觉审美需求同样反向驱动技术发明
   EN trigger: notation and music
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《诺顿音乐史》（四卷合蒸本）
 source_chapter: 中世纪卷·第一章
 tags: [蒸馏技能]
 related_skills: []

@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   分析元电影（戏中戏或关于拍电影的电影） 不适用于: 把所有幕后花絮当自反——需进入正片叙事才算
   EN trigger: self-reflexivity / auteur theory
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《电影双书合蒸》（巴赞《电影是什么？》+《理解戈达尔》）
 source_chapter: 戈达尔卷·轻蔑分析
 tags: [蒸馏技能]
 related_skills: []

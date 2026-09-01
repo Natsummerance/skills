@@ -3,7 +3,7 @@ name: schiller-creative-preparation
 description: |
   写作卡文时的启动方法 不适用于: 用于否定理性构思的价值——席勒之后仍有艰苦推敲阶段
   EN trigger: creative process
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §5 席勒自述（案例c01）
 tags: [蒸馏技能]
 related_skills: []

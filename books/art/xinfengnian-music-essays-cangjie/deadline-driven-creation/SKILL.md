@@ -3,7 +3,7 @@ name: deadline-driven-creation
 description: |
   拖延症自我管理讨论 不适用于: 用于医疗安全等不容错的领域——deadline驱动只适用于可迭代创作
   EN trigger: deadline driven
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《新丰年》
 source_chapter: 罗西尼篇
 tags: [蒸馏技能]
 related_skills: []

@@ -3,7 +3,7 @@ name: science-boundary-principle
 description: |
   讨论AI能否解释一切 不适用于: 用于给伪科学开门——科学有界限不等于界限内随便说什么
   EN trigger: scientism
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §15（原则p05）
 tags: [蒸馏技能]
 related_skills: []

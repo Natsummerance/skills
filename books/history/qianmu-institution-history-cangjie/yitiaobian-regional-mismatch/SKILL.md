@@ -3,7 +3,7 @@ name: yitiaobian-regional-mismatch
 description: |
   评估全国统一政策的风险 不适用于: 否定一切全国统一标准——部分领域统一恰是公平底线
   EN trigger: one-size-fits-all policy
-source_book: 《中国历代政治得失》；作者: 钱穆；三联书店
+source_book: 《中国历代政治得失》（钱穆，三联书店）
 source_chapter: 明代赋税章（反例x04）
 tags: [蒸馏技能]
 related_skills: []

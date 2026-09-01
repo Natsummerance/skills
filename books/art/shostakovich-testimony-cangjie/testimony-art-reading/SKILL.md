@@ -3,7 +3,7 @@ name: testimony-art-reading
 description: |
   解读极权下艺术家的作品 不适用于: 用于无证据的阴谋论式过度诠释——每一步都要有史料支撑
   EN trigger: coded art
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《见证》
 source_chapter: 全书核心命题（交响曲=墓碑）
 tags: [蒸馏技能]
 related_skills: []

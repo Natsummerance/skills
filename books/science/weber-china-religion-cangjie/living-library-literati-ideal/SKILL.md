@@ -3,7 +3,7 @@ name: living-library-literati-ideal
 description: |
   背诵式教育的利弊讨论 不适用于: 贬低记忆训练——存储能力在无印刷时代是硬通货
   EN trigger: living library
-source_book: 未知书目
+source_book: 《中国的宗教：儒教与道教》（马克斯·韦伯，康乐/简惠美译）
 source_chapter: 士人章（案例c02）
 tags: [蒸馏技能]
 related_skills: []

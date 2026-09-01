@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   毕业论文文献综述章节 不适用于: 用于系统性综述或meta分析——那需要PRISMA等更严格流程
   EN trigger: literature review
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《学术写作原来是这样》（易莉）
 source_chapter: 文献综述章
 tags: [蒸馏技能]
 related_skills: []

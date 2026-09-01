@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   理解某作曲家为何集中写某类作品 不适用于: 倒推所有作品都是应制——例外与越界之作正是天才的证据
   EN trigger: composer periods
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《古典音乐入门》（合蒸本）
 source_chapter: 巴赫年表章
 tags: [蒸馏技能]
 related_skills: []

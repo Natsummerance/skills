@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   理解任何艺术形式的演变动力 不适用于: 把一切变化都解释成危机应答——有些演变只是偶然与时尚
   EN trigger: crisis and response
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《诺顿音乐史》（四卷合蒸本）
 source_chapter: 各时代转折章
 tags: [蒸馏技能]
 related_skills: []

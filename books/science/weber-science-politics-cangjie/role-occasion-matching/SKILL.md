@@ -3,7 +3,7 @@ name: role-occasion-matching
 version: 1.0.0
 description: |
   分析「专家该不该在公开场合谈价值立场」「课堂中立」类争议时调用：角色×场合两轴判定发言正当性——讲台（不可反驳场合）灌输立场=结构性权力滥用；清明交付=展示代价结构不替人选。When debating whether experts should voice values publicly. Not for judging specific political views.
-source_book: 《学术与政治》 马克斯·韦伯（钱永祥等译）
+source_book: 《学术与政治》（马克斯·韦伯，钱永祥等译）
 source_chapter: 《学术作为一种志业》§21-22, §28
 tags: [韦伯, 公共说理, 蒸馏技能]
 related_skills: []

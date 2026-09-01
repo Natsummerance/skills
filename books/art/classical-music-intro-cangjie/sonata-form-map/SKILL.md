@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   第一次认真听完一首奏鸣曲第一乐章 不适用于: 套用到浪漫派晚期自由曲式——结构已松绑，地图会失灵
   EN trigger: sonata form
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《古典音乐入门》（合蒸本）
 source_chapter: 曲式概念章
 tags: [蒸馏技能]
 related_skills: []

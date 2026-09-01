@@ -3,7 +3,7 @@ name: theory-optimism-modern-disease
 description: |
   反思信息焦虑与知识囤积 不适用于: 用于贬低实用技能学习——糊口本身是正当的
   EN trigger: knowledge anxiety
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §18（反例x03）
 tags: [蒸馏技能]
 related_skills: []

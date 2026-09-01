@@ -3,7 +3,7 @@ name: beethoven-program-hunting
 description: |
   古典乐欣赏的去标题化练习 不适用于: 否定一切标题音乐的正当性——柏辽兹们是自觉的另一种体裁
   EN trigger: program music
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §6 贝多芬案例（案例c02）
 tags: [蒸馏技能]
 related_skills: []

@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   讨论AI/VR等新媒介的起源叙事 不适用于: 否认技术条件的作用——神话需要物质载体才能成真
   EN trigger: myth of total cinema
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《电影双书合蒸》（巴赞《电影是什么？》+《理解戈达尔》）
 source_chapter: 巴赞卷·02 完整电影的神话
 tags: [蒸馏技能]
 related_skills: []

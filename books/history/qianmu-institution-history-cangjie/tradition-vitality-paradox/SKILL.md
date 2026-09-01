@@ -3,7 +3,7 @@ name: tradition-vitality-paradox
 description: |
   讨论传统文化的现代转化 不适用于: 用于为一切旧俗辩护——活得久的也可能是路径依赖
   EN trigger: tradition value
-source_book: 《中国历代政治得失》；作者: 钱穆；三联书店
+source_book: 《中国历代政治得失》（钱穆，三联书店）
 source_chapter: 总论（原则p04）
 tags: [蒸馏技能]
 related_skills: []

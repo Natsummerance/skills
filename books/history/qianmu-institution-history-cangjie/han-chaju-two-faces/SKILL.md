@@ -3,7 +3,7 @@ name: han-chaju-two-faces
 description: |
   评估推荐信制度的可靠性 不适用于: 用于否定一切推荐机制——科举取代察举也带来新的窄门问题
   EN trigger: nepotism history
-source_book: 《中国历代政治得失》；作者: 钱穆；三联书店
+source_book: 《中国历代政治得失》（钱穆，三联书店）
 source_chapter: 汉代选举章（案例c05）
 tags: [蒸馏技能]
 related_skills: []

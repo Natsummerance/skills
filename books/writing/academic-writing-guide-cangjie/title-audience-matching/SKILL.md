@@ -3,7 +3,7 @@ name: title-audience-matching
 description: |
   投稿选刊前的题目改造 不适用于: 用于标题党化——吸引眼球不能扭曲研究实际内容
   EN trigger: title audience
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《学术写作原来是这样》（易莉）
 source_chapter: 题目章（海报投稿案例）
 tags: [蒸馏技能]
 related_skills: []

@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   组织文学论文的分析框架 不适用于: 文化研究类课题硬套二分——后结构主义已大量突破此边界
   EN trigger: intrinsic vs extrinsic study
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《文学阅读透镜三书合蒸》
 source_chapter: 韦勒克卷·总框架
 tags: [蒸馏技能]
 related_skills: []

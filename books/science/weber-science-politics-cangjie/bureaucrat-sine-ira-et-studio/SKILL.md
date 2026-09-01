@@ -3,7 +3,7 @@ name: bureaucrat-sine-ira-et-studio
 description: |
   公务员/中层管理角色认知 不适用于: 为恶法执行开脱——韦伯同时强调政治家对政策后果负全责
   EN trigger: duty vs conscience
-source_book: 未知书目
+source_book: 《学术与政治》（马克斯·韦伯，钱永祥等译）
 source_chapter: 官僚制章（原则p03）
 tags: [蒸馏技能]
 related_skills: []

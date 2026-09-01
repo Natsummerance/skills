@@ -1,30 +1,178 @@
-# philosophy/ · 哲学与思辨
+# Philosophy 领域书籍技能索引
 
-> 中西哲学方法论、现象学、道家比较哲学蒸馏技能
+本目录收录 **philosophy** 分类下的所有书籍精读与 RIA-TV++ 方法论技能。
 
-## 书籍
+## 书籍与技能列表
 
-| 书 | skills 数 | 完整度 | 索引 |
-|----|-----------|--------|------|
-| [哲学史方法论十四讲](fangfalun-shisijiang/) | 14 | ✅ 100%（十四讲全覆盖） | [INDEX](fangfalun-shisijiang/INDEX.md) |
-| [游心之路：〈庄子〉与现代西方哲学](genuine-pretending/) | 7 | ✅ 全书覆盖（导言+四章+结论） | [INDEX](genuine-pretending/INDEX.md) |
-| [游心之路 · cangjie版](genuine-pretending-cangjie/) | 6 | ✅ cangjie全流程重蒸馏（候选25条） | [INDEX](genuine-pretending-cangjie/INDEX.md) |
-| [悲剧的诞生](nietzsche-birth-tragedy/) | 1 | ✅ 深读（日神酒神+艺术形而上学） | [INDEX](nietzsche-birth-tragedy/INDEX.md) |
-| [西西弗神话](camus-absurd-revolt/) | 1 | ✅ 深读（荒诞三结论） | [INDEX](camus-absurd-revolt/INDEX.md) |
-| [疯癫与文明](foucault-madness-history/) | 1 | ✅ 深读（理性建构疯癫史） | [INDEX](foucault-madness-history/INDEX.md) |
-| [存在主义是一种人道主义](sartre-existential-humanism/) | 1 | ✅ 深读（选择与责任） | [INDEX](sartre-existential-humanism/INDEX.md) |
-| [悲剧的诞生 · cangjie版](nietzsche-birth-tragedy-cangjie/) | 5 | ✅ cangjie流水线重蒸馏（RIA-TV++五阶段+压力测试） | [INDEX](nietzsche-birth-tragedy-cangjie/INDEX.md) |
-| [西西弗神话 · cangjie版](camus-absurd-revolt-cangjie/) | 4 | ✅ cangjie流水线重蒸馏 | [INDEX](camus-absurd-revolt-cangjie/INDEX.md) |
-| [疯癫与文明 · cangjie版](foucault-madness-history-cangjie/) | 2 | ✅ cangjie流水线重蒸馏 | [INDEX](foucault-madness-history-cangjie/INDEX.md) |
-| [存在主义是一种人道主义 · cangjie版](sartre-existential-humanism-cangjie/) | 1 | ✅ cangjie流水线重蒸馏 | [INDEX](sartre-existential-humanism-cangjie/INDEX.md) |
+### 📖 camus-absurd-revolt (1 篇)
 
-## 蒸馏队列（候选）
+- [camus-absurd-revolt](camus-absurd-revolt/camus-absurd-revolt/SKILL.md)
 
-- 精神现象学 句读本（黑格尔，含德汉词汇索引）→ 术语工具 skill
-- 维特根斯坦文集 8 卷 → 《逻辑哲学论》命题结构原子化
-- 西方哲学史四版本对勘 → 哲学史阅读导航
-- 尼采著作集九册续：《查拉图斯特拉如是说》《论道德的谱系》
-- 福柯《性经验史》/ 康德《纯粹理性批判》句读 / 邓晓芒讲黑格尔
-| [哲学史方法论十四讲 · cangjie版](fangfalun-shisijiang-cangjie/) | 7 | ✅ cangjie全流程重蒸馏（候选23条，引文6/6） | [INDEX](fangfalun-shisijiang-cangjie/INDEX.md) |
-| [第二性I · cangjie版](the-second-sex-v1-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选18条，引文4/4） | — |
-| [第二性II · cangjie版](the-second-sex-v2-cangjie/) | 4 | ✅ cangjie全流程重蒸馏（候选18条，引文4/4） | — |
+### 📖 camus-absurd-revolt-cangjie (18 篇)
+
+- [absurd-chain](camus-absurd-revolt-cangjie/absurd-chain/SKILL.md)
+- [absurd-creation](camus-absurd-revolt-cangjie/absurd-creation/SKILL.md)
+- [actor-many-lives-glory](camus-absurd-revolt-cangjie/actor-many-lives-glory/SKILL.md)
+- [conqueror-flesh-certainty](camus-absurd-revolt-cangjie/conqueror-flesh-certainty/SKILL.md)
+- [donjuan-experience-collector](camus-absurd-revolt-cangjie/donjuan-experience-collector/SKILL.md)
+- [history-vs-eternity-choice](camus-absurd-revolt-cangjie/history-vs-eternity-choice/SKILL.md)
+- [hope-fence-diagnosis](camus-absurd-revolt-cangjie/hope-fence-diagnosis/SKILL.md)
+- [intelligence-illuminate-desert](camus-absurd-revolt-cangjie/intelligence-illuminate-desert/SKILL.md)
+- [jump-ridge-honesty](camus-absurd-revolt-cangjie/jump-ridge-honesty/SKILL.md)
+- [lucidity-over-consolation](camus-absurd-revolt-cangjie/lucidity-over-consolation/SKILL.md)
+- [nietzsche-deadend-warning](camus-absurd-revolt-cangjie/nietzsche-deadend-warning/SKILL.md)
+- [philosophical-suicide-detector](camus-absurd-revolt-cangjie/philosophical-suicide-detector/SKILL.md)
+- [present-density-principle](camus-absurd-revolt-cangjie/present-density-principle/SKILL.md)
+- [quantity-ethics](camus-absurd-revolt-cangjie/quantity-ethics/SKILL.md)
+- [revolt-freedom-passion](camus-absurd-revolt-cangjie/revolt-freedom-passion/SKILL.md)
+- [revolt-must-continue](camus-absurd-revolt-cangjie/revolt-must-continue/SKILL.md)
+- [sisyphus-test](camus-absurd-revolt-cangjie/sisyphus-test/SKILL.md)
+- [writer-buried-hope-trap](camus-absurd-revolt-cangjie/writer-buried-hope-trap/SKILL.md)
+
+### 📖 fangfalun-shisijiang (14 篇)
+
+- [fangfalun-shisijiang](fangfalun-shisijiang/SKILL.md)
+- [anti-linguistic-tendency](fangfalun-shisijiang/anti-linguistic-tendency/SKILL.md)
+- [cultural-misplacement-top10](fangfalun-shisijiang/cultural-misplacement-top10/SKILL.md)
+- [dao-self-negation](fangfalun-shisijiang/dao-self-negation/SKILL.md)
+- [dialectical-logic-core](fangfalun-shisijiang/dialectical-logic-core/SKILL.md)
+- [hegel-history-view](fangfalun-shisijiang/hegel-history-view/SKILL.md)
+- [historical-sense](fangfalun-shisijiang/historical-sense/SKILL.md)
+- [husserl-reduction-guide](fangfalun-shisijiang/husserl-reduction-guide/SKILL.md)
+- [marx-practical-phenomenology](fangfalun-shisijiang/marx-practical-phenomenology/SKILL.md)
+- [philosophy-in-chinese](fangfalun-shisijiang/philosophy-in-chinese/SKILL.md)
+- [pragmatism-bias-checker](fangfalun-shisijiang/pragmatism-bias-checker/SKILL.md)
+- [socratic-midwifery](fangfalun-shisijiang/socratic-midwifery/SKILL.md)
+- [substantialism-detector](fangfalun-shisijiang/substantialism-detector/SKILL.md)
+- [two-dialectics](fangfalun-shisijiang/two-dialectics/SKILL.md)
+
+### 📖 fangfalun-shisijiang-cangjie (11 篇)
+
+- [anti-linguistic-tendency-diagnosis](fangfalun-shisijiang-cangjie/anti-linguistic-tendency-diagnosis/SKILL.md)
+- [cultural-dislocation-detector](fangfalun-shisijiang-cangjie/cultural-dislocation-detector/SKILL.md)
+- [deng-category-self-negation](fangfalun-shisijiang-cangjie/deng-category-self-negation/SKILL.md)
+- [deng-dogma-paradigm-critique](fangfalun-shisijiang-cangjie/deng-dogma-paradigm-critique/SKILL.md)
+- [deng-logical-historical-unity](fangfalun-shisijiang-cangjie/deng-logical-historical-unity/SKILL.md)
+- [deng-phenomenological-reflection](fangfalun-shisijiang-cangjie/deng-phenomenological-reflection/SKILL.md)
+- [discourse-mode-comparison](fangfalun-shisijiang-cangjie/discourse-mode-comparison/SKILL.md)
+- [history-logic-consistency-check](fangfalun-shisijiang-cangjie/history-logic-consistency-check/SKILL.md)
+- [horizon-fusion-evaluator](fangfalun-shisijiang-cangjie/horizon-fusion-evaluator/SKILL.md)
+- [self-negation-analyzer](fangfalun-shisijiang-cangjie/self-negation-analyzer/SKILL.md)
+- [sinicized-philosophy-review](fangfalun-shisijiang-cangjie/sinicized-philosophy-review/SKILL.md)
+
+### 📖 foucault-madness-history (1 篇)
+
+- [foucault-madness-history](foucault-madness-history/foucault-madness-history/SKILL.md)
+
+### 📖 foucault-madness-history-cangjie (18 篇)
+
+- [civilization-as-madness-soil](foucault-madness-history-cangjie/civilization-as-madness-soil/SKILL.md)
+- [eternal-judgment-modernity](foucault-madness-history-cangjie/eternal-judgment-modernity/SKILL.md)
+- [exclusion-mechanism-analysis](foucault-madness-history-cangjie/exclusion-mechanism-analysis/SKILL.md)
+- [family-alienation-effect](foucault-madness-history-cangjie/family-alienation-effect/SKILL.md)
+- [great-confinement-economy-moral](foucault-madness-history-cangjie/great-confinement-economy-moral/SKILL.md)
+- [guilt-domain-introduction](foucault-madness-history-cangjie/guilt-domain-introduction/SKILL.md)
+- [humane-reform-power-shift](foucault-madness-history-cangjie/humane-reform-power-shift/SKILL.md)
+- [hydrotherapy-accident-reading](foucault-madness-history-cangjie/hydrotherapy-accident-reading/SKILL.md)
+- [internalized-judgment-detector](foucault-madness-history-cangjie/internalized-judgment-detector/SKILL.md)
+- [minority-status-protection-paradox](foucault-madness-history-cangjie/minority-status-protection-paradox/SKILL.md)
+- [observation-asymmetry](foucault-madness-history-cangjie/observation-asymmetry/SKILL.md)
+- [passion-causality-inversion](foucault-madness-history-cangjie/passion-causality-inversion/SKILL.md)
+- [pinel-religious-cure](foucault-madness-history-cangjie/pinel-religious-cure/SKILL.md)
+- [protective-language-capture](foucault-madness-history-cangjie/protective-language-capture/SKILL.md)
+- [religious-delusion-trial](foucault-madness-history-cangjie/religious-delusion-trial/SKILL.md)
+- [ship-of-fools-ambiguity](foucault-madness-history-cangjie/ship-of-fools-ambiguity/SKILL.md)
+- [silence-archaeology-method](foucault-madness-history-cangjie/silence-archaeology-method/SKILL.md)
+- [tuck-family-field-analysis](foucault-madness-history-cangjie/tuck-family-field-analysis/SKILL.md)
+
+### 📖 genuine-pretending (7 篇)
+
+- [zhuangzi-anti-utility](genuine-pretending/zhuangzi-anti-utility/SKILL.md)
+- [zhuangzi-death-view](genuine-pretending/zhuangzi-death-view/SKILL.md)
+- [zhuangzi-humor-play](genuine-pretending/zhuangzi-humor-play/SKILL.md)
+- [zhuangzi-mental-freedom](genuine-pretending/zhuangzi-mental-freedom/SKILL.md)
+- [zhuangzi-metaphor-decode](genuine-pretending/zhuangzi-metaphor-decode/SKILL.md)
+- [zhuangzi-rpg-analogy](genuine-pretending/zhuangzi-rpg-analogy/SKILL.md)
+- [zhuangzi-true-pretending](genuine-pretending/zhuangzi-true-pretending/SKILL.md)
+
+### 📖 genuine-pretending-cangjie (14 篇)
+
+- [butterfly-dream-genuine-freedom](genuine-pretending-cangjie/butterfly-dream-genuine-freedom/SKILL.md)
+- [cook-ding-mastery-flow](genuine-pretending-cangjie/cook-ding-mastery-flow/SKILL.md)
+- [cynicism-slippery-slope](genuine-pretending-cangjie/cynicism-slippery-slope/SKILL.md)
+- [double-consistency-diagnostic](genuine-pretending-cangjie/double-consistency-diagnostic/SKILL.md)
+- [genuine-pretending-strategy](genuine-pretending-cangjie/genuine-pretending-strategy/SKILL.md)
+- [humor-beyond-morality](genuine-pretending-cangjie/humor-beyond-morality/SKILL.md)
+- [hundun-death-deconstruction](genuine-pretending-cangjie/hundun-death-deconstruction/SKILL.md)
+- [joker-positioning](genuine-pretending-cangjie/joker-positioning/SKILL.md)
+- [live-dont-perform-principle](genuine-pretending-cangjie/live-dont-perform-principle/SKILL.md)
+- [paradox-as-achievement](genuine-pretending-cangjie/paradox-as-achievement/SKILL.md)
+- [philosophical-humor-analysis](genuine-pretending-cangjie/philosophical-humor-analysis/SKILL.md)
+- [smooth-operator-recognition](genuine-pretending-cangjie/smooth-operator-recognition/SKILL.md)
+- [useless-usefulness](genuine-pretending-cangjie/useless-usefulness/SKILL.md)
+- [zilisong-useless-body](genuine-pretending-cangjie/zilisong-useless-body/SKILL.md)
+
+### 📖 nietzsche-birth-tragedy (1 篇)
+
+- [nietzsche-birth-tragedy](nietzsche-birth-tragedy/nietzsche-birth-tragedy/SKILL.md)
+
+### 📖 nietzsche-birth-tragedy-cangjie (22 篇)
+
+- [aesthetic-life-stance](nietzsche-birth-tragedy-cangjie/aesthetic-life-stance/SKILL.md)
+- [apollonian-dionysian-dual](nietzsche-birth-tragedy-cangjie/apollonian-dionysian-dual/SKILL.md)
+- [art-as-truth-antidote](nietzsche-birth-tragedy-cangjie/art-as-truth-antidote/SKILL.md)
+- [artist-socrates-possibility](nietzsche-birth-tragedy-cangjie/artist-socrates-possibility/SKILL.md)
+- [beethoven-program-hunting](nietzsche-birth-tragedy-cangjie/beethoven-program-hunting/SKILL.md)
+- [collective-identity-dissolution](nietzsche-birth-tragedy-cangjie/collective-identity-dissolution/SKILL.md)
+- [euripides-music-exile](nietzsche-birth-tragedy-cangjie/euripides-music-exile/SKILL.md)
+- [greek-wisdom-facing-terror](nietzsche-birth-tragedy-cangjie/greek-wisdom-facing-terror/SKILL.md)
+- [individuation-tension](nietzsche-birth-tragedy-cangjie/individuation-tension/SKILL.md)
+- [lyric-poet-double-self](nietzsche-birth-tragedy-cangjie/lyric-poet-double-self/SKILL.md)
+- [metaphysical-consolation-test](nietzsche-birth-tragedy-cangjie/metaphysical-consolation-test/SKILL.md)
+- [miracle-audience-test](nietzsche-birth-tragedy-cangjie/miracle-audience-test/SKILL.md)
+- [music-spirit-priority](nietzsche-birth-tragedy-cangjie/music-spirit-priority/SKILL.md)
+- [prometheus-dual-reading](nietzsche-birth-tragedy-cangjie/prometheus-dual-reading/SKILL.md)
+- [satyr-chorus-origin](nietzsche-birth-tragedy-cangjie/satyr-chorus-origin/SKILL.md)
+- [schiller-creative-preparation](nietzsche-birth-tragedy-cangjie/schiller-creative-preparation/SKILL.md)
+- [science-boundary-principle](nietzsche-birth-tragedy-cangjie/science-boundary-principle/SKILL.md)
+- [socraticism-detector](nietzsche-birth-tragedy-cangjie/socraticism-detector/SKILL.md)
+- [theoretical-optimism-detector](nietzsche-birth-tragedy-cangjie/theoretical-optimism-detector/SKILL.md)
+- [theory-optimism-modern-disease](nietzsche-birth-tragedy-cangjie/theory-optimism-modern-disease/SKILL.md)
+- [tragedy-suicide-death-analysis](nietzsche-birth-tragedy-cangjie/tragedy-suicide-death-analysis/SKILL.md)
+- [tragic-pleasure-test](nietzsche-birth-tragedy-cangjie/tragic-pleasure-test/SKILL.md)
+
+### 📖 sartre-existential-humanism (1 篇)
+
+- [sartre-existential-humanism](sartre-existential-humanism/sartre-existential-humanism/SKILL.md)
+
+### 📖 sartre-existential-humanism-cangjie (13 篇)
+
+- [abandonment-anguish-despair](sartre-existential-humanism-cangjie/abandonment-anguish-despair/SKILL.md)
+- [bad-faith-detector](sartre-existential-humanism-cangjie/bad-faith-detector/SKILL.md)
+- [democracy-self-examination](sartre-existential-humanism-cangjie/democracy-self-examination/SKILL.md)
+- [determinism-excuse-check](sartre-existential-humanism-cangjie/determinism-excuse-check/SKILL.md)
+- [existence-precedes-essence](sartre-existential-humanism-cangjie/existence-precedes-essence/SKILL.md)
+- [freedom-in-situation](sartre-existential-humanism-cangjie/freedom-in-situation/SKILL.md)
+- [means-ends-consistency-check](sartre-existential-humanism-cangjie/means-ends-consistency-check/SKILL.md)
+- [moral-choice-under-pressure](sartre-existential-humanism-cangjie/moral-choice-under-pressure/SKILL.md)
+- [pseudo-necessity-exposure](sartre-existential-humanism-cangjie/pseudo-necessity-exposure/SKILL.md)
+- [resistance-choice-testimony](sartre-existential-humanism-cangjie/resistance-choice-testimony/SKILL.md)
+- [sartre-engagement-practice](sartre-existential-humanism-cangjie/sartre-engagement-practice/SKILL.md)
+- [student-dilemma-no-formula](sartre-existential-humanism-cangjie/student-dilemma-no-formula/SKILL.md)
+- [total-responsibility-weight](sartre-existential-humanism-cangjie/total-responsibility-weight/SKILL.md)
+
+### 📖 the-second-sex-v1-cangjie (5 篇)
+
+- [beauvoir-biological-data-critique](the-second-sex-v1-cangjie/beauvoir-biological-data-critique/SKILL.md)
+- [biological-determinism-check](the-second-sex-v1-cangjie/biological-determinism-check/SKILL.md)
+- [myth-decoding-lens](the-second-sex-v1-cangjie/myth-decoding-lens/SKILL.md)
+- [othering-mechanism-analysis](the-second-sex-v1-cangjie/othering-mechanism-analysis/SKILL.md)
+- [situation-vs-essence-rewriter](the-second-sex-v1-cangjie/situation-vs-essence-rewriter/SKILL.md)
+
+### 📖 the-second-sex-v2-cangjie (5 篇)
+
+- [beauvoir-narcissism-alienation-analysis](the-second-sex-v2-cangjie/beauvoir-narcissism-alienation-analysis/SKILL.md)
+- [beauvoir-situation-transcendence-action](the-second-sex-v2-cangjie/beauvoir-situation-transcendence-action/SKILL.md)
+- [life-stage-situation-scan](the-second-sex-v2-cangjie/life-stage-situation-scan/SKILL.md)
+- [love-dissolution-detector](the-second-sex-v2-cangjie/love-dissolution-detector/SKILL.md)
+- [transcendent-labor-check](the-second-sex-v2-cangjie/transcendent-labor-check/SKILL.md)

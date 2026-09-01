@@ -3,7 +3,7 @@ name: lyric-poet-double-self
 description: |
   读自传性诗歌小说时 不适用于: 用于粗暴否认作者意图——分层是为了更细地读不是取消作者
   EN trigger: lyric self
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《悲剧的诞生：尼采美学文选》
 source_chapter: §5-6 抒情诗论（案例c06）
 tags: [蒸馏技能]
 related_skills: []

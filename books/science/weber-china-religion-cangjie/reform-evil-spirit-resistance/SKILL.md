@@ -3,7 +3,7 @@ name: reform-evil-spirit-resistance
 description: |
   组织变革阻力的诊断 不适用于: 嘲讽传统文化信仰——恶灵话语对当事人是真实的意义系统
   EN trigger: status quo bias
-source_book: 未知书目
+source_book: 《中国的宗教：儒教与道教》（马克斯·韦伯，康乐/简惠美译）
 source_chapter: 正统教义章（原则p02）
 tags: [蒸馏技能]
 related_skills: []

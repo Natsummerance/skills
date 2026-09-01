@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   识别进化心理学滥用 不适用于: 否定生物科学研究本身——批判的是其社会推论而非科学发现
   EN trigger: biological determinism
-source_book: 《第二性》I
+source_book: 《第二性》I（事实与神话）
 source_chapter: 命运章·生物学批判
 tags: [蒸馏技能]
 related_skills: []

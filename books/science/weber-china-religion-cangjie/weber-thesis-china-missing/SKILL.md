@@ -3,7 +3,7 @@ name: weber-thesis-china-missing
 description: |
   李约瑟问题的讨论框架 不适用于: 本质主义化——韦伯命题已被余英时、王国斌等大量修正
   EN trigger: institutional economics
-source_book: 未知书目
+source_book: 《中国的宗教：儒教与道教》（马克斯·韦伯，康乐/简惠美译）
 source_chapter: 结论章（反例x01）
 tags: [蒸馏技能]
 related_skills: []

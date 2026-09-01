@@ -3,7 +3,7 @@ name: individual-collective-tension
 description: |
   听大乐队vs小组的区别 不适用于: 把两种模式分高下——约束与自由都是美学选择
   EN trigger: band dynamics
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《如何听爵士》
 source_chapter: 摇摆时代章（莫顿vs阿姆斯特朗）
 tags: [蒸馏技能]
 related_skills: []

@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   分析K-pop或国风的全球传播 不适用于: 用于无跨文化传播的纯本土风格——三段框架不适用单点传统
   EN trigger: style migration
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《流行音乐史》（中西卷合蒸本）
 source_chapter: 西方卷·英伦入侵章
 tags: [蒸馏技能]
 related_skills: []

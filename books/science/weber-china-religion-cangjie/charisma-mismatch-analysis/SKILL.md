@@ -3,7 +3,7 @@ name: charisma-mismatch-analysis
 description: |
   理解学历崇拜现象 不适用于: 贬低民间信仰为愚昧——韦伯的描述是分析性的不是价值判断
   EN trigger: credential worship
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《中国的宗教：儒教与道教》（马克斯·韦伯，康乐/简惠美译）
 source_chapter: 士人章（科举与民间信仰）
 tags: [蒸馏技能]
 related_skills: []

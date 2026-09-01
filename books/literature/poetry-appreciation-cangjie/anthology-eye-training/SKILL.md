@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   编选诗集/歌单/影单时的标准自觉 不适用于: 把选家眼光当作否定他人趣味的权威——训练目的是自觉不是傲慢
   EN trigger: anthology as criticism
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《诗词鉴赏群书合蒸》（人间词话/叶嘉莹/戴建业/钱锺书）
 source_chapter: 宋诗选注 钱锺书 / 人间词话 周济论
 tags: [蒸馏技能]
 related_skills: []

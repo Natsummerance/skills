@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   论文提交前的最后一轮自查 不适用于: 用于文学创作——留白是美学选择不是缺陷
   EN trigger: readability audit
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《学术写作原来是这样》（易莉）
 source_chapter: 全书立场
 tags: [蒸馏技能]
 related_skills: []

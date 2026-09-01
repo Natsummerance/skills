@@ -3,7 +3,7 @@ name: tang-song-exam-cohort
 description: |
   讨论高考公平性 不适用于: 用于论证读书无用论——隐性差距恰说明教育投入的意义
   EN trigger: education equity
-source_book: 《中国历代政治得失》；作者: 钱穆；三联书店
+source_book: 《中国历代政治得失》（钱穆，三联书店）
 source_chapter: 唐代选举章（案例c03）
 tags: [蒸馏技能]
 related_skills: []

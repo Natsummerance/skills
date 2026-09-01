@@ -4,7 +4,7 @@ version: 1.0.0
 description: |
   讨论AI辅助创作是否限制创造力 不适用于: 给他人规定唯一正确的创作方式——光谱两端各有大师
   EN trigger: rules vs inspiration
-source_book: 《游心之路：〈庄子〉与现代西方哲学》 汉斯-格奥尔格·梅勒、克瑞斯汀·多霍斯
+source_book: 《诺顿音乐史》（四卷合蒸本）
 source_chapter: 20世纪卷·韦伯恩语
 tags: [蒸馏技能]
 related_skills: []

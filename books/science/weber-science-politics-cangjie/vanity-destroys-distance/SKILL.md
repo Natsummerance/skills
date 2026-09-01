@@ -3,7 +3,7 @@ name: vanity-destroys-distance
 description: |
   公众人物言行分析 不适用于: 用于诛心式攻击对手动机——韦伯说这是对自己的要求
   EN trigger: 他是不是在作秀
-source_book: 未知书目
+source_book: 《学术与政治》（马克斯·韦伯，钱永祥等译）
 source_chapter: 政治作为志业（反例x03）
 tags: [蒸馏技能]
 related_skills: []

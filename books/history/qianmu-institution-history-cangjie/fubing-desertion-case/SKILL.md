@@ -3,7 +3,7 @@ name: fubing-desertion-case
 description: |
   志愿者组织流失预警 不适用于: 用于指责逃离者不忠——逃离是制度失灵的结果不是原因
   EN trigger: institution decay signals
-source_book: 《中国历代政治得失》；作者: 钱穆；三联书店
+source_book: 《中国历代政治得失》（钱穆，三联书店）
 source_chapter: 唐代兵制章（反例x05）
 tags: [蒸馏技能]
 related_skills: []

@@ -3,7 +3,7 @@ name: institution-with-personnel
 description: |
   读懂任何组织的真实运作 不适用于: 滑向一切皆人治的虚无——结构约束同样真实
   EN trigger: rules vs practice
-source_book: 《中国历代政治得失》；作者: 钱穆；三联书店
+source_book: 《中国历代政治得失》（钱穆，三联书店）
 source_chapter: 总论（原则p01）
 tags: [蒸馏技能]
 related_skills: []

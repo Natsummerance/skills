@@ -3,7 +3,7 @@ name: party-machine-mass-democracy
 description: |
   理解现代选举的金钱问题 不适用于: 推出民主无用论——韦伯仍视民主为最不坏的选拔装置
   EN trigger: barrier to entry
-source_book: 未知书目
+source_book: 《学术与政治》（马克斯·韦伯，钱永祥等译）
 source_chapter: 政治作为志业§29/50（案例c03）
 tags: [蒸馏技能]
 related_skills: []
